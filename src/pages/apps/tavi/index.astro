@@ -1,20 +1,15 @@
 ---
-import SiteLayout from "../../../layouts/SiteLayout.astro";
+import { tavi } from "../../../data/apps";
+import AppLayout from "../../../layouts/AppLayout.astro";
 ---
 
-<SiteLayout
-  title="Tavi — Cliente HTTP nativo"
-  description="Tavi es un cliente HTTP nativo para macOS y iPadOS."
->
+<AppLayout app={tavi}>
   <section>
     <p class="eyebrow">Tavi para macOS y iPadOS</p>
-    <h1>Prueba APIs sin salir del ecosistema Apple.</h1>
-    <p class="lede">
-      Organiza workspaces, ambientes, certificados y requests en una aplicación
-      nativa que mantiene tus datos bajo tu control.
-    </p>
+    <h1>{tavi.tagline}</h1>
+    <p class="lede">{tavi.description}</p>
     <div class="actions">
-      <span class="button primary" aria-disabled="true">Próximamente</span>
+      <span class="button primary" aria-disabled="true">{tavi.status}</span>
       <a class="button" href="/apps/tavi/privacy/">Privacidad</a>
       <a class="button" href="/apps/tavi/support/">Soporte</a>
     </div>
@@ -24,18 +19,12 @@ import SiteLayout from "../../../layouts/SiteLayout.astro";
     <p class="eyebrow">Fundamentos</p>
     <h2 id="features-title">Pensado para trabajo real</h2>
     <div class="card-grid">
-      <article class="card">
-        <h3>Nativo</h3>
-        <p>Interfaz SwiftUI adaptada a macOS y iPadOS, con navegación y atajos propios de cada plataforma.</p>
-      </article>
-      <article class="card">
-        <h3>Organizado</h3>
-        <p>Workspaces, carpetas, ambientes, variables e historial para mantener cada API en contexto.</p>
-      </article>
-      <article class="card">
-        <h3>Privado</h3>
-        <p>Sin cuentas ni analítica. Los secretos permanecen en Keychain y la sincronización con iCloud es opcional.</p>
-      </article>
+      {tavi.features.map((feature) => (
+        <article class="card">
+          <h3>{feature.title}</h3>
+          <p>{feature.description}</p>
+        </article>
+      ))}
     </div>
   </section>
-</SiteLayout>
+</AppLayout>

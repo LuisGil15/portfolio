@@ -90,6 +90,47 @@ nav a[aria-current="page"] {
   background: var(--surface);
 }
 
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: clamp(56px, 8vw, 96px);
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(22px) saturate(1.2);
+}
+
+.app-identity {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-inline: 4px;
+  text-decoration: none;
+}
+
+.app-identity strong {
+  font-size: 1.08rem;
+  letter-spacing: -0.025em;
+}
+
+.app-identity span {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.app-nav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.app-nav a {
+  font-size: 0.9rem;
+}
+
 main {
   padding-block: clamp(72px, 10vw, 140px);
 }
@@ -232,6 +273,12 @@ h2 {
   letter-spacing: -0.025em;
 }
 
+.legal-meta {
+  margin-bottom: 40px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .site-footer {
   padding-block: 28px 44px;
   border-top: 1px solid var(--line);
@@ -256,6 +303,16 @@ h2 {
 
   nav a {
     padding-inline: 9px;
+  }
+
+  .app-header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .app-nav {
+    justify-content: flex-start;
   }
 }
 
