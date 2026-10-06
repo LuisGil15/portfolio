@@ -1,0 +1,33 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+---
+
+<SiteLayout
+  title="Luis Gil — Software independiente"
+  description="Portafolio de Luis Gil y hogar de sus aplicaciones independientes."
+>
+  <section>
+    <p class="eyebrow">Software independiente</p>
+    <h1>Herramientas hechas para sentirse en casa.</h1>
+    <p class="lede">
+      Diseño y desarrollo productos enfocados, rápidos y respetuosos con la privacidad.
+      Este sitio reúne mis aplicaciones y la información necesaria para usarlas.
+    </p>
+  </section>
+
+  <section class="section" aria-labelledby="apps-title">
+    <p class="eyebrow">Aplicaciones</p>
+    <h2 id="apps-title">Productos en desarrollo</h2>
+    <div class="card-grid">
+      <a class="card" href="/apps/tavi/">
+        <h3>Tavi</h3>
+        <p>Un cliente HTTP nativo para macOS y iPadOS.</p>
+        <ul class="tag-list" aria-label="Plataformas de Tavi">
+          <li>macOS</li>
+          <li>iPadOS</li>
+          <li>SwiftUI</li>
+        </ul>
+      </a>
+    </div>
+  </section>
+</SiteLayout>
