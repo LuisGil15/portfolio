@@ -1,0 +1,19 @@
+---
+import { tavi } from "../../../data/apps";
+import LegalLayout from "../../../layouts/LegalLayout.astro";
+---
+
+<LegalLayout
+  app={tavi}
+  activeSection="changelog"
+  heading="Novedades"
+  description="Historial de versiones y novedades de Tavi."
+>
+  <section aria-labelledby="preparing-release">
+    <h2 id="preparing-release">Primera versión</h2>
+    <p>
+      Tavi está en preparación para su publicación inicial en macOS y iPadOS.
+      Las notas de cada versión aparecerán aquí.
+    </p>
+  </section>
+</LegalLayout>

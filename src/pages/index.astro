@@ -1,5 +1,6 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
+import { apps } from "../data/apps";
 ---
 
 <SiteLayout
@@ -19,15 +20,15 @@ import SiteLayout from "../layouts/SiteLayout.astro";
     <p class="eyebrow">Aplicaciones</p>
     <h2 id="apps-title">Productos en desarrollo</h2>
     <div class="card-grid">
-      <a class="card" href="/apps/tavi/">
-        <h3>Tavi</h3>
-        <p>Un cliente HTTP nativo para macOS y iPadOS.</p>
-        <ul class="tag-list" aria-label="Plataformas de Tavi">
-          <li>macOS</li>
-          <li>iPadOS</li>
-          <li>SwiftUI</li>
-        </ul>
-      </a>
+      {apps.map((app) => (
+        <a class="card" href={`/apps/${app.slug}/`}>
+          <h3>{app.name}</h3>
+          <p>{app.description}</p>
+          <ul class="tag-list" aria-label={`Plataformas de ${app.name}`}>
+            {app.platforms.map((platform) => <li>{platform}</li>)}
+          </ul>
+        </a>
+      ))}
     </div>
   </section>
 </SiteLayout>

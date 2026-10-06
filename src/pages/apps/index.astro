@@ -1,0 +1,33 @@
+---
+import { apps } from "../../data/apps";
+import SiteLayout from "../../layouts/SiteLayout.astro";
+---
+
+<SiteLayout
+  title="Aplicaciones — Luis Gil"
+  description="Aplicaciones independientes diseñadas y desarrolladas por Luis Gil."
+>
+  <section>
+    <p class="eyebrow">Aplicaciones</p>
+    <h1>Productos pequeños, hechos con cuidado.</h1>
+    <p class="lede">
+      Cada aplicación tiene su propia landing, soporte, política de privacidad,
+      términos de uso y registro de novedades.
+    </p>
+  </section>
+
+  <section class="section" aria-labelledby="apps-list-title">
+    <h2 id="apps-list-title">Disponibles y en desarrollo</h2>
+    <div class="card-grid">
+      {apps.map((app) => (
+        <a class="card" href={`/apps/${app.slug}/`}>
+          <h3>{app.name}</h3>
+          <p>{app.description}</p>
+          <ul class="tag-list" aria-label={`Plataformas de ${app.name}`}>
+            {app.platforms.map((platform) => <li>{platform}</li>)}
+          </ul>
+        </a>
+      ))}
+    </div>
+  </section>
+</SiteLayout>

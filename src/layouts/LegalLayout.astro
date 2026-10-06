@@ -1,0 +1,28 @@
+---
+import type { AppDefinition, AppSection } from "../data/apps/types";
+import AppLayout from "./AppLayout.astro";
+
+interface Props {
+  app: AppDefinition;
+  activeSection: AppSection;
+  heading: string;
+  description: string;
+  lastUpdated?: string;
+}
+
+const { app, activeSection, heading, description, lastUpdated } = Astro.props;
+---
+
+<AppLayout
+  app={app}
+  activeSection={activeSection}
+  title={`${heading} de ${app.name}`}
+  description={description}
+>
+  <article class="legal-copy">
+    <p class="eyebrow">{app.name}</p>
+    <h1>{heading}</h1>
+    {lastUpdated && <p class="legal-meta">Vigente desde el {lastUpdated}.</p>}
+    <slot />
+  </article>
+</AppLayout>
