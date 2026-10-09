@@ -1,0 +1,15 @@
+---
+interface Props { size?: number; }
+const { size = 52 } = Astro.props;
+---
+<span class="minitools-mark" style={`--mark-size:${size}px`} aria-hidden="true">
+  <img class="mark-light" src="/images/minitools/app-icon-mosaic-light.png" width={size} height={size} alt="" />
+  <img class="mark-dark" src="/images/minitools/app-icon-mosaic-dark.png" width={size} height={size} alt="" />
+</span>
+<style>
+  .minitools-mark{display:inline-grid;width:var(--mark-size);height:var(--mark-size);flex:0 0 auto;vertical-align:middle}
+  .minitools-mark img{grid-area:1/1;width:100%;height:100%;object-fit:contain}
+  .mark-dark{display:none}
+  :global(html[data-theme=dark]) .mark-light{display:none}
+  :global(html[data-theme=dark]) .mark-dark{display:block}
+</style>

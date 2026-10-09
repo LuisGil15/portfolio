@@ -12,6 +12,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# local design-tool state
+.impeccable/build/
+.impeccable/questions/
+
 
 # environment variables
 .env

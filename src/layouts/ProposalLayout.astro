@@ -1,11 +1,11 @@
 ---
-interface Props { title: string; description: string; theme: 'portfolio' | 'tavi' | 'index'; }
+interface Props { title: string; description: string; theme: 'portfolio' | 'tavi' | 'minitools' | 'index'; }
 const { title, description, theme } = Astro.props;
 const spanish = Astro.url.pathname.startsWith("/es/");
 const preview = Astro.url.pathname.startsWith("/proposals");
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
-const themeScope = theme === 'tavi' ? 'tavi' : 'portfolio';
-const defaultTheme = themeScope === 'tavi' ? 'dark' : 'light';
+const themeScope = theme === 'minitools' ? 'minitools' : theme === 'tavi' ? 'tavi' : 'portfolio';
+const defaultTheme = themeScope === 'portfolio' ? 'light' : 'dark';
 ---
 <!doctype html>
 <html lang={spanish ? "es" : "en"} data-theme={defaultTheme} data-theme-scope={themeScope}>
@@ -20,7 +20,7 @@ const defaultTheme = themeScope === 'tavi' ? 'dark' : 'light';
         if (mode === "dark" || mode === "light") document.documentElement.dataset.theme = mode;
       } catch { /* Keep the server-rendered default when storage is unavailable. */ }
     </script>
-    <link rel="icon" href={theme === 'tavi' ? '/images/tavi/tavi-mark.png' : '/favicon.svg'} />
+    <link rel="icon" href={theme === 'minitools' ? '/images/minitools/app-icon-mosaic-dark.png' : theme === 'tavi' ? '/images/tavi/tavi-mark.png' : '/favicon.svg'} data-mini-favicon={theme === 'minitools' ? '' : undefined} />
     <link rel="preload" href={`/fonts/proposals/${theme === 'portfolio' ? 'sora' : 'figtree'}.ttf`} as="font" type="font/ttf" crossorigin />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
@@ -38,6 +38,8 @@ const defaultTheme = themeScope === 'tavi' ? 'dark' : 'light';
       try { if (!location.pathname.startsWith('/es/')) language = (localStorage.getItem('site-language') || localStorage.getItem('proposal-language')) === 'es' ? 'es' : 'en'; } catch {}
       function themeLabels() {
         const dark = document.documentElement.dataset.theme === 'dark';
+        const miniFavicon = document.querySelector<HTMLLinkElement>('[data-mini-favicon]');
+        if (miniFavicon) miniFavicon.href = `/images/minitools/app-icon-mosaic-${dark ? 'dark' : 'light'}.png`;
         document.querySelectorAll('[data-theme-toggle]').forEach(button => {
           const label = language === 'es' ? (dark ? 'Activar modo claro' : 'Activar modo oscuro') : (dark ? 'Switch to light mode' : 'Switch to dark mode');
           button.setAttribute('aria-label', label); button.setAttribute('title', label);
