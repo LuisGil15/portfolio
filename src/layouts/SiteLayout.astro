@@ -4,15 +4,28 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description: string;
+  portfolioNav?: boolean;
+  lang?: "en" | "es";
+  languageHref?: string;
+  pageClass?: string;
 }
 
-const { title, description } = Astro.props;
+const {
+  title,
+  description,
+  portfolioNav = false,
+  lang = "es",
+  languageHref,
+  pageClass,
+} = Astro.props;
 const path = Astro.url.pathname;
 const canonicalURL = new URL(path, Astro.site ?? Astro.url.origin);
+const isSpanish = lang === "es";
+const alternateURL = languageHref ? new URL(languageHref, Astro.site ?? Astro.url.origin) : undefined;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
@@ -25,24 +38,70 @@ const canonicalURL = new URL(path, Astro.site ?? Astro.url.origin);
     <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
+    {alternateURL && <link rel="alternate" hreflang={isSpanish ? "en" : "es"} href={alternateURL} />}
+    {portfolioNav && <link rel="alternate" hreflang="x-default" href={new URL("/", Astro.site ?? Astro.url.origin)} />}
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="Ir al inicio">Luis Gil</a>
-      <nav aria-label="Navegación principal">
-        <a href="/" aria-current={path === "/" ? "page" : undefined}>Portafolio</a>
-        <a href="/apps/" aria-current={path.startsWith("/apps/") ? "page" : undefined}>Aplicaciones</a>
+    <a class="skip-link" href="#main-content">{isSpanish ? "Saltar al contenido" : "Skip to content"}</a>
+    <header class:list={["site-header", { "portfolio-header": portfolioNav }]}>
+      {!portfolioNav && (
+        <a class="brand" href="/" aria-label={isSpanish ? "Inicio" : "Home"}>
+          <span class="brand-mark" aria-hidden="true">LG</span>
+        </a>
+      )}
+      <nav aria-label={isSpanish ? "Navegación principal" : "Main navigation"}>
+        {portfolioNav ? (
+          <>
+            <a href="#aplicaciones">Apps</a>
+            <a href="#experiencia">{isSpanish ? "Experiencia" : "Experience"}</a>
+            <a href="#proyectos">{isSpanish ? "Proyectos" : "Projects"}</a>
+            <a href="#contacto">{isSpanish ? "Contacto" : "Contact"}</a>
+            {languageHref && (
+              <a
+                class="language-switch"
+                href={languageHref}
+                hreflang={isSpanish ? "en" : "es"}
+                lang={isSpanish ? "en" : "es"}
+                data-language-switch
+                aria-label={isSpanish ? "Switch to English" : "Cambiar a español"}
+              >
+                {isSpanish ? "EN" : "ES"}
+              </a>
+            )}
+          </>
+        ) : (
+          <>
+            <a href="/" aria-current={path === "/" ? "page" : undefined}>{isSpanish ? "Portafolio" : "Portfolio"}</a>
+            <a href="/apps/" aria-current={path.startsWith("/apps/") ? "page" : undefined}>{isSpanish ? "Aplicaciones" : "Apps"}</a>
+          </>
+        )}
       </nav>
     </header>
 
-    <main>
+    <main id="main-content" class:list={{ "portfolio-main": portfolioNav, [pageClass ?? ""]: Boolean(pageClass) }}>
       <slot />
     </main>
 
     <footer class="site-footer">
-      <span>Hecho con <span aria-label="amor">♥</span> por Luis Gil</span>
+      <span>{isSpanish ? "Hecho con" : "Made with"} <span aria-label={isSpanish ? "amor" : "love"}>♥</span> {isSpanish ? "por" : "by"} Luis Gil</span>
+      <span class="footer-domain">luisgil.org · 2026</span>
     </footer>
+
+    {languageHref && (
+      <script is:inline>
+        document.querySelectorAll("[data-language-switch]").forEach((link) => {
+          const updateLanguageLink = () => {
+            const target = new URL(link.getAttribute("href"), window.location.origin);
+            target.hash = window.location.hash;
+            link.setAttribute("href", `${target.pathname}${target.hash}`);
+          };
+
+          updateLanguageLink();
+          window.addEventListener("hashchange", updateLanguageLink);
+        });
+      </script>
+    )}
   </body>
 </html>

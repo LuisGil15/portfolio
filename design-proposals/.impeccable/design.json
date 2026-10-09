@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T01:28:25.531Z",
+  "title": "Design System: Luis Gil and Tavi — adopted design system",
+  "extensions": {
+    "scope": "Adopted local production surfaces: /, /es/, /apps/tavi/ and Tavi privacy, terms, support and changelog. Legacy proposal routes use the same components. The historical design-proposals directory remains the documentation boundary; primitives are normative in ../DESIGN.md relative to this sidecar. Adoption does not imply publication or a Git push.",
+    "sourceFiles": [
+      "src/layouts/ProposalLayout.astro",
+      "src/components/PortfolioPage.astro",
+      "src/components/TaviPage.astro",
+      "src/components/TaviPlayground.astro",
+      "src/components/TaviDocumentPage.astro",
+      "src/components/TaviHeader.astro",
+      "src/components/TaviFooter.astro",
+      "src/components/ThemeToggle.astro",
+      "src/components/SupportLinks.astro",
+      "src/components/ProposalText.astro",
+      "src/data/taviDocuments.ts"
+    ],
+    "provenance": {
+      "seed": "423b91e6",
+      "originalDirection": "Code-led independent proposals: plum/lavender portfolio gallery and blue technical Tavi workspace, initially isolated from production. Original plum and proposal-only authority were superseded by user approval to adopt the compositions, replace purple with petroleum teal, add dark mode and model the demo on the native app.",
+      "images": "Existing Tavi mark and macOS/iPadOS screenshots in public/images/tavi reused unmodified. macos-response.jpg is the structural reference for the demo. Other project representations are labeled HTML demonstrations. No generated or stock imagery, and no raster composition.",
+      "fonts": "Google Fonts Sora and Figtree variable TTF files bundled in public/fonts/proposals with original OFL license files.",
+      "ramps": "Synthesized OKLCH preview ramps, not implementation tokens; exact colors are in DESIGN.md and source CSS."
+    },
+    "colorMeta": {
+      "portfolio-teal": {
+        "role": "primary",
+        "displayName": "Portfolio Teal",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-teal-hover": {
+        "role": "primary",
+        "displayName": "Portfolio Teal Hover",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-sidebar": {
+        "role": "neutral",
+        "displayName": "Portfolio Sidebar",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-sidebar-hover": {
+        "role": "neutral",
+        "displayName": "Portfolio Sidebar Hover",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-paper": {
+        "role": "neutral",
+        "displayName": "Portfolio Paper",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-ink": {
+        "role": "neutral",
+        "displayName": "Portfolio Ink",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-muted": {
+        "role": "neutral",
+        "displayName": "Portfolio Muted",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-soft": {
+        "role": "neutral",
+        "displayName": "Portfolio Soft",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-line": {
+        "role": "neutral",
+        "displayName": "Portfolio Line",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-about": {
+        "role": "neutral",
+        "displayName": "Portfolio About",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-coral": {
+        "role": "secondary",
+        "displayName": "Portfolio Coral",
+        "tonalRamp": [
+          "oklch(15% 0.05 34)",
+          "oklch(26% 0.05 34)",
+          "oklch(38% 0.05 34)",
+          "oklch(49% 0.05 34)",
+          "oklch(61% 0.05 34)",
+          "oklch(72% 0.05 34)",
+          "oklch(84% 0.05 34)",
+          "oklch(95% 0.05 34)"
+        ]
+      },
+      "portfolio-dark-page": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Page",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-dark-ink": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-dark-muted": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-dark-surface": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Surface",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-dark-soft": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Soft",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-dark-line": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Line",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-dark-accent": {
+        "role": "primary",
+        "displayName": "Portfolio Dark Accent",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-dark-button": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Button",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-dark-button-hover": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Button Hover",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-dark-sidebar": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Sidebar",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-dark-sidebar-hover": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark Sidebar Hover",
+        "tonalRamp": [
+          "oklch(15% 0.015 210)",
+          "oklch(26% 0.015 210)",
+          "oklch(38% 0.015 210)",
+          "oklch(49% 0.015 210)",
+          "oklch(61% 0.015 210)",
+          "oklch(72% 0.015 210)",
+          "oklch(84% 0.015 210)",
+          "oklch(95% 0.015 210)"
+        ]
+      },
+      "portfolio-dark-about": {
+        "role": "neutral",
+        "displayName": "Portfolio Dark About",
+        "tonalRamp": [
+          "oklch(15% 0.05 210)",
+          "oklch(26% 0.05 210)",
+          "oklch(38% 0.05 210)",
+          "oklch(49% 0.05 210)",
+          "oklch(61% 0.05 210)",
+          "oklch(72% 0.05 210)",
+          "oklch(84% 0.05 210)",
+          "oklch(95% 0.05 210)"
+        ]
+      },
+      "portfolio-dark-coral": {
+        "role": "secondary",
+        "displayName": "Portfolio Dark Coral",
+        "tonalRamp": [
+          "oklch(15% 0.05 34)",
+          "oklch(26% 0.05 34)",
+          "oklch(38% 0.05 34)",
+          "oklch(49% 0.05 34)",
+          "oklch(61% 0.05 34)",
+          "oklch(72% 0.05 34)",
+          "oklch(84% 0.05 34)",
+          "oklch(95% 0.05 34)"
+        ]
+      },
+      "tavi-blue": {
+        "role": "primary",
+        "displayName": "Tavi Blue",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-blue-hover": {
+        "role": "neutral",
+        "displayName": "Tavi Blue Hover",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-pale-blue": {
+        "role": "neutral",
+        "displayName": "Tavi Pale Blue",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-paper": {
+        "role": "neutral",
+        "displayName": "Tavi Paper",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-ink": {
+        "role": "neutral",
+        "displayName": "Tavi Ink",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-muted": {
+        "role": "neutral",
+        "displayName": "Tavi Muted",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-soft": {
+        "role": "neutral",
+        "displayName": "Tavi Soft",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-line": {
+        "role": "neutral",
+        "displayName": "Tavi Line",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-selected": {
+        "role": "primary",
+        "displayName": "Tavi Selected",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-dark-surface": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Surface",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-dark-soft": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Soft",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-dark-page": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Page",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-dark-ink": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-dark-muted": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-dark-line": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Line",
+        "tonalRamp": [
+          "oklch(15% 0.015 263)",
+          "oklch(26% 0.015 263)",
+          "oklch(38% 0.015 263)",
+          "oklch(49% 0.015 263)",
+          "oklch(61% 0.015 263)",
+          "oklch(72% 0.015 263)",
+          "oklch(84% 0.015 263)",
+          "oklch(95% 0.015 263)"
+        ]
+      },
+      "tavi-dark-accent": {
+        "role": "primary",
+        "displayName": "Tavi Dark Accent",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-dark-button": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Button",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-dark-button-hover": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Button Hover",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-dark-tint": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Tint",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-dark-opening": {
+        "role": "neutral",
+        "displayName": "Tavi Dark Opening",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "tavi-dark-selected": {
+        "role": "primary",
+        "displayName": "Tavi Dark Selected",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "demo-surface": {
+        "role": "neutral",
+        "displayName": "Demo Surface",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-toolbar": {
+        "role": "neutral",
+        "displayName": "Demo Toolbar",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-sidebar": {
+        "role": "neutral",
+        "displayName": "Demo Sidebar",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-line": {
+        "role": "neutral",
+        "displayName": "Demo Line",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-ink": {
+        "role": "neutral",
+        "displayName": "Demo Ink",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-muted": {
+        "role": "neutral",
+        "displayName": "Demo Muted",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-selected": {
+        "role": "primary",
+        "displayName": "Demo Selected",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "demo-send-hover": {
+        "role": "neutral",
+        "displayName": "Demo Send Hover",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "demo-dark-surface": {
+        "role": "neutral",
+        "displayName": "Demo Dark Surface",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-dark-toolbar": {
+        "role": "neutral",
+        "displayName": "Demo Dark Toolbar",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-dark-sidebar": {
+        "role": "neutral",
+        "displayName": "Demo Dark Sidebar",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-dark-line": {
+        "role": "neutral",
+        "displayName": "Demo Dark Line",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-dark-ink": {
+        "role": "neutral",
+        "displayName": "Demo Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-dark-muted": {
+        "role": "neutral",
+        "displayName": "Demo Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.015 25)",
+          "oklch(26% 0.015 25)",
+          "oklch(38% 0.015 25)",
+          "oklch(49% 0.015 25)",
+          "oklch(61% 0.015 25)",
+          "oklch(72% 0.015 25)",
+          "oklch(84% 0.015 25)",
+          "oklch(95% 0.015 25)"
+        ]
+      },
+      "demo-dark-input": {
+        "role": "neutral",
+        "displayName": "Demo Dark Input",
+        "tonalRamp": [
+          "oklch(15% 0.05 25)",
+          "oklch(26% 0.05 25)",
+          "oklch(38% 0.05 25)",
+          "oklch(49% 0.05 25)",
+          "oklch(61% 0.05 25)",
+          "oklch(72% 0.05 25)",
+          "oklch(84% 0.05 25)",
+          "oklch(95% 0.05 25)"
+        ]
+      },
+      "demo-dark-selected": {
+        "role": "primary",
+        "displayName": "Demo Dark Selected",
+        "tonalRamp": [
+          "oklch(15% 0.05 263)",
+          "oklch(26% 0.05 263)",
+          "oklch(38% 0.05 263)",
+          "oklch(49% 0.05 263)",
+          "oklch(61% 0.05 263)",
+          "oklch(72% 0.05 263)",
+          "oklch(84% 0.05 263)",
+          "oklch(95% 0.05 263)"
+        ]
+      },
+      "demo-success": {
+        "role": "secondary",
+        "displayName": "Demo Success",
+        "tonalRamp": [
+          "oklch(15% 0.05 155)",
+          "oklch(26% 0.05 155)",
+          "oklch(38% 0.05 155)",
+          "oklch(49% 0.05 155)",
+          "oklch(61% 0.05 155)",
+          "oklch(72% 0.05 155)",
+          "oklch(84% 0.05 155)",
+          "oklch(95% 0.05 155)"
+        ]
+      },
+      "demo-error": {
+        "role": "secondary",
+        "displayName": "Demo Error",
+        "tonalRamp": [
+          "oklch(15% 0.05 27)",
+          "oklch(26% 0.05 27)",
+          "oklch(38% 0.05 27)",
+          "oklch(49% 0.05 27)",
+          "oklch(61% 0.05 27)",
+          "oklch(72% 0.05 27)",
+          "oklch(84% 0.05 27)",
+          "oklch(95% 0.05 27)"
+        ]
+      },
+      "demo-dark-success": {
+        "role": "secondary",
+        "displayName": "Demo Dark Success",
+        "tonalRamp": [
+          "oklch(15% 0.05 155)",
+          "oklch(26% 0.05 155)",
+          "oklch(38% 0.05 155)",
+          "oklch(49% 0.05 155)",
+          "oklch(61% 0.05 155)",
+          "oklch(72% 0.05 155)",
+          "oklch(84% 0.05 155)",
+          "oklch(95% 0.05 155)"
+        ]
+      },
+      "demo-dark-error": {
+        "role": "secondary",
+        "displayName": "Demo Dark Error",
+        "tonalRamp": [
+          "oklch(15% 0.05 27)",
+          "oklch(26% 0.05 27)",
+          "oklch(38% 0.05 27)",
+          "oklch(49% 0.05 27)",
+          "oklch(61% 0.05 27)",
+          "oklch(72% 0.05 27)",
+          "oklch(84% 0.05 27)",
+          "oklch(95% 0.05 27)"
+        ]
+      },
+      "focus-orange": {
+        "role": "neutral",
+        "displayName": "Focus Orange",
+        "tonalRamp": [
+          "oklch(15% 0.05 27)",
+          "oklch(26% 0.05 27)",
+          "oklch(38% 0.05 27)",
+          "oklch(49% 0.05 27)",
+          "oklch(61% 0.05 27)",
+          "oklch(72% 0.05 27)",
+          "oklch(84% 0.05 27)",
+          "oklch(95% 0.05 27)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "portfolio-display": {
+        "displayName": "Portfolio Introduction",
+        "purpose": "Sora introduction; 35px on mobile."
+      },
+      "tavi-display": {
+        "displayName": "Tavi Opening",
+        "purpose": "Figtree opening; 37px on mobile."
+      },
+      "demo-control": {
+        "displayName": "Native-like Controls",
+        "purpose": "System UI typography for workspace controls."
+      },
+      "tavi-code": {
+        "displayName": "Response Code",
+        "purpose": "JSON and headers; 11px on mobile."
+      }
+    },
+    "themes": {
+      "selector": "html[data-theme=dark]",
+      "storageKey": "site-theme:<scope>",
+      "storageKeys": { "portfolio": "site-theme:portfolio", "tavi": "site-theme:tavi" },
+      "fallback": "Portfolio light; Tavi and its documents dark. Independent of system preference; the old shared key is ignored.",
+      "portfolio": "body.portfolio overrides the shared semantic roles in light and dark modes.",
+      "demo": "Local --app-* and --code-* variables in TaviPlayground track the same theme while retaining native-style graphite surfaces.",
+      "componentPreviews": "Previews use semantic CSS custom properties with light-state fallbacks. Runtime component overrides provide full dark states; primitive frontmatter component variants describe light defaults."
+    },
+    "shadows": [
+      {
+        "name": "portfolio-tavi-capture",
+        "value": "0 14px 28px #23305825",
+        "purpose": "Real Tavi screenshot in portfolio."
+      },
+      {
+        "name": "portfolio-task-example",
+        "value": "0 12px 25px #6b403414",
+        "purpose": "Illustrative NextUp interaction; none in dark mode."
+      },
+      {
+        "name": "portfolio-epaper",
+        "value": "0 12px 20px #33382d22",
+        "purpose": "Illustrative Umbral device."
+      },
+      {
+        "name": "tavi-workspace",
+        "value": "0 20px 45px #05276638",
+        "purpose": "Native-like workspace on opening field."
+      },
+      {
+        "name": "tavi-capture",
+        "value": "0 12px 26px #29467522",
+        "purpose": "Native product screenshot."
+      }
+    ],
+    "motion": [
+      {
+        "name": "faq-chevron",
+        "value": "transform .18s",
+        "purpose": "Rotate 180deg when details expands."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "Shared anchor navigation; auto for reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important",
+        "purpose": "Global prefers-reduced-motion override."
+      }
+    ],
+    "focus": {
+      "value": "3px solid #e05116",
+      "offset": "5px",
+      "targets": "button, a, summary, select, input, textarea :focus-visible"
+    },
+    "breakpoints": [
+      {
+        "name": "portfolio-wide-min",
+        "value": "1680px"
+      },
+      {
+        "name": "portfolio-compact-max",
+        "value": "1100px"
+      },
+      {
+        "name": "portfolio-mobile-max",
+        "value": "720px"
+      },
+      {
+        "name": "tavi-compact-max",
+        "value": "1000px"
+      },
+      {
+        "name": "tavi-mobile-max",
+        "value": "650px"
+      },
+      {
+        "name": "tavi-header-wrap-max",
+        "value": "760px"
+      },
+      {
+        "name": "tavi-document-stack-max",
+        "value": "800px"
+      },
+      {
+        "name": "demo-compact-max",
+        "value": "1100px"
+      },
+      {
+        "name": "demo-folders-row-max",
+        "value": "850px"
+      },
+      {
+        "name": "demo-stack-max",
+        "value": "550px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Portfolio Project Link",
+      "kind": "button",
+      "refersTo": "portfolio-project-link",
+      "description": "White project action with a teal theme-aware hover.",
+      "html": "<a class=\"ds-project-link\" href=\"#tavi\">Meet Tavi <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-project-link{display:inline-flex;align-items:center;gap:16px;font:600 12px/1.5 Sora,sans-serif;color:#193c43;background:#fff;border-radius:8px;padding:11px 15px;text-decoration:none}.ds-project-link svg{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.ds-project-link:hover{background:var(--button,#146370);color:#fff}.ds-project-link:focus-visible,.ds-contact:focus-visible,.ds-filter:focus-visible,.ds-nav a:focus-visible,.ds-send:focus-visible,.ds-param input:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "Portfolio Contact Action",
+      "kind": "button",
+      "refersTo": "portfolio-contact",
+      "description": "Filled contact action using the current theme's button and hover roles.",
+      "html": "<a class=\"ds-contact\" href=\"#contact\">Start a conversation</a>",
+      "css": ".ds-contact{display:inline-block;font:400 12px/1.5 Sora,sans-serif;background:var(--button,#146370);color:#fff;padding:12px 17px;border-radius:8px;text-decoration:none}.ds-contact:hover{background:var(--button-hover,#0d4d58)}.ds-project-link:focus-visible,.ds-contact:focus-visible,.ds-filter:focus-visible,.ds-nav a:focus-visible,.ds-send:focus-visible,.ds-param input:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "Portfolio Filter",
+      "kind": "chip",
+      "refersTo": "portfolio-filter-selected",
+      "description": "Pressed gallery filter uses the about surface and text accent.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">All work</button>",
+      "css": ".ds-filter{border:0;background:transparent;color:var(--muted,#526e74);font:400 12px/1.5 Sora,sans-serif;padding:9px 12px;border-radius:7px;cursor:pointer}.ds-filter[aria-pressed=true]{background:var(--about,#d9ebed);color:var(--accent,#146370)}.ds-filter:hover{background:var(--soft,#e4eff0)}.ds-project-link:focus-visible,.ds-contact:focus-visible,.ds-filter:focus-visible,.ds-nav a:focus-visible,.ds-send:focus-visible,.ds-param input:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "Portfolio Navigation",
+      "kind": "nav",
+      "description": "Flat links on the petroleum identity surface; horizontal on mobile.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Portfolio preview\"><a class=\"ds-current\" href=\"#work\">My work</a><a href=\"#experience\">Experience</a><a href=\"#about\">About me</a></nav>",
+      "css": ".ds-nav{display:grid;gap:10px;background:var(--sidebar,#145867);color:#fff;padding:20px;font:400 14px/1.5 Sora,sans-serif}.ds-nav a{padding:12px 14px;text-decoration:none;color:inherit;border-radius:8px}.ds-nav a:hover,.ds-nav .ds-current{background:var(--sidebar-hover,#216d7c)}@media(max-width:720px){.ds-nav{display:flex;gap:8px}.ds-nav a{font-size:11px;padding:8px 10px}}.ds-project-link:focus-visible,.ds-contact:focus-visible,.ds-filter:focus-visible,.ds-nav a:focus-visible,.ds-send:focus-visible,.ds-param input:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "Tavi Send Request",
+      "kind": "button",
+      "refersTo": "tavi-send",
+      "description": "Compact native-like Send control; disabled during local simulation.",
+      "html": "<button class=\"ds-send\">Send <svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m4 4 17 8-17 8 3-8-3-8Zm3 8h14\"/></svg></button>",
+      "css": ".ds-send{display:flex;align-items:center;gap:7px;background:var(--app-selected,#0867ce);color:#fff;border:0;border-radius:5px;padding:7px 10px;font:400 11px/1.5 -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;cursor:pointer}.ds-send svg{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.ds-send:hover{background:#0054b0}.ds-send:disabled{opacity:.55;cursor:wait}.ds-project-link:focus-visible,.ds-contact:focus-visible,.ds-filter:focus-visible,.ds-nav a:focus-visible,.ds-send:focus-visible,.ds-param input:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "Tavi Request Parameter",
+      "kind": "input",
+      "description": "Editable parameter field embedded in the request configuration view.",
+      "html": "<label class=\"ds-param\"><span>limit</span><input aria-label=\"Post limit\" type=\"number\" min=\"1\" max=\"3\" value=\"3\"/></label>",
+      "css": ".ds-param{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:center;font:400 11px/1.5 ui-monospace,monospace;color:var(--app-text,#293441)}.ds-param input{background:var(--app-input,#f7f8fa);border:1px solid var(--app-line,#dfe2e7);border-radius:4px;width:100%;font:400 11px/1.5 -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;padding:5px;color:var(--app-text,#293441)}.ds-param input:disabled{opacity:.5}.ds-project-link:focus-visible,.ds-contact:focus-visible,.ds-filter:focus-visible,.ds-nav a:focus-visible,.ds-send:focus-visible,.ds-param input:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "Tavi Workspace",
+      "kind": "card",
+      "refersTo": "tavi-workspace",
+      "description": "Native-style toolbar and response surface; this compact preview is illustrative, not the complete interactive demo.",
+      "html": "<section class=\"ds-workspace\"><div class=\"ds-workspace-top\"><strong>Tavi</strong><span>Local simulation · sample data</span></div><div class=\"ds-workspace-body\"><span class=\"ds-success\">200 OK</span><pre>{\n  &quot;name&quot;: &quot;Luis Gil&quot;\n}</pre></div></section>",
+      "css": ".ds-workspace{background:var(--app,#fff);color:var(--app-text,#293441);border-radius:12px;overflow:hidden;box-shadow:0 20px 45px #05276638;font:400 12px/1.5 -apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-workspace-top{background:var(--app-bar,#f1f2f4);display:flex;align-items:center;justify-content:space-between;padding:10px 16px;gap:30px;min-height:50px;border-bottom:1px solid var(--app-line,#dfe2e7)}.ds-workspace-top>span{font-size:10px;color:var(--app-muted,#5d6a78)}.ds-workspace-body{padding:8px 12px}.ds-success{font-size:9px;color:#287944}.ds-workspace pre{font:400 10px/1.7 ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Tangible software, two independent worlds",
+    "overview": "The approved portfolio and Tavi compositions now serve the production routes in the local implementation. The portfolio is an artifact-led gallery with a petroleum teal identity; Tavi is a clear technical workspace held inside a broad blue field. Both use real software evidence and purposeful interaction to make the work understandable.\n\nThis existing documentation boundary is retained for provenance, but its current authority covers /, /es/, /apps/tavi/ and the Tavi document pages. Legacy proposal routes render the shared adopted components. Shared semantic light/dark tokens and language controls connect these surfaces without erasing their distinct identities.",
+    "keyCharacteristics": [
+      "Two distinct palettes and type families, with shared theme and language behavior.",
+      "Real Tavi imagery and explicitly labeled illustrative interactions.",
+      "Quiet rounded surfaces with shadows reserved for software and device artifacts.",
+      "English and Spanish layouts with visible keyboard focus and reduced-motion support."
+    ],
+    "rules": [
+      {
+        "name": "The Independent Worlds Rule",
+        "body": "Keep petroleum teal for the portfolio and blue for Tavi; share semantic behavior and components without flattening their identities.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve the approved compositions and the portfolio's petroleum teal identity.",
+      "Do reuse the real Tavi mark and screenshots and label illustrative demonstrations.",
+      "Do preserve English and Spanish content, light and dark states, and keyboard access.",
+      "Do use response text as well as color to distinguish success and error."
+    ],
+    "donts": [
+      "Don't restore the superseded purple portfolio identity.",
+      "Don't imply that the local request simulation is a live API or the native application.",
+      "Don't invent customers, usage statistics, prices, testimonials, or release claims."
+    ]
+  }
+}

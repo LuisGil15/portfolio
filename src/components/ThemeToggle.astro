@@ -1,0 +1,7 @@
+<button class="theme-toggle" data-theme-toggle aria-label="Switch color theme" title="Switch color theme">
+  <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 14.5A8.6 8.6 0 0 1 9.5 3.6 8.6 8.6 0 1 0 20.4 14.5Z"/></svg>
+  <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+</button>
+<style>
+  .theme-toggle{display:inline-grid;place-items:center;width:38px;height:38px;flex-shrink:0;border:1px solid var(--line);border-radius:8px;background:var(--soft);color:var(--ink);padding:8px}.theme-toggle svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.sun{display:none}:global([data-theme=dark]) .sun{display:block}:global([data-theme=dark]) .moon{display:none}.theme-toggle:hover{border-color:var(--accent)}
+</style>

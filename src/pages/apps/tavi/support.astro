@@ -1,20 +1,4 @@
 ---
-import { tavi } from "../../../data/apps";
-import LegalLayout from "../../../layouts/LegalLayout.astro";
+import TaviDocumentPage from '../../../components/TaviDocumentPage.astro';
 ---
-
-<LegalLayout
-  app={tavi}
-  activeSection="support"
-  heading="Soporte"
-  description="Ayuda y soporte para la aplicación Tavi."
->
-  <p class="lede">
-    Si encontraste un error o necesitas ayuda, abre un reporte con los pasos para
-    reproducirlo y la versión de macOS o iPadOS que utilizas.
-  </p>
-  <div class="actions">
-    <a class="button primary" href={tavi.supportURL} rel="noreferrer">Abrir un reporte en GitHub</a>
-    <a class="button" href="/apps/tavi/privacy/">Ver privacidad</a>
-  </div>
-</LegalLayout>
+<TaviDocumentPage kind="support"/>

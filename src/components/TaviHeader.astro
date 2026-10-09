@@ -1,0 +1,13 @@
+---
+import T from './ProposalText.astro';
+import ThemeToggle from './ThemeToggle.astro';
+const { active = '' } = Astro.props;
+---
+<header class="tavi-header"><div class="header-inner">
+  <a class="brand" href="/apps/tavi/"><img src="/images/tavi/tavi-mark.png" width="34" height="34" alt=""/><span>Tavi</span></a>
+  <nav aria-label="Tavi"><a href="/apps/tavi/#native"><T en="The app" es="La app"/></a><a href="/apps/tavi/privacy/" aria-current={active === 'privacy' ? 'page' : undefined}><T en="Privacy" es="Privacidad"/></a><a href="/apps/tavi/terms/" aria-current={active === 'terms' ? 'page' : undefined}><T en="Terms" es="Términos"/></a><a href="/apps/tavi/support/" aria-current={active === 'support' ? 'page' : undefined}><T en="Support" es="Soporte"/></a></nav>
+  <div class="actions"><ThemeToggle/><button class="language" data-language aria-label="Cambiar a español">ES</button><a class="download" href="/apps/tavi/#availability"><T en="Get Tavi" es="Obtener Tavi"/></a></div>
+</div></header>
+<style>
+  .tavi-header{background:var(--surface);width:100%}.header-inner{max-width:1320px;margin:auto;padding:22px 48px;display:flex;align-items:center;gap:32px}.brand{display:flex;gap:10px;align-items:center;font-size:25px;font-weight:700;letter-spacing:-.035em;text-decoration:none}.brand img{object-fit:contain}nav{display:flex;gap:24px;margin-left:auto;font-size:14px}nav a{text-decoration:none;color:var(--muted);white-space:nowrap}nav a:hover,nav a[aria-current=page]{color:var(--accent)}nav a[aria-current=page]{text-decoration:underline;text-underline-offset:7px}.actions{display:flex;align-items:center;gap:10px}.language{width:38px;height:38px;border:1px solid var(--line);background:var(--soft);border-radius:8px;font-size:12px;color:var(--ink);padding:0}.download{background:var(--button);color:#fff;padding:10px 17px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:600;white-space:nowrap}.download:hover{background:var(--button-hover)}@media(max-width:1000px){.header-inner{padding:20px 25px;gap:22px}nav{gap:16px}}@media(max-width:760px){.header-inner{padding:16px 20px;flex-wrap:wrap;gap:15px}.actions{margin-left:auto}.brand{font-size:23px}.download{padding:10px;font-size:12px}nav{order:3;width:100%;margin:0;justify-content:space-between;font-size:13px;gap:12px}}
+</style>

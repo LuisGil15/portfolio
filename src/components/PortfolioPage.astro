@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/ProposalLayout.astro';
+import T from './ProposalText.astro';
+import ThemeToggle from './ThemeToggle.astro';
+import SupportLinks from './SupportLinks.astro';
+const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
+---
+<Layout title="Luis Gil — Software, made personal" description="Software development, native applications and experiments by Luis Gil." theme="portfolio">
+  <aside class="identity">
+    <a href="/" class="name" aria-label="Luis Gil, home">Luis <br/>Gil<span class="name-period">.</span></a>
+    <T as="p" class="role" en="Software developer. Independent maker." es="Desarrollador de software. Creador independiente." />
+    <nav aria-label="Portfolio">
+      <a href="#work" class="nav-work"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg><T en="My work" es="Mi trabajo"/></a>
+      <a href="#experience"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M3 12h18M10 12v3h4v-3"/></svg><T en="Experience" es="Experiencia"/></a>
+      <a href="#about"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg><T en="About me" es="Sobre mí"/></a>
+    </nav>
+    <div class="identity-bottom">
+      <a class="email-link" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="socials"><a href="https://github.com/LuisGil15">GitHub</a><a href="https://www.linkedin.com/in/luis-francisco-gil-perez-721348182/">LinkedIn</a></div>
+      <div class="side-meta"><ThemeToggle/><button data-language aria-label="Cambiar a español">ES</button></div>
+    </div>
+  </aside>
+  <main id="content">
+    <header class="intro">
+      <div><T as="h1" en="Built by me.&#10;Made to be used." es="Hecho por mí.&#10;Pensado para usarse."/><T as="p" en="From backend systems at IBM to the apps I wish existed. Here's what I'm building." es="Del backend en IBM a las apps que me gustaría tener. Esto es lo que estoy construyendo."/></div>
+    </header>
+    <section id="work" aria-label="Projects">
+      <div class="work-toolbar"><T as="h2" en="Things I've made" es="Lo que he creado"/><div class="filters" role="group" aria-label="Project filters">{filters.map(f=><button data-filter={f.id} aria-pressed={f.id==='all' ? 'true' : 'false'}><T en={f.en} es={f.es}/></button>)}</div></div>
+      <div class="projects">
+        <article class="project tavi-project" data-category="native">
+          <div class="tavi-copy"><img class="app-icon" src="/images/tavi/tavi-mark.png" width="52" height="52" alt=""/><h3>Tavi</h3><T as="p" en="An API client that feels right at home on your Mac." es="Un cliente API que se siente en casa en tu Mac."/><span class="project-stack">SwiftUI · macOS · iPadOS</span><a class="open-project" href="/apps/tavi/"><T en="Meet Tavi" es="Conoce Tavi"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+          <div class="tavi-art"><div class="screenshot-caption"><span>Tavi</span><T en="Your requests, in one place." es="Tus requests, en un solo lugar."/></div><img src="/images/tavi/macos-response.jpg" alt="Tavi running on macOS with a request and JSON response" width="1800" height="1100" fetchpriority="high"/></div>
+        </article>
+        <article class="project nextup-project" data-category="native">
+          <div class="project-heading"><h3>NextUp</h3><T class="project-status" en="In development" es="En desarrollo"/></div>
+          <T as="p" en="Turn the everyday into progress you can see." es="Convierte lo cotidiano en progreso que puedes ver."/>
+          <div class="task-preview"><div class="task-title"><T en="A little progress, every day." es="Un pequeño avance, cada día."/><span>NextUp</span></div><label><input type="checkbox"/><T en="Make time to read" es="Hacer tiempo para leer"/></label><label><input type="checkbox" checked/><T en="Finish a personal project" es="Terminar un proyecto personal"/></label><label><input type="checkbox"/><T en="Try something new" es="Probar algo nuevo"/></label><T class="preview-note" en="Illustrative interaction · try checking a task" es="Interacción ilustrativa · marca una tarea"/></div>
+          <details><summary><T en="What I'm building" es="Qué estoy construyendo"/></summary><T as="p" en="A SwiftUI app with tasks, routines, points and rewards. I develop the architecture, persistence, tests and Firebase synchronization." es="Una app SwiftUI con tareas, rutinas, puntos y recompensas. Desarrollo su arquitectura, persistencia, pruebas y sincronización con Firebase."/></details>
+        </article>
+        <article class="project umbral-project" data-category="experiments">
+          <div class="project-heading"><h3>Umbral</h3><T class="project-status" en="In development" es="En desarrollo"/></div><T as="p" en="Giving e-paper a life beyond the next page." es="Dándole vida al e-paper más allá de la siguiente página."/>
+          <div class="epaper-preview" aria-label="Illustrative e-paper interface"><div class="reader-display"><span>Umbral</span><strong>08:24</strong><T as="p" en="A good day to unplug." es="Un buen día para desconectar."/><div><T en="Library" es="Biblioteca"/><T en="Calendar" es="Calendario"/></div></div><div class="reader-controls" aria-hidden="true"><i></i><i></i><i></i></div></div><T as="p" class="preview-note" en="Illustrative interface for Xteink X3" es="Interfaz ilustrativa para Xteink X3"/>
+          <details><summary><T en="Explore the idea" es="Explorar la idea"/></summary><T as="p" en="Custom firmware with themes, SD-based apps and a Standby mode with clock, weather and calendar." es="Firmware con temas, apps desde la SD y un modo Standby con reloj, clima y calendario."/></details>
+        </article>
+        <article class="project compact-project" data-category="native"><div><h3>MiniTools</h3><T as="p" en="Music, ports, containers and timers. A native toolkit that lives in the menu bar." es="Música, puertos, contenedores y temporizadores. Herramientas nativas en la barra de menús."/></div><details><summary><T en="Working prototype" es="Prototipo funcional"/></summary><T as="p" en="Swift and SwiftUI, with an extensible tool architecture and integration with macOS services." es="Swift y SwiftUI, con una arquitectura extensible e integración con los servicios de macOS."/></details></article>
+        <article class="project compact-project" data-category="experiments"><div><h3>UpToDown</h3><T as="p" en="One idea. Several perspectives. A local forum where AI agents discuss and vote." es="Una idea. Varias perspectivas. Un foro local donde agentes de IA debaten y votan."/></div><details><summary><T en="Local prototype" es="Prototipo local"/></summary><T as="p" en="React, TypeScript, Node.js and SQLite, with secure Codex orchestration." es="React, TypeScript, Node.js y SQLite, con orquestación segura de Codex."/></details></article>
+      </div>
+      <p class="filter-announcement" aria-live="polite"></p>
+    </section>
+    <section id="experience" class="experience" aria-labelledby="experience-title">
+      <div class="experience-intro">
+        <T as="h2" id="experience-title" en="Experience,&#10;beyond the screen." es="Experiencia,&#10;más allá de la pantalla."/>
+        <T as="p" en="My work spans enterprise backend systems, mobile applications and web interfaces. I connect what users see with the services and data behind it." es="Mi trabajo abarca sistemas backend empresariales, aplicaciones móviles e interfaces web. Conecto lo que ve el usuario con los servicios y datos que hay detrás."/>
+        <a class="experience-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk about your team" es="Hablemos de tu equipo"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="jobs">
+        <article>
+          <div class="job-heading"><h3>IBM</h3><T en="2022 — present" es="2022 — actualidad"/></div>
+          <T as="h4" en="Backend development" es="Desarrollo backend"/>
+          <T as="p" en="Backend services and asynchronous processes in an enterprise environment, with work spanning APIs, data, vulnerability remediation and internal tools for teams." es="Servicios backend y procesos asíncronos en un entorno empresarial, con trabajo en APIs, datos, resolución de vulnerabilidades y herramientas internas para los equipos."/>
+          <ul>
+            <li><T en="Develop REST APIs with Java and Spring Boot, and asynchronous processing with Kafka." es="Desarrollo APIs REST con Java y Spring Boot, y procesos asíncronos con Kafka."/></li>
+            <li><T en="Built an API proxy service in JavaScript with Node.js, using mutual TLS (mTLS) authentication." es="Desarrollé un servicio proxy para APIs en JavaScript con Node.js, con autenticación TLS mutua (mTLS)."/></li>
+            <li><T en="Write Python automation scripts and batch jobs to transfer data between database tables." es="Desarrollo scripts de automatización en Python y jobs por lotes para transferir datos entre tablas de bases de datos."/></li>
+            <li><T en="Work with SQL and DB2 to support the data needs of backend services." es="Trabajo con SQL y DB2 para cubrir las necesidades de datos de los servicios backend."/></li>
+            <li><T en="Remediate security vulnerabilities and contribute to testing and deployment workflows." es="Resuelvo vulnerabilidades de seguridad y participo en pruebas y flujos de despliegue."/></li>
+            <li><T en="Build internal tools that simplify teams' day-to-day work." es="Creo herramientas internas para facilitar el trabajo diario de los equipos."/></li>
+          </ul>
+          <p class="job-stack">Java · Spring Boot · Kafka · JavaScript · Node.js · mTLS · Python · SQL · DB2</p>
+        </article>
+        <article>
+          <div class="job-heading"><h3>RESSER</h3><span>2021 — 2022</span></div>
+          <T as="h4" en="Mobile & backend development" es="Desarrollo móvil y backend"/>
+          <T as="p" en="Development across the mobile application and backend, working on both sides of the product experience." es="Desarrollo en la aplicación móvil y el backend, trabajando en ambos lados de la experiencia del producto."/>
+          <ul>
+            <li><T en="Build mobile application features with React Native." es="Desarrollo funcionalidades para aplicaciones móviles con React Native."/></li>
+            <li><T en="Develop backend services with C# and .NET to support application functionality." es="Desarrollo servicios backend con C# y .NET para dar soporte a las funcionalidades de la aplicación."/></li>
+          </ul>
+          <p class="job-stack">React Native · C# · .NET</p>
+        </article>
+        <article>
+          <div class="job-heading"><T as="h3" en="Product collaboration" es="Colaboración de producto"/></div>
+          <T as="h4" en="Mobile, web & backend development" es="Desarrollo móvil, web y backend"/>
+          <T as="p" en="Alongside my professional experience, I contribute to a digital product across mobile, web and backend development. This work gives me a broader view of how the different parts of an application come together." es="Además de mi experiencia profesional, colaboro en un producto digital con desarrollo móvil, web y backend. Este trabajo me permite abordar cómo se conectan las distintas partes de una aplicación."/>
+        </article>
+      </div>
+    </section>
+    <section id="about" class="about"><div class="about-type" aria-hidden="true">{'{'}<br/>{'}'}</div><div><T as="h2" en="Curiosity is the common thread." es="La curiosidad es el hilo conductor."/><T as="p" en="I'm Luis, a software developer who enjoys taking an idea all the way to a working product. My projects range from native Apple apps to local AI tools and e-paper firmware." es="Soy Luis, desarrollador de software. Disfruto llevar una idea hasta convertirla en un producto funcional: apps nativas para Apple, herramientas locales de IA y firmware para e-paper."/><T as="p" class="education" en="Software Development Engineering, CETI · English B2" es="Ingeniería en Desarrollo de Software, CETI · Inglés B2"/><a href="mailto:luis.gil.dev15@gmail.com" class="contact-button"><T en="Start a conversation" es="Iniciar una conversación"/></a></div></section>
+    <SupportLinks/>
+    <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
+  </main>
+  <script>
+    document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+      document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed', String(b===button)));
+      let count = 0;
+      document.querySelectorAll<HTMLElement>('[data-category]').forEach(project=>{
+        project.hidden = filter !== 'all' && project.dataset.category !== filter;
+        if (!project.hidden) count++;
+      });
+      const status = document.querySelector('.filter-announcement');
+      if(status) status.textContent = document.documentElement.lang === 'es' ? count + ' proyectos visibles' : count + ' projects shown';
+    }));
+  </script>
+</Layout>
+<style>
+  .identity{position:fixed;inset:0 auto 0 0;width:248px;background:var(--sidebar);color:#fff;padding:45px 32px 26px;display:flex;flex-direction:column}
+  .name{font-size:72px;letter-spacing:-.04em;line-height:.91;font-weight:650;text-decoration:none;align-self:flex-start}.name-period{color:#ffbaa9}
+  .role{font-size:14px;line-height:1.7;color:var(--sidebar-text);max-width:165px;margin-top:25px}
+  .identity nav{margin-top:54px;display:grid;gap:10px}.identity nav a{display:flex;align-items:center;gap:14px;padding:12px 14px;margin:0 -14px;text-decoration:none;font-size:14px;border-radius:8px}.identity nav a:hover,.nav-work{background:var(--sidebar-hover)}
+  svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .identity-bottom{margin-top:auto;padding-top:40px}.email-link{display:flex;align-items:center;justify-content:space-between;text-decoration:none;font-size:17px;font-weight:550}.socials{display:flex;gap:20px;margin-top:24px;font-size:12px;color:var(--sidebar-text)}.socials a{text-decoration:none}.side-meta{display:flex;gap:12px;align-items:center;margin-top:35px;color:var(--sidebar-text);font-size:11px}.side-meta button{background:transparent;color:#fff;border:1px solid #5f9aa6;border-radius:7px;width:38px;height:34px;font-size:12px}
+  main{margin-left:248px;padding:42px clamp(28px,4.2vw,74px) 0;max-width:1680px}.intro{display:flex;justify-content:space-between;gap:20px;margin-bottom:46px}.intro h1{white-space:pre-line;font-size:clamp(36px,4.1vw,58px);font-weight:550;line-height:1.13}.intro p{max-width:450px;margin-top:22px;color:var(--muted);font-size:15px;line-height:1.65}.proposal-link{display:flex;align-items:center;align-self:flex-start;gap:8px;font-size:11px;text-decoration:none;white-space:nowrap;color:var(--muted);padding-top:6px}
+  .work-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:22px}.work-toolbar h2{font-size:17px;letter-spacing:-.02em}.filters{display:flex;gap:5px}.filters button{border:0;background:transparent;color:var(--muted);font-size:12px;padding:9px 12px;border-radius:7px}.filters button[aria-pressed=true]{background:var(--about);color:var(--accent)}.filters button:hover{background:var(--soft)}
+  .projects{display:grid;grid-template-columns:1fr 1fr;gap:24px}.project{border-radius:16px;overflow:hidden}.tavi-project{grid-column:1/-1;display:grid;grid-template-columns:34% 66%;background:var(--project-blue);min-height:320px}.tavi-copy{padding:32px 0 32px 30px;display:flex;flex-direction:column;align-items:flex-start}.app-icon{width:42px;height:42px;object-fit:contain;margin-bottom:14px}.tavi-copy h3{font-size:35px}.tavi-copy p{font-size:16px;max-width:200px;line-height:1.4;margin-top:12px}.project-stack{font-size:10px;color:var(--muted);margin-top:20px}.open-project{display:inline-flex;align-items:center;gap:16px;border-radius:8px;padding:11px 15px;background:#fff;text-decoration:none;font-size:12px;font-weight:600;margin-top:23px}.open-project{color:#193c43}.open-project:hover{background:var(--button);color:#fff}.tavi-art{align-self:center;margin:32px -55px 32px 24px}.tavi-art>img{border-radius:9px;box-shadow:0 14px 28px #23305825;width:100%;height:auto}.screenshot-caption{display:flex;justify-content:space-between;padding:0 65px 12px 0;color:var(--muted);font-size:10px}.screenshot-caption>span:first-child{font-weight:650}
+  .nextup-project,.umbral-project{padding:27px}.nextup-project{background:var(--coral)}.umbral-project{background:var(--sage)}.project-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.project-heading h3{font-size:27px}.project-status{font-size:10px;color:var(--muted)}.project-heading+p{font-size:14px;max-width:290px;margin-top:12px;line-height:1.6}.task-preview{background:#fff9f4;border-radius:12px;padding:20px;margin-top:32px;color:#4b352e;box-shadow:0 12px 25px #6b403414}.task-title{display:flex;justify-content:space-between;gap:12px;font-size:12px;font-weight:600;margin-bottom:14px}.task-title>span:last-child{font-size:9px;color:#895e50}.task-preview label{display:flex;align-items:center;gap:10px;padding:12px 0;font-size:12px;cursor:pointer}.task-preview input{accent-color:#9b463e;width:17px;height:17px;flex-shrink:0}.task-preview input:checked+span{text-decoration:line-through;color:#81645b}.umbral-project>.preview-note{color:var(--muted)}.preview-note{font-size:10px!important;color:#5c574c;margin-top:14px;display:block;text-align:center}
+  .epaper-preview{width:185px;background:#30352e;border-radius:16px;padding:12px;margin:26px auto 0;transform:rotate(-5deg);box-shadow:0 12px 20px #33382d22}.reader-display{background:#f5f5e9;color:#292d26;padding:12px 11px}.reader-display>span{font-size:10px;font-weight:700}.reader-display strong{display:block;font-size:36px;font-weight:500;letter-spacing:-.04em;margin:17px 0 3px}.reader-display p{font-size:8px}.reader-display>div{display:flex;justify-content:space-between;margin-top:25px;font-size:8px;border-top:1px solid #999f8f;padding-top:10px}.reader-controls{display:flex;gap:16px;justify-content:center;margin:10px auto 0}.reader-controls i{width:5px;height:5px;border:1px solid #c5cabe;border-radius:50%}
+  details{margin-top:22px;font-size:12px}summary{cursor:pointer;font-weight:550}details p{margin-top:14px;line-height:1.7}.compact-project{background:var(--project-neutral);padding:27px;display:flex;flex-direction:column}.compact-project h3{font-size:22px}.compact-project p{font-size:13px;line-height:1.75;margin-top:12px;color:var(--muted)}.compact-project details{margin-top:20px;color:var(--accent)}.filter-announcement{position:absolute;width:1px;height:1px;overflow:hidden}
+  .experience{display:grid;grid-template-columns:1fr 1.6fr;gap:50px;margin-top:110px;padding-bottom:95px;scroll-margin-top:30px}.experience h2{font-size:33px;white-space:pre-line}.experience>div>p{color:var(--muted);font-size:14px;line-height:1.75;max-width:270px;margin-top:20px}.experience-intro{align-self:start}.experience-contact{display:inline-flex;align-items:center;gap:12px;color:var(--accent);font-size:13px;line-height:1.6;margin-top:24px;text-underline-offset:5px}.experience-contact svg{flex-shrink:0}.jobs article+article{margin-top:36px;padding-top:32px;border-top:1px solid var(--line)}.job-heading{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 15px}.jobs h3{font-size:24px;line-height:1.25}.job-heading>span{font-size:11px;color:var(--muted);white-space:nowrap}.jobs h4{font-size:13px;line-height:1.6;margin:12px 0;font-weight:550;color:var(--accent)}.jobs p,.jobs li{font-size:14px;line-height:1.75;color:var(--muted)}.jobs ul{padding-left:18px;margin:16px 0}.jobs li+li{margin-top:9px}.jobs li::marker{color:var(--accent)}.jobs .job-stack{font-size:11px;line-height:1.8;color:var(--accent);margin-top:18px}
+  .about{display:grid;grid-template-columns:120px 1fr;gap:40px;background:var(--about);margin:0 -25px;padding:45px;border-radius:16px}.about-type{font-size:80px;color:var(--accent);font-weight:350;line-height:1}.about h2{font-size:32px;max-width:440px}.about p{font-size:14px;line-height:1.75;margin-top:20px;max-width:570px;color:var(--muted)}.about .education{font-size:11px}.contact-button{display:inline-block;background:var(--button);color:#fff;padding:12px 17px;border-radius:8px;text-decoration:none;font-size:12px;margin-top:25px}.contact-button:hover{background:var(--button-hover)}footer{display:flex;justify-content:space-between;gap:16px;font-size:11px;color:var(--muted);padding:45px 0}
+  @media(min-width:1680px){main{margin-right:auto}}
+  @media(max-width:1100px){.identity{width:210px;padding:32px 25px}.name{font-size:62px}main{margin-left:210px;padding-left:30px;padding-right:30px}.proposal-link{display:none}.project-heading{align-items:flex-start;flex-direction:column;gap:8px}.tavi-copy{padding-left:23px}.tavi-project{grid-template-columns:40% 60%}.task-title>span:last-child{display:none}.experience{gap:30px}.about{margin:0;padding:30px;grid-template-columns:60px 1fr;gap:25px}.about-type{font-size:60px}}
+  @media(max-width:720px){.identity{position:relative;width:auto;padding:19px 22px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px}.name{font-size:27px;line-height:1}.name br{display:none}.name-period{margin-left:2px}.role,.identity nav,.email-link,.socials,.side-meta>a{display:none}.identity-bottom{padding:0;margin:0}.side-meta{margin:0}.side-meta button{width:38px;height:36px}main{margin:0;padding:32px 20px 0}.intro{margin-bottom:32px}.intro h1{font-size:35px}.intro p{font-size:14px}.work-toolbar{display:block}.work-toolbar h2{margin-bottom:14px}.filters{margin-left:-10px}.projects{grid-template-columns:1fr;gap:18px}.tavi-project{grid-template-columns:1fr}.tavi-copy{padding:25px}.tavi-copy p{max-width:260px}.project-stack{margin-top:12px}.app-icon{float:left}.tavi-art{margin:0 -20px 25px 25px}.screenshot-caption{display:none}.nextup-project,.umbral-project{padding:25px}.project-heading{flex-direction:row;align-items:center}.experience{grid-template-columns:1fr;gap:32px;margin-top:65px;padding-bottom:60px}.experience h2{font-size:30px}.experience>div>p{max-width:none}.about{grid-template-columns:1fr;padding:25px}.about-type{display:none}.about h2{font-size:29px}footer{font-size:10px;flex-wrap:wrap}}
+  @media(max-width:720px){.identity nav{display:flex;grid-column:1/-1;grid-row:2;gap:8px;margin:3px 0 0}.identity nav a{font-size:11px;margin:0;padding:8px 10px;gap:7px}.identity nav svg{width:14px;height:14px}.identity-bottom{grid-column:2;grid-row:1}}
+
+  :global([data-theme=dark]) .task-preview{background:#302927;color:#f2e5df;box-shadow:none}
+  :global([data-theme=dark]) .task-title>span:last-child,:global([data-theme=dark]) .task-preview .preview-note,:global([data-theme=dark]) .task-preview input:checked+span{color:#cbb3a9}
+  :global([data-theme=dark]) .task-preview input{accent-color:#cf8c7d}
+</style>

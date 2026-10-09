@@ -17,21 +17,138 @@ const {
 } = Astro.props;
 ---
 
-<SiteLayout title={title} description={description}>
-  <header class="app-header">
-    <a class="app-identity" href={`/apps/${app.slug}/`}>
-      <strong>{app.name}</strong>
-      <span>{app.status}</span>
-    </a>
+<SiteLayout title={title} description={description} pageClass={app.slug === "tavi" ? "tavi-app-page" : undefined}>
+  {app.slug === "tavi" ? (
+    <header class="tavi-product-nav tavi-app-header">
+      <a href="/apps/tavi/" class="tavi-product-brand" aria-label="Tavi, inicio">
+        <img src="/images/tavi/tavi-mark.png" width="30" height="30" alt="" /> <span>Tavi</span>
+      </a>
+      <nav aria-label="Tavi navigation">
+        <a href="/apps/tavi/">The app</a>
+        <a href="/apps/tavi/privacy/" aria-current={activeSection === "privacy" ? "page" : undefined}>Privacy</a>
+        <a href="/apps/tavi/terms/" aria-current={activeSection === "terms" ? "page" : undefined}>Terms</a>
+        <a href="/apps/tavi/support/" aria-current={activeSection === "support" ? "page" : undefined}>Support</a>
+        <a href="/apps/tavi/#faq">FAQ</a>
+        <button type="button" class="tavi-language-toggle" data-language-toggle aria-pressed="false">ES</button>
+        <button type="button" class="tavi-nav-download tavi-download-trigger" data-es="Descargar">Download</button>
+      </nav>
+    </header>
+  ) : (
+    <header class="app-header">
+      <a class="app-identity" href={`/apps/${app.slug}/`}>
+        <strong>{app.name}</strong>
+        <span>{app.status}</span>
+      </a>
 
-    <nav class="app-nav" aria-label={`Secciones de ${app.name}`}>
-      {app.navigation.map((item) => (
-        <a href={item.path} aria-current={activeSection === item.id ? "page" : undefined}>
-          {item.label}
-        </a>
-      ))}
-    </nav>
-  </header>
+      <nav class="app-nav" aria-label={`Secciones de ${app.name}`}>
+        {app.navigation.map((item) => (
+          <a href={item.path} aria-current={activeSection === item.id ? "page" : undefined}>
+            {item.label}
+          </a>
+        ))}
+      </nav>
+    </header>
+  )}
 
   <slot />
 </SiteLayout>
+
+<dialog class="tavi-download-dialog" data-download-dialog>
+  <div>
+    <p class="tavi-section-label">Tavi / App Store</p>
+    <h2 data-es="Estamos terminando la revisión.">Review in progress.</h2>
+    <p data-es="La app está en proceso de revisión en App Store. Actualizaremos este enlace en cuanto esté disponible para descarga.">The app is currently being reviewed by the App Store. We will update this link as soon as it is available to download.</p>
+    <button type="button" class="tavi-dialog-close" data-download-close data-es="Entendido">Got it</button>
+  </div>
+</dialog>
+
+{app.slug === "tavi" && <script is:inline>
+  const languageKey = "tavi-language";
+  const setTaviLanguage = (language) => {
+    document.documentElement.lang = language;
+    document.querySelectorAll("[data-es], [data-es-html]").forEach((element) => {
+      if (!element.dataset.en) element.dataset.en = element.textContent || "";
+      if (!element.dataset.enHtml) element.dataset.enHtml = element.innerHTML;
+      if (language === "es" && element.dataset.esHtml) element.innerHTML = element.dataset.esHtml;
+      else if (language === "es") element.textContent = element.dataset.es;
+      else if (element.dataset.enHtml) element.innerHTML = element.dataset.enHtml;
+      else element.textContent = element.dataset.en;
+    });
+    document.querySelectorAll("[data-en-src][data-es-src]").forEach((image) => {
+      image.setAttribute("src", language === "es" ? image.dataset.esSrc : image.dataset.enSrc);
+      image.setAttribute("alt", language === "es" ? "Descargar en App Store" : "Download on the App Store");
+    });
+    document.querySelectorAll("[data-language-toggle]").forEach((button) => {
+      button.textContent = language === "es" ? "EN" : "ES";
+      button.setAttribute("aria-pressed", String(language === "es"));
+      button.setAttribute("aria-label", language === "es" ? "Switch to English" : "Cambiar a español");
+    });
+    const navLabels = language === "es"
+      ? ["La app", "Privacidad", "Términos", "Soporte", "Preguntas"]
+      : ["The app", "Privacy", "Terms", "Support", "FAQ"];
+    document.querySelectorAll(".tavi-product-nav nav a").forEach((link, index) => {
+      if (index < navLabels.length) link.textContent = navLabels[index];
+    });
+    const legalHeadings = {
+      "/privacy/": ["Privacidad", "Resumen", "Información que no recopilamos", "Almacenamiento local", "Solicitudes de red", "Servicios de terceros", "Menores", "Cambios a esta política", "Contacto"],
+      "/terms/": ["Términos de uso", "Licencia", "Uso permitido", "Restricciones", "Disponibilidad", "Sin garantía", "Responsabilidad", "Propiedad intelectual", "Contacto"],
+      "/support/": ["Soporte", "Antes de escribir", "Documentación legal"],
+      "/changelog/": ["Novedades", "Primera versión"],
+    };
+    const legalParagraphs = {
+      "/privacy/": [
+        "Tavi está diseñada para funcionar sin una cuenta del desarrollador. No incluye publicidad, analítica de terceros ni tecnologías de rastreo.",
+        "El desarrollador no recopila tus workspaces, carpetas, requests, respuestas, variables, certificados, credenciales, historial de llamadas ni archivos de importación. Tavi tampoco crea perfiles de uso ni vende información personal.",
+        "Los datos de trabajo se guardan localmente en tu dispositivo. Las variables secretas y credenciales literales se protegen mediante Keychain. Puedes activar voluntariamente la sincronización con tu cuenta privada de iCloud. La información que Apple sincroniza queda sujeta a las políticas de iCloud de Apple; Tavi no recibe una copia en sus propios servidores.",
+        "Tavi sólo envía solicitudes cuando tú las ejecutas y únicamente hacia los hosts que configuras. Los servicios de destino pueden aplicar sus propias políticas de privacidad y conservación de datos.",
+        "Tavi no integra servicios de publicidad ni proveedores de analítica. La descarga y las actualizaciones se gestionan mediante Apple y cualquier sincronización habilitada depende de iCloud.",
+        "Tavi no está dirigida a menores de 13 años y no recopilamos conscientemente información personal de menores.",
+        "Podemos actualizar esta política para reflejar cambios en Tavi o en sus requisitos legales. Publicaremos la fecha de vigencia más reciente en esta página.",
+      ],
+      "/terms/": [
+        "Se te concede una licencia limitada, no exclusiva, intransferible y revocable para usar Tavi en dispositivos Apple que controles, de acuerdo con estos términos y con el acuerdo de licencia estándar de Apple cuando corresponda.",
+        "Utiliza Tavi únicamente con servicios, credenciales y sistemas para los que tengas autorización. Eres responsable de las solicitudes que configures y ejecutes, así como de mantener seguras tus credenciales.",
+        "No debes usar Tavi para acceder sin autorización a sistemas, interrumpir servicios, infringir leyes o derechos de terceros, ni intentar evadir los controles de seguridad de la aplicación o de los servicios a los que te conectes.",
+        "El funcionamiento de las APIs y servicios externos depende de sus respectivos proveedores. Tavi no controla su disponibilidad, contenido ni políticas.",
+        "Tavi se proporciona según disponibilidad. En la medida permitida por la ley, no garantizamos que la aplicación sea ininterrumpida, esté libre de errores o sea compatible con todos los servicios externos.",
+        "Eres responsable de revisar las URLs, cuerpos, cabeceras y credenciales antes de enviar una solicitud. No somos responsables de pérdidas derivadas del uso de servicios externos o de solicitudes que hayas configurado.",
+        "Tavi, su nombre, diseño y software pertenecen a su desarrollador o a sus licenciantes. Estos términos no transfieren derechos de propiedad intelectual.",
+      ],
+      "/support/": [
+        "Si encontraste un error o necesitas ayuda, abre un reporte con los pasos para reproducirlo, la versión de Tavi y la versión de macOS o iPadOS que utilizas.",
+        "Incluye el modelo de tu dispositivo, la versión del sistema, la versión de Tavi, los pasos para reproducir el problema y cualquier mensaje de error. No compartas tokens, contraseñas, certificados ni otros secretos en un reporte.",
+        "Consulta la política de privacidad y los términos de uso para conocer cómo funciona Tavi.",
+      ],
+      "/changelog/": ["Tavi está en preparación para su publicación inicial en macOS y iPadOS. Las notas de cada versión aparecerán aquí."],
+    };
+    const section = Object.keys(legalHeadings).find((key) => window.location.pathname.endsWith(key));
+    if (section) {
+      const values = legalHeadings[section];
+      const heading = document.querySelector(".legal-copy h1");
+      if (heading) heading.textContent = language === "es" ? values[0] : heading.dataset.en || heading.textContent;
+      document.querySelectorAll(".legal-copy h2").forEach((element, index) => {
+        if (language === "es") element.textContent = values[index + 1];
+        else if (element.dataset.en) element.textContent = element.dataset.en;
+      });
+      const paragraphs = legalParagraphs[section] || [];
+      document.querySelectorAll(".legal-copy p:not(.eyebrow):not(.legal-meta)").forEach((element, index) => {
+        if (!element.dataset.enHtml) element.dataset.enHtml = element.innerHTML;
+        if (language === "es" && element.dataset.esHtml) element.innerHTML = element.dataset.esHtml;
+        else if (language === "es" && paragraphs[index]) element.textContent = paragraphs[index];
+        else if (language === "en" && element.dataset.enHtml) element.innerHTML = element.dataset.enHtml;
+      });
+    }
+  };
+  document.querySelectorAll(".legal-copy h1, .legal-copy h2").forEach((element) => { element.dataset.en = element.textContent || ""; });
+  document.querySelectorAll(".legal-copy p:not(.eyebrow):not(.legal-meta)").forEach((element) => { element.dataset.enHtml = element.innerHTML; });
+  const savedLanguage = localStorage.getItem(languageKey) === "es" ? "es" : "en";
+  setTaviLanguage(savedLanguage);
+  document.querySelectorAll("[data-language-toggle]").forEach((button) => button.addEventListener("click", () => {
+    const nextLanguage = document.documentElement.lang === "es" ? "en" : "es";
+    localStorage.setItem(languageKey, nextLanguage);
+    setTaviLanguage(nextLanguage);
+  }));
+  const downloadDialog = document.querySelector("[data-download-dialog]");
+  document.querySelectorAll(".tavi-download-trigger").forEach((button) => button.addEventListener("click", () => downloadDialog?.showModal()));
+  document.querySelector("[data-download-close]")?.addEventListener("click", () => downloadDialog?.close());
+</script>}

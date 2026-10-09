@@ -13,19 +13,19 @@ export const tavi = {
   platforms: ["macOS", "iPadOS", "SwiftUI"],
   features: [
     {
-      title: "Nativo",
+      title: "Native",
       description:
-        "Interfaz SwiftUI adaptada a macOS y iPadOS, con navegación y atajos propios de cada plataforma.",
+        "A SwiftUI interface adapted to macOS and iPadOS, with navigation and shortcuts for each platform.",
     },
     {
-      title: "Organizado",
+      title: "Organized",
       description:
-        "Workspaces, carpetas, ambientes, variables e historial para mantener cada API en contexto.",
+        "Workspaces, folders, environments, variables, and history to keep every API in context.",
     },
     {
-      title: "Privado",
+      title: "Private",
       description:
-        "Sin cuentas ni analítica. Los secretos permanecen en Keychain y la sincronización con iCloud es opcional.",
+        "No accounts or analytics. Secrets stay in Keychain and iCloud sync is optional.",
     },
   ],
   navigation: [

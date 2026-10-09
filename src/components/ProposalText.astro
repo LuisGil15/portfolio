@@ -1,0 +1,6 @@
+---
+const { en, es, as: Tag = 'span', ...rest } = Astro.props;
+const english = en.replaceAll('&#10;', '\n');
+const spanish = es.replaceAll('&#10;', '\n');
+---
+<Tag data-en={english} data-es={spanish} {...rest}>{Astro.url.pathname.startsWith('/es/') ? spanish : english}</Tag>

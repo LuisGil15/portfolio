@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/ProposalLayout.astro';
+---
+<Layout title="Nuevas propuestas — Luis Gil y Tavi" description="Dos nuevas direcciones para el portafolio de Luis Gil y Tavi." theme="index">
+  <main id="content">
+    <a class="back" href="/">Volver al sitio actual</a>
+    <h1>Dos páginas.<br/>Dos personalidades.</h1>
+    <p class="intro">Propuestas independientes para explorar un nuevo diseño. Puedes cambiar entre inglés y español dentro de cada página.</p>
+    <div class="choices">
+      <a class="portfolio-choice" href="/proposals/portfolio/"><div class="preview"><span class="mini-name">Luis<br/>Gil.</span><div><span class="mini-title">Built by me.<br/>Made to be used.</span><div class="mini-project"><img src="/images/tavi/tavi-mark.png" alt="" width="32" height="32"/><span>Tavi</span></div></div></div><div class="label"><h2>Portafolio</h2><span>Abrir propuesta</span></div><p>Una galería de productos con identidad morada, navegación lateral y proyectos que puedes explorar.</p></a>
+      <a class="tavi-choice" href="/proposals/tavi/"><div class="preview"><div class="mini-brand"><img src="/images/tavi/tavi-mark.png" alt="" width="30" height="30"/>Tavi</div><span class="mini-title">An API client.<br/>A little more human.</span><div class="mini-request"><b>GET</b><code>/profile</code><span>Send request</span></div></div><div class="label"><h2>Tavi</h2><span>Abrir propuesta</span></div><p>Una página azul y blanca que comienza con una solicitud interactiva, seguida de la app real.</p></a>
+    </div>
+  </main>
+</Layout>
+<style>
+ main{max-width:1080px;margin:0 auto;padding:50px 30px 90px}.back{font-size:14px;color:#53667f}h1{font-size:clamp(38px,6vw,64px);margin:55px 0 22px;font-weight:650}.intro{max-width:610px;font-size:18px;color:#53667f;line-height:1.65}.choices{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:45px}.choices>a{text-decoration:none}.preview{height:280px;border-radius:14px;overflow:hidden}.portfolio-choice .preview{display:grid;grid-template-columns:120px 1fr;background:#f0eafa}.mini-name{background:#513497;color:white;padding:25px 20px;font-family:Sora,sans-serif;font-size:45px;line-height:1;letter-spacing:-.04em}.portfolio-choice .preview>div{padding:35px 24px}.mini-title{font-size:28px;line-height:1.15;font-weight:600;letter-spacing:-.03em}.mini-project{display:flex;align-items:center;gap:16px;background:#dde6ff;margin-top:30px;padding:23px;border-radius:10px}.tavi-choice .preview{background:#1759d0;color:white;padding:25px 30px}.mini-brand{display:flex;align-items:center;gap:7px;margin-bottom:18px;font-size:21px;font-weight:700}.mini-request{display:flex;align-items:center;gap:16px;background:white;color:#202e42;padding:15px;border-radius:8px;margin-top:20px;font-size:11px}.mini-request b{color:#17623e}.mini-request>span{margin-left:auto;color:#1759d0}.label{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:15px}.label h2{font-size:27px}.label>span{font-size:13px;color:#1759d0}.choices p{font-size:15px;line-height:1.6;color:#53667f;margin-top:12px}.choices>a:hover .label>span{text-decoration:underline}@media(max-width:700px){.choices{grid-template-columns:1fr}main{padding:30px 20px}h1{margin-top:35px}.preview{height:270px}.mini-title{font-size:24px}.portfolio-choice .preview{grid-template-columns:100px 1fr}.mini-name{font-size:37px}}
+</style>
