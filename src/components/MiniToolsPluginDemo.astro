@@ -1,0 +1,296 @@
+---
+import T from './ProposalText.astro';
+import Icon from './MiniToolsIcon.astro';
+
+const demos = [
+  { id: 'launchpad', name: 'Launchpad', icon: 'grid' },
+  { id: 'caffeine', name: 'Caffeine', icon: 'coffee' },
+  { id: 'ports', name: 'Ports', icon: 'network' },
+  { id: 'screenshots', name: 'Screenshot Board', icon: 'captures' },
+  { id: 'terminal', name: 'Mini Terminal', icon: 'terminal' },
+  { id: 'agent', name: 'Agent Pulse', icon: 'pulse' },
+];
+---
+
+<section class="plugin-lab" aria-labelledby="plugin-lab-title" data-plugin-demo>
+  <div class="plugin-lab-inner">
+    <div class="plugin-lab-copy">
+      <h2 id="plugin-lab-title"><T en="See what each tool adds." es="Mira lo que aporta cada herramienta."/></h2>
+      <T as="p" en="Choose an extension and try one representative interaction inside the island." es="Elige una extensión y prueba una interacción representativa dentro de la isla."/>
+      <div class="demo-tabs" role="tablist" aria-label="Plugin previews" data-en-label="Plugin previews" data-es-label="Demos de plugins">
+        {demos.map((demo, index) => (
+          <button
+            type="button"
+            role="tab"
+            id={`plugin-demo-tab-${demo.id}`}
+            aria-controls={`plugin-demo-panel-${demo.id}`}
+            aria-selected={index === 0 ? 'true' : 'false'}
+            tabindex={index === 0 ? '0' : '-1'}
+            data-demo-tab={demo.id}
+          >
+            <span class="demo-tab-icon"><Icon name={demo.icon}/></span>
+            <span>{demo.name}</span>
+          </button>
+        ))}
+      </div>
+      <p class="demo-disclosure"><T en="Interactive previews with sample data. They do not access your Mac." es="Demos interactivas con datos de ejemplo. No acceden a tu Mac."/></p>
+    </div>
+
+    <div class="plugin-stage">
+      <div class="stage-bezel" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="stage-island">
+        <div class="stage-island-cap" aria-hidden="true"></div>
+        <div class="stage-toolbar">
+          <div class="stage-brand"><span class="status-dot"></span><span>MiniTools</span></div>
+          <T as="span" class="sample-badge" en="Sample data" es="Datos de ejemplo"/>
+        </div>
+
+        <div class="demo-panel" role="tabpanel" id="plugin-demo-panel-launchpad" aria-labelledby="plugin-demo-tab-launchpad" data-plugin-panel="launchpad">
+          <header class="native-header"><div><h3>Launchpad</h3><T as="p" en="Your favorite applications" es="Tus aplicaciones favoritas"/></div><button class="native-action quiet" type="button" data-demo-action="launchpad" data-idle-en="Reorder apps" data-idle-es="Reordenar apps" data-active-en="Finish editing" data-active-es="Terminar edición" aria-pressed="false"><span data-action-copy>Reorder apps</span></button></header>
+          <div class="launchpad-grid">
+            <div class="app-tile app-tavi"><span class="app-symbol">T</span><span>Tavi</span></div>
+            <div class="app-tile app-mini"><span class="app-symbol">M</span><span>MiniTools</span></div>
+            <div class="app-tile app-code"><span class="app-symbol">&lt;/&gt;</span><span>Code</span></div>
+            <div class="app-tile app-files"><span class="app-symbol"><Icon name="captures"/></span><span>Files</span></div>
+            <div class="app-tile app-safari"><span class="app-symbol">S</span><span>Safari</span></div>
+            <div class="app-tile app-xcode"><span class="app-symbol">X</span><span>Xcode</span></div>
+            <div class="app-tile app-notes"><span class="app-symbol">N</span><span>Notes</span></div>
+            <div class="app-tile app-calendar"><span class="app-symbol">9</span><span>Calendar</span></div>
+          </div>
+        </div>
+
+        <div class="demo-panel" role="tabpanel" id="plugin-demo-panel-caffeine" aria-labelledby="plugin-demo-tab-caffeine" data-plugin-panel="caffeine" hidden>
+          <header class="native-header"><div><h3>Caffeine</h3><T as="p" en="Prevent your Mac from sleeping" es="Evita que el Mac entre en reposo"/></div><span class="caffeine-cup"><Icon name="coffee"/></span></header>
+          <div class="segment-control" aria-hidden="true"><span class="selected"><T en="Everything" es="Todo"/></span><span><T en="Display" es="Pantalla"/></span><span><T en="System" es="Sistema"/></span></div>
+          <T as="p" class="native-description" en="Keep the system and display active until you turn Caffeine off." es="Mantén el sistema y la pantalla activos hasta que apagues Caffeine."/>
+          <button class="native-action prominent" type="button" data-demo-action="caffeine" data-idle-en="Keep awake" data-idle-es="Mantener despierto" data-active-en="Allow sleep" data-active-es="Permitir reposo" aria-pressed="false"><Icon name="coffee"/><span data-action-copy>Keep awake</span></button>
+        </div>
+
+        <div class="demo-panel" role="tabpanel" id="plugin-demo-panel-ports" aria-labelledby="plugin-demo-tab-ports" data-plugin-panel="ports" hidden>
+          <header class="native-header"><div><h3><T en="TCP Ports" es="Puertos TCP"/></h3><T as="p" en="Listening processes on this Mac" es="Procesos en escucha en este Mac"/></div><span class="header-icon"><Icon name="reset"/></span></header>
+          <div class="search-field"><Icon name="search"/><T en="Filter by process, port or user" es="Filtrar por proceso, puerto o usuario"/></div>
+          <div class="port-list">
+            <div class="port-row target-port"><span class="port-light"></span><div><strong>astro</strong><small>PID 4322 · local</small></div><code>127.0.0.1:4322</code></div>
+            <div class="port-row"><span class="port-light"></span><div><strong>node</strong><small>PID 5174 · local</small></div><code>*:5174</code></div>
+          </div>
+          <button class="native-action quiet inline-action" type="button" data-demo-action="ports" data-idle-en="Stop sample process" data-idle-es="Detener proceso de ejemplo" data-active-en="Restore sample" data-active-es="Restaurar ejemplo" aria-pressed="false"><span data-action-copy>Stop sample process</span></button>
+        </div>
+
+        <div class="demo-panel" role="tabpanel" id="plugin-demo-panel-screenshots" aria-labelledby="plugin-demo-tab-screenshots" data-plugin-panel="screenshots" hidden>
+          <header class="native-header"><div><h3>Screenshot Board</h3><T as="p" en="Recent captures, ready to drag" es="Capturas recientes, listas para arrastrar"/></div><button class="native-action quiet" type="button" data-demo-action="screenshots" data-idle-en="Add sample capture" data-idle-es="Agregar captura" data-active-en="Remove sample" data-active-es="Quitar captura" aria-pressed="false"><Icon name="plus"/><span data-action-copy>Add sample capture</span></button></header>
+          <div class="capture-grid">
+            <div class="capture-card wave-shot"><span>MiniTools.png</span></div>
+            <div class="capture-card code-shot"><span>Tavi request.png</span></div>
+            <div class="capture-card new-shot"><span>Plugin Store.png</span></div>
+          </div>
+        </div>
+
+        <div class="demo-panel" role="tabpanel" id="plugin-demo-panel-terminal" aria-labelledby="plugin-demo-tab-terminal" data-plugin-panel="terminal" hidden>
+          <header class="native-header"><div><h3>Mini Terminal</h3><T as="p" en="zsh · interactive login session" es="zsh · sesión login interactiva"/></div><span class="running-badge"><span></span><T en="Active" es="Activa"/></span></header>
+          <div class="terminal-surface" aria-label="Sample terminal output"><code><span class="prompt">~ %</span> pwd</code><code class="terminal-output">~/Developer/MiniTools</code><code><span class="prompt">~ %</span><span class="caret"></span></code></div>
+          <button class="native-action quiet inline-action" type="button" data-demo-action="terminal" data-idle-en="Run pwd" data-idle-es="Ejecutar pwd" data-active-en="Clear output" data-active-es="Limpiar salida" aria-pressed="false"><span data-action-copy>Run pwd</span></button>
+        </div>
+
+        <div class="demo-panel" role="tabpanel" id="plugin-demo-panel-agent" aria-labelledby="plugin-demo-tab-agent" data-plugin-panel="agent" hidden>
+          <header class="native-header"><div><h3>Agent Pulse</h3><T as="p" en="Local assistant activity" es="Actividad local de asistentes"/></div><span class="listening"><span></span><T en="Listening" es="Escuchando"/></span></header>
+          <div class="agent-summary"><div><T as="small" en="Activity" es="Actividad"/><strong class="agent-count"><span class="agent-running-copy"><T en="1 active" es="1 activa"/></span><span class="agent-done-copy"><T en="Completed" es="Completada"/></span></strong><T as="span" en="Building plugin previews" es="Creando demos de plugins"/></div><div><T as="small" en="Usage remaining" es="Uso restante"/><strong>Codex</strong><span class="usage-bar"><i></i></span></div></div>
+          <div class="agent-row"><span class="agent-state"><Icon name="pulse"/></span><div><strong><T en="Update MiniTools website" es="Actualizar página de MiniTools"/></strong><span class="agent-phase"><span class="agent-running-copy"><T en="Working · validating interface" es="Trabajando · validando interfaz"/></span><span class="agent-done-copy"><T en="Done · just now" es="Lista · ahora"/></span></span></div><span class="agent-spinner"></span></div>
+          <button class="native-action quiet inline-action" type="button" data-demo-action="agent" data-idle-en="Complete sample task" data-idle-es="Completar tarea" data-active-en="Restart sample" data-active-es="Reiniciar ejemplo" aria-pressed="false"><span data-action-copy>Complete sample task</span></button>
+        </div>
+      </div>
+      <p class="stage-status" role="status" aria-live="polite" data-demo-status><T en="Launchpad preview selected." es="Demo de Launchpad seleccionada."/></p>
+    </div>
+  </div>
+</section>
+
+<script>
+  const pluginDemo = document.querySelector<HTMLElement>('[data-plugin-demo]');
+  if (pluginDemo) {
+    const tabs = Array.from(pluginDemo.querySelectorAll<HTMLButtonElement>('[data-demo-tab]'));
+    const panels = Array.from(pluginDemo.querySelectorAll<HTMLElement>('[data-plugin-panel]'));
+    const status = pluginDemo.querySelector<HTMLElement>('[data-demo-status]');
+    const spanish = () => document.documentElement.lang === 'es';
+    const names: Record<string, string> = {
+      launchpad: 'Launchpad', caffeine: 'Caffeine', ports: 'Ports', screenshots: 'Screenshot Board', terminal: 'Mini Terminal', agent: 'Agent Pulse'
+    };
+    const messages: Record<string, { en: string; es: string }> = {
+      launchpad: { en: 'Editing mode toggled. Drag handles are visible.', es: 'Modo de edición activado. Los controles para reordenar están visibles.' },
+      caffeine: { en: 'Caffeine is keeping the sample Mac awake.', es: 'Caffeine mantiene despierta la Mac de ejemplo.' },
+      ports: { en: 'The sample process was stopped.', es: 'El proceso de ejemplo se detuvo.' },
+      screenshots: { en: 'A sample capture was added to the board.', es: 'Se agregó una captura de ejemplo al tablero.' },
+      terminal: { en: 'The sample command returned the MiniTools folder.', es: 'El comando de ejemplo mostró la carpeta de MiniTools.' },
+      agent: { en: 'The sample task finished successfully.', es: 'La tarea de ejemplo terminó correctamente.' },
+    };
+
+    const localizeAction = (button: HTMLButtonElement) => {
+      const active = button.getAttribute('aria-pressed') === 'true';
+      const prefix = active ? 'active' : 'idle';
+      const label = button.dataset[`${prefix}${spanish() ? 'Es' : 'En'}` as keyof DOMStringMap] || '';
+      const copy = button.querySelector<HTMLElement>('[data-action-copy]');
+      if (copy) copy.textContent = label;
+    };
+
+    const selectDemo = (id: string, shouldFocus = false) => {
+      tabs.forEach((tab) => {
+        const selected = tab.dataset.demoTab === id;
+        tab.setAttribute('aria-selected', String(selected));
+        tab.tabIndex = selected ? 0 : -1;
+        if (selected && shouldFocus) tab.focus();
+      });
+      panels.forEach((panel) => { panel.hidden = panel.dataset.pluginPanel !== id; });
+      if (status) status.textContent = spanish() ? `Demo de ${names[id]} seleccionada.` : `${names[id]} preview selected.`;
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => selectDemo(tab.dataset.demoTab || 'launchpad'));
+      tab.addEventListener('keydown', (event) => {
+        if (!['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Home', 'End'].includes(event.key)) return;
+        event.preventDefault();
+        let next = index;
+        if (event.key === 'Home') next = 0;
+        else if (event.key === 'End') next = tabs.length - 1;
+        else next = (index + (event.key === 'ArrowLeft' || event.key === 'ArrowUp' ? -1 : 1) + tabs.length) % tabs.length;
+        selectDemo(tabs[next].dataset.demoTab || 'launchpad', true);
+      });
+    });
+
+    pluginDemo.querySelectorAll<HTMLButtonElement>('[data-demo-action]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const id = button.dataset.demoAction || '';
+        const panel = pluginDemo.querySelector<HTMLElement>(`[data-plugin-panel="${id}"]`);
+        const active = button.getAttribute('aria-pressed') !== 'true';
+        button.setAttribute('aria-pressed', String(active));
+        panel?.classList.toggle('is-active', active);
+        localizeAction(button);
+        if (status) status.textContent = active ? messages[id][spanish() ? 'es' : 'en'] : (spanish() ? `Demo de ${names[id]} restablecida.` : `${names[id]} preview reset.`);
+      });
+      localizeAction(button);
+    });
+
+    const localize = () => {
+      const tablist = pluginDemo.querySelector<HTMLElement>('[role="tablist"]');
+      if (tablist) tablist.setAttribute('aria-label', spanish() ? tablist.dataset.esLabel || '' : tablist.dataset.enLabel || '');
+      pluginDemo.querySelectorAll<HTMLButtonElement>('[data-demo-action]').forEach(localizeAction);
+      const selected = tabs.find((tab) => tab.getAttribute('aria-selected') === 'true');
+      if (selected) selectDemo(selected.dataset.demoTab || 'launchpad');
+    };
+    document.addEventListener('proposal-language', localize);
+    localize();
+  }
+</script>
+
+<style>
+  .plugin-lab { background:var(--soft); padding:82px 0; }
+  .plugin-lab-inner { max-width:1240px; margin:0 auto; padding:0 40px; display:grid; grid-template-columns:minmax(240px,300px) minmax(0,1fr); gap:58px; align-items:start; }
+  .plugin-lab-copy { position:sticky; top:28px; }
+  .plugin-lab h2 { font-size:clamp(30px,3.1vw,43px); line-height:1.09; font-weight:600; letter-spacing:-.03em; max-width:10ch; }
+  .plugin-lab-copy>p { font-size:15px; line-height:1.65; color:var(--muted); margin-top:18px; max-width:34ch; }
+  .demo-tabs { display:grid; gap:5px; margin-top:28px; }
+  .demo-tabs button { display:grid; grid-template-columns:34px 1fr; align-items:center; gap:11px; width:100%; padding:8px 10px; border:0; border-radius:10px; background:transparent; color:var(--muted); font:inherit; font-size:14px; font-weight:550; text-align:left; cursor:pointer; }
+  .demo-tabs button:hover { background:var(--surface); color:var(--ink); }
+  .demo-tabs button[aria-selected=true] { background:var(--surface); color:var(--ink); }
+  .demo-tab-icon { display:grid; place-items:center; width:34px; height:34px; border-radius:9px; background:var(--tint); color:var(--accent); }
+  .demo-tab-icon :global(svg) { width:17px; height:17px; }
+  .demo-disclosure { font-size:12px!important; line-height:1.55!important; margin-top:22px!important; }
+  .plugin-stage { min-width:0; }
+  .stage-bezel { height:25px; background:#05070a; border-radius:16px 16px 0 0; display:flex; align-items:center; gap:6px; padding:0 13px; }
+  .stage-bezel span { width:6px; height:6px; border-radius:50%; background:#24303c; }
+  .stage-bezel span:first-child { background:#e99381; }
+  .stage-bezel span:nth-child(2) { background:#d3a65b; }
+  .stage-bezel span:nth-child(3) { background:#49a99d; }
+  .stage-island { position:relative; min-height:456px; background:#030405; color:#f5f7fa; border-radius:0 0 24px 24px; padding:37px 26px 26px; box-shadow:0 20px 44px rgba(2,10,16,.24); overflow:hidden; }
+  .stage-island-cap { position:absolute; top:0; left:50%; width:31%; height:24px; transform:translateX(-50%); background:#05070a; border-radius:0 0 12px 12px; }
+  .stage-island-cap:before,.stage-island-cap:after { content:''; position:absolute; top:0; width:13px; height:13px; background:transparent; }
+  .stage-island-cap:before { left:-13px; border-radius:0 13px 0 0; box-shadow:6px -6px 0 5px #05070a; }
+  .stage-island-cap:after { right:-13px; border-radius:13px 0 0; box-shadow:-6px -6px 0 5px #05070a; }
+  .stage-toolbar { display:flex; align-items:center; justify-content:space-between; gap:16px; padding-bottom:14px; border-bottom:1px solid #23272d; }
+  .stage-brand { display:flex; align-items:center; gap:8px; font-size:12px; font-weight:650; }
+  .status-dot { width:8px; height:8px; border-radius:50%; background:#49a99d; box-shadow:0 0 0 4px rgba(73,169,157,.12); }
+  .sample-badge { font-size:10px; color:#aeb5bf; background:#15191e; padding:5px 8px; border-radius:6px; }
+  .demo-panel { padding-top:19px; animation:demo-in .22s cubic-bezier(.22,1,.36,1); }
+  .demo-panel[hidden] { display:none; }
+  .native-header { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; }
+  .native-header>div { min-width:0; }
+  .native-header h3 { font:650 17px/1.2 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; letter-spacing:-.01em; }
+  .native-header p { font:12px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; color:#8f98a4; margin-top:3px; }
+  .native-action { display:inline-flex; align-items:center; justify-content:center; gap:7px; border:0; border-radius:8px; color:#edf1f6; font:600 12px/1 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; min-height:32px; padding:8px 11px; cursor:pointer; }
+  .native-action :global(svg) { width:14px; height:14px; }
+  .native-action.quiet { background:#1b2027; }
+  .native-action.quiet:hover { background:#252b33; }
+  .native-action.prominent { width:100%; background:#d57d68; color:#160b08; margin-top:18px; min-height:38px; }
+  .native-action.prominent:hover { background:#e99381; }
+  .launchpad-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:25px; }
+  .app-tile { display:flex; flex-direction:column; align-items:center; gap:7px; padding:12px 5px 9px; border-radius:11px; background:#0c0f13; font:500 11px/1.2 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; transition:transform .22s cubic-bezier(.22,1,.36,1),background .18s; }
+  .app-symbol { display:grid; place-items:center; width:48px; height:48px; border-radius:12px; background:#162b35; color:#7dd7df; font-size:18px; font-weight:700; }
+  .app-symbol :global(svg) { width:21px; }
+  .app-mini .app-symbol { background:#e5ede8; color:#16333a; }
+  .app-code .app-symbol { background:#172231; color:#7dacfc; font-size:12px; }
+  .app-files .app-symbol { background:#32384a; color:#c4d6f9; }
+  .app-safari .app-symbol { background:#103451; color:#76c8f4; }
+  .app-xcode .app-symbol { background:#1f3550; color:#8dbef5; }
+  .app-notes .app-symbol { background:#50451e; color:#f3d85e; }
+  .app-calendar .app-symbol { background:#54272b; color:#ff8b8b; }
+  .demo-panel.is-active .app-tile { background:#161b21; }
+  .demo-panel.is-active .app-tavi { transform:translateX(calc(100% + 10px)); }
+  .demo-panel.is-active .app-mini { transform:translateX(calc(-100% - 10px)); }
+  .segment-control { display:grid; grid-template-columns:repeat(3,1fr); gap:3px; background:#15191e; border-radius:8px; padding:3px; margin-top:23px; font:600 11px/1 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; color:#8f98a4; }
+  .segment-control span { padding:8px 6px; text-align:center; border-radius:6px; }
+  .segment-control .selected { background:#303741; color:#f5f7fa; }
+  .native-description { color:#9ca4ae; font:13px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; margin-top:16px; }
+  .caffeine-cup,.header-icon { color:#98a1ad; }
+  .caffeine-cup :global(svg),.header-icon :global(svg) { width:22px; }
+  .demo-panel.is-active .caffeine-cup { color:#e99381; }
+  .search-field { display:flex; align-items:center; gap:8px; background:#14181d; color:#7f8995; border-radius:9px; padding:9px 10px; margin-top:17px; font:12px/1.2 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; }
+  .search-field :global(svg) { width:14px; }
+  .port-list { display:grid; gap:7px; margin-top:12px; }
+  .port-row { display:grid; grid-template-columns:8px minmax(90px,1fr) auto; align-items:center; gap:9px; padding:9px 10px; border-radius:9px; background:#11151a; font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; }
+  .port-row strong,.port-row small { display:block; }
+  .port-row strong { font-size:12px; }
+  .port-row small { font-size:10px; color:#818a96; margin-top:2px; }
+  .port-row code { font:11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace; color:#d9dee5; }
+  .port-light { width:6px; height:6px; border-radius:50%; background:#58b89d; }
+  .target-port { transition:opacity .18s,transform .18s; }
+  .demo-panel.is-active .target-port { opacity:.28; text-decoration:line-through; transform:scale(.985); }
+  .inline-action { margin-top:14px; }
+  .capture-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:23px; }
+  .capture-card { position:relative; aspect-ratio:1.45; border-radius:9px; background:#122b3a; overflow:hidden; border:1px solid #252c33; display:flex; align-items:flex-end; }
+  .capture-card:before { content:''; position:absolute; inset:0; background:linear-gradient(145deg,transparent 15%,#167186 45%,transparent 46%),linear-gradient(25deg,transparent 48%,#e99381 50%,transparent 72%); opacity:.75; }
+  .code-shot:before { background:linear-gradient(90deg,#19202a 31%,#0a0d11 31% 34%,#111720 34%); }
+  .capture-card span { position:relative; z-index:1; width:100%; padding:7px; background:rgba(2,5,8,.82); font:500 9px/1.2 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .new-shot { display:none; background:#26334a; }
+  .demo-panel.is-active .new-shot { display:flex; animation:demo-in .22s cubic-bezier(.22,1,.36,1); }
+  .terminal-surface { min-height:155px; background:#000; border:1px solid #20242a; border-radius:8px; padding:13px; margin-top:17px; display:flex; flex-direction:column; gap:7px; color:#e4e8ed; }
+  .terminal-surface code { font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .prompt { color:#63c3b5; margin-right:8px; }
+  .terminal-output { display:none; color:#aab4c0; }
+  .demo-panel.is-active .terminal-output { display:block; }
+  .caret { display:inline-block; width:7px; height:13px; background:#e99381; margin-left:7px; vertical-align:-2px; }
+  .running-badge,.listening { display:flex; align-items:center; gap:6px; flex-shrink:0; color:#63c3b5; font:600 10px/1 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; }
+  .running-badge>span:first-child,.listening>span:first-child { width:6px; height:6px; border-radius:50%; background:#63c3b5; }
+  .agent-summary { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:18px; }
+  .agent-summary>div { display:flex; flex-direction:column; gap:5px; padding:11px; border-radius:9px; background:#11151a; }
+  .agent-summary small { font-size:10px; color:#89939f; }
+  .agent-summary strong { font:650 15px/1.2 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; }
+  .agent-summary span { font-size:10px; color:#89939f; }
+  .usage-bar { height:4px!important; border-radius:4px; background:#29313a; overflow:hidden; margin-top:5px; }
+  .usage-bar i { display:block; width:72%; height:100%; background:#62a8fa; }
+  .agent-row { display:grid; grid-template-columns:30px 1fr 18px; align-items:center; gap:10px; margin-top:9px; padding:9px 10px; border-radius:9px; background:#14181d; font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif; }
+  .agent-state { display:grid; place-items:center; width:30px; height:30px; border-radius:50%; background:#142c34; color:#6ed3c4; }
+  .agent-state :global(svg) { width:15px; }
+  .agent-row strong,.agent-row>div>span { display:block; }
+  .agent-row strong { font-size:12px; }
+  .agent-phase { font-size:10px; color:#8c96a2; margin-top:3px; }
+  .agent-done-copy { display:none!important; }
+  .agent-spinner { width:13px; height:13px; border:2px solid #33414d; border-top-color:#6ed3c4; border-radius:50%; animation:spin 1s linear infinite; }
+  .demo-panel.is-active .agent-spinner { border:0; background:#58b89d; animation:none; position:relative; }
+  .demo-panel.is-active .agent-spinner:after { content:''; position:absolute; left:4px; top:2px; width:4px; height:7px; border:solid #07110e; border-width:0 2px 2px 0; transform:rotate(45deg); }
+  .demo-panel.is-active .agent-running-copy { display:none!important; }
+  .demo-panel.is-active .agent-done-copy { display:inline!important; }
+  .stage-status { font-size:11px; color:var(--muted); line-height:1.5; margin:12px 4px 0; min-height:17px; }
+  @keyframes demo-in { from { opacity:.45; transform:translateY(6px); } to { opacity:1; transform:none; } }
+  @keyframes spin { to { transform:rotate(360deg); } }
+  @media(max-width:1000px){.plugin-lab-inner{padding:0 28px;grid-template-columns:230px minmax(0,1fr);gap:30px}.stage-island{padding-left:20px;padding-right:20px}.launchpad-grid{gap:7px}.demo-tabs button{font-size:13px}}
+  @media(max-width:760px){.plugin-lab{padding:58px 0}.plugin-lab-inner{padding:0 22px;grid-template-columns:1fr;gap:30px}.plugin-lab-copy{position:static}.plugin-lab h2{max-width:13ch;font-size:33px}.plugin-lab-copy>p{max-width:50ch}.demo-tabs{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.demo-disclosure{margin-top:16px!important}.stage-island{min-height:430px;padding:35px 16px 20px}.launchpad-grid{grid-template-columns:repeat(2,1fr)}.demo-panel.is-active .app-tavi{transform:translateX(calc(100% + 7px))}.demo-panel.is-active .app-mini{transform:translateX(calc(-100% - 7px))}.capture-grid{grid-template-columns:repeat(2,1fr)}.new-shot{grid-column:1}.native-header{align-items:center}.native-header h3{font-size:15px}.native-header p{font-size:11px}.native-action{font-size:11px}.agent-summary{grid-template-columns:1fr}.stage-island-cap{width:42%}}
+  @media(max-width:420px){.demo-tabs button{grid-template-columns:30px 1fr;padding:7px;font-size:12px}.demo-tab-icon{width:30px;height:30px}.plugin-stage{margin-left:-4px;margin-right:-4px}.port-row{grid-template-columns:7px minmax(78px,1fr)}.port-row code{grid-column:2;margin-top:2px}.stage-bezel{border-radius:13px 13px 0 0}.stage-island{border-radius:0 0 18px 18px}.capture-grid{grid-template-columns:1fr 1fr}.app-symbol{width:43px;height:43px}.native-action.quiet{padding-left:9px;padding-right:9px}}
+  @media(prefers-reduced-motion:reduce){.demo-panel,.app-tile,.target-port,.new-shot,.agent-spinner{animation:none!important;transition:none!important}}
+</style>
