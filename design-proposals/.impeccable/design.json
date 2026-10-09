@@ -1,8 +1,16 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-09T01:28:25.531Z",
+  "generatedAt": "2026-10-09T03:34:31.000Z",
   "title": "Design System: Luis Gil and Tavi — adopted design system",
   "extensions": {
+    "minitools": {
+      "scope": "Local /apps/minitools/ surface and portfolio/app-registry integration; retains Figtree and shared theme behavior with a petroleum/coral wave identity. No publication.",
+      "sourceFiles": ["src/pages/apps/minitools/index.astro", "src/components/MiniToolsPage.astro", "src/components/MiniToolsIsland.astro", "src/components/MiniToolsNotch.astro", "src/components/MiniToolsIcon.astro", "src/data/apps/minitools.ts", "src/layouts/ProposalLayout.astro"],
+      "theme": "EN/ES and dark initial default unchanged; explicit saved light/dark choices override it through independent site-theme:minitools preference. Shared semantic page tokens; fixed black island. Tidal wallpaper uses #091d29 base, #146b79 teal and #e99381 coral highlight; selected/hovered activity rail uses #164653f2/#1b5060f2.",
+      "provenance": "Real red app icon at public/images/minitools/app-icon.png is unchanged. Current public/images/minitools/tidal-wallpaper.png preserves the wave composition in petroleum/coral colors across the stage and notch illustration. Original generated blue-wallpaper.png, its embedded provenance and .impeccable/blue-wallpaper.prompt.txt remain historical source material. UI and copy remain semantic; the island is a disclosed web simulation, not a native screenshot.",
+      "interaction": "One native-derived shell retains four states: closed 198x33px, activity 282x33px, concurrent music 246px plus 24px bubble, expanded 760px overall/375px height/35px inset. Compact open adds music 440x213px with 58px art/44px note, timer 400x103px with 40px controls/29px orange time, and pinned completion alert 450x127px with orange 25px title/21px mobile. Hover intent 120ms/exit 220ms; focus preserves controls, click/Enter/touch pins, close/Escape restores the compact opener outside alerts. No width interpolation; pointerdown cancels pending hover and the first-click origin guard prevents revealed Close from consuming the opening gesture. Native pressed-gesture blocking is the reference. Music is silent simulation; gesture-opt-in synthetic alarm tones stop on dismiss/repeat/off/reset/page exit or after 10 seconds; three-second test timer provided.",
+      "review": "Compact hover/alert refinement is scoped SHIP in .impeccable/review/minitools/hover-alert-verdict.md with hover-alert-packet.md. Root actual-mouse and separate Enter flows passed, plus 1440px/390px, EN/ES, themes, zero overflow and no console warnings/errors. Sole P2 fixed by .timer-alert>div>span; reported 13-route build and diff check passed at 23:14. Reviewer source/capture inspection supports mobile orange title correction; replacement desktop JPEG crops the rail, so desktop alert verification is root-attributed. Light capture predates note correction; mobile music is viewport-cropped. No listening test. Earlier reviews remain historical; single-comp gates remain unverified. No publication."
+    },
     "scope": "Adopted local production surfaces: /, /es/, /apps/tavi/ and Tavi privacy, terms, support and changelog. Legacy proposal routes use the same components. The historical design-proposals directory remains the documentation boundary; primitives are normative in ../DESIGN.md relative to this sidecar. Adoption does not imply publication or a Git push.",
     "sourceFiles": [
       "src/layouts/ProposalLayout.astro",
@@ -20,11 +28,16 @@
     "provenance": {
       "seed": "423b91e6",
       "originalDirection": "Code-led independent proposals: plum/lavender portfolio gallery and blue technical Tavi workspace, initially isolated from production. Original plum and proposal-only authority were superseded by user approval to adopt the compositions, replace purple with petroleum teal, add dark mode and model the demo on the native app.",
-      "images": "Existing Tavi mark and macOS/iPadOS screenshots in public/images/tavi reused unmodified. macos-response.jpg is the structural reference for the demo. Other project representations are labeled HTML demonstrations. No generated or stock imagery, and no raster composition.",
+      "images": "Existing Tavi mark and macOS/iPadOS screenshots in public/images/tavi reused unmodified. macos-response.jpg is the structural reference for the demo. Other original project representations are labeled HTML demonstrations. No generated or stock imagery was introduced in the original portfolio/Tavi adoption; the separate MiniTools extension records its generated wallpaper provenance.",
       "fonts": "Google Fonts Sora and Figtree variable TTF files bundled in public/fonts/proposals with original OFL license files.",
       "ramps": "Synthesized OKLCH preview ramps, not implementation tokens; exact colors are in DESIGN.md and source CSS."
     },
     "colorMeta": {
+      "minitools-stage": {"role": "primary", "displayName": "MiniTools Petroleum Stage"},
+      "minitools-wave": {"role": "primary", "displayName": "MiniTools Teal Wave"},
+      "minitools-wave-highlight": {"role": "secondary", "displayName": "MiniTools Coral Wave Highlight"},
+      "minitools-native-selected": {"role": "neutral", "displayName": "MiniTools White 14% Selection"},
+      "minitools-native-surface": {"role": "neutral", "displayName": "MiniTools Black Island"},
       "portfolio-teal": {
         "role": "primary",
         "displayName": "Portfolio Teal",
@@ -978,6 +991,7 @@
       "componentPreviews": "Previews use semantic CSS custom properties with light-state fallbacks. Runtime component overrides provide full dark states; primitive frontmatter component variants describe light defaults."
     },
     "shadows": [
+      {"name": "minitools-island", "value": "0 3px 8px #0004", "purpose": "SVG drop-shadow lifts the native-derived shell above the tidal wallpaper; plugin cards remain flat."},
       {
         "name": "portfolio-tavi-capture",
         "value": "0 14px 28px #23305825",
@@ -1005,6 +1019,7 @@
       }
     ],
     "motion": [
+      {"name": "minitools-hover-intent", "value": "120ms intent; 220ms exit; no width interpolation", "purpose": "Keep pointer targets stable; focus/click pin compact controls, and the first-click origin guard preserves the intended opening gesture. Reduced motion stops the waveform."},
       {
         "name": "faq-chevron",
         "value": "transform .18s",
@@ -1027,6 +1042,11 @@
       "targets": "button, a, summary, select, input, textarea :focus-visible"
     },
     "breakpoints": [
+      {"name": "minitools-wide-min", "value": "1600px"},
+      {"name": "minitools-compact-max", "value": "1000px"},
+      {"name": "minitools-journey-row-max", "value": "850px"},
+      {"name": "minitools-content-stack-max", "value": "700px"},
+      {"name": "minitools-island-compact-max", "value": "550px"},
       {
         "name": "portfolio-wide-min",
         "value": "1680px"
@@ -1070,6 +1090,30 @@
     ]
   },
   "components": [
+    {
+      "name": "MiniTools Native Tabs",
+      "kind": "nav",
+      "refersTo": "minitools-native-tab-selected",
+      "description": "Fixed dark native selection styling. Live island supplies tab keyboard behavior; this snippet previews appearance only.",
+      "html": "<nav class=\"ds-mini-tabs\" aria-label=\"MiniTools preview\"><button aria-pressed=\"true\">Music</button><button aria-pressed=\"false\">Timers</button><button aria-pressed=\"false\">ToDo</button></nav>",
+      "css": ".ds-mini-tabs{display:flex;gap:8px;padding:6px 18px;min-height:50px;align-items:center;background:#000;border-bottom:1px solid #ffffff1f;font:400 12px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ds-mini-tabs button{font:inherit;border:0;border-radius:20px;background:transparent;color:#aaa;padding:6px 10px;min-height:32px;cursor:pointer}.ds-mini-tabs button[aria-pressed=true]{background:#ffffff24;color:#fff}.ds-mini-tabs button:hover{color:#fff;filter:brightness(1.2)}.ds-mini-tabs button:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "MiniTools Task Field",
+      "kind": "input",
+      "refersTo": "minitools-native-input",
+      "description": "Native dark field for temporary sample tasks; the live form supports adding and resetting tasks.",
+      "html": "<input class=\"ds-mini-task\" aria-label=\"New sample task\" placeholder=\"New task\" maxlength=\"100\"/>",
+      "css": ".ds-mini-task{min-width:0;background:#ffffff0d;border:1px solid #ffffff26;border-radius:6px;padding:8px 10px;color:white;font:400 12px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ds-mini-task::placeholder{color:#b8c5d6}.ds-mini-task:focus-visible{outline:3px solid #e05116;outline-offset:5px}"
+    },
+    {
+      "name": "MiniTools Forthcoming Plugin",
+      "kind": "card",
+      "refersTo": "minitools-plugin",
+      "description": "Informational catalog card with a forthcoming badge; no public download action.",
+      "html": "<article class=\"ds-mini-plugin\"><div class=\"ds-mini-plugin-icon\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z\"/></svg></div><div><h3>Launchpad</h3><p>Your apps, within reach.</p></div><span class=\"ds-mini-coming\">Coming soon</span></article>",
+      "css": ".ds-mini-plugin{padding:24px;display:grid;grid-template-columns:43px 1fr;column-gap:14px;align-items:start;background:var(--surface,#18212e);color:var(--ink,#eef3fb);border:1px solid var(--line,#34445a);border-radius:14px;font:400 13px/1.5 Figtree,sans-serif}.ds-mini-plugin-icon{display:grid;place-items:center;width:43px;height:43px;color:var(--accent,#84b5ff);background:var(--tint,#1c304b);border-radius:11px}.ds-mini-plugin h3{font-size:17px;letter-spacing:-.02em;margin:1px 0 0}.ds-mini-plugin p{font-size:13px;color:var(--muted,#aebed3);line-height:1.5;margin:7px 0 0}.ds-mini-coming{grid-column:2;justify-self:start;color:var(--muted,#aebed3);font-size:11px;padding:4px 9px;margin-top:16px;background:var(--soft,#1c293b);border-radius:20px}"
+    },
     {
       "name": "Portfolio Project Link",
       "kind": "button",
@@ -1127,7 +1171,7 @@
   ],
   "narrative": {
     "northStar": "Tangible software, two independent worlds",
-    "overview": "The approved portfolio and Tavi compositions now serve the production routes in the local implementation. The portfolio is an artifact-led gallery with a petroleum teal identity; Tavi is a clear technical workspace held inside a broad blue field. Both use real software evidence and purposeful interaction to make the work understandable.\n\nThis existing documentation boundary is retained for provenance, but its current authority covers /, /es/, /apps/tavi/ and the Tavi document pages. Legacy proposal routes render the shared adopted components. Shared semantic light/dark tokens and language controls connect these surfaces without erasing their distinct identities.",
+    "overview": "The approved portfolio and Tavi compositions now serve the production routes in the local implementation. The portfolio is an artifact-led gallery with a petroleum teal identity; Tavi is a clear technical workspace held inside a broad blue field. Both use real software evidence and purposeful interaction to make the work understandable.\n\nThis existing documentation boundary is retained for provenance, but its current authority covers /, /es/, /apps/tavi/ and the Tavi document pages. Legacy proposal routes render the shared adopted components. Shared semantic light/dark tokens and language controls connect these surfaces without erasing their distinct identities.\n\nMiniTools at /apps/minitools/ retains Figtree and shared semantic theme behavior, with a petroleum/coral wave identity for its desktop stage. Its near-black interactive island and quiet plugin catalog make everyday tools tangible while retaining the real red app icon. This is a surface extension; it does not replace the portfolio or Tavi identity. Its approved hybrid composition is recorded in the MiniTools hybrid brief.",
     "keyCharacteristics": [
       "Two distinct palettes and type families, with shared theme and language behavior.",
       "Real Tavi imagery and explicitly labeled illustrative interactions.",

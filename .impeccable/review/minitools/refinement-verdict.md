@@ -1,0 +1,14 @@
+# SHIP — scoped native-fidelity refinement
+
+Reviewed 2026-10-08. No must-fix defect found within the requested dark-default, native-demo and physical/virtual-notch refinement. Preserve the approved landing direction and existing icon; this verdict does not authorize publication.
+
+Evidence independently inspected: the refinement packet and brief, craft floor, product/design context, current MiniToolsIsland, MiniToolsNotch, MiniToolsPage and ProposalLayout source, relevant DeveloperIslandView SwiftUI geometry/music/tab implementation, TimersIslandView, TodoIslandView and NotchCalibration, plus all six `minitools-refine-{desktop,tablet,mobile,timer,physical,virtual}.jpg` captures. Mobile was also opened at original resolution.
+
+- Dark default is explicit in server-rendered HTML and remains in place when storage is unavailable; only a saved explicit light/dark preference overrides it. This agrees with the dark captures.
+- The refined black wide shell, camera-safe top space, neutral selected capsules, 154px desktop artwork and elapsed–slider–remaining row above playback align with native source. The 126px timer, elapsed-progress direction and circular start/reset controls match its core visual structure. Desktop, tablet and mobile captures retain legible, contained controls and the approved wallpaper, hierarchy and rail.
+- Physical mode retains a fixed camera cutout above the expanding island; virtual mode removes it and changes the device silhouette to a notchless display. Both expanded captures show content below the top-edge reserved area. Copy explicitly includes notchless MacBooks and desktop displays while retaining Apple silicon/macOS requirements.
+- The source retains real buttons, keyboard tab navigation, labeled range input, task-checkbox focus restoration and localized dynamic action labels. The root's reported build, browser interaction, EN/ES, overflow and console checks support handoff; this reviewer did not independently execute browser QA or rerun those checks.
+
+Intentional limits: this is a disclosed web simulation, not a complete or pixel-exact native clone. Sample artwork replaces real album art; music has no audio/system integration or native source/favorite controls; one timer replaces native multiple/custom timers; local temporary tasks omit native grouping/persistence; responsive mobile geometry is an adaptation. The separate compact preview and click-to-expand illustration are teaching controls. These simplifications do not invalidate the scoped refinement.
+
+No recapture required. Historical SHIP evidence is not used as proof for this pass. Existing design-document tokens still describe the preceding navy/blue selected-tab styling; synchronize them in the parent-owned documentation handoff, without reopening the visual design. Impeccable context launcher was permission-denied; existing context was read directly. No landing or app source was changed by this reviewer.

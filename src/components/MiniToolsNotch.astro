@@ -1,0 +1,50 @@
+---
+import T from './ProposalText.astro';
+import Icon from './MiniToolsIcon.astro';
+---
+<div class="notch-comparison" data-notch-demo data-device="physical">
+  <div class="device-switch" aria-label="Display type">
+    <button type="button" data-device-choice="physical" aria-pressed="true"><T en="Physical notch" es="Notch físico"/></button>
+    <button type="button" data-device-choice="virtual" aria-pressed="false"><T en="Virtual notch" es="Notch virtual"/></button>
+  </div>
+  <div class="device-frame">
+    <div class="device-screen">
+      <div class="camera-cutout" aria-hidden="true"><i></i></div>
+      <button type="button" class="screen-island" data-notch-expand aria-label="Expand example island" aria-expanded="false" aria-controls="notch-demo-content">
+        <span class="notch-wings" aria-hidden="true"><Icon name="music"/><span>1:24</span></span>
+        <span class="notch-prompt"><T en="Tap to expand" es="Toca para expandir"/></span>
+        <span id="notch-demo-content" class="notch-content" hidden><span class="notch-track"><strong>Evening Walk</strong><small>Luis Gil</small></span><span class="notch-playback" aria-hidden="true"><Icon name="previous"/><Icon name="play"/><Icon name="next"/></span></span>
+      </button>
+    </div>
+    <div class="device-base" aria-hidden="true"></div>
+  </div>
+  <p class="device-description" data-physical-description><T en="On a MacBook with a physical notch, the island expands around the camera cutout." es="En una MacBook con notch físico, la isla se expande alrededor del recorte de la cámara."/></p>
+  <p class="device-description" data-virtual-description hidden><T en="On a display without a notch — including notchless MacBooks and desktop displays — MiniTools creates a virtual one." es="En una pantalla sin notch — incluidas las MacBooks sin notch y las pantallas de escritorio — MiniTools crea uno virtual."/></p>
+  <p class="notch-caption"><T en="Interactive illustration. The camera cutout remains unchanged." es="Ilustración interactiva. El recorte de la cámara no cambia."/></p>
+</div>
+<script>
+  const comparison=document.querySelector<HTMLElement>('[data-notch-demo]');
+  if(comparison){
+    const toggle=comparison.querySelector<HTMLButtonElement>('[data-notch-expand]')!;
+    const content=comparison.querySelector<HTMLElement>('#notch-demo-content')!;
+    function setExpanded(expanded:boolean){toggle.setAttribute('aria-expanded',String(expanded));content.hidden=!expanded;localize();}
+    function localize(){const es=document.documentElement.lang==='es',expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-label',expanded?(es?'Contraer isla de ejemplo':'Collapse example island'):(es?'Expandir isla de ejemplo':'Expand example island'));comparison!.querySelector('.device-switch')!.setAttribute('aria-label',es?'Tipo de pantalla':'Display type');}
+    document.addEventListener('proposal-language',localize);localize();
+    toggle.addEventListener('click',()=>setExpanded(toggle.getAttribute('aria-expanded')!=='true'));
+    comparison.querySelectorAll<HTMLButtonElement>('[data-device-choice]').forEach(button=>button.addEventListener('click',()=>{
+      comparison.dataset.device=button.dataset.deviceChoice;
+      comparison.querySelectorAll('[data-device-choice]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+      comparison.querySelector<HTMLElement>('[data-physical-description]')!.hidden=button.dataset.deviceChoice!=='physical';
+      comparison.querySelector<HTMLElement>('[data-virtual-description]')!.hidden=button.dataset.deviceChoice!=='virtual';
+    }));
+  }
+</script>
+<style>
+ .notch-comparison{min-width:0}.device-switch{display:flex;justify-content:center;gap:7px;margin-bottom:24px}.device-switch button{background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:9px 15px;font-size:13px}.device-switch [aria-pressed=true]{background:var(--ink);color:var(--page);border-color:var(--ink)}
+ .device-frame{max-width:460px;margin:auto}.device-screen{aspect-ratio:1.65;background:#091d29 url('/images/minitools/tidal-wallpaper.png') center/cover;position:relative;border:8px solid #17191c;border-radius:14px 14px 3px 3px;overflow:hidden;display:flex;align-items:flex-start;justify-content:center}
+ .camera-cutout{position:absolute;z-index:2;pointer-events:none;top:0;width:110px;height:23px;background:#000;border-radius:0 0 7px 7px;display:grid;place-items:center}.camera-cutout i{width:5px;height:5px;background:#132333;border-radius:50%}
+ .screen-island{position:relative;background:#000;color:white;border:0;border-radius:0 0 15px 15px;width:192px;min-height:30px;padding:0 12px 8px;font-family:-apple-system,BlinkMacSystemFont,sans-serif;transition:width .2s ease-out;cursor:pointer}.notch-wings{display:flex;justify-content:space-between;align-items:center;min-height:28px;font-size:9px}.notch-wings svg{width:13px;height:13px}.notch-prompt{display:block;font-size:10px;color:#ccc;padding:5px 0 0}.notch-content{padding:15px 7px 8px;display:flex;justify-content:space-between;align-items:center;gap:12px}.notch-track{text-align:left}.notch-track strong{display:block;font-size:12px}.notch-track small{display:block;font-size:10px;color:#aaa;margin-top:3px}.notch-playback{display:flex;gap:13px}.notch-playback svg{width:15px;height:15px}.screen-island[aria-expanded=true]{width:85%}.screen-island[aria-expanded=true] .notch-prompt{display:none}.device-base{height:10px;background:#67717e;border-radius:0 0 40% 40%;margin:0 -9px}.device-description{font-size:14px;line-height:1.6;color:var(--ink);max-width:52ch;margin:24px auto 0;min-height:68px}.notch-caption{font-size:11px;line-height:1.5;color:var(--muted);margin-top:10px}
+ [data-device=virtual] .camera-cutout{display:none}[data-device=virtual] .device-screen{border-radius:12px;aspect-ratio:1.78}[data-device=virtual] .device-base{width:25%;height:26px;border-radius:0;margin:auto;border-bottom:6px solid #67717e;background:#343d48}[data-device=virtual] .screen-island:not([aria-expanded=true]){width:150px}[data-device=virtual] .notch-wings{padding:0 20px}
+ @media(prefers-reduced-motion:reduce){.screen-island{transition:none}}
+ @media(max-width:550px){.device-switch button{font-size:12px}.camera-cutout{width:90px}.screen-island{width:168px}.notch-playback{gap:8px}.notch-track strong{font-size:11px}}
+</style>

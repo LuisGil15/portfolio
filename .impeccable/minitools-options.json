@@ -1,0 +1,12 @@
+{
+  "title": "MiniTools — elige cómo presentamos la isla",
+  "question": "Las tres opciones incluyen demo, descarga, requisitos claros y catálogo de plugins. Elige la composición que te gustaría convertir en la página real.",
+  "options": [
+    {"id":"any-display","label":"Con o sin notch","kicker":"THE ROLL","thesis":"La compatibilidad es lo primero: el visitante cambia de pantalla y ve la misma isla funcionando.","palette":["#101923","#18212e","#84b5ff","#eef3fb"],"materials":["Figtree","Interfaz nativa","Superficies oscuras"],"viewport":"Selector con/sin notch, isla interactiva a escala y descarga visible; después, catálogo de plugins.","risk":"La comparación ocupa más espacio que la descripción de funciones.","comp":".impeccable/mocks/decision/minitools-any-display.png"},
+    {"id":"daily-flow","label":"Un día con MiniTools","thesis":"Música, concentración y pendientes organizan el recorrido; la isla cambia con cada actividad.","palette":["#101923","#18212e","#84b5ff","#eef3fb"],"materials":["Figtree","Interfaz nativa","Superficies oscuras"],"viewport":"Un recorrido de actividades abre la demo; cada selección muestra su herramienta. Descarga y compatibilidad siempre visibles.","risk":"Necesita una interacción para mostrar todo lo que incluye.","comp":".impeccable/mocks/decision/minitools-daily-flow.png"},
+    {"id":"island-first","label":"Prueba la isla","thesis":"Una isla que se abre al tocarla protagoniza la página antes de explicar sus funciones.","palette":["#101923","#18212e","#84b5ff","#eef3fb"],"materials":["Figtree","Interfaz nativa","Superficies oscuras"],"viewport":"Un escritorio demostrativo con isla expandible y controles reales de demo; el catálogo de plugins empieza debajo.","risk":"La demo debe distinguirse claramente de la app instalada.","comp":".impeccable/mocks/decision/minitools-island-first.png"}
+  ],
+  "reroll":true,
+  "steer":true,
+  "buildPath":{"value":"comp","toggle":true}
+}
