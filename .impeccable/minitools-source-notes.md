@@ -3,7 +3,9 @@
 - Scope: add `/apps/minitools/` and update MiniTools in the portfolio. Keep the published portfolio and Tavi design intact. Work on `feat/minitools-landing`; publication requires a separate approval.
 - User approved product-first storytelling, an interactive web demonstration, real app captures where possible, and a store-like plugin catalog.
 - Essential claim: works with or without a notch. Always qualify device support as macOS 13+ and Apple silicon. No Intel compatibility claim.
-- Public release verified on 2026-10-08: v1.0.3, DMG and ZIP, GitHub releases at https://github.com/LuisGil15/MiniTools/releases/latest. Release information can change; verify again before shipping.
+- Public release verified on 2026-10-09: v1.0.5, notarized DMG and ZIP, Sparkle appcast entry and Homebrew cask 1.0.5, with GitHub releases at https://github.com/LuisGil15/MiniTools/releases/latest. Release information can change; verify again before shipping.
+- Official extension catalog verified on 2026-10-09: Agent Pulse, Caffeine, Launchpad, Mini Terminal, Ports and Screenshot Board at v0.1.0 in https://github.com/LuisGil15/MiniTools-Plugins. First-party runtimes ship in the signed host and are the only plugins currently installable. Luis's stated future direction is to open the store so others can collaborate or build plugins for their own workflows; arbitrary third-party executable loading remains Developer Preview.
+- The web plugin lab mirrors one supplied SwiftUI interaction per official extension using deterministic sample data. It never launches apps, prevents sleep, scans or stops ports, reads screenshots, opens a shell or connects to assistants.
 - Official Homebrew installation: `brew install --cask LuisGil15/minitools/minitools`.
 - Core features documented publicly: music controls, timers, calendar/events, Reminders, weather, local ToDo, placement across displays, full-screen hiding, notch calibration.
 - Publicly named optional plugins: Launchpad, Caffeine, Ports, Screenshot Board, Mini Terminal, Agent Pulse.
