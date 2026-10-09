@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "social:previews": "node scripts/render-social-previews.mjs",
     "preview": "astro preview",
     "deploy": "npm run build && wrangler deploy",
     "cloudflare:preview": "npm run build && wrangler preview",
