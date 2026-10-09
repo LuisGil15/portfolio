@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/ProposalLayout.astro';
+import TaviHeader from './TaviHeader.astro';
+import TaviFooter from './TaviFooter.astro';
+import T from './ProposalText.astro';
+import { taviDocuments } from '../data/taviDocuments';
+interface Props { kind: keyof typeof taviDocuments; }
+const { kind } = Astro.props;
+const doc = taviDocuments[kind];
+const legal = kind === 'privacy' || kind === 'terms';
+const descriptions = {
+  privacy: {en:'Your data, your devices, your choice.',es:'Tus datos, tus dispositivos, tu decisión.'},
+  terms: {en:'A clear understanding of using Tavi.',es:'Lo que necesitas saber para usar Tavi.'},
+  support: {en:'A little help to keep you moving.',es:'Una mano para seguir adelante.'},
+  changelog: {en:'What’s new in Tavi.',es:'Lo nuevo en Tavi.'}
+};
+---
+<Layout title={`${doc.title.en} — Tavi`} description={`Tavi ${doc.title.en.toLowerCase()}.`} theme="tavi">
+  <TaviHeader active={kind}/>
+  <main id="content">
+    <header class="document-intro"><div><a href="/apps/tavi/" class="back"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m11 5-7 7 7 7M4 12h16"/></svg><T en="Back to Tavi" es="Volver a Tavi"/></a><T as="h1" en={doc.title.en} es={doc.title.es}/><T as="p" en={descriptions[kind].en} es={descriptions[kind].es}/>{legal && <T as="p" class="effective" en="Effective October 6, 2026" es="Vigente desde el 6 de octubre de 2026"/>}</div></header>
+    <div class="document-body"><aside class="document-nav"><T as="h2" en="On this page" es="En esta página"/><nav aria-label="Contents">{doc.intro && <a href="#get-help"><T en="Get help" es="Obtener ayuda"/></a>}{doc.sections.map(section=><a href={`#${section.id}`}><T en={section.title.en} es={section.title.es}/></a>)}<a href="#contact"><T en={legal?'Contact':'More information'} es={legal?'Contacto':'Más información'}/></a></nav></aside>
+      <article class="document-copy">
+        {doc.intro && <section id="get-help"><T as="h2" en="Let's figure it out." es="Vamos a resolverlo."/><T as="p" en={doc.intro.en} es={doc.intro.es}/><div class="contact-actions"><a class="primary" href="https://github.com/LuisGil15/Tavi/issues/new"><T en="Open a GitHub report" es="Abrir un reporte en GitHub"/></a><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a></div></section>}
+        {doc.sections.map(section=><section id={section.id}><T as="h2" en={section.title.en} es={section.title.es}/><T as="p" en={section.text.en} es={section.text.es}/></section>)}
+        <section id="contact">
+          <T as="h2" en={legal?'Contact':'More information'} es={legal?'Contacto':'Más información'}/>
+          {legal ? <><p><T en={kind==='privacy'?'For privacy questions, email':'For questions about these terms, email'} es={kind==='privacy'?'Para preguntas sobre privacidad, escribe a':'Para dudas sobre estos términos, escribe a'}/>{' '}<a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a>{' '}<T en="or visit the" es="o utiliza la"/>{' '}<a href="/apps/tavi/support/"><T en="support page" es="página de soporte"/></a>.</p></> : <p><T en="Read the" es="Consulta la"/>{' '}<a href="/apps/tavi/privacy/"><T en="privacy policy" es="política de privacidad"/></a>{' '}<T en="and" es="y los"/>{' '}<a href="/apps/tavi/terms/"><T en="terms of use" es="términos de uso"/></a>{' '}<T en="to learn how Tavi works." es="para conocer cómo funciona Tavi."/></p>}
+        </section>
+      </article>
+    </div>
+  </main>
+  <TaviFooter/>
+</Layout>
+<style>
+  .document-intro{background:var(--opening);color:#fff;padding:34px max(24px,calc((100vw - 1100px)/2)) 46px}.document-intro>div{max-width:760px}.back{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:#e6efff;text-decoration:none;margin-bottom:30px}.back:hover{text-decoration:underline}.back svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}h1{font-size:clamp(40px,5vw,62px);font-weight:650}.document-intro p{font-size:19px;line-height:1.6;margin-top:17px;color:#e6efff}.document-intro .effective{font-size:12px;margin-top:24px}.document-body{max-width:1196px;padding:56px 48px 20px;margin:auto;display:grid;grid-template-columns:220px minmax(0,1fr);gap:60px}.document-nav{align-self:start;position:sticky;top:30px}.document-nav h2{font-size:14px;letter-spacing:0;margin-bottom:15px}.document-nav nav{display:grid;gap:12px}.document-nav a{font-size:13px;text-decoration:none;color:var(--muted);line-height:1.5}.document-nav a:hover{color:var(--accent);text-decoration:underline}.document-copy{max-width:72ch;min-width:0}.document-copy section{scroll-margin-top:30px}.document-copy section+section{margin-top:39px;padding-top:32px;border-top:1px solid var(--line)}.document-copy h2{font-size:25px;font-weight:600}.document-copy p{font-size:16px;line-height:1.8;color:var(--muted);margin-top:16px}.document-copy a{color:var(--accent);overflow-wrap:anywhere}.contact-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px;margin-top:25px;font-size:14px}.contact-actions .primary{background:var(--button);color:#fff;padding:12px 18px;text-decoration:none;border-radius:8px}.contact-actions .primary:hover{background:var(--button-hover)}@media(max-width:800px){.document-body{grid-template-columns:1fr;padding:35px 24px 15px;gap:35px}.document-nav{position:static}.document-nav nav{display:flex;flex-wrap:wrap;gap:12px 20px}.document-nav{padding-bottom:25px;border-bottom:1px solid var(--line)}.document-intro{padding:26px 24px 35px}.document-intro h1{font-size:43px}.document-intro p{font-size:17px}.document-copy h2{font-size:24px}.document-copy p{font-size:16px}}
+</style>

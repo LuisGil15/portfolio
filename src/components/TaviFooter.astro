@@ -1,0 +1,6 @@
+---
+import T from './ProposalText.astro';
+import SupportLinks from './SupportLinks.astro';
+---
+<div class="footer-wrap"><SupportLinks/><footer><a class="brand" href="/apps/tavi/"><img src="/images/tavi/tavi-mark.png" width="27" height="27" alt=""/>Tavi</a><nav aria-label="Legal"><a href="/apps/tavi/privacy/"><T en="Privacy" es="Privacidad"/></a><a href="/apps/tavi/terms/"><T en="Terms" es="Términos"/></a><a href="/apps/tavi/support/"><T en="Support" es="Soporte"/></a></nav><a href="/">Luis Gil © 2026</a></footer></div>
+<style>.footer-wrap{max-width:1196px;padding:0 48px;margin:auto}footer{display:flex;align-items:center;gap:30px;padding:30px 0 36px;font-size:13px;color:var(--muted)}.brand{display:flex;align-items:center;gap:8px;font-size:20px;font-weight:700;color:var(--ink)}footer nav{display:flex;gap:24px;margin-left:auto}footer a{text-decoration:none}footer a:hover{text-decoration:underline}@media(max-width:650px){.footer-wrap{padding:0 23px}footer{flex-wrap:wrap;gap:22px}footer nav{gap:16px}footer>a:last-child{flex-basis:100%}}</style>

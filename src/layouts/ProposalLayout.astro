@@ -1,0 +1,91 @@
+---
+interface Props { title: string; description: string; theme: 'portfolio' | 'tavi' | 'index'; }
+const { title, description, theme } = Astro.props;
+const spanish = Astro.url.pathname.startsWith("/es/");
+const preview = Astro.url.pathname.startsWith("/proposals");
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const themeScope = theme === 'tavi' ? 'tavi' : 'portfolio';
+const defaultTheme = themeScope === 'tavi' ? 'dark' : 'light';
+---
+<!doctype html>
+<html lang={spanish ? "es" : "en"} data-theme={defaultTheme} data-theme-scope={themeScope}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {preview && <meta name="robots" content="noindex, nofollow" />}
+    <script is:inline>
+      try {
+        const mode = localStorage.getItem("site-theme:" + document.documentElement.dataset.themeScope);
+        if (mode === "dark" || mode === "light") document.documentElement.dataset.theme = mode;
+      } catch { /* Keep the server-rendered default when storage is unavailable. */ }
+    </script>
+    <link rel="icon" href={theme === 'tavi' ? '/images/tavi/tavi-mark.png' : '/favicon.svg'} />
+    <link rel="preload" href={`/fonts/proposals/${theme === 'portfolio' ? 'sora' : 'figtree'}.ttf`} as="font" type="font/ttf" crossorigin />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <link rel="canonical" href={canonicalURL} />
+    <title>{title}</title>
+  </head>
+  <body class={theme}>
+    <a class="skip" href="#content" data-en="Skip to content" data-es="Saltar al contenido">Skip to content</a>
+    <slot />
+    <script>
+      let language = document.documentElement.lang;
+      const themeStorageKey = 'site-theme:' + document.documentElement.dataset.themeScope;
+      try { if (!location.pathname.startsWith('/es/')) language = (localStorage.getItem('site-language') || localStorage.getItem('proposal-language')) === 'es' ? 'es' : 'en'; } catch {}
+      function themeLabels() {
+        const dark = document.documentElement.dataset.theme === 'dark';
+        document.querySelectorAll('[data-theme-toggle]').forEach(button => {
+          const label = language === 'es' ? (dark ? 'Activar modo claro' : 'Activar modo oscuro') : (dark ? 'Switch to light mode' : 'Switch to dark mode');
+          button.setAttribute('aria-label', label); button.setAttribute('title', label);
+        });
+      }
+      document.querySelectorAll('[data-theme-toggle]').forEach(button => button.addEventListener('click', () => {
+        const mode = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = mode;
+        try { localStorage.setItem(themeStorageKey, mode); } catch {}
+        themeLabels();
+      }));
+      function applyLanguage() {
+        document.documentElement.lang = language;
+        document.querySelectorAll<HTMLElement>('[data-en][data-es]').forEach(el => {
+          el.textContent = el.dataset[language] || el.dataset.en || '';
+        });
+        document.querySelectorAll<HTMLButtonElement>('[data-language]').forEach(button => {
+          button.textContent = language === 'en' ? 'ES' : 'EN';
+          button.setAttribute('aria-label', language === 'en' ? 'Cambiar a español' : 'Switch to English');
+        });
+        themeLabels();
+        document.dispatchEvent(new CustomEvent('proposal-language', { detail: language }));
+      }
+      document.querySelectorAll('[data-language]').forEach(button => button.addEventListener('click', () => {
+        language = language === 'en' ? 'es' : 'en';
+        try { localStorage.setItem('site-language', language); } catch {}
+        applyLanguage();
+      }));
+      applyLanguage();
+    </script>
+  </body>
+</html>
+<style is:global>
+  @font-face{font-family:Sora;src:url('/fonts/proposals/sora.ttf') format('truetype');font-weight:100 800;font-display:swap}
+  @font-face{font-family:Figtree;src:url('/fonts/proposals/figtree.ttf') format('truetype');font-weight:300 900;font-display:swap}
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:32px;color-scheme:light;--surface:#fff;--soft:#f3f7fd;--page:#fff;--ink:#202e42;--muted:#53667f;--line:#dce4ef;--accent:#1759d0;--button:#1759d0;--button-hover:#1047ae;--tint:#eaf2ff;--opening:#1759d0;--selected:#dceaff;scrollbar-color:#879db4 var(--soft)}
+  html[data-theme=dark]{color-scheme:dark;--surface:#18212e;--soft:#1c293b;--page:#101923;--ink:#eef3fb;--muted:#aebed3;--line:#34445a;--accent:#84b5ff;--button:#2465cb;--button-hover:#3378e4;--tint:#1c304b;--opening:#143b78;--selected:#284970}
+  body.portfolio{--page:#f2f7f7;--ink:#193c43;--muted:#526e74;--surface:#fff;--soft:#e4eff0;--line:#c9dddd;--accent:#146370;--button:#146370;--button-hover:#0d4d58;--sidebar:#145867;--sidebar-hover:#216d7c;--sidebar-text:#d3ecef;--project-blue:#e1eaf7;--coral:#f5b3a4;--sage:#e1e4da;--project-neutral:#e5eeef;--about:#d9ebed}
+  html[data-theme=dark] body.portfolio{--page:#111f24;--ink:#e7f1f2;--muted:#a8bec3;--surface:#21343b;--soft:#223b43;--line:#36535b;--accent:#8cd5dc;--button:#216c79;--button-hover:#2c8290;--sidebar:#0e3b46;--sidebar-hover:#195564;--sidebar-text:#bddde2;--project-blue:#233b55;--coral:#593b35;--sage:#343f34;--project-neutral:#20353d;--about:#24434b}
+  body{margin:0;font-family:Figtree,sans-serif;color:var(--ink);line-height:1.5;background:var(--page)}
+  body.portfolio{font-family:Sora,sans-serif;background:var(--page);color:var(--ink)}
+  h1,h2,h3,p,figure{margin:0}h1,h2,h3{line-height:1.13;text-wrap:balance;letter-spacing:-.035em}
+  a{color:inherit;text-underline-offset:4px}button,input,select,textarea{font:inherit;caret-color:var(--accent)}button,a,select{-webkit-tap-highlight-color:transparent}
+  button{cursor:pointer}button:disabled{cursor:wait}img{display:block;max-width:100%;height:auto}svg{flex-shrink:0}
+  button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #e05116;outline-offset:5px}
+  ::selection{background:#b9e5e9;color:#123a42}.tavi ::selection{background:#c7e5ff;color:#092f72}
+  [hidden]{display:none!important}.skip{position:fixed;left:16px;top:-80px;background:#fff;color:#191334;padding:12px 20px;z-index:100}.skip:focus{top:12px}
+  astro-dev-toolbar{display:none!important}
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>

@@ -22,7 +22,7 @@ const { app, activeSection, heading, description, lastUpdated } = Astro.props;
   <article class="legal-copy">
     <p class="eyebrow">{app.name}</p>
     <h1>{heading}</h1>
-    {lastUpdated && <p class="legal-meta">Vigente desde el {lastUpdated}.</p>}
+    {lastUpdated && <p class="legal-meta" data-es="Vigente desde el 6 de octubre de 2026.">Effective October 6, 2026.</p>}
     <slot />
   </article>
 </AppLayout>

@@ -30,6 +30,31 @@
   box-sizing: border-box;
 }
 
+.skip-link {
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+  left: 10px;
+  padding: 9px 13px;
+  border-radius: 7px;
+  background: var(--text);
+  color: var(--background);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(-150%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+:where(a, button, summary, input, select, textarea):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
 html {
   background: var(--background);
   scroll-behavior: smooth;
@@ -66,10 +91,71 @@ main {
   border-bottom: 1px solid var(--line);
 }
 
+.site-header.portfolio-header {
+  justify-content: flex-start;
+}
+
+.portfolio-header nav {
+  width: 100%;
+}
+
+.portfolio-header nav a:not(.language-switch) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 12px;
+  border-radius: 0;
+  background: transparent;
+}
+
+.portfolio-header nav a:not(.language-switch):hover {
+  background: transparent;
+}
+
+.portfolio-header .language-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 48px;
+  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
+  padding: 0 !important;
+  border-radius: 50%;
+  margin-left: auto;
+  border: 1px solid currentColor;
+  line-height: 1;
+  text-align: center;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 720;
   letter-spacing: -0.02em;
   text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--accent);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.7rem;
+  letter-spacing: -0.04em;
 }
 
 nav {
@@ -106,10 +192,18 @@ nav a[aria-current="page"] {
 
 .app-identity {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 10px;
   padding-inline: 4px;
   text-decoration: none;
+}
+
+.app-identity-icon {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  object-fit: contain;
+  border-radius: 9px;
 }
 
 .app-identity strong {
@@ -127,12 +221,179 @@ nav a[aria-current="page"] {
   justify-content: flex-end;
 }
 
+body:has(.tavi-app-page) {
+  background: #0c0e0d;
+}
+
+body:has(.tavi-app-page) .site-header,
+body:has(.tavi-app-page) .site-footer {
+  display: none;
+}
+
+main.tavi-app-page {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding: 0;
+}
+
+.tavi-product-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  padding: 22px max(6vw, 28px);
+  border-bottom: 1px solid rgba(240, 241, 233, 0.14);
+  background: #0c0e0d;
+}
+
+.tavi-product-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: white;
+  font-size: 1.35rem;
+  font-weight: 750;
+  letter-spacing: -0.06em;
+  text-decoration: none;
+}
+
+.tavi-product-brand img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.tavi-product-nav nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.tavi-product-nav nav a {
+  color: #a4a8a1;
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.tavi-product-nav nav button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.tavi-language-toggle {
+  border: 1px solid rgba(240, 241, 233, 0.22);
+  border-radius: 999px;
+  padding: 7px 10px;
+  background: transparent;
+  color: #a4a8a1;
+  font-size: 0.72rem !important;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.tavi-language-toggle:hover {
+  color: white;
+  border-color: rgba(240, 241, 233, 0.5);
+}
+
+.tavi-product-nav nav a:hover,
+.tavi-product-nav nav a[aria-current="page"] {
+  color: white;
+}
+
+.tavi-product-nav .tavi-nav-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 92px;
+  padding: 9px 14px;
+  border-radius: 7px;
+  border: 0;
+  background: #5aa7ff;
+  color: #07101b !important;
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.tavi-download-dialog {
+  width: min(440px, calc(100% - 32px));
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  padding: 0;
+  background: #151b24;
+  color: #f0f1e9;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.6);
+}
+
+.tavi-download-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(5px);
+}
+
+.tavi-download-dialog > div { padding: 30px; }
+.tavi-download-dialog h2 { margin: 10px 0 12px; font-size: 1.55rem; letter-spacing: -0.04em; }
+.tavi-download-dialog p:not(.tavi-section-label) { color: #b6bdc7; line-height: 1.5; }
+.tavi-dialog-close { margin-top: 18px; border: 0; border-radius: 7px; padding: 10px 16px; background: #5aa7ff; color: #07101b; font: inherit; font-weight: 700; cursor: pointer; }
+
+@media (max-width: 560px) {
+  .tavi-product-nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .tavi-product-nav nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .tavi-product-nav nav a {
+    font-size: 0.72rem;
+  }
+}
+
+.tavi-app-header {
+  width: 100%;
+  margin: 0;
+  padding: 20px max(6vw, 28px);
+  border: 0;
+  border-bottom: 1px solid rgba(240, 241, 233, 0.14);
+  border-radius: 0;
+  background: #0c0e0d;
+  box-shadow: none;
+}
+
+.tavi-app-header .app-identity strong {
+  color: #f0f1e9;
+  font-size: 1.3rem;
+}
+
+.tavi-app-header .app-nav a {
+  color: #a4a8a1;
+  border-radius: 8px;
+}
+
+.tavi-app-header .app-nav a:hover,
+.tavi-app-header .app-nav a[aria-current="page"] {
+  color: #f0f1e9;
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .app-nav a {
   font-size: 0.9rem;
 }
 
 main {
   padding-block: clamp(72px, 10vw, 140px);
+}
+
+main.portfolio-main {
+  padding-top: 0;
 }
 
 .eyebrow {
@@ -267,6 +528,90 @@ h2 {
   max-width: 760px;
 }
 
+main.tavi-app-page:has(.legal-copy) {
+  min-height: calc(100vh - 76px);
+  padding: 0 0 110px;
+  background:
+    radial-gradient(circle at 82% 0%, rgba(90, 167, 255, 0.15), transparent 28rem),
+    #0c0e0d;
+}
+
+main.tavi-app-page .legal-copy {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: max(2vw, 20px);
+  padding-top: clamp(54px, 7vw, 96px);
+}
+
+main.tavi-app-page .legal-copy .eyebrow {
+  display: inline-flex;
+  margin-bottom: 22px;
+  padding: 8px 12px;
+  border: 1px solid rgba(90, 167, 255, 0.45);
+  border-radius: 8px;
+  color: #5aa7ff;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+}
+
+main.tavi-app-page .legal-copy h1 {
+  max-width: 900px;
+  margin-bottom: 18px;
+  color: #f0f1e9;
+  font-size: clamp(3.8rem, 9vw, 8rem);
+}
+
+main.tavi-app-page .legal-copy .legal-meta {
+  display: inline-block;
+  margin-bottom: 72px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(240, 241, 233, 0.18);
+  color: #9da8b3;
+}
+
+main.tavi-app-page .legal-copy h2 {
+  margin-top: 42px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(240, 241, 233, 0.16);
+  color: #f0f1e9;
+  font-size: clamp(1.45rem, 3vw, 2.15rem);
+}
+
+main.tavi-app-page .legal-copy h2 + p {
+  max-width: none;
+  margin-bottom: 0;
+  padding: 20px 24px;
+  border: 1px solid rgba(240, 241, 233, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.045);
+  color: #b8c0c8;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+main.tavi-app-page .legal-copy a {
+  color: #72b4ff;
+  text-underline-offset: 4px;
+}
+
+main.tavi-app-page .legal-copy .actions {
+  margin-block: 0 64px;
+}
+
+main.tavi-app-page .legal-copy .button {
+  border-color: rgba(240, 241, 233, 0.16);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #f0f1e9;
+}
+
+main.tavi-app-page .legal-copy .button.primary {
+  border-color: #5aa7ff;
+  background: #5aa7ff;
+  color: #07101b;
+}
+
 .legal-copy h2 {
   margin-top: 48px;
   font-size: 1.55rem;
@@ -280,10 +625,18 @@ h2 {
 }
 
 .site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
   padding-block: 28px 44px;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.84rem;
+}
+
+.footer-domain {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
 }
 
 @media (max-width: 620px) {
@@ -305,6 +658,15 @@ h2 {
     padding-inline: 9px;
   }
 
+  .portfolio-header nav {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .portfolio-header nav::-webkit-scrollbar {
+    display: none;
+  }
+
   .app-header {
     align-items: flex-start;
     flex-direction: column;
@@ -313,6 +675,11 @@ h2 {
 
   .app-nav {
     justify-content: flex-start;
+  }
+
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
