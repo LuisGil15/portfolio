@@ -23,7 +23,7 @@ FORM: User-directed combination of candidate 2 daily-flow and candidate 1 island
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
-Requirements: EN default/ES; independent light/dark preference, dark default as approved comps; macOS13+ Apple silicon; with/without notch; six public first-party plugins with verified package links and reversible sample previews; third-party executable plugins remain Developer Preview; public release download; support links. Synthetic demos, no system access or audio. Preserve other routes.
+Requirements: EN default/ES; independent light/dark preference, dark default as approved comps; macOS13+ Apple silicon; with/without notch; six public first-party plugins with verified package links and reversible sample previews; current installation is first-party only; an open, collaborative store is future direction rather than current availability; third-party executable plugins remain Developer Preview; public release download; support links. Synthetic demos, no system access or audio. Preserve other routes.
 
 ## Implementation and review record — 2026-10-08
 
