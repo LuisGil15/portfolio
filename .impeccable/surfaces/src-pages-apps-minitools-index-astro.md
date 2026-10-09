@@ -15,7 +15,7 @@ THESIS: Small tools become understandable by using the island while their everyd
 
 OWN-WORLD: Existing Figtree and blue product world, dark navy desktop stage, black native island and quiet plugin storefront. Real red MiniTools icon is retained; invented comp logos and Pomodoro modes are not product truth.
 
-STORY: Explore music, timers and tasks, understand notch-free compatibility, discover forthcoming plugins, then download the actual Mac release.
+STORY: Explore music, timers and tasks, understand notch-free compatibility, choose from the official plugin catalog, then download the actual Mac release.
 
 FIRST VIEWPORT: Compact navigation; centered headline and download; Listen/Focus/Plan rail beside one interactive island with an explicit four-state teaching selector. Closed, activity, concurrent music/timer and expanded are mutually exclusive shell states. Simulation notice visible. Music, timers and task controls work locally; synthetic playback/timers start only through user action. No autoplay.
 
@@ -23,13 +23,13 @@ FORM: User-directed combination of candidate 2 daily-flow and candidate 1 island
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
-Requirements: EN default/ES; independent light/dark preference, dark default as approved comps; macOS13+ Apple silicon; with/without notch; plugins coming soon with no private links; public release download; support links. Synthetic demo, no system access or audio. Preserve other routes.
+Requirements: EN default/ES; independent light/dark preference, dark default as approved comps; macOS13+ Apple silicon; with/without notch; six public first-party plugins with verified package links; third-party executable plugins remain Developer Preview; public release download; support links. Synthetic demo, no system access or audio. Preserve other routes.
 
 ## Implementation and review record — 2026-10-08
 
 Implemented the approved semantic hybrid at /apps/minitools/ and integrated its real icon, availability and route into the portfolio and app registry. MiniTools inherits Figtree, the existing blue semantic theme and shared EN/ES behavior, defaults to dark, and persists theme independently under site-theme:minitools; explicit saved light/dark choices override the initial default. Source components are MiniToolsPage, MiniToolsIsland, MiniToolsNotch and MiniToolsIcon. Durable extracted tokens and component rules extend design-proposals/DESIGN.md and its sidecar; portfolio/Tavi authority is retained.
 
-The opening combines the intro and download with the daily activity rail and playable Music/Timers/ToDo island. Following sections contain core feature copy, qualified with/without-notch illustrations, six forthcoming plugin cards, v1.0.3 and Homebrew installation, FAQ and existing support links. The generated wallpaper is public/images/minitools/blue-wallpaper.png, with its exact prompt in .impeccable/blue-wallpaper.prompt.txt; it and the real app icon carry embedded provenance. Generated imagery supplies background material only; interface and copy remain semantic, and the island is explicitly a local simulation.
+The opening combines the intro and download with the daily activity rail and playable Music/Timers/ToDo island. Following sections contain core feature copy, qualified with/without-notch illustrations, six available plugin cards with direct package links, v1.0.5 and Homebrew installation, FAQ and existing support links. The generated wallpaper is public/images/minitools/blue-wallpaper.png, with its exact prompt in .impeccable/blue-wallpaper.prompt.txt; it and the real app icon carry embedded provenance. Generated imagery supplies background material only; interface and copy remain semantic, and the island is explicitly a local simulation.
 
 The finish reviewer requested four fixes: wallpaper depth, task keyboard focus retention, album/track synchronization and SVG delete icon consistency. The same reviewer's corrective verdict is scoped SHIP for those four corrections, with no batch regression evident in reviewed screenshots/source. Evidence is in .impeccable/review/minitools/verdict.md and fix-evidence.md. Developer browser checks cover 1440px, 1194px and 390px with no horizontal overflow; keyboard behavior was developer-tested and reviewer-inspected in source, not independently browser-tested by the reviewer. Build passed for 13 routes; raster provenance scan found two rasters with none missing provenance. Main-agent home/Tavi regression checks passed.
 
