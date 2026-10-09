@@ -26,6 +26,8 @@ MiniTools has separate availability evidence: its download points to v1.0.8, wit
 
 MiniTools defaults to dark and stores its explicit theme choice independently under site-theme:minitools. It inherits the existing English/Spanish language preference and shared support links. The October 8, 2026 approval combines the daily-flow and island-first concepts into a semantic hybrid. The corrective review resolved four material findings; this does not validate historical single-comp gates or establish measured raster fidelity. Local implementation and documentation do not imply publication.
 
+The portfolio, Tavi and MiniTools landing URLs each publish a dedicated 1200×630 PNG social card with absolute Open Graph and Twitter Card metadata. Cards extend the approved visual identities and use only repository-owned marks, screenshots and deterministic vector composition. The Spanish portfolio route localizes its title and description while sharing the portfolio artwork.
+
 ## Brand commitments
 Use the real names and existing Tavi icon. Preserve the two approved compositions and their distinct typography: Sora for the portfolio and Figtree for Tavi, with system UI typography in the native-like demo. Shared theme, language, support and document components keep the adopted surfaces coherent. The authoritative design documentation remains in design-proposals/DESIGN.md and its .impeccable/design.json sidecar to preserve the original proposal provenance (concept seed 423b91e6); its current scope includes the adopted production routes.
 

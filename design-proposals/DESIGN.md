@@ -344,6 +344,8 @@ MiniTools has its own dark initial default and `site-theme:minitools` persistenc
 
 The latest compact-hover/alert refinement is scoped SHIP in `.impeccable/review/minitools/hover-alert-verdict.md`, supported by `hover-alert-packet.md`. Root browser checks passed actual mouse and separate Enter flows, 1440px/390px layouts, EN/ES and both themes, with zero overflow and no console warnings/errors. The sole visual P2 was the broad alert span selector; its correction passed the reported 13-route build and diff check at 23:14. The reviewer inspected source and captures, without independently executing browser/build checks. The final mobile alert image supports the title fix; the replacement desktop JPEG crops the activity rail rather than the alert, so desktop confirmation remains root-attributed. The light capture predates the artwork note correction; mobile music is viewport-cropped. Audible output was not heard or verified. Earlier four-state and native-fidelity SHIP reviews remain historical evidence. No new browser QA, visual audit or publication is implied by this documentation sync.
 
+Social sharing extends each approved visual world into a dedicated 1200×630 composition: portfolio paper with petroleum/coral blocks, Tavi's blue native workspace and real mark/screenshot, and MiniTools' dark tidal stage with the Mosaico icon and island silhouette. `ProposalLayout` exposes absolute Open Graph and Twitter large-image metadata, including dimensions and alternative text; `/es/` uses localized portfolio metadata. The PNGs are deterministic exports of retained SVG sources in `public/images/social/`.
+
 ## Do's and Don'ts
 
 - Do preserve the approved compositions and the portfolio's petroleum teal identity.

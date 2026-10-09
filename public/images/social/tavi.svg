@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <clipPath id="capture"><rect x="690" y="142" width="620" height="390" rx="18"/></clipPath>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1759d0"/><stop offset="1" stop-color="#143b78"/></linearGradient>
+  </defs>
+  <style>
+    @font-face{font-family:Figtree;src:url('../../fonts/proposals/figtree.ttf')}
+    .fig{font-family:Figtree,'Avenir Next','Helvetica Neue',sans-serif}
+  </style>
+  <rect width="1200" height="630" fill="#101923"/>
+  <path d="M0 0h780L530 630H0z" fill="url(#blue)"/>
+  <circle cx="575" cy="85" r="190" fill="#2465cb" opacity=".27"/>
+  <image x="70" y="58" width="68" height="68" href="../tavi/tavi-mark.png" xlink:href="../tavi/tavi-mark.png"/>
+  <text class="fig" x="156" y="105" fill="#fff" font-size="34" font-weight="700">Tavi</text>
+  <text class="fig" x="70" y="236" fill="#fff" font-size="62" font-weight="680" letter-spacing="-2.4">Your APIs.</text>
+  <text class="fig" x="70" y="307" fill="#fff" font-size="62" font-weight="680" letter-spacing="-2.4">Your workspace.</text>
+  <text class="fig" x="72" y="368" fill="#dceaff" font-size="23" font-weight="470">A native HTTP client for Mac and iPad.</text>
+  <g transform="translate(70 441)">
+    <rect width="196" height="48" rx="10" fill="#fff"/>
+    <text class="fig" x="22" y="31" fill="#143b78" font-size="18" font-weight="650">Native SwiftUI</text>
+  </g>
+  <text class="fig" x="72" y="555" fill="#bcd2f7" font-size="18" font-weight="560">luisgil.org/apps/tavi</text>
+  <rect x="674" y="126" width="650" height="422" rx="24" fill="#080d13" stroke="#84b5ff" stroke-opacity=".28" stroke-width="2"/>
+  <image x="690" y="142" width="620" height="390" preserveAspectRatio="xMidYMid slice" clip-path="url(#capture)" href="../tavi/macos-response.jpg" xlink:href="../tavi/macos-response.jpg"/>
+</svg>
