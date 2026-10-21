@@ -208,8 +208,8 @@ export const taviDocuments = {
           "es": "Primera versión"
         },
         "text": {
-          "en": "Tavi is preparing for its initial release on macOS and iPadOS. Release notes for each version will appear here.",
-          "es": "Tavi está en preparación para su publicación inicial en macOS y iPadOS. Las notas de cada versión aparecerán aquí."
+          "en": "Tavi is available for iPad and Mac on the App Store. Release notes for each version will appear here.",
+          "es": "Tavi está disponible para iPad y Mac en App Store. Aquí aparecerán las notas de cada versión."
         }
       }
     ],
