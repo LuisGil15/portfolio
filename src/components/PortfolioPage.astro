@@ -6,6 +6,7 @@ import SupportLinks from './SupportLinks.astro';
 import MiniToolsMark from './MiniToolsMark.astro';
 import MiniToolsIcon from './MiniToolsIcon.astro';
 const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
+const { showFaq = false } = Astro.props;
 ---
 <Layout title="Luis Gil — Software, made personal" description="Software development, native applications and experiments by Luis Gil." titleEs="Luis Gil — Software hecho personal" descriptionEs="Desarrollo de software, aplicaciones nativas y experimentos creados por Luis Gil." socialImageAlt="Luis Gil, software developer and independent maker" socialImageAltEs="Luis Gil, desarrollador de software y creador independiente" theme="portfolio">
   <aside class="identity">
@@ -91,6 +92,15 @@ const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native app
       </div>
     </section>
     <section id="about" class="about"><div class="about-type" aria-hidden="true">{'{'}<br/>{'}'}</div><div><T as="h2" en="Curiosity is the common thread." es="La curiosidad es el hilo conductor."/><T as="p" en="I'm Luis, a software developer led by curiosity. I enjoy understanding how things connect, exploring unfamiliar ideas and turning what I learn into experiences that feel useful, thoughtful and human. Sometimes that becomes a product; other times, an experiment that opens the next question." es="Soy Luis, desarrollador de software guiado por la curiosidad. Disfruto entender cómo se conectan las cosas, explorar ideas nuevas y convertir lo que aprendo en experiencias útiles, cuidadas y humanas. A veces eso se convierte en un producto; otras, en un experimento que abre la siguiente pregunta."/><div class="technology-profile"><T as="h3" id="technology-profile-title" en="I work across layers, languages and platforms." es="Trabajo entre capas, lenguajes y plataformas."/><dl aria-labelledby="technology-profile-title"><div><T as="dt" en="Interfaces" es="Interfaces"/><dd>SwiftUI · Astro · React Native</dd></div><div><T as="dt" en="Web & cloud" es="Web y cloud"/><dd>TypeScript · JavaScript · Node.js · Cloudflare · Firebase</dd></div><div><T as="dt" en="Backend & data" es="Backend y datos"/><dd>Java · Spring Boot · Kafka · Python · SQL · DB2 · C# · .NET</dd></div></dl></div><div class="personal-reflection"><T as="h3" en="Learning to live in a world that wasn't designed for me." es="Aprender a vivir en un mundo que no fue diseñado para mí."/><T as="p" en="I'm autistic and have inattentive ADHD. Being neurodivergent means learning to navigate a world rarely designed for how I perceive, process and organize life. Sometimes it means spending more energy reaching places that seem simple to others. It is neither a tragedy nor a superpower: it is a real part of me, with challenges that deserve understanding and a perspective that shapes how I live and what I build." es="Soy autista y tengo TDAH de presentación inatenta. Ser neurodivergente significa aprender a moverme por un mundo que rara vez fue pensado para la forma en que percibo, proceso y organizo la vida. A veces implica invertir más energía en llegar a lugares que para otras personas parecen sencillos. No es una tragedia ni un superpoder: es una parte real de mí, con dificultades que merecen comprensión y una perspectiva que influye en cómo vivo y en lo que construyo."/></div><T as="p" class="education" en="Software Development Engineering, CETI · English B2" es="Ingeniería en Desarrollo de Software, CETI · Inglés B2"/><a href="mailto:luis.gil.dev15@gmail.com" class="contact-button"><T en="Start a conversation" es="Iniciar una conversación"/></a></div></section>
+    {showFaq && <section class="portfolio-faq" aria-labelledby="portfolio-faq-title">
+      <T as="h2" id="portfolio-faq-title" en="A few useful questions." es="Algunas preguntas útiles." />
+      <div class="portfolio-faq-list">
+        <details><summary><T en="Which projects can I explore now?" es="¿Qué proyectos puedo explorar ahora?"/></summary><T as="p" en="Open the Tavi and MiniTools pages for product details. NextUp, Umbral and UpToDown are personal projects in development, with previews that explain the ideas." es="Abre las páginas de Tavi y MiniTools para conocer sus detalles. NextUp, Umbral y UpToDown son proyectos personales en desarrollo; sus vistas ilustran las ideas."/></details>
+        <details><summary><T en="Are the project previews live apps?" es="¿Las vistas de los proyectos son apps reales?"/></summary><T as="p" en="The Tavi image shows its actual macOS interface. The MiniTools island and the previews for projects in development are illustrative views." es="La imagen de Tavi muestra su interfaz real para macOS. La isla de MiniTools y las vistas de los proyectos en desarrollo son ilustrativas."/></details>
+        <details><summary><T en="What kind of work do you do?" es="¿Qué tipo de trabajo haces?"/></summary><T as="p" en="My experience spans backend services, APIs, mobile development and native Apple platform apps. The experience and technology sections above include the details." es="Mi experiencia abarca servicios backend, APIs, desarrollo móvil y apps nativas para plataformas Apple. Las secciones anteriores detallan mi experiencia y tecnologías."/></details>
+        <details><summary><T en="How can I get in touch?" es="¿Cómo puedo contactarte?"/></summary><p><T en="Email me about a role, a product idea or a technical collaboration: " es="Escríbeme sobre una vacante, una idea de producto o una colaboración técnica: "/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a>.</p></details>
+      </div>
+    </section>}
     <SupportLinks/>
     <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
   </main>
@@ -131,6 +141,16 @@ const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native app
   :global([data-theme=dark]) .task-preview{background:#302927;color:#f2e5df;box-shadow:none}
   :global([data-theme=dark]) .task-title>span:last-child,:global([data-theme=dark]) .task-preview .preview-note,:global([data-theme=dark]) .task-preview input:checked+span{color:#cbb3a9}
   :global([data-theme=dark]) .task-preview input{accent-color:#cf8c7d}
+</style>
+<style>
+  .portfolio-faq{margin:0 0 28px;padding:30px;background:var(--surface);border-radius:16px}
+  .portfolio-faq h2{font-size:30px;margin-bottom:20px}
+  .portfolio-faq-list{max-width:760px}
+  .portfolio-faq details{border-top:1px solid var(--line);padding:16px 0;font-size:14px}
+  .portfolio-faq summary{font-size:15px;line-height:1.5;cursor:pointer;font-weight:600}
+  .portfolio-faq details p{font-size:14px;line-height:1.7;color:var(--muted);margin-top:10px}
+  .portfolio-faq details a{color:var(--accent)}
+  @media(max-width:720px){.portfolio-faq{padding:22px}.portfolio-faq h2{font-size:26px}}
 </style>
 <style>
   .minitools-project{grid-column:1/-1;display:grid;grid-template-columns:34% minmax(0,1fr);min-height:320px;background:#142c36;color:#f0f6f4}

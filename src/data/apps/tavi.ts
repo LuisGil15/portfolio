@@ -9,7 +9,7 @@ export const tavi = {
   tagline: "Prueba APIs sin salir del ecosistema Apple.",
   description:
     "Organiza workspaces, ambientes, certificados y requests en una aplicación nativa que mantiene tus datos bajo tu control.",
-  status: "Próximamente",
+  status: "Disponible",
   platforms: ["macOS", "iPadOS", "SwiftUI"],
   features: [
     {

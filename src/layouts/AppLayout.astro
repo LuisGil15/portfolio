@@ -30,7 +30,7 @@ const {
         <a href="/apps/tavi/support/" aria-current={activeSection === "support" ? "page" : undefined}>Support</a>
         <a href="/apps/tavi/#faq">FAQ</a>
         <button type="button" class="tavi-language-toggle" data-language-toggle aria-pressed="false">ES</button>
-        <button type="button" class="tavi-nav-download tavi-download-trigger" data-es="Descargar">Download</button>
+        <a class="tavi-nav-download" href="https://apps.apple.com/mx/app/tavi/id6819794965" target="_blank" rel="noreferrer" data-es="Descargar">Download</a>
       </nav>
     </header>
   ) : (
@@ -52,15 +52,6 @@ const {
 
   <slot />
 </SiteLayout>
-
-<dialog class="tavi-download-dialog" data-download-dialog>
-  <div>
-    <p class="tavi-section-label">Tavi / App Store</p>
-    <h2 data-es="Estamos terminando la revisión.">Review in progress.</h2>
-    <p data-es="La app está en proceso de revisión en App Store. Actualizaremos este enlace en cuanto esté disponible para descarga.">The app is currently being reviewed by the App Store. We will update this link as soon as it is available to download.</p>
-    <button type="button" class="tavi-dialog-close" data-download-close data-es="Entendido">Got it</button>
-  </div>
-</dialog>
 
 {app.slug === "tavi" && <script is:inline>
   const languageKey = "tavi-language";
@@ -119,7 +110,7 @@ const {
         "Incluye el modelo de tu dispositivo, la versión del sistema, la versión de Tavi, los pasos para reproducir el problema y cualquier mensaje de error. No compartas tokens, contraseñas, certificados ni otros secretos en un reporte.",
         "Consulta la política de privacidad y los términos de uso para conocer cómo funciona Tavi.",
       ],
-      "/changelog/": ["Tavi está en preparación para su publicación inicial en macOS y iPadOS. Las notas de cada versión aparecerán aquí."],
+      "/changelog/": ["Tavi está disponible para iPad y Mac en App Store. Aquí aparecerán las notas de cada versión."],
     };
     const section = Object.keys(legalHeadings).find((key) => window.location.pathname.endsWith(key));
     if (section) {
@@ -148,7 +139,4 @@ const {
     localStorage.setItem(languageKey, nextLanguage);
     setTaviLanguage(nextLanguage);
   }));
-  const downloadDialog = document.querySelector("[data-download-dialog]");
-  document.querySelectorAll(".tavi-download-trigger").forEach((button) => button.addEventListener("click", () => downloadDialog?.showModal()));
-  document.querySelector("[data-download-close]")?.addEventListener("click", () => downloadDialog?.close());
 </script>}
