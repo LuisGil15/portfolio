@@ -57,6 +57,27 @@ const faqs = [
     };
     updateAppStoreBadge();
     new MutationObserver(updateAppStoreBadge).observe(document.documentElement, { attributes: true, attributeFilter: ['lang', 'data-theme'] });
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!reduceMotion.matches && 'IntersectionObserver' in window) {
+      const targets = document.querySelectorAll<HTMLElement>(
+        '.opening-copy, .playground, .opening-bottom, .native-section > .section-copy, .platform-switch, .product-capture, .native-notes, .privacy-section, .questions > div, .faq-list details, .availability'
+      );
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -5% 0px' });
+      targets.forEach((element, index) => {
+        element.classList.add('scroll-reveal');
+        if (element.matches('.playground')) element.style.setProperty('--reveal-delay', '90ms');
+        if (element.matches('.opening-bottom, .product-capture')) element.style.setProperty('--reveal-delay', '170ms');
+        if (element.matches('.faq-list details')) element.style.setProperty('--reveal-delay', String(Math.min(index * 28, 140)) + 'ms');
+        observer.observe(element);
+      });
+      if (targets.length) document.documentElement.classList.add('motion-ready');
+    }
   </script>
 </Layout>
 <style>
@@ -69,4 +90,22 @@ const faqs = [
   .availability{max-width:1100px;margin:0 auto 85px;padding:32px;background:var(--soft);border-radius:16px;scroll-margin-top:25px}.availability-heading{display:flex;align-items:center;gap:18px;margin-bottom:22px}.availability-heading img{object-fit:contain;flex-shrink:0}.availability h2{font-size:26px}.availability p{font-size:15px;line-height:1.65;color:var(--muted);margin-top:8px}.download-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.download-option{position:relative;display:flex;flex-direction:column;justify-content:center;gap:5px;min-height:90px;padding:17px 42px 17px 18px;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--ink);text-decoration:none}.download-option:hover{border-color:var(--accent);transform:translateY(-1px)}.option-label{font-size:16px;font-weight:650}.option-detail{font-size:12px;color:var(--muted)}.option-arrow{position:absolute;right:16px;top:17px;color:var(--accent)}.store-option{align-items:flex-start;border-color:var(--accent)}.app-store-badge{width:150px;height:auto;max-width:100%;object-fit:contain}.brew-option{padding:0;gap:8px}.brew-link{position:relative;display:block;padding:15px 42px 0 17px;color:var(--ink);text-decoration:none}.brew-link .option-arrow{top:16px}.brew-option code{padding:0 17px;color:var(--accent);font-size:11px;line-height:1.55;white-space:nowrap}.brew-option>.option-detail{padding:0 17px 14px}
   @media(max-width:1000px){.opening-copy{gap:35px}.opening-copy p{font-size:16px}.privacy-section{grid-template-columns:48px 1fr}.privacy-section>a{grid-column:2;max-width:none}.section-copy{gap:40px}.availability{margin-left:30px;margin-right:30px}.download-options{grid-template-columns:1fr 1fr}.brew-option{grid-column:1/-1}}
   @media(max-width:650px){.opening{padding:33px 16px 22px}.opening-copy{display:block;margin:0 7px 25px}.opening h1{font-size:37px}.opening-copy p{font-size:16px;margin-top:20px}.opening-copy a{font-size:13px;margin-top:12px}.opening-bottom{gap:14px;justify-content:space-between;flex-wrap:wrap;font-size:10px}.native-section{margin:60px auto;padding:0 23px}.section-copy{grid-template-columns:1fr;gap:20px}.section-copy h2{font-size:34px}.section-copy p{font-size:16px}.product-capture{padding:16px 13px 12px;border-radius:12px}.product-capture img{border-radius:4px}.product-capture figcaption{font-size:9px;margin-top:12px}.native-notes{grid-template-columns:1fr;gap:27px}.native-notes h3{font-size:23px}.native-notes p{font-size:15px}.privacy-section{padding:35px 23px;display:block}.privacy-icon{margin-bottom:20px}.privacy-section h2{font-size:29px}.privacy-section p{font-size:15px}.privacy-section>a{display:inline-block;margin-top:20px}.questions{grid-template-columns:1fr;gap:30px;margin:60px auto;padding:0 23px}.questions h2{font-size:33px}.faq-list summary{font-size:16px}.availability{margin:0 18px 40px;padding:22px}.availability-heading{align-items:flex-start;gap:14px}.availability-heading img{width:42px;height:42px}.availability h2{font-size:25px}.availability p{font-size:14px}.download-options{grid-template-columns:1fr}.download-option{min-height:80px}.brew-option{grid-column:auto}.brew-option code{font-size:11px}}
+</style>
+
+<style is:global>
+  html.motion-ready .scroll-reveal{opacity:0;translate:0 16px;transition:opacity .55s cubic-bezier(.2,0,0,1),translate .55s cubic-bezier(.2,0,0,1);transition-delay:var(--reveal-delay,0ms)}
+  html.motion-ready .scroll-reveal.is-visible{opacity:1;translate:none}
+  .opening{position:relative;isolation:isolate;overflow:hidden}
+  .opening::before{content:"";position:absolute;z-index:-1;inset:-28% -8% auto auto;width:min(72vw,900px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(99,190,255,.3),rgba(37,128,255,.12) 34%,transparent 68%);filter:blur(22px);animation:tavi-hero-drift 19s cubic-bezier(.4,0,.2,1) infinite alternate;pointer-events:none}
+  .opening-copy a svg{transition:translate .2s cubic-bezier(.2,0,0,1)}
+  .opening-copy a:hover svg{translate:0 4px}
+  .platform-switch button{transition:background-color .2s,color .2s,translate .2s}
+  .platform-switch button:active{translate:0 1px}
+  .product-capture{transition:transform .35s cubic-bezier(.2,0,0,1),box-shadow .35s}
+  .product-capture:hover{transform:translateY(-4px);box-shadow:0 18px 38px #29467520}
+  .download-option{transition:transform .2s cubic-bezier(.2,0,0,1),border-color .2s,box-shadow .2s}
+  .download-option:hover{transform:translateY(-2px);box-shadow:0 8px 20px #082b5815}
+  @keyframes tavi-hero-drift{from{transform:translate3d(-1.5%,0,0) scale(.96);opacity:.72}to{transform:translate3d(1.5%,2%,0) scale(1.04);opacity:1}}
+  @media(max-width:650px){.opening::before{width:110vw;inset:-15% -45% auto auto}}
+  @media(prefers-reduced-motion:reduce){.opening::before{animation:none}.scroll-reveal{opacity:1!important;translate:none!important;transition:none!important}.opening-copy a svg,.platform-switch button,.product-capture,.download-option{transition:none}.product-capture:hover,.download-option:hover{transform:none;box-shadow:none}}
 </style>
