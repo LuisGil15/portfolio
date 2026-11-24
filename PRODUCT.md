@@ -82,3 +82,7 @@ The user clarified that a section for “estudio” means academic studies, not 
 ### Personal narrative refinement — November23,2026
 
 User authorized revising the neurodivergence reflection so it reads as personal self-knowledge rather than a request for special/different treatment. The bilingual reflection keeps the supplied autism/inattentive ADHD facts and focuses on perception, processing, organization, strengths, limits and personal strategies; it makes no general medical or workplace claims. This supersedes previous instructions to preserve the old reflection verbatim. About explains the approach to product building without repeating the hero’s name/title introduction or listing projects again. Removed its project-contact button. Footer DOM/visual order is now social links followed by Luis Gil copyright.
+
+### Approved self-knowledge reflection — November23,2026
+
+The user approved combining self-knowledge with learning to live in a world not always designed for their way of thinking. The Spanish approved copy begins “Soy autista y tengo TDAH de presentación inatenta. Conocerme ha sido parte de aprender a moverme…” and frames learning as recognizing strengths, limits and personal strategies. Equivalent English copy is implemented. This supersedes the shorter My way of seeing the world reflection.

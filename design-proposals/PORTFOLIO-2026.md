@@ -167,3 +167,7 @@ CETI academic mark now uses the user-supplied square blue/orange institutional s
 ### About and closing refinement —2026-11-23
 
 About now discusses product understanding and connecting backend/data/interfaces, avoiding repeated name/title introduction. User-approved scope includes a personal neurodivergence copy refinement: the new heading My way of seeing the world / Una forma propia de mirar el mundo leads a self-knowledge reflection without requests or generalized traits. No project CTA remains in About; contact remains in its dedicated section. Footer social links precede copyright in DOM and mobile visual order.
+
+### Academic entrance and approved reflection —2026-11-23
+
+Academic heading uses the existing career-heading horizontal reveal; .academic-timeline is registered with the shared timeline motion. Its CETI mark crops into view before the institution/program inner group settles; outer geometry remains fixed. The shared reduced-motion, immediate-focus completion and280px replay boundary apply. Reflection text matches the user-approved self-knowledge/world-not-designed-for-me combination in Spanish and English.

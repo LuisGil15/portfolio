@@ -191,3 +191,7 @@ Build13 routes passed. IAB390 mobile visual review confirms aligned timeline mar
 ### About narrative and footer order —2026-11-23
 
 Build13 routes passed, diff whitespace clean. IAB390 mobile: full About/reflection fits without horizontal overflow; repeated Soy Luis introduction absent, About link count0. EN/ES reflection switch verified. Footer DOM order socials then footer-meta matches intended mobile reading order. Screenshots about-refined-mobile.jpg and footer-socials-first-mobile.jpg.
+
+### Academic motion and approved reflection —2026-11-23
+
+Build13 routes and whitespace check passed. Actual IAB390 capture in education-motion/entry.json records queued→running→visible; outer transform remains none, logo mask and inner text complete. Final education is readable and correctly aligned. EN reflection translation verified through language control. Fresh motion reviewer passes scope inspected with no material fixes; reduced-motion runtime and actual iPhone performance remain unverified.

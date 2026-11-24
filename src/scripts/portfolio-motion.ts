@@ -85,8 +85,8 @@ function addGroups(selector:string,kind:RevealKind) {
   document.querySelectorAll<HTMLElement>(selector).forEach(element => revealGroups.set(element,kind));
 }
 addGroups('.project','project');
-addGroups('.timeline-entry','timeline');
-addGroups('.work-toolbar h2,#stack-title,.experience-intro h2,.about h2,.personal-reflection h3,.portfolio-contact h2','heading');
+addGroups('.timeline-entry,.academic-timeline','timeline');
+addGroups('.work-toolbar h2,#stack-title,.experience-intro h2,.academic-section h2,.about h2,.personal-reflection h3,.portfolio-contact h2','heading');
 addGroups('.experience-contact,.github-line,.portfolio-contact>a','copy');
 addGroups('.contact-form','form');
 addGroups('.skills-window','logos');
@@ -121,7 +121,7 @@ function playHeading(element:HTMLElement) {
     ],640,Math.min(index*55,220),'cubic-bezier(.22,.8,.25,1)'));
     return animate(element,[{opacity:1},{opacity:1}],860);
   }
-  if (element.closest('.experience-intro')) return animate(element,[
+  if (element.closest('.experience-intro,.academic-section')) return animate(element,[
     {clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0% 0 0)'},
   ],700,0,'cubic-bezier(.22,.8,.25,1)');
   if (element.id==='stack-title') return animate(element,[
@@ -155,8 +155,8 @@ function playGroup(element:HTMLElement,kind:RevealKind) {
     });
   } else if (kind==='timeline') {
     const date=element.querySelector('.timeline-period');
-    const logo=element.querySelector('.company-logo');
-    const title=element.querySelector('.timeline-heading>div:last-child');
+    const logo=element.querySelector('.company-logo,.academic-mark');
+    const title=element.querySelector('.timeline-heading>div:last-child,.academic-record>div:last-child');
     if (date) animate(date,[{opacity:0},{opacity:1}],420);
     if (logo) animate(logo,[{clipPath:'inset(0 0 100% 0)'},{clipPath:'inset(0 0 0% 0)'}],620);
     if (title) revealContent(title,100,16);
