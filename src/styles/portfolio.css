@@ -51,7 +51,7 @@ html[data-page-theme=portfolio] { background-color:#080b10; }
 .header-settings { display:flex; align-items:center; gap:8px; }
 .portfolio-topbar .header-settings button { display:inline-grid; place-items:center; flex-shrink:0; width:44px; height:44px; padding:10px; border:1px solid var(--line); border-radius:50%; background:transparent; color:var(--ink); font-size:12px; }
 .portfolio-topbar .header-settings button:hover { background:var(--soft); }
-.portfolio-topbar { position: fixed; top:0; left:0; right:0; z-index:4; background: var(--page); display: flex; flex-wrap:wrap; gap: 8px; align-items: center; padding: calc(12px + env(safe-area-inset-top,0px)) 0 16px; }
+.portfolio-topbar { --header-chrome-extension:0px; position: fixed; top:calc(-1 * var(--header-chrome-extension)); left:0; right:0; z-index:4; background: var(--page); display: flex; flex-wrap:wrap; gap: 8px; align-items: center; padding: calc(12px + env(safe-area-inset-top,0px) + var(--header-chrome-extension)) 0 16px; }
 .mobile-header { display:none; }
 .mobile-drawer { display:none; }
 html.portfolio-menu-open { overflow:hidden; }
@@ -125,7 +125,7 @@ html[data-motion=paused] { scroll-behavior:auto; }
 /* Compact mobile header; section links live in a disclosure below the bar. */
 @media(max-width:760px) {
  .identity { display:none; }
- .portfolio-topbar { --header-gutter:20px; display:block; margin-inline:0; padding:calc(12px + env(safe-area-inset-top,0px)) var(--header-gutter) 10px; padding-left:max(var(--header-gutter),env(safe-area-inset-left,0px)); padding-right:max(var(--header-gutter),env(safe-area-inset-right,0px)); border-bottom:0; }
+ .portfolio-topbar { --header-gutter:20px; display:block; margin-inline:0; padding:calc(12px + env(safe-area-inset-top,0px) + var(--header-chrome-extension)) var(--header-gutter) 10px; padding-left:max(var(--header-gutter),env(safe-area-inset-left,0px)); padding-right:max(var(--header-gutter),env(safe-area-inset-right,0px)); border-bottom:0; }
  .mobile-header { display:flex; align-items:center; justify-content:space-between; gap:8px; }
  .portfolio-topbar .mobile-brand { display:flex; align-items:center; justify-content:flex-start; gap:7px; padding:0; border:0; border-radius:0; font-size:18px; font-weight:600; letter-spacing:-.035em; }
  .mobile-brand svg { width:24px; height:24px; flex-shrink:0; }
@@ -236,4 +236,10 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
  .portfolio-navigation { gap:3px; }
  .portfolio-topbar a { padding-inline:9px; font-size:11px; }
  .header-actions { gap:8px; }
+}
+
+/* Same backing extension used by Luromi: paint behind iPad Safari's translucent
+   chrome, while compensating inside the header so navigation does not move. */
+@supports (padding-top:env(safe-area-inset-top)) {
+ @media(pointer:coarse) { .portfolio-topbar { --header-chrome-extension:120px; } }
 }

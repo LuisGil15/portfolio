@@ -187,7 +187,7 @@ const { showFaq = false } = Astro.props;
       window.addEventListener('pageshow',closeMenu);
     }
     if (topbar) new ResizeObserver(() => {
-      document.body.style.setProperty('--portfolio-header-height', `${topbar.getBoundingClientRect().height}px`);
+      document.body.style.setProperty('--portfolio-header-height', `${topbar.getBoundingClientRect().bottom}px`);
       updateActiveNavigation();
     }).observe(topbar);
     updateActiveNavigation();

@@ -231,3 +231,7 @@ Owner rejected the centered social composition on November24,2026. Restore previ
 ### iPad Safari header follow-up — 2026-11-24
 
 The user reports the 12px fixed sampler did not prevent portrait bleed into iPad Safari chrome. Replace it with the complete opaque header fixed directly under body, outside size containment. A measured spacer reserves its height; include the relocated header in preloader inert surfaces. Preserve separator timing and page composition. Responsive geometry and menu checked at1194/834/390px; actual iPad Safari chrome requires device confirmation.
+
+### Luromi Safari backing parity — 2026-11-24
+
+Both earlier approaches failed on the user's iPad. Compared the published Luromi CSS and adopted its exact geometry: on coarse pointers extend the fixed header120px above the viewport, adding120px of top padding to keep controls in place. Reserve the header's visible bottom rather than its extended box height. Fine-pointer desktop retains zero extension. Touch geometry and menu verified with a temporary forced-extension route removed before build; native iPad result remains to be confirmed.
