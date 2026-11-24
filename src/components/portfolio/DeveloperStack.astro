@@ -50,7 +50,7 @@ const groups = [
  .skills-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); gap:38px; align-items:center; margin-bottom:42px; }
  .skills-marquee { min-width:0; container-type:inline-size; }
  .skills-window { overflow:hidden; display:grid; gap:22px; }
- .skills-track { display:flex; width:max-content; gap:14px; animation:skills-drift 24s linear infinite; }
+ .skills-track { display:flex; width:max-content; gap:14px; animation:skills-drift 24s linear infinite; animation-play-state:paused; }
  .reverse-track { animation-direction:reverse; animation-duration:28s; }
  .technology-marks { display:flex; gap:14px; padding:0; margin:0; list-style:none; flex-shrink:0; }
  .technology-marks li { width:max(88px,calc((100cqi - 42px)/4)); flex-shrink:0; min-width:0; }
@@ -59,8 +59,9 @@ const groups = [
  .skills-motion-toggle svg { width:14px; height:14px; }
  .play-symbol { display:none; }
  .is-paused .pause-symbol { display:none; }.is-paused .play-symbol { display:block; }
- .is-paused .skills-track { animation-play-state:paused; }
- @media(hover:hover) { .skills-window:hover .skills-track { animation-play-state:paused; } }
+ .skills-marquee[data-active=true]:not(.is-paused) .skills-track { animation-play-state:running; }
+ .skills-marquee.is-paused .skills-track { animation-play-state:paused; }
+ @media(hover:hover) { .skills-marquee[data-active=true] .skills-window:hover .skills-track { animation-play-state:paused; } }
  @keyframes skills-drift { to { transform:translateX(calc(-50% - 7px)); } }
  @media(prefers-reduced-motion:reduce) {
   .skills-track { animation:none; transform:none; width:auto; }
@@ -89,8 +90,8 @@ const groups = [
  .skills-categories dd { margin:0; color:var(--muted); }
  @media(min-width:1500px) { .skills-layout { gap:50px; }.technology-marks figure { min-height:144px; }.technology-marks img { width:52px; height:52px; }.skills-categories { padding-left:40px; }.skills-categories>div { font-size:15px; } }
  @media(max-width:1150px) { .skills-layout { grid-template-columns:1fr; gap:34px; }.skills-marquee { max-width:500px; width:100%; margin:0 auto; }.skills-categories { border-left:0; border-top:1px solid var(--line); padding:30px 0 0; grid-template-columns:repeat(2,minmax(0,1fr)); gap:25px; }.developer-stack h2 { margin-bottom:44px; } }
- @media(max-width:760px) { .developer-stack { padding:65px 0; }.skills-layout { margin-bottom:30px; }.skills-orbits { width:150px; height:150px; right:-50px; top:25px; }.technology-marks figure { min-height:105px; padding:17px 4px 14px; gap:12px; border-radius:12px; }.technology-marks img { width:35px; height:35px; }.technology-marks figcaption { font-size:9px; }.skills-categories { grid-template-columns:1fr; gap:20px; }.skills-categories>div { font-size:13px; } }
- @media(max-width:370px) { .technology-marks figure { min-height:91px; }.technology-marks img { width:30px; height:30px; }.technology-marks figcaption { font-size:8px; } }
+ @media(max-width:760px) { .developer-stack { --stack-gutter:20px; padding:65px var(--stack-gutter); margin-inline:calc(-1 * var(--stack-gutter)); }.skills-marquee { width:calc(100% + 2 * var(--stack-gutter)); max-width:none; margin-inline:calc(-1 * var(--stack-gutter)); }.skills-layout { margin-bottom:30px; }.skills-orbits { width:150px; height:150px; right:-50px; top:25px; }.technology-marks figure { min-height:105px; padding:17px 4px 14px; gap:12px; border-radius:12px; }.technology-marks img { width:35px; height:35px; }.technology-marks figcaption { font-size:9px; }.skills-categories { grid-template-columns:1fr; gap:20px; }.skills-categories>div { font-size:13px; } }
+ @media(max-width:370px) { .developer-stack { --stack-gutter:16px; }.technology-marks figure { min-height:91px; }.technology-marks img { width:30px; height:30px; }.technology-marks figcaption { font-size:8px; } }
 </style>
 
 <script>
@@ -105,6 +106,12 @@ const groups = [
    document.addEventListener('visibilitychange', syncOrbits);
  }
  const marquee = document.querySelector<HTMLElement>('.skills-marquee');
+ if (marquee) {
+   let visible=false;
+   const syncMarquee=()=>{ marquee.dataset.active=String(visible && !document.hidden); };
+   new IntersectionObserver(entries=>{ visible=entries[0].isIntersecting; syncMarquee(); }).observe(marquee);
+   document.addEventListener('visibilitychange',syncMarquee);
+ }
  const motionToggle = marquee?.querySelector<HTMLButtonElement>('.skills-motion-toggle');
  motionToggle?.addEventListener('click', () => {
    const paused = marquee?.classList.toggle('is-paused') ?? false;

@@ -168,7 +168,7 @@ const { showFaq = false } = Astro.props;
       updateActiveNavigation();
     }).observe(topbar);
     updateActiveNavigation();
-    document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.addEventListener('click', () => {
+    document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.addEventListener('click', event => {
       const filter = button.dataset.filter;
       document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed', String(b===button)));
       let count = 0;
@@ -176,6 +176,7 @@ const { showFaq = false } = Astro.props;
         project.hidden = filter !== 'all' && project.dataset.category !== filter;
         if (!project.hidden) count++;
       });
+      document.dispatchEvent(new CustomEvent('portfolio-filter',{detail:{keyboard:event.detail===0}}));
       const status = document.querySelector('.filter-announcement');
       if(status) status.textContent = document.documentElement.lang === 'es' ? count + ' proyectos visibles' : count + ' projects shown';
     }));

@@ -150,3 +150,12 @@ Build and diff checks passed. Browser confirms brand text > _, light color rgb(2
 ## Drawer initial focus
 
 At 390px opening the menu focuses drawer-title; Close has outline-style:none. Pressing Tab moves to Close and gives it outline-style:solid. Escape still closes. Build and diff checks passed; viewport reset. Capture: drawer-initial-focus.jpg.
+
+### Responsive animation and technology edges — 2026-11-23
+
+- Build: all 13 routes passed; git diff whitespace check passed.
+- IAB 390×844 and 320×740: technology window spans x=0 to viewport width; scrollWidth equals viewport width. Desktop 1440×900 has no horizontal overflow.
+- Captured project and RESSER queued → running → visible sequences in motion-responsive JSON/frame files. Outer transform stays none; inner title decelerates to rest. No console errors captured.
+- Logo pause control tested; offscreen tracks computed paused. Filters tested by pointer and Enter.
+- Fresh motion reviewer approved inspected source and valid RESSER captures; project-valid captures were added afterward and independently inspected through sampled computed styles.
+- Reduced motion reviewed in source only: browser exposes no media preference emulation. Actual iPhone Safari performance and reduced-motion device behavior remain unverified.

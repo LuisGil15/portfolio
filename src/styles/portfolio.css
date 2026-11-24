@@ -97,8 +97,8 @@ html.portfolio-menu-open { overflow:hidden; }
 .portfolio-hero h1>span,.portfolio-hero h1>em { display:inline-block; }
 html[data-motion=paused] .skills-track { animation-play-state:paused; }
 @media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
- html:not([data-motion=paused]) .project { transition:transform 350ms cubic-bezier(.16,1,.3,1); }
- html:not([data-motion=paused]) .project:hover { transform:translateY(-5px); }
+ html:not([data-motion=paused]) .project { transition:border-color 220ms cubic-bezier(.16,1,.3,1); }
+ html:not([data-motion=paused]) .project:hover { border-color:var(--accent); }
  html:not([data-motion=paused]) .tavi-art>img,html:not([data-motion=paused]) .own-project-logo img { transition:transform 500ms cubic-bezier(.16,1,.3,1); }
  html:not([data-motion=paused]) .tavi-project:hover .tavi-art>img { transform:translate(-5px,-3px) scale(1.015); }
  html:not([data-motion=paused]) .own-project:hover .own-project-logo img { transform:translateY(-3px); }
@@ -174,3 +174,7 @@ html[data-theme=dark] .portfolio .contact-form button:hover { background:var(--b
  .mobile-drawer .portfolio-navigation>a[aria-current] { background:var(--soft); color:var(--accent); }
  .mobile-drawer .top-contact { margin-top:24px; min-height:48px; font-size:14px; }
 }
+
+/* Only JS-prepared offscreen groups are hidden; reduced motion stays visible. */
+html[data-motion=running] .portfolio [data-reveal-state=queued] { opacity:0; }
+@media(prefers-reduced-motion:reduce) { .portfolio [data-reveal-state] { opacity:1!important; clip-path:none!important; } }
