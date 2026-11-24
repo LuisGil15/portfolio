@@ -128,3 +128,7 @@ Rendered desktop and 390px mobile dark; light at 320px remains available without
 ## Extended torso fade
 
 Rendered 390px and 320px mobile with more shoulder/chest visible and a lower graduated fade. Browser confirms portrait layer -2 behind particle layer -1; no horizontal overflow at either width. Viewport reset. Build and diff checks passed. Capture: mobile-torso-fade.jpg.
+
+## Edge-to-edge mobile hero
+
+At 390px both hero and particle canvas measure from x=0 to x=390; text retains x=20. At 320px both span x=0 to x=320 with text at x=16. No horizontal page overflow. Portrait remains below the wave and now clips at the screen edge. Build and diff checks passed; viewport reset. Capture: mobile-hero-edge-to-edge.jpg.
