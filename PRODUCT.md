@@ -106,3 +106,5 @@ User clarified RESSER scope: they built the mobile application from scratch with
 ### Terminal intro and publication — November23,2026
 
 User authorized publication; the completed redesign was deployed to the existing Cloudflare portfolio Worker as version b9240173-e77c-4ddc-bd7e-e869e7751cb8. The user then requested a terminal/old-OS boot intro before the site entrances. A brief localized three-line typing sequence appears on dark background, then a420ms dissolve hands off to the hero entrance and resumes page motion. No simulated percentage or invented loading stats. Overlay can be skipped; keyboard/reduced preference and deep links bypass immediately. It fails open after4s, uses native inert during the overlay and releases on pagehide. Existing Home/scroll replay remains. Tests cover early-exit lifecycle; real reduced-motion browser rendering and actual iPhone performance are not claimed.
+
+Terminal intro published and verified at https://luisgil.org/ and https://luisgil.org/es/ on November23,2026; Cloudflare version1bbd015a-e33f-4c3b-a14f-ac8ceda5d0f1. This supersedes prior local-only publication constraints for the completed portfolio release.

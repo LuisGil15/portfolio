@@ -211,3 +211,7 @@ Build13 routes and diff whitespace check passed. IAB1440: logo window976px, repe
 ### Terminal boot intro —2026-11-23
 
 Build13 routes and lifecycle test passed. Real IAB390Spanish and1440English captures in boot-intro/ show loading: contentopacity0,titletransformnone,motionpaused; revealing: overlayopacityfalls whileherotitlemoves; ready: overlayhidden,inertfalse,herostillfinishing. Mobile clears around2.07s, desktop1.93s in supplied captures. Escape immediately bypassed; deep link #contact-form bypassed. Source lifecycle test executes reduced-motion bypass, stalled-document failsafe and keyboard skip. Browser media emulation unavailable; reduced-motion rendering and iPhone performance unverified. Fresh motion reviewer approved inspected scope with no blocking fixes. Captured frames and JSON are measurements of this browser run, not performance guarantees.
+
+### Published terminal intro —2026-11-23
+
+Cloudflare Worker portfolio deployed as1bbd015a-e33f-4c3b-a14f-ac8ceda5d0f1 from cb351a0 (previous baseline b9240173-e77c-4ddc-bd7e-e869e7751cb8). Verified https://luisgil.org/es/ serves new PortfolioPage.Dk3ZWfW1.css and terminal markup. Production390 capture in boot-intro/live.json shows loading→revealing→ready, title entrance begins duringfade, native inert clears, no console errors. Public https://luisgil.org/ is English and Escape skips itsintro; contact action is Continue by email. Temporary viewport override reset. No Git push performed.
