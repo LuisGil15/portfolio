@@ -257,6 +257,7 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
  .portfolio-viewport[data-safari-clip=native],.portfolio-viewport[data-safari-clip=native]>main {
   animation-duration:auto!important; animation-timing-function:linear!important;
   animation-fill-mode:both!important; animation-timeline:scroll(root block)!important;
+  animation-range:0px var(--portfolio-scroll-distance,1px)!important;
  }
  @keyframes portfolio-pin-clip { from { transform:translateY(0); } to { transform:translateY(var(--portfolio-scroll-distance,0px)); } }
  @keyframes portfolio-counter-scroll { from { transform:translateY(0); } to { transform:translateY(calc(-1 * var(--portfolio-scroll-distance,0px))); } }

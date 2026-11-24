@@ -6,11 +6,13 @@ const needsClip = CSS.supports('-webkit-touch-callout', 'none') ||
   new URLSearchParams(location.search).get('safari-clip-test') === '1';
 if (viewport && boundary && needsClip) {
   const spacer = document.querySelector('.portfolio-header-spacer');
-  if (CSS.supports('animation-timeline', 'scroll(root block)')) {
+  if (CSS.supports('animation-timeline', 'scroll(root block)') && CSS.supports('animation-range', '0px 1000px')) {
     viewport.dataset.safariClip = 'native';
     boundary.dataset.nativeClip = '';
     const measure = () => {
-      const distance = Math.max(0, document.documentElement.scrollHeight - document.documentElement.clientHeight);
+      // The same pixel span drives both the keyframe distance and attachment range.
+      // Use the full document height so the range cannot clamp before page end.
+      const distance = Math.max(1, document.documentElement.scrollHeight);
       boundary.style.setProperty('--portfolio-scroll-distance', `${distance}px`);
     };
     measure();

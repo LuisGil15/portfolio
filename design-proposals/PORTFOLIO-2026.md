@@ -247,3 +247,7 @@ Actual device evidence at scroll379 shows all header rules active but continued 
 ### Native scroll-synchronized paint boundary — 2026-11-24
 
 Revisionc device evidence confirms correct clipping at rest but lag during scrolling. The supported-engine path now pins an overflow clip with a root scroll-timeline transform and applies an equal opposite transform to main. This preserves native document scrolling/content position while removing the JS frame dependency. An untransformed outer overflow boundary preserves document scroll range. Resize/content observation only updates the range. Structural transforms remain active under reduced motion because their visible movement cancels. Older-engine clip fallback retains its known async limitation. Diagnostic revisiond reports native/fallback mode and matrices. Source/geometry review found no material defect; actual iPad inertial scrolling remains unverified until user confirmation.
+
+### Pixel attachment range for drift-free compensation — 2026-11-24
+
+The device confirms coverage but reports growing blank space under the header. Bind both transform endpoints and animation attachment range to the same explicit pixel span; do not mix measured pixel movement with the implicit native percentage range. Use full document height to avoid capping before the actual scroll end. Forced browser measurements retain zero edge/header difference through~6kpx scroll, viewport-height changes and mobile bottom/top. Diagnostic revisione reports edge and drift. Physical-device verification remains pending.
