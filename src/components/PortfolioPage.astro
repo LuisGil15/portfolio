@@ -9,6 +9,7 @@ import PortfolioHero from './portfolio/PortfolioHero.astro';
 import DeveloperStack from './portfolio/DeveloperStack.astro';
 import ExperienceTimeline from './portfolio/ExperienceTimeline.astro';
 import OwnProjects from './portfolio/OwnProjects.astro';
+import SocialLinks from './portfolio/SocialLinks.astro';
 import '../styles/portfolio.css';
 const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'web',en:'Web & platforms',es:'Web y plataformas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
 const { showFaq = false } = Astro.props;
@@ -19,7 +20,7 @@ const { showFaq = false } = Astro.props;
     <div class="identity-art"><img class="identity-portrait" src="/images/profile/luis-gil.webp" width="640" height="800" alt="Luis Gil" decoding="async"/></div>
     <T as="p" class="role" en="Software developer. Independent maker." es="Desarrollador de software. Creador independiente." />
     <div class="identity-bottom">
-      <div class="socials"><a href="https://github.com/LuisGil15">GitHub</a><a href="https://www.linkedin.com/in/luis-francisco-gil-perez-721348182/">LinkedIn</a></div>
+      <SocialLinks variant="profile"/>
       <div class="side-meta"><button class="motion-toggle" data-motion-toggle aria-label="Pause animations" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="motion-pause" d="M9 5v14M15 5v14"/><path class="motion-play" d="m8 5 11 7-11 7Z"/></svg></button><ThemeToggle/><button data-language aria-label="Cambiar a español">ES</button></div>
     </div>
   </aside>
@@ -72,7 +73,7 @@ const { showFaq = false } = Astro.props;
         <details><summary><T en="How can I get in touch?" es="¿Cómo puedo contactarte?"/></summary><p><T en="Email me about a role, a product idea or a technical collaboration: " es="Escríbeme sobre una vacante, una idea de producto o una colaboración técnica: "/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a>.</p></details>
       </div>
     </section>}
-    <section id="contact" class="portfolio-contact"><T as="h2" en="Have something&#10;in mind? Let's build it." es="¿Tienes algo en mente?&#10;Vamos a construirlo."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a><div><a href="https://github.com/LuisGil15">GitHub</a><a href="https://www.linkedin.com/in/luis-francisco-gil-perez-721348182/">LinkedIn</a></div></section>
+    <section id="contact" class="portfolio-contact"><T as="h2" en="Have something&#10;in mind? Let's build it." es="¿Tienes algo en mente?&#10;Vamos a construirlo."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a><SocialLinks/></section>
     <SupportLinks/>
     <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
   </main>

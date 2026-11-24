@@ -50,7 +50,7 @@ The user supplied their portrait and then clarified that Luromi Studio and Hourm
 
 ## Single navigation
 
-The user requested removal of duplicated navigation. The personal panel now contains identity, portrait, role, GitHub/LinkedIn and the retained theme/language controls. The duplicate section menu and sidebar email CTA are removed. The card fits its content within the viewport rather than stretching to the bottom of the window.
+The user requested removal of duplicated navigation. The personal panel now contains identity, portrait, role, GitHub/LinkedIn and the retained theme/language controls. The duplicate section menu and sidebar email CTA are removed. The panel now follows the viewport height with 26px outer clearance; its portrait flexes to keep the role, social icons and controls visible. Mobile retains the compact header.
 
 The sticky top navigation owns Home → My work → Tech stack → Experience → About me, plus the email action. At tablet widths it wraps; at 760px and below the six actions form two rows of three, with 44px minimum target height. Section highlighting now follows the actual section positions and sticky-header/scroll-padding offset using a frame-throttled passive scroll listener. Hero and section anchor spacing clears the mobile header.
 
@@ -58,6 +58,12 @@ The sticky top navigation owns Home → My work → Tech stack → Experience �
 
 The user requested a more animated portfolio. This supersedes the earlier finite-wave choice: the wave now flows while the hero is visible and the document is active, capped to approximately 30 draw calls per second, with 30×92 particles and capped pixel ratio. It stops offscreen, in inactive tabs, under reduced motion or when globally paused.
 
-Hero title lines and the portrait have a short staggered entrance. Projects enter vertically once, timeline entries enter horizontally once, and section headings use a smaller entrance. Web Animations API and IntersectionObserver enhance already-visible content; no hidden CSS default or library is required. Fine-pointer hovers lift project cards and subtly shift app artwork/marks; keyboard navigation stays direct. The existing logo carousel remains.
+Hero title lines and the portrait have a short staggered entrance. Projects enter vertically, timeline entries enter horizontally, and section headings use a smaller entrance. Their entrances re-arm after leaving view. Web Animations API and IntersectionObserver enhance already-visible content; no hidden CSS default or library is required. Fine-pointer hovers lift project cards and subtly shift app artwork/marks; keyboard navigation stays direct. The existing logo carousel remains.
 
 A bilingual global pause/resume control joins the profile controls and persists under `site-motion:portfolio`. Global pause stops carousel motion and the wave, finishes finite entrance animations, disables hover transitions and smooth scrolling. Reduced motion overrides the running preference and disables the pause toggle because the page is already still. The original local carousel pause remains independent. All animation uses transform, opacity or a brief hero blur; no layout dimension interpolation or scroll hijacking. Mobile header selectors were repaired during the review to retain the intended compact profile header.
+
+## Returning hero and profile refinement
+
+The hero heading reveals through three line masks with a 140ms stagger, followed by the description and actions. Its entrance re-arms after leaving view and can replay through Home navigation, including when already at the top. Repeated triggers cancel the previous animation on each element. Reduced motion and global pause retain visible content.
+
+SocialLinks shares six local Simple Icons marks between profile and contact: GitHub, LinkedIn, Facebook, Instagram, Threads and X. Only the existing GitHub and LinkedIn destinations are linked. The user explicitly requested icons only for the other four until profile URLs are supplied; those are labelled, noninteractive spans. CC0 attribution is retained alongside assets.
