@@ -93,6 +93,7 @@ html.portfolio-menu-open { overflow:hidden; }
 .about { padding: 40px; background: var(--about); border-radius: 16px; }.about-type { display: none; }.about h2 { max-width: 650px; }.about p { font-size: 13px; line-height: 1.95; color: var(--muted); margin-top: 24px; max-width: 72ch; }.technology-profile { display: none; }.personal-reflection { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 30px; }.personal-reflection h3 { font-size: 24px; line-height: 1.35; font-weight: 500; max-width: 35ch; }.about .education { font-size: 11px; }.contact-button { display: inline-block; margin-top: 25px; padding: 13px 18px; border-radius: 30px; background: var(--button); color: #fff; font-size: 12px; text-decoration: none; }html[data-theme=dark] .portfolio .contact-button { color: #153c40; }.contact-button:hover { background: var(--button-hover); }
 .portfolio-faq { padding-top: 60px; }.portfolio-faq-list { margin-top: 28px; }.portfolio-faq details { border-top: 1px solid var(--line); padding: 20px 0; }.portfolio-faq summary { cursor: pointer; font-size: 14px; }.portfolio-faq details p { font-size: 13px; line-height: 1.8; color: var(--muted); margin-top: 15px; }
 .portfolio-contact { padding: 100px 0 25px; }.portfolio-contact h2 { font-size: clamp(36px,4.2vw,64px); font-weight: 500; line-height: 1.15; max-width: 17ch; white-space: pre-line; }.portfolio-contact>a { display: flex; align-items: center; justify-content: space-between; gap: 15px; border-bottom: 1px solid var(--line); padding: 25px 0; font-size: clamp(13px,1.7vw,23px); text-decoration: none; color: var(--accent); }.portfolio-contact>a svg { width: 30px; height: 30px; }.portfolio-contact>div { display: flex; gap: 25px; font-size: 12px; padding-top: 24px; }
+.portfolio main > .support-maker { max-width: none; }
 .portfolio footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 10px; padding: 35px 0; }
 @media (min-width:1700px) { .identity { left: max(32px,calc((100vw - 1660px)/2)); }.portfolio main { margin-left: max(396px,calc((100vw - 1660px)/2 + 364px)); max-width: 1320px; } }
 @media (max-width:1150px) { .portfolio-topbar { flex-wrap:wrap; gap:6px; } .projects { grid-template-columns: 1fr; } .identity { width: 276px; left: 22px; padding: 23px; }.portfolio main { margin-left: 320px; padding-right: 28px; padding-left: 0; }.portfolio-topbar a { padding: 11px 12px; font-size: 11px; }.portfolio-hero h1 { font-size: clamp(42px,5.1vw,64px); }.tavi-project,.minitools-project { grid-template-columns: 1fr; }.tavi-copy,.minitools-copy { padding: 30px; }.tavi-copy p,.minitools-copy p { max-width: 42ch; }.tavi-art,.minitools-art { margin: 0 0 28px 30px; }.screenshot-caption,.minitools-art-caption { padding-right: 30px; }.project-heading { align-items: flex-start; flex-direction: column; } }
@@ -196,8 +197,14 @@ html[data-motion=running] .portfolio [data-reveal-state=queued] { opacity:0; }
 /* Contact stays focused; social destinations close the page. */
 .portfolio-contact>a { border-bottom:0; }
 .portfolio footer { align-items:center; }
+@media (width > 760px) {
+  .portfolio footer { flex-direction: row-reverse; }
+}
 .footer-meta { display:flex; flex-wrap:wrap; align-items:center; gap:20px; }
-@media(max-width:760px) { .footer-meta { width:100%; justify-content:space-between; } }
+@media (max-width:760px) {
+  .portfolio footer { padding-top: 12px; }
+  .footer-meta { width:100%; justify-content:space-between; }
+}
 
 /* Card actions remain distinct from their surfaces, with a full touch target. */
 html[data-theme=dark] .portfolio .project .open-project { align-items:center; min-height:44px; border:1px solid var(--control-line); background:#1b283a; color:var(--ink); font-weight:550; }
