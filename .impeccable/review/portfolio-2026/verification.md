@@ -102,3 +102,9 @@ Both utility buttons measured 44×44px with 50% radius and transparent backgroun
 ## Personal social URLs
 
 Build and diff checks passed. Parsed generated Spanish HTML: five networks appear as links in each of the two placements; all supplied Instagram/Threads/X destinations match their cleaned paths, with target=_blank and noopener/noreferrer. Facebook is absent from both lists. No external profile availability check was performed.
+
+## Contact draft form
+
+Build (13 routes) and diff checks passed. Desktop ES/dark and 390px EN/light rendered with no horizontal overflow; mobile fields form a single 350px track. Native required validation blocked an empty form, and invalid email blocked draft generation. A valid submission generated the expected mailto recipient, subject and multiline body. Changing the message hid the stale draft. Language changes reset generated drafts while preserving field text. Pure-function checks passed for Unicode, ampersands, paragraph breaks, default subject and subject-header newline stripping.
+
+Only local synthetic data was used. No email client was opened, no message sent, and no external service configured. Mail-client-specific URI-length limits and actual delivery were not tested. Captures: contact-draft-ready.jpg and contact-form-desktop.jpg.

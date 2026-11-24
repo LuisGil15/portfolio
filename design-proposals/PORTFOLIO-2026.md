@@ -95,3 +95,9 @@ Removed repeated decorative arrows from header contact, hero actions, project li
 Header utilities are grouped in the fixed DOM/visual order language → theme → contact. Language and theme share identical 44px circular outlined targets with transparent backgrounds; the contact pill follows at the right. The group stays together when the header wraps. Mobile places the two utility controls at left and contact at right on a dedicated row. Styles are scoped to portfolio so other ThemeToggle consumers remain unchanged.
 
 Social destinations updated from user-supplied URLs: Instagram /luisgildev/, Threads /@luisgildev and X /luisgildev, using clean paths without tracking queries. Facebook is removed from both shared placements. The profile grid now has five columns and every icon is a real link, superseding the earlier placeholder state.
+
+## Contact draft form
+
+The contact section retains direct email and social links, followed by an unboxed form aligned with the page grid. Name/email share a row on desktop; subject and message span the width. Mobile uses one column. Inputs have persistent labels, 16px text, autocomplete, required/length constraints and visible focus. The textarea remains vertically resizable.
+
+At the user’s direction the form composes an email locally rather than submitting to a service. Prepare email creates an encoded mailto draft with the selected subject and a body containing the name, email and message. A polite status and explicit link let the visitor open, review and send it from their mail client. Editing any field or changing language invalidates the old draft. Nothing is sent or stored by the website; direct email remains available. Header contact now targets #contact.

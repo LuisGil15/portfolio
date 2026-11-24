@@ -10,6 +10,7 @@ import DeveloperStack from './portfolio/DeveloperStack.astro';
 import ExperienceTimeline from './portfolio/ExperienceTimeline.astro';
 import OwnProjects from './portfolio/OwnProjects.astro';
 import SocialLinks from './portfolio/SocialLinks.astro';
+import ContactForm from './portfolio/ContactForm.astro';
 import '../styles/portfolio.css';
 const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'web',en:'Web & platforms',es:'Web y plataformas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
 const { showFaq = false } = Astro.props;
@@ -36,7 +37,7 @@ const { showFaq = false } = Astro.props;
       <a href="#about"><T en="About me" es="Sobre mí"/></a>
       <div class="header-actions">
         <div class="header-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/></div>
-        <a class="top-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/></a>
+        <a class="top-contact" href="#contact"><T en="Let's talk" es="Hablemos"/></a>
       </div>
     </nav>
     <PortfolioHero/>
@@ -79,7 +80,7 @@ const { showFaq = false } = Astro.props;
         <details><summary><T en="How can I get in touch?" es="¿Cómo puedo contactarte?"/></summary><p><T en="Email me about a role, a product idea or a technical collaboration: " es="Escríbeme sobre una vacante, una idea de producto o una colaboración técnica: "/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a>.</p></details>
       </div>
     </section>}
-    <section id="contact" class="portfolio-contact"><T as="h2" en="Have something&#10;in mind? Let's build it." es="¿Tienes algo en mente?&#10;Vamos a construirlo."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a><SocialLinks/></section>
+    <section id="contact" class="portfolio-contact"><T as="h2" en="Have something&#10;in mind? Let's build it." es="¿Tienes algo en mente?&#10;Vamos a construirlo."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a><SocialLinks/><ContactForm/></section>
     <SupportLinks/>
     <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
   </main>
