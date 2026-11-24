@@ -10,7 +10,7 @@ const projects = [
  <h3>{project.name}</h3>
  <T as="p" class="own-project-role" en={project.enRole} es={project.esRole}/>
  <T as="p" class="own-project-summary" en={project.enText} es={project.esText}/>
- <a class="open-project" href={project.url} target="_blank" rel="noopener noreferrer"><T en={project.enAction} es={project.esAction}/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+ <a class="open-project" href={project.url} target="_blank" rel="noopener noreferrer"><T en={project.enAction} es={project.esAction}/></a>
 </article>)}
 <style>
  .own-project { padding:30px; display:flex; flex-direction:column; align-items:flex-start; }

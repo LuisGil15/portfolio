@@ -34,7 +34,7 @@ const { showFaq = false } = Astro.props;
       <a href="#stack"><T en="Tech stack" es="Tecnologías"/></a>
       <a href="#experience"><T en="Experience" es="Experiencia"/></a>
       <a href="#about"><T en="About me" es="Sobre mí"/></a>
-      <a class="top-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+      <a class="top-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/></a>
       <div class="header-settings"><ThemeToggle/><button data-language aria-label="Cambiar a español">ES</button></div>
     </nav>
     <PortfolioHero/>
@@ -43,11 +43,11 @@ const { showFaq = false } = Astro.props;
       <div class="projects">
         <OwnProjects/>
         <article class="project tavi-project" data-category="native">
-          <div class="tavi-copy"><img class="app-icon" src="/images/tavi/tavi-mark.png" width="52" height="52" alt=""/><h3>Tavi</h3><T as="p" en="An API client that feels right at home on your Mac." es="Un cliente API que se siente en casa en tu Mac."/><span class="project-stack">SwiftUI · macOS · iPadOS</span><a class="open-project" href="/apps/tavi/"><T en="Meet Tavi" es="Conoce Tavi"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+          <div class="tavi-copy"><img class="app-icon" src="/images/tavi/tavi-mark.png" width="52" height="52" alt=""/><h3>Tavi</h3><T as="p" en="An API client that feels right at home on your Mac." es="Un cliente API que se siente en casa en tu Mac."/><span class="project-stack">SwiftUI · macOS · iPadOS</span><a class="open-project" href="/apps/tavi/"><T en="Meet Tavi" es="Conoce Tavi"/></a></div>
           <div class="tavi-art"><div class="screenshot-caption"><span>Tavi</span><T en="Your requests, in one place." es="Tus requests, en un solo lugar."/></div><img src="/images/tavi/macos-response.jpg" alt="Tavi running on macOS with a request and JSON response" width="1699" height="935" loading="lazy" decoding="async"/></div>
         </article>
         <article class="project minitools-project" data-category="native">
-          <div class="minitools-copy"><MiniToolsMark size={46}/><h3>MiniTools</h3><T as="p" en="Music, timers and your day, right at the top of your Mac. A useful island with or without a notch." es="Música, temporizadores y tu día, en la parte superior de tu Mac. Una isla útil con o sin notch."/><span class="project-stack">SwiftUI · macOS 13+ · Apple silicon</span><a class="open-project" href="/apps/minitools/"><T en="Explore MiniTools" es="Descubre MiniTools"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+          <div class="minitools-copy"><MiniToolsMark size={46}/><h3>MiniTools</h3><T as="p" en="Music, timers and your day, right at the top of your Mac. A useful island with or without a notch." es="Música, temporizadores y tu día, en la parte superior de tu Mac. Una isla útil con o sin notch."/><span class="project-stack">SwiftUI · macOS 13+ · Apple silicon</span><a class="open-project" href="/apps/minitools/"><T en="Explore MiniTools" es="Descubre MiniTools"/></a></div>
           <div class="minitools-art"><div class="minitools-art-caption"><span>MiniTools</span><T en="Illustrative island preview" es="Vista ilustrativa de la isla"/></div><div class="minitools-screen" aria-hidden="true"><div class="minitools-bezel"></div><div class="minitools-island"><div class="minitools-island-top"><span class="minitools-album">EW</span><span>Evening Walk</span><span>25:00</span></div><div class="minitools-island-tabs"><span>Music</span><span>Timers</span><span>ToDo</span></div><div class="minitools-island-body"><div class="minitools-artwork">EW</div><div class="minitools-track"><strong>Evening Walk</strong><span>Luis Gil · Demo playlist</span><div class="minitools-progress"><i></i></div><div class="minitools-playback"><MiniToolsIcon name="previous"/><MiniToolsIcon name="play"/><MiniToolsIcon name="next"/></div></div></div></div></div></div>
         </article>
         <article class="project nextup-project" data-category="native">
@@ -77,7 +77,7 @@ const { showFaq = false } = Astro.props;
         <details><summary><T en="How can I get in touch?" es="¿Cómo puedo contactarte?"/></summary><p><T en="Email me about a role, a product idea or a technical collaboration: " es="Escríbeme sobre una vacante, una idea de producto o una colaboración técnica: "/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a>.</p></details>
       </div>
     </section>}
-    <section id="contact" class="portfolio-contact"><T as="h2" en="Have something&#10;in mind? Let's build it." es="¿Tienes algo en mente?&#10;Vamos a construirlo."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a><SocialLinks/></section>
+    <section id="contact" class="portfolio-contact"><T as="h2" en="Have something&#10;in mind? Let's build it." es="¿Tienes algo en mente?&#10;Vamos a construirlo."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a><SocialLinks/></section>
     <SupportLinks/>
     <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
   </main>

@@ -90,3 +90,7 @@ Build (13 routes) and diff checks passed. Home replay showed ten character opaci
 ## Span greeting, briefcase and typing cursor
 
 Home replay showed greeting opacities ~.09/0/0 followed by 1/1/1, confirming staggered entry. Literal span tags and briefcase icon rendered correctly. Cursor frames use measured character edges and step timing; it is hidden before/after its finite sequence, with no added layout width. No horizontal overflow or captured console errors/warnings. Cursor sequencing and reduced-motion guard inspected in source; frame-by-frame recording was not performed. Capture: span-cursor-hero.jpg. Build and diff checks passed.
+
+## Fewer arrows
+
+Removed repeated arrow SVGs from calls to action and retained exactly one directional scroll arrow. Browser confirms zero SVGs in the cleaned action selectors. Explore my work navigation still lands below the header, all four project URLs/labels remain, and desktop has no horizontal overflow. Hero and project sections rendered with recognizable button/link treatments. Build and diff checks passed. Capture: fewer-arrows.jpg.

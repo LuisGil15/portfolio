@@ -87,3 +87,7 @@ Profile labels now include 16px code and map-pin outline SVGs, matching the exis
 User-approved hero: decorative developer tags surround the bilingual name greeting; the three-line heading reads Senior {Full Stack} Developer in both languages. Full Stack characters reveal at 85ms intervals after the entrance begins. Characters retain their widths, the heading has a stable accessible name, and no live-region announcements are used. The existing return-to-top trigger replays the typing; reduced motion leaves the full title visible. This supersedes the software-with-purpose headline.
 
 The greeting now uses decorative span tags. Its opening tag, bilingual name and closing tag enter in a 120ms stagger. A finite blinking cursor follows the measured character positions during Full Stack typing, then disappears; cursor movement uses linear timing with discrete steps to stay synchronized. It occupies no layout space and is hidden under the existing reduced-motion path. Specialty uses a briefcase/portfolio outline icon in place of code brackets.
+
+## Quieter link treatment
+
+Removed repeated decorative arrows from header contact, hero actions, project links, experience contact, GitHub row and email. Only the downward scroll cue remains. Project and primary links retain button surfaces; text GitHub links use underlines. Arrow-specific hover motion was removed. Destinations and accessible labels are unchanged.
