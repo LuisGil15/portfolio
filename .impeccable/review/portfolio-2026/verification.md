@@ -179,3 +179,7 @@ IAB390×844 native click capture: Umbral details outer height34→90.39, content
 ### Simplified contact —2026-11-23
 
 Changed About/experience/email-display/optionalFAQ contact links to #contact-form, a focusable native fragment target with sticky-header scroll clearance. Removed email field and email body row; name and optional subject share a desktop row. Tested draft helper with Unicode, ampersand, multiline message, stripped subject newline and default subject. CUA mobile: About CTA reaches form, synthetic name/message generates correct mailto draft with no sender email; editing clears stale draft; English/Spanish placeholder changes correctly. Final email-app link was inspected only, not opened. No message sent.
+
+### Academic formation and footer —2026-11-23
+
+Build13 routes passed. Formation is reachable from the native mobile drawer, which contains Education/Formación and no My studio link. Mobile390 shows CETI and the supplied engineering program with no horizontal overflow; desktop1440 header fits the extra navigation item. No English B2/Inglés B2 text remains in rendered body; DB2 remains correctly in technical work history. Footer text is copyright only, alongside the5 social links. No CV modified.

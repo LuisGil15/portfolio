@@ -74,3 +74,7 @@ Current identity uses the same transparent neutral monochrome portrait on mobile
 ### Contact draft simplification — November23,2026
 
 All previous direct-email contact links in the portfolio now navigate to #contact-form. The contact draft asks for name, optional subject and message only; sender email is supplied by the visitor’s chosen email account, so it is neither requested nor included in the body. The localized playful message placeholder is illustrative, not a prefilled message. Action is Create draft / Crear borrador. The explicit draft-result link still opens the email app for review and sending. No messages are sent by the website.
+
+### Academic section and footer — November23,2026
+
+The user clarified that a section for “estudio” means academic studies, not a separate Luromi studio section. Formation is presented after professional experience as Software Development Engineering / Ingeniería en Desarrollo de Software at CETI, with an Education / Formación navigation link. Do not infer graduation status, dates or licenses. Removed the duplicate inline academic note from About and the public English B2 level; the user reserves language level for a CV, and no CV file was modified. Footer closes with copyright and social links, without Discover Tavi. Luromi remains in My work.

@@ -153,3 +153,7 @@ User retained the neutral portrait in color: mobile opacity .60 with contrast .9
 ### Native disclosure motion — 2026-11-23
 
 Project detail sections, job responsibilities and optional FAQ use native details/summary with a JS progressive enhancement in portfolio-disclosures.ts. Only the content region animates its measured height and opacity:320ms open,220ms close, exponential deceleration. Local layout work is intentional so following content moves continuously. Native rendering remains open until collapse completes; interruption reads the current height/opacity before cancelling the preceding animation. Closed descendants can report intrinsic height in modern browsers, so closed start height is explicitly zero. The marker rotates with the target state. Keyboard/reduced-motion activation is immediate; reduced preference changes, translation and viewport resize settle current targets and clear overflow. No fixed max-height, timers or new dependencies. Native toggles remain available without JS/WAAPI.
+
+### Academic formation —2026-11-23
+
+A compact, unboxed academic section follows experience and precedes About. It shows only the existing CETI software-development engineering program; no dates or qualification status supplied. Includes Formation/Education in shared navigation. English level removed from site, footer Tavi link removed. Existing Luromi project card remains; no separate studio section.
