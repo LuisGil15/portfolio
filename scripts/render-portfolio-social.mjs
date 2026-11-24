@@ -26,25 +26,25 @@ text('Backend / Web / Native',22,67,469,colors.muted);
 text('luisgil.dev',24,64,555);
 const portrait = await sharp(`${root}public/images/profile/luis-gil-cutout.webp`).png().toBuffer();
 const dots=[];
-for(let row=0;row<21;row++) for(let col=0;col<116;col++) {
-  const depth=row/20, x=col/115*1260-30;
-  const wave=Math.sin(col*.065+depth*3.8+.8)*28+Math.sin(col*.12-depth*2.5)*14;
-  const y=505+depth*125+wave*(1-depth*.45);
-  const alpha=(.06+depth*.28)*(Math.sin(col/115*Math.PI)*.75+.25);
-  dots.push(`<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="${(.5+depth*.7).toFixed(2)}" opacity="${alpha.toFixed(3)}"/>`);
+for(let row=0;row<30;row++) for(let col=0;col<130;col++) {
+  const depth=row/29, x=col/129*1260-30;
+  const wave=Math.sin(col*.065+depth*3.8+.8)*42+Math.sin(col*.12-depth*2.5)*20;
+  const y=455+depth*155+wave*(1-depth*.45);
+  const alpha=(.16+depth*.42)*(Math.sin(col/129*Math.PI)*.75+.25);
+  dots.push(`<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="${(.6+depth*.9).toFixed(2)}" opacity="${alpha.toFixed(3)}"/>`);
 }
 const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Luis Gil — Software Developer Engineer">
 <defs>
  <linearGradient id="portrait-bottom" x2="0" y2="1"><stop offset="0" stop-color="white"/><stop offset=".58" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
  <linearGradient id="portrait-left"><stop stop-color="black"/><stop offset=".3" stop-color="white"/></linearGradient>
- <linearGradient id="wave-fade" x2="0" y2="1"><stop stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+ <linearGradient id="wave-fade" x2="0" y2="1"><stop stop-color="black"/><stop offset=".2" stop-color="white"/><stop offset=".78" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
  <mask id="bottom"><rect width="1200" height="740" fill="url(#portrait-bottom)"/></mask>
  <mask id="left"><rect width="740" height="740" fill="url(#portrait-left)"/></mask>
- <mask id="wave"><rect y="440" width="1200" height="190" fill="url(#wave-fade)"/></mask>
+ <mask id="wave"><rect y="360" width="1200" height="270" fill="url(#wave-fade)"/></mask>
 </defs>
 <rect width="1200" height="630" fill="${colors.ground}"/>
-<g transform="translate(580 22)" opacity=".68" mask="url(#bottom)"><g mask="url(#left)"><image width="740" height="740" href="data:image/png;base64,${portrait.toString('base64')}"/></g></g>
 <g fill="${colors.cyan}" mask="url(#wave)">${dots.join('')}</g>
+<g transform="translate(580 22)" opacity=".68" mask="url(#bottom)"><g mask="url(#left)"><image width="740" height="740" href="data:image/png;base64,${portrait.toString('base64')}"/></g></g>
 ${layers.join('\n')}
 </svg>`;
 await writeFile(`${root}public/images/social/portfolio.svg`,svg);

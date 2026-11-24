@@ -221,3 +221,5 @@ Owner prefers the closing motion. Both directions now use the closing320ms cubic
 1200×630 card follows the approved background-portrait composition: #080b10, Sora, large name left, three-line Software/{Developer}/Engineer in ink/green/cyan, portrait right with lower fade, faint particle wave and domain below. Text is traced from the supplied font, preserving lettering across rasterizers. Portfolio gets a new PNG filename for crawler refresh; localized Open Graph/Twitter metadata retained.
 
 Social portrait opacity reduced82%→68% at owner request on November24,2026, for softer integration with the dark background. Shared image URL revision ?v=2 distinguishes the new artwork for crawlers.
+
+Social card wave strengthened at owner request on November24,2026:30×130 cyan points, a taller lower wave and soft upper/lower masks, layered behind the portrait to keep the face clear. Portrait opacity stays68%. Image URL revision?v=3.
