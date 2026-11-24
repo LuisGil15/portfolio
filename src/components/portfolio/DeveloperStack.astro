@@ -1,0 +1,13 @@
+---
+import T from '../ProposalText.astro';
+const groups = [
+ {en:'Native & mobile',es:'Nativo y móvil',code:'app',items:['SwiftUI','macOS','iPadOS','React Native'], enText:'Interfaces that belong on the devices we use.',esText:'Interfaces que se sienten en casa en cada dispositivo.'},
+ {en:'Backend & data',es:'Backend y datos',code:'api',items:['Java','Spring Boot','Kafka','Python','SQL','DB2','C# / .NET'],enText:'Services, asynchronous processes and the data behind them.',esText:'Servicios, procesos asíncronos y los datos que los sostienen.'},
+ {en:'Web & cloud',es:'Web y cloud',code:'web',items:['TypeScript','JavaScript','Node.js','Astro','Cloudflare','Firebase'],enText:'From the browser interface to the infrastructure behind it.',esText:'De la interfaz en el navegador a la infraestructura que hay detrás.'},
+];
+---
+<section id="stack" class="developer-stack" aria-labelledby="stack-title">
+ <div class="section-heading"><T as="h2" id="stack-title" en="Different layers.&#10;One connected vision." es="Distintas capas.&#10;Una visión conectada."/><T as="p" en="The tools change. The curiosity stays." es="Las herramientas cambian. La curiosidad permanece."/></div>
+ <div class="stack-list">{groups.map(group => <article><code aria-hidden="true">{`{ ${group.code} }`}</code><div><T as="h3" en={group.en} es={group.es}/><T as="p" en={group.enText} es={group.esText}/><ul aria-label={group.en}>{group.items.map(item=><li>{item}</li>)}</ul></div></article>)}</div>
+ <a class="github-line" href="https://github.com/LuisGil15"><span><strong>GitHub</strong><T en="Explore my public repositories and experiments." es="Explora mis repositorios públicos y experimentos."/></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</section>

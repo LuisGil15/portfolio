@@ -1,5 +1,6 @@
 ---
 interface Props {
+  initialTheme?: 'light' | 'dark';
   title: string;
   description: string;
   theme: 'portfolio' | 'tavi' | 'minitools' | 'index';
@@ -9,12 +10,12 @@ interface Props {
   socialImageAlt?: string;
   socialImageAltEs?: string;
 }
-const { title, description, theme, titleEs, descriptionEs, socialImage, socialImageAlt, socialImageAltEs } = Astro.props;
+const { title, description, theme, titleEs, descriptionEs, socialImage, socialImageAlt, socialImageAltEs, initialTheme } = Astro.props;
 const spanish = Astro.url.pathname.startsWith("/es/");
 const preview = Astro.url.pathname.startsWith("/proposals");
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const themeScope = theme === 'minitools' ? 'minitools' : theme === 'tavi' ? 'tavi' : 'portfolio';
-const defaultTheme = themeScope === 'portfolio' ? 'light' : 'dark';
+const defaultTheme = initialTheme ?? (themeScope === 'portfolio' ? 'light' : 'dark');
 const pageTitle = spanish && titleEs ? titleEs : title;
 const pageDescription = spanish && descriptionEs ? descriptionEs : description;
 const socialCard = socialImage ?? `/images/social/${theme === 'index' ? 'portfolio' : theme}.png`;

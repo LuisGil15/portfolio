@@ -223,6 +223,8 @@ components:
     padding: "38px 38px 19px"
 ---
 
+> Portfolio update, November 23, 2026: [PORTFOLIO-2026.md](PORTFOLIO-2026.md) supersedes this document's portfolio composition, palette and typography sizes. Tavi and MiniTools guidance below remains current. The historical sidecar has not been regenerated.
+
 # Design System: Luis Gil and Tavi
 
 ## Overview
