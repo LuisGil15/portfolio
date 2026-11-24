@@ -100,3 +100,5 @@ User clarified 2FA (not F2F) and approved separating Security/authentication fro
 ### Operating systems and transferable experience — November23,2026
 
 User confirmed Linux,macOS and Windows as operating systems they have worked with. Listed as Operating systems/Sistemas operativos in the stack. User requested a broader professional narrative: summaries now connect product development, systems integration,automation,security and team tooling, while existing role dates, employer names and technical examples remain. Role subtitles describe scope rather than asserting new formal titles or promotions. No invented metrics or leadership claims.
+
+User clarified RESSER scope: they built the mobile application from scratch with React Native, in addition to C#/.NET backend services. Present end-to-end app creation explicitly, not only feature contributions.
