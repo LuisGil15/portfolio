@@ -167,3 +167,7 @@ At 390px opening the menu focuses drawer-title; Close has outline-style:none. Pr
 - EN language switch replaces heading word wrappers with the correct full translated text, with no stale words. Work heading replay captures show 5 whole-word masks and preserved heading height. Full visible text remains accessible; no per-letter body wrapping.
 - Hero/contact/work screenshots and timed replay samples in positioning/. Tavi samples confirm settled static wrapper/paragraph transforms; they do not capture an active Tavi entrance. No console errors captured.
 - Source path finishes motion for keyboard focus and reduced preference. No runtime reduced-motion emulation or actual iPhone performance measurement available.
+
+### Gallery filters, card actions and Luromi logo — 2026-11-23
+
+Build13 routes passed. At390px, filter buttons share one top coordinate, scrollable width486/client390 and document width390. Keyboard Enter on offscreen Experiments scrolls row to96 and shows2 projects; Web filter shows Hourmeet/Luromi only. Visual capture confirms filled/bordered card action and official white/blue Luromi symbol. Public source asset: https://luromistudio.com.mx/favicon.svg.

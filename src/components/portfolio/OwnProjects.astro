@@ -17,9 +17,11 @@ const projects = [
  .hourmeet-project { background:var(--project-blue); }.luromi-project { background:var(--project-neutral); }
  .own-project-heading { display:flex; justify-content:space-between; align-items:center; gap:15px; width:100%; margin-bottom:25px; }
  .own-project-logo { display:grid; place-items:center; width:76px; height:76px; background:#fff; border-radius:14px; padding:10px; }
+ .luromi-project .own-project-logo { background:#0d1117; border:1px solid var(--line); }
  .own-project-logo img { width:56px; height:56px; object-fit:contain; }
  .own-project-role { font-size:11px; color:var(--accent); margin-top:12px; line-height:1.8; }
  .own-project-summary { font-size:13px; line-height:1.85; color:var(--muted); margin:16px 0 0; flex:1; }
  .own-project .open-project { margin-top:24px; }
- @media(max-width:760px) { .own-project { padding:25px; }.own-project-logo { width:66px; height:66px; }.own-project-logo img { width:46px; height:46px; } }
+ @media(max-width:760px) { .own-project { padding:25px; }.own-project-logo { width:66px; height:66px; }.luromi-project .own-project-logo { background:#0d1117; border:1px solid var(--line); }
+ .own-project-logo img { width:46px; height:46px; } }
 </style>

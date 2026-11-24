@@ -192,3 +192,12 @@ html[data-motion=running] .portfolio [data-reveal-state=queued] { opacity:0; }
 .portfolio footer { align-items:center; }
 .footer-meta { display:flex; flex-wrap:wrap; align-items:center; gap:20px; }
 @media(max-width:760px) { .footer-meta { width:100%; justify-content:space-between; } }
+
+/* Card actions remain distinct from their surfaces, with a full touch target. */
+html[data-theme=dark] .portfolio .project .open-project { align-items:center; min-height:44px; border:1px solid var(--control-line); background:#1b283a; color:var(--ink); font-weight:550; }
+html[data-theme=dark] .portfolio .project .open-project:hover { background:var(--accent); border-color:var(--accent); color:var(--page); }
+@media(max-width:760px) {
+ .filters { --filter-gutter:20px; flex-wrap:nowrap; overflow-x:auto; margin-inline:calc(-1 * var(--filter-gutter)); padding:4px var(--filter-gutter) 10px; scroll-padding-inline:var(--filter-gutter); scroll-snap-type:x proximity; scrollbar-width:thin; }
+ .filters button { flex:0 0 auto; white-space:nowrap; min-height:44px; scroll-snap-align:start; }
+}
+@media(max-width:370px) { .filters { --filter-gutter:16px; } }
