@@ -1,0 +1,1302 @@
+[
+  {
+    "frame": 0,
+    "time": 1795497131866,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> ",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 10,
+    "time": 1795497131962,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 20,
+    "time": 1795497132003,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot p",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 30,
+    "time": 1795497132038,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot por",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 40,
+    "time": 1795497132073,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portf",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 50,
+    "time": 1795497132108,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfol",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 60,
+    "time": 1795497132163,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 70,
+    "time": 1795497132197,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 80,
+    "time": 1795497132226,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 90,
+    "time": 1795497132262,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 100,
+    "time": 1795497132293,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 110,
+    "time": 1795497132331,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCa",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 120,
+    "time": 1795497132357,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCar",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 130,
+    "time": 1795497132383,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCarga",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 140,
+    "time": 1795497132408,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargan",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 150,
+    "time": 1795497132445,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 160,
+    "time": 1795497132484,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando i",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 170,
+    "time": 1795497132512,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando id",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 180,
+    "time": 1795497132539,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando idea",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 190,
+    "time": 1795497132564,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 200,
+    "time": 1795497132587,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas ",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 210,
+    "time": 1795497132618,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y ",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 220,
+    "time": 1795497132644,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 230,
+    "time": 1795497132670,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y cód",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 240,
+    "time": 1795497132695,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y códi",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 250,
+    "time": 1795497132719,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y códig",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 260,
+    "time": 1795497132755,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 270,
+    "time": 1795497132779,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 280,
+    "time": 1795497132802,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 290,
+    "time": 1795497132827,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 300,
+    "time": 1795497132849,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 310,
+    "time": 1795497132885,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 320,
+    "time": 1795497132910,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 330,
+    "time": 1795497132932,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 340,
+    "time": 1795497132952,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...L",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 350,
+    "time": 1795497132978,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Li",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 360,
+    "time": 1795497133008,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...List",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 370,
+    "time": 1795497133032,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 380,
+    "time": 1795497133054,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo ",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 390,
+    "time": 1795497133077,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo pa",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 400,
+    "time": 1795497133102,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo par",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 410,
+    "time": 1795497133135,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para ",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 420,
+    "time": 1795497133159,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para c",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 430,
+    "time": 1795497133185,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para co",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 440,
+    "time": 1795497133208,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para cons",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 450,
+    "time": 1795497133232,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para const",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 460,
+    "time": 1795497133268,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para constru",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 470,
+    "time": 1795497133294,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construi",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 480,
+    "time": 1795497133316,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 490,
+    "time": 1795497133338,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 500,
+    "time": 1795497133361,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 510,
+    "time": 1795497133393,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 520,
+    "time": 1795497133421,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 530,
+    "time": 1795497133456,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 540,
+    "time": 1795497133480,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 550,
+    "time": 1795497133513,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 45.0844)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 560,
+    "time": 1795497133545,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.687459",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 36.3498)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 570,
+    "time": 1795497133573,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.490234",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 30.8879)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 580,
+    "time": 1795497133601,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.328154",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 25.732)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 590,
+    "time": 1795497133627,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.247777",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 22.6229)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 600,
+    "time": 1795497133650,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.166108",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 18.7588)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 610,
+    "time": 1795497133696,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.0861348",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 13.7639)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 620,
+    "time": 1795497133725,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.0580341",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 11.5055)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 630,
+    "time": 1795497133753,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.0377888",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 9.58396)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 640,
+    "time": 1795497133780,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.0241972",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 8.06125)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 650,
+    "time": 1795497133814,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.0144404",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 6.75713)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 660,
+    "time": 1795497133855,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.00529444",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 5.15962)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 670,
+    "time": 1795497133884,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.00210512",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 4.33976)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 680,
+    "time": 1795497133912,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "screenOpacity": "0.00019466",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.45419)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 690,
+    "time": 1795497133943,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.88692)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 700,
+    "time": 1795497133976,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.28838)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 710,
+    "time": 1795497134017,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.72334)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 720,
+    "time": 1795497134049,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.4173)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 730,
+    "time": 1795497134078,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.16104)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 740,
+    "time": 1795497134107,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.892799)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 750,
+    "time": 1795497134133,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.762234)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 760,
+    "time": 1795497134175,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.543649)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 770,
+    "time": 1795497134203,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.402344)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 780,
+    "time": 1795497134231,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.332509)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 790,
+    "time": 1795497134257,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.255533)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 800,
+    "time": 1795497134284,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.193089)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 810,
+    "time": 1795497134331,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.111583)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 820,
+    "time": 1795497134357,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0789814)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 830,
+    "time": 1795497134384,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0585288)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 840,
+    "time": 1795497134411,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0390966)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 850,
+    "time": 1795497134441,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0208306)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 860,
+    "time": 1795497134489,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00715155)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 870,
+    "time": 1795497134514,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00399039)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 880,
+    "time": 1795497134539,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00145119)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 890,
+    "time": 1795497134565,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00031814)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 900,
+    "time": 1795497134588,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 4.16998e-05)",
+      "width": 390
+    }
+  },
+  {
+    "frame": 910,
+    "time": 1795497134633,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 920,
+    "time": 1795497134657,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 930,
+    "time": 1795497134684,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 940,
+    "time": 1795497134710,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 950,
+    "time": 1795497134737,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 960,
+    "time": 1795497134781,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 970,
+    "time": 1795497134809,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 980,
+    "time": 1795497134834,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  },
+  {
+    "frame": 990,
+    "time": 1795497134856,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y código...Listo para construir.",
+      "titleTransform": "none",
+      "width": 390
+    }
+  }
+]

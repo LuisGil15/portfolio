@@ -1,0 +1,4402 @@
+[
+  {
+    "frame": 0,
+    "time": 1795496885037,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 5,
+    "time": 1795496885104,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boo",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 10,
+    "time": 1795496885124,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 15,
+    "time": 1795496885138,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 20,
+    "time": 1795496885152,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 25,
+    "time": 1795496885167,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot p",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 30,
+    "time": 1795496885181,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot po",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 35,
+    "time": 1795496885199,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot por",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 40,
+    "time": 1795496885218,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot port",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 45,
+    "time": 1795496885233,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portf",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 50,
+    "time": 1795496885247,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portf",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 55,
+    "time": 1795496885271,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfol",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 60,
+    "time": 1795496885284,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfol",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 65,
+    "time": 1795496885294,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfoli",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 70,
+    "time": 1795496885306,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfoli",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 75,
+    "time": 1795496885316,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 80,
+    "time": 1795496885326,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 85,
+    "time": 1795496885336,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 90,
+    "time": 1795496885346,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 95,
+    "time": 1795496885354,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 100,
+    "time": 1795496885363,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 105,
+    "time": 1795496885385,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 110,
+    "time": 1795496885396,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 115,
+    "time": 1795496885407,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 120,
+    "time": 1795496885418,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 125,
+    "time": 1795496885428,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 130,
+    "time": 1795496885437,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 135,
+    "time": 1795496885447,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 140,
+    "time": 1795496885458,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 145,
+    "time": 1795496885469,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolio",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 150,
+    "time": 1795496885478,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioL",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 155,
+    "time": 1795496885502,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLo",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 160,
+    "time": 1795496885514,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoa",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 165,
+    "time": 1795496885529,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoa",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 170,
+    "time": 1795496885540,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoad",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 175,
+    "time": 1795496885552,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoadi",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 180,
+    "time": 1795496885565,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoadi",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 185,
+    "time": 1795496885574,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoadin",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 190,
+    "time": 1795496885585,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoadin",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 195,
+    "time": 1795496885596,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 200,
+    "time": 1795496885606,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 205,
+    "time": 1795496885632,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading i",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 210,
+    "time": 1795496885643,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading i",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 215,
+    "time": 1795496885652,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading id",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 220,
+    "time": 1795496885663,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ide",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 225,
+    "time": 1795496885673,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ide",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 230,
+    "time": 1795496885693,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading idea",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 235,
+    "time": 1795496885703,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 240,
+    "time": 1795496885714,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 245,
+    "time": 1795496885723,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 250,
+    "time": 1795496885733,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 255,
+    "time": 1795496885754,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas an",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 260,
+    "time": 1795496885765,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas an",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 265,
+    "time": 1795496885776,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 270,
+    "time": 1795496885787,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 275,
+    "time": 1795496885798,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 280,
+    "time": 1795496885808,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 285,
+    "time": 1795496885816,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and c",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 290,
+    "time": 1795496885830,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and co",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 295,
+    "time": 1795496885842,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and co",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 300,
+    "time": 1795496885853,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and cod",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 305,
+    "time": 1795496885877,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 310,
+    "time": 1795496885888,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 315,
+    "time": 1795496885900,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 320,
+    "time": 1795496885911,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code..",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 325,
+    "time": 1795496885921,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code..",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 330,
+    "time": 1795496885932,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 335,
+    "time": 1795496885942,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 340,
+    "time": 1795496885951,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 345,
+    "time": 1795496885961,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 350,
+    "time": 1795496885973,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 355,
+    "time": 1795496885990,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 360,
+    "time": 1795496886001,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 365,
+    "time": 1795496886010,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 370,
+    "time": 1795496886019,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 375,
+    "time": 1795496886028,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 380,
+    "time": 1795496886038,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 385,
+    "time": 1795496886047,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 390,
+    "time": 1795496886056,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 395,
+    "time": 1795496886065,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 400,
+    "time": 1795496886075,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 405,
+    "time": 1795496886096,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...R",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 410,
+    "time": 1795496886110,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Re",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 415,
+    "time": 1795496886123,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Re",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 420,
+    "time": 1795496886133,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Rea",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 425,
+    "time": 1795496886144,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Rea",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 430,
+    "time": 1795496886155,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Read",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 435,
+    "time": 1795496886165,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 440,
+    "time": 1795496886176,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 445,
+    "time": 1795496886185,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 450,
+    "time": 1795496886195,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 455,
+    "time": 1795496886214,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready t",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 460,
+    "time": 1795496886226,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 465,
+    "time": 1795496886236,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 470,
+    "time": 1795496886247,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 475,
+    "time": 1795496886258,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to ",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 480,
+    "time": 1795496886268,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to b",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 485,
+    "time": 1795496886279,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to bu",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 490,
+    "time": 1795496886290,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to bu",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 495,
+    "time": 1795496886300,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to bui",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 500,
+    "time": 1795496886310,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to bui",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 505,
+    "time": 1795496886332,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to buil",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 510,
+    "time": 1795496886341,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 515,
+    "time": 1795496886352,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 520,
+    "time": 1795496886362,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 525,
+    "time": 1795496886373,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 530,
+    "time": 1795496886384,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 535,
+    "time": 1795496886395,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 540,
+    "time": 1795496886403,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 545,
+    "time": 1795496886412,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 550,
+    "time": 1795496886423,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 555,
+    "time": 1795496886442,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 560,
+    "time": 1795496886455,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 565,
+    "time": 1795496886467,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 570,
+    "time": 1795496886476,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 575,
+    "time": 1795496886486,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 580,
+    "time": 1795496886497,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 585,
+    "time": 1795496886506,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 590,
+    "time": 1795496886515,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 595,
+    "time": 1795496886525,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 600,
+    "time": 1795496886534,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 81.2766)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 605,
+    "time": 1795496886575,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.711267",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 66.6914)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 610,
+    "time": 1795496886592,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.549621",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 58.7324)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 615,
+    "time": 1795496886606,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.449311",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 53.5013)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 620,
+    "time": 1795496886622,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.375355",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 49.3051)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 625,
+    "time": 1795496886635,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.307376",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 45.0276)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 630,
+    "time": 1795496886650,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.252638",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 41.1518)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 635,
+    "time": 1795496886664,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.204323",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 37.2814)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 640,
+    "time": 1795496886677,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.169071",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 34.1016)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 645,
+    "time": 1795496886691,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.139874",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 31.1734)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 650,
+    "time": 1795496886707,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.116066",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 28.5371)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 655,
+    "time": 1795496886745,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0658708",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 21.9478)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 660,
+    "time": 1795496886762,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0535355",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 20.0194)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 665,
+    "time": 1795496886776,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0438127",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 18.3707)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 670,
+    "time": 1795496886792,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0353023",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 16.8074)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 675,
+    "time": 1795496886806,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0277296",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 15.2917)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 680,
+    "time": 1795496886821,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0194146",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 13.4356)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 685,
+    "time": 1795496886837,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0145815",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 12.2191)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 690,
+    "time": 1795496886850,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.0108882",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 11.1838)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 695,
+    "time": 1795496886864,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.00807236",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 10.3009)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 700,
+    "time": 1795496886879,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.00563141",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 9.43231)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 705,
+    "time": 1795496886916,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.00161591",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 7.5265)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 710,
+    "time": 1795496886935,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "0.000439904",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 6.56288)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 715,
+    "time": 1795496886950,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "screenOpacity": "9.86009e-05",
+      "terminal": {
+        "bottom": 499.9453125,
+        "height": 99.890625,
+        "left": 568.28125,
+        "right": 871.7109375,
+        "top": 400.0546875,
+        "width": 303.4296875,
+        "x": 568.28125,
+        "y": 400.0546875
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 6.03872)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 720,
+    "time": 1795496886969,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 5.26597)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 725,
+    "time": 1795496886986,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 4.58833)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 730,
+    "time": 1795496887002,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 4.16679)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 735,
+    "time": 1795496887015,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.99093)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 740,
+    "time": 1795496887029,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.46667)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 745,
+    "time": 1795496887044,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.14767)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 750,
+    "time": 1795496887056,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.85676)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 755,
+    "time": 1795496887090,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.32232)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 760,
+    "time": 1795496887103,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.11906)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 765,
+    "time": 1795496887120,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.81245)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 770,
+    "time": 1795496887137,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.62662)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 775,
+    "time": 1795496887151,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.45466)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 780,
+    "time": 1795496887167,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.24333)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 785,
+    "time": 1795496887181,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.17147)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 790,
+    "time": 1795496887194,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.05255)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 795,
+    "time": 1795496887207,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.933289)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 800,
+    "time": 1795496887220,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.821547)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 805,
+    "time": 1795496887255,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.609973)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 810,
+    "time": 1795496887269,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.536034)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 815,
+    "time": 1795496887284,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.468798)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 820,
+    "time": 1795496887298,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.408267)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 825,
+    "time": 1795496887312,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.353547)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 830,
+    "time": 1795496887329,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.283083)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 835,
+    "time": 1795496887345,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.241832)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 840,
+    "time": 1795496887361,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.204525)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 845,
+    "time": 1795496887379,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.159139)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 850,
+    "time": 1795496887396,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.132506)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 855,
+    "time": 1795496887430,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0808518)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 860,
+    "time": 1795496887443,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0645877)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 865,
+    "time": 1795496887458,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0451961)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 870,
+    "time": 1795496887474,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0349588)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 875,
+    "time": 1795496887492,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0254909)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 880,
+    "time": 1795496887508,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0164222)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 885,
+    "time": 1795496887524,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0115226)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 890,
+    "time": 1795496887539,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00772125)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 895,
+    "time": 1795496887554,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0048898)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 900,
+    "time": 1795496887570,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00282204)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 905,
+    "time": 1795496887605,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.000404885)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 910,
+    "time": 1795496887622,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.42566e-05)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 915,
+    "time": 1795496887638,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 5.3249e-07)",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 920,
+    "time": 1795496887652,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 925,
+    "time": 1795496887664,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 930,
+    "time": 1795496887678,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 935,
+    "time": 1795496887692,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 940,
+    "time": 1795496887704,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 945,
+    "time": 1795496887718,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 950,
+    "time": 1795496887736,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 955,
+    "time": 1795496887766,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 960,
+    "time": 1795496887780,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 965,
+    "time": 1795496887794,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 970,
+    "time": 1795496887807,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 975,
+    "time": 1795496887821,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 980,
+    "time": 1795496887832,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 985,
+    "time": 1795496887848,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 990,
+    "time": 1795496887863,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  },
+  {
+    "frame": 995,
+    "time": 1795496887878,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "screenOpacity": "1",
+      "terminal": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "> boot portfolioLoading ideas and code...Ready to build.",
+      "titleTransform": "none",
+      "width": 1440
+    }
+  }
+]

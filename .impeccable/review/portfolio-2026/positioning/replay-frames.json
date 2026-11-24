@@ -1,0 +1,6272 @@
+[
+  {
+    "time": 1795492302171,
+    "sample": {
+      "rect": {
+        "bottom": -5969.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -6007.5,
+        "width": 350,
+        "x": 20,
+        "y": -6007.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302202,
+    "sample": {
+      "rect": {
+        "bottom": -5963.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -6001,
+        "width": 350,
+        "x": 20,
+        "y": -6001
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302208,
+    "sample": {
+      "rect": {
+        "bottom": -5960.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5998,
+        "width": 350,
+        "x": 20,
+        "y": -5998
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302213,
+    "sample": {
+      "rect": {
+        "bottom": -5960.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5998,
+        "width": 350,
+        "x": 20,
+        "y": -5998
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302217,
+    "sample": {
+      "rect": {
+        "bottom": -5955.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5993,
+        "width": 350,
+        "x": 20,
+        "y": -5993
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302221,
+    "sample": {
+      "rect": {
+        "bottom": -5951.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5989,
+        "width": 350,
+        "x": 20,
+        "y": -5989
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302227,
+    "sample": {
+      "rect": {
+        "bottom": -5946.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5984,
+        "width": 350,
+        "x": 20,
+        "y": -5984
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302232,
+    "sample": {
+      "rect": {
+        "bottom": -5946.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5984,
+        "width": 350,
+        "x": 20,
+        "y": -5984
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302246,
+    "sample": {
+      "rect": {
+        "bottom": -5931.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5969,
+        "width": 350,
+        "x": 20,
+        "y": -5969
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302252,
+    "sample": {
+      "rect": {
+        "bottom": -5923.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5961,
+        "width": 350,
+        "x": 20,
+        "y": -5961
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302256,
+    "sample": {
+      "rect": {
+        "bottom": -5915.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5953.5,
+        "width": 350,
+        "x": 20,
+        "y": -5953.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302261,
+    "sample": {
+      "rect": {
+        "bottom": -5915.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5953.5,
+        "width": 350,
+        "x": 20,
+        "y": -5953.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302266,
+    "sample": {
+      "rect": {
+        "bottom": -5903.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5941.5,
+        "width": 350,
+        "x": 20,
+        "y": -5941.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302271,
+    "sample": {
+      "rect": {
+        "bottom": -5893.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5931,
+        "width": 350,
+        "x": 20,
+        "y": -5931
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302275,
+    "sample": {
+      "rect": {
+        "bottom": -5893.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5931,
+        "width": 350,
+        "x": 20,
+        "y": -5931
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302279,
+    "sample": {
+      "rect": {
+        "bottom": -5881.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5919,
+        "width": 350,
+        "x": 20,
+        "y": -5919
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302284,
+    "sample": {
+      "rect": {
+        "bottom": -5867.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5905.5,
+        "width": 350,
+        "x": 20,
+        "y": -5905.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302288,
+    "sample": {
+      "rect": {
+        "bottom": -5867.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5905.5,
+        "width": 350,
+        "x": 20,
+        "y": -5905.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302292,
+    "sample": {
+      "rect": {
+        "bottom": -5853.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5891,
+        "width": 350,
+        "x": 20,
+        "y": -5891
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302296,
+    "sample": {
+      "rect": {
+        "bottom": -5853.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5891,
+        "width": 350,
+        "x": 20,
+        "y": -5891
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302299,
+    "sample": {
+      "rect": {
+        "bottom": -5837.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5875.5,
+        "width": 350,
+        "x": 20,
+        "y": -5875.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302314,
+    "sample": {
+      "rect": {
+        "bottom": -5802.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5840,
+        "width": 350,
+        "x": 20,
+        "y": -5840
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302319,
+    "sample": {
+      "rect": {
+        "bottom": -5782.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5820,
+        "width": 350,
+        "x": 20,
+        "y": -5820
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302322,
+    "sample": {
+      "rect": {
+        "bottom": -5782.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5820,
+        "width": 350,
+        "x": 20,
+        "y": -5820
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302326,
+    "sample": {
+      "rect": {
+        "bottom": -5760.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5798,
+        "width": 350,
+        "x": 20,
+        "y": -5798
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302330,
+    "sample": {
+      "rect": {
+        "bottom": -5760.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5798,
+        "width": 350,
+        "x": 20,
+        "y": -5798
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302334,
+    "sample": {
+      "rect": {
+        "bottom": -5739.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5777.5,
+        "width": 350,
+        "x": 20,
+        "y": -5777.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302339,
+    "sample": {
+      "rect": {
+        "bottom": -5716.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5754,
+        "width": 350,
+        "x": 20,
+        "y": -5754
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302343,
+    "sample": {
+      "rect": {
+        "bottom": -5716.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5754,
+        "width": 350,
+        "x": 20,
+        "y": -5754
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302346,
+    "sample": {
+      "rect": {
+        "bottom": -5690.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5728,
+        "width": 350,
+        "x": 20,
+        "y": -5728
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302350,
+    "sample": {
+      "rect": {
+        "bottom": -5690.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5728,
+        "width": 350,
+        "x": 20,
+        "y": -5728
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302354,
+    "sample": {
+      "rect": {
+        "bottom": -5660.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5698.5,
+        "width": 350,
+        "x": 20,
+        "y": -5698.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302358,
+    "sample": {
+      "rect": {
+        "bottom": -5660.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5698.5,
+        "width": 350,
+        "x": 20,
+        "y": -5698.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302360,
+    "sample": {
+      "rect": {
+        "bottom": -5630.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5668,
+        "width": 350,
+        "x": 20,
+        "y": -5668
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302364,
+    "sample": {
+      "rect": {
+        "bottom": -5630.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5668,
+        "width": 350,
+        "x": 20,
+        "y": -5668
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302368,
+    "sample": {
+      "rect": {
+        "bottom": -5588.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5626,
+        "width": 350,
+        "x": 20,
+        "y": -5626
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302371,
+    "sample": {
+      "rect": {
+        "bottom": -5588.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5626,
+        "width": 350,
+        "x": 20,
+        "y": -5626
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302375,
+    "sample": {
+      "rect": {
+        "bottom": -5554.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5592,
+        "width": 350,
+        "x": 20,
+        "y": -5592
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302379,
+    "sample": {
+      "rect": {
+        "bottom": -5554.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5592,
+        "width": 350,
+        "x": 20,
+        "y": -5592
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302382,
+    "sample": {
+      "rect": {
+        "bottom": -5522.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5560,
+        "width": 350,
+        "x": 20,
+        "y": -5560
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302386,
+    "sample": {
+      "rect": {
+        "bottom": -5522.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5560,
+        "width": 350,
+        "x": 20,
+        "y": -5560
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302409,
+    "sample": {
+      "rect": {
+        "bottom": -5333.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5371,
+        "width": 350,
+        "x": 20,
+        "y": -5371
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302414,
+    "sample": {
+      "rect": {
+        "bottom": -5333.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5371,
+        "width": 350,
+        "x": 20,
+        "y": -5371
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302417,
+    "sample": {
+      "rect": {
+        "bottom": -5271.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5309.5,
+        "width": 350,
+        "x": 20,
+        "y": -5309.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302421,
+    "sample": {
+      "rect": {
+        "bottom": -5271.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5309.5,
+        "width": 350,
+        "x": 20,
+        "y": -5309.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302425,
+    "sample": {
+      "rect": {
+        "bottom": -5209.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5247.5,
+        "width": 350,
+        "x": 20,
+        "y": -5247.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302428,
+    "sample": {
+      "rect": {
+        "bottom": -5209.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5247.5,
+        "width": 350,
+        "x": 20,
+        "y": -5247.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302432,
+    "sample": {
+      "rect": {
+        "bottom": -5141.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5179.5,
+        "width": 350,
+        "x": 20,
+        "y": -5179.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302435,
+    "sample": {
+      "rect": {
+        "bottom": -5141.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5179.5,
+        "width": 350,
+        "x": 20,
+        "y": -5179.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302439,
+    "sample": {
+      "rect": {
+        "bottom": -5070.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5108.5,
+        "width": 350,
+        "x": 20,
+        "y": -5108.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302443,
+    "sample": {
+      "rect": {
+        "bottom": -5070.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5108.5,
+        "width": 350,
+        "x": 20,
+        "y": -5108.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302446,
+    "sample": {
+      "rect": {
+        "bottom": -4994.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -5032.5,
+        "width": 350,
+        "x": 20,
+        "y": -5032.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302452,
+    "sample": {
+      "rect": {
+        "bottom": -4913.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4951,
+        "width": 350,
+        "x": 20,
+        "y": -4951
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302458,
+    "sample": {
+      "rect": {
+        "bottom": -4838.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4876.5,
+        "width": 350,
+        "x": 20,
+        "y": -4876.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302462,
+    "sample": {
+      "rect": {
+        "bottom": -4838.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4876.5,
+        "width": 350,
+        "x": 20,
+        "y": -4876.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302465,
+    "sample": {
+      "rect": {
+        "bottom": -4729.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4767.5,
+        "width": 350,
+        "x": 20,
+        "y": -4767.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302471,
+    "sample": {
+      "rect": {
+        "bottom": -4644.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4682.5,
+        "width": 350,
+        "x": 20,
+        "y": -4682.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302475,
+    "sample": {
+      "rect": {
+        "bottom": -4644.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4682.5,
+        "width": 350,
+        "x": 20,
+        "y": -4682.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302479,
+    "sample": {
+      "rect": {
+        "bottom": -4542.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4580.5,
+        "width": 350,
+        "x": 20,
+        "y": -4580.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302483,
+    "sample": {
+      "rect": {
+        "bottom": -4542.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4580.5,
+        "width": 350,
+        "x": 20,
+        "y": -4580.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302487,
+    "sample": {
+      "rect": {
+        "bottom": -4416.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4454,
+        "width": 350,
+        "x": 20,
+        "y": -4454
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302512,
+    "sample": {
+      "rect": {
+        "bottom": -3960.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3998,
+        "width": 350,
+        "x": 20,
+        "y": -3998
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302516,
+    "sample": {
+      "rect": {
+        "bottom": -3960.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3998,
+        "width": 350,
+        "x": 20,
+        "y": -3998
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302520,
+    "sample": {
+      "rect": {
+        "bottom": -3843.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3881.5,
+        "width": 350,
+        "x": 20,
+        "y": -3881.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302524,
+    "sample": {
+      "rect": {
+        "bottom": -3843.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3881.5,
+        "width": 350,
+        "x": 20,
+        "y": -3881.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302527,
+    "sample": {
+      "rect": {
+        "bottom": -3693.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3731.5,
+        "width": 350,
+        "x": 20,
+        "y": -3731.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302532,
+    "sample": {
+      "rect": {
+        "bottom": -3693.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3731.5,
+        "width": 350,
+        "x": 20,
+        "y": -3731.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302535,
+    "sample": {
+      "rect": {
+        "bottom": -3581.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3619,
+        "width": 350,
+        "x": 20,
+        "y": -3619
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302540,
+    "sample": {
+      "rect": {
+        "bottom": -3581.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3619,
+        "width": 350,
+        "x": 20,
+        "y": -3619
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302543,
+    "sample": {
+      "rect": {
+        "bottom": -3461.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3499.5,
+        "width": 350,
+        "x": 20,
+        "y": -3499.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302547,
+    "sample": {
+      "rect": {
+        "bottom": -3359.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3397,
+        "width": 350,
+        "x": 20,
+        "y": -3397
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302552,
+    "sample": {
+      "rect": {
+        "bottom": -3359.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3397,
+        "width": 350,
+        "x": 20,
+        "y": -3397
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302556,
+    "sample": {
+      "rect": {
+        "bottom": -3253.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3291,
+        "width": 350,
+        "x": 20,
+        "y": -3291
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302561,
+    "sample": {
+      "rect": {
+        "bottom": -3253.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3291,
+        "width": 350,
+        "x": 20,
+        "y": -3291
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302565,
+    "sample": {
+      "rect": {
+        "bottom": -3127.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3165,
+        "width": 350,
+        "x": 20,
+        "y": -3165
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302569,
+    "sample": {
+      "rect": {
+        "bottom": -3028.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3066.5,
+        "width": 350,
+        "x": 20,
+        "y": -3066.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302574,
+    "sample": {
+      "rect": {
+        "bottom": -3028.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -3066.5,
+        "width": 350,
+        "x": 20,
+        "y": -3066.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302577,
+    "sample": {
+      "rect": {
+        "bottom": -2929.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2967,
+        "width": 350,
+        "x": 20,
+        "y": -2967
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302582,
+    "sample": {
+      "rect": {
+        "bottom": -2929.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2967,
+        "width": 350,
+        "x": 20,
+        "y": -2967
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302586,
+    "sample": {
+      "rect": {
+        "bottom": -2834.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2872.5,
+        "width": 350,
+        "x": 20,
+        "y": -2872.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302590,
+    "sample": {
+      "rect": {
+        "bottom": -2743.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2781.5,
+        "width": 350,
+        "x": 20,
+        "y": -2781.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302605,
+    "sample": {
+      "rect": {
+        "bottom": -2588.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2626.5,
+        "width": 350,
+        "x": 20,
+        "y": -2626.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302609,
+    "sample": {
+      "rect": {
+        "bottom": -2505.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2543.5,
+        "width": 350,
+        "x": 20,
+        "y": -2543.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302614,
+    "sample": {
+      "rect": {
+        "bottom": -2505.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2543.5,
+        "width": 350,
+        "x": 20,
+        "y": -2543.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302618,
+    "sample": {
+      "rect": {
+        "bottom": -2412.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2450.5,
+        "width": 350,
+        "x": 20,
+        "y": -2450.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302622,
+    "sample": {
+      "rect": {
+        "bottom": -2412.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2450.5,
+        "width": 350,
+        "x": 20,
+        "y": -2450.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302626,
+    "sample": {
+      "rect": {
+        "bottom": -2347.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2385.5,
+        "width": 350,
+        "x": 20,
+        "y": -2385.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302630,
+    "sample": {
+      "rect": {
+        "bottom": -2347.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2385.5,
+        "width": 350,
+        "x": 20,
+        "y": -2385.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302633,
+    "sample": {
+      "rect": {
+        "bottom": -2270.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2308.5,
+        "width": 350,
+        "x": 20,
+        "y": -2308.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302638,
+    "sample": {
+      "rect": {
+        "bottom": -2201.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2239.5,
+        "width": 350,
+        "x": 20,
+        "y": -2239.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302642,
+    "sample": {
+      "rect": {
+        "bottom": -2201.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2239.5,
+        "width": 350,
+        "x": 20,
+        "y": -2239.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302646,
+    "sample": {
+      "rect": {
+        "bottom": -2135.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2173.5,
+        "width": 350,
+        "x": 20,
+        "y": -2173.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302649,
+    "sample": {
+      "rect": {
+        "bottom": -2135.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2173.5,
+        "width": 350,
+        "x": 20,
+        "y": -2173.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302652,
+    "sample": {
+      "rect": {
+        "bottom": -2083.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2121,
+        "width": 350,
+        "x": 20,
+        "y": -2121
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302657,
+    "sample": {
+      "rect": {
+        "bottom": -2083.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2121,
+        "width": 350,
+        "x": 20,
+        "y": -2121
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302660,
+    "sample": {
+      "rect": {
+        "bottom": -2019.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2057.5,
+        "width": 350,
+        "x": 20,
+        "y": -2057.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302664,
+    "sample": {
+      "rect": {
+        "bottom": -2019.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -2057.5,
+        "width": 350,
+        "x": 20,
+        "y": -2057.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302667,
+    "sample": {
+      "rect": {
+        "bottom": -1955.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1993,
+        "width": 350,
+        "x": 20,
+        "y": -1993
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302672,
+    "sample": {
+      "rect": {
+        "bottom": -1905.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1943.5,
+        "width": 350,
+        "x": 20,
+        "y": -1943.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302676,
+    "sample": {
+      "rect": {
+        "bottom": -1905.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1943.5,
+        "width": 350,
+        "x": 20,
+        "y": -1943.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302679,
+    "sample": {
+      "rect": {
+        "bottom": -1905.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1943.5,
+        "width": 350,
+        "x": 20,
+        "y": -1943.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302695,
+    "sample": {
+      "rect": {
+        "bottom": -1734.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1772,
+        "width": 350,
+        "x": 20,
+        "y": -1772
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302699,
+    "sample": {
+      "rect": {
+        "bottom": -1734.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1772,
+        "width": 350,
+        "x": 20,
+        "y": -1772
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302703,
+    "sample": {
+      "rect": {
+        "bottom": -1684.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1722.5,
+        "width": 350,
+        "x": 20,
+        "y": -1722.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302707,
+    "sample": {
+      "rect": {
+        "bottom": -1684.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1722.5,
+        "width": 350,
+        "x": 20,
+        "y": -1722.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302710,
+    "sample": {
+      "rect": {
+        "bottom": -1636.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1674,
+        "width": 350,
+        "x": 20,
+        "y": -1674
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302714,
+    "sample": {
+      "rect": {
+        "bottom": -1596.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1634.5,
+        "width": 350,
+        "x": 20,
+        "y": -1634.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302717,
+    "sample": {
+      "rect": {
+        "bottom": -1596.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1634.5,
+        "width": 350,
+        "x": 20,
+        "y": -1634.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302721,
+    "sample": {
+      "rect": {
+        "bottom": -1596.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1634.5,
+        "width": 350,
+        "x": 20,
+        "y": -1634.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302725,
+    "sample": {
+      "rect": {
+        "bottom": -1541.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1579.5,
+        "width": 350,
+        "x": 20,
+        "y": -1579.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302728,
+    "sample": {
+      "rect": {
+        "bottom": -1508.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1546,
+        "width": 350,
+        "x": 20,
+        "y": -1546
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302732,
+    "sample": {
+      "rect": {
+        "bottom": -1508.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1546,
+        "width": 350,
+        "x": 20,
+        "y": -1546
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302735,
+    "sample": {
+      "rect": {
+        "bottom": -1508.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1546,
+        "width": 350,
+        "x": 20,
+        "y": -1546
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302738,
+    "sample": {
+      "rect": {
+        "bottom": -1454.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1492.5,
+        "width": 350,
+        "x": 20,
+        "y": -1492.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302742,
+    "sample": {
+      "rect": {
+        "bottom": -1415.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1453.5,
+        "width": 350,
+        "x": 20,
+        "y": -1453.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302746,
+    "sample": {
+      "rect": {
+        "bottom": -1415.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1453.5,
+        "width": 350,
+        "x": 20,
+        "y": -1453.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302749,
+    "sample": {
+      "rect": {
+        "bottom": -1374.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1412.5,
+        "width": 350,
+        "x": 20,
+        "y": -1412.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302753,
+    "sample": {
+      "rect": {
+        "bottom": -1374.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1412.5,
+        "width": 350,
+        "x": 20,
+        "y": -1412.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302757,
+    "sample": {
+      "rect": {
+        "bottom": -1342.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1380.5,
+        "width": 350,
+        "x": 20,
+        "y": -1380.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302762,
+    "sample": {
+      "rect": {
+        "bottom": -1342.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1380.5,
+        "width": 350,
+        "x": 20,
+        "y": -1380.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302765,
+    "sample": {
+      "rect": {
+        "bottom": -1299.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1337,
+        "width": 350,
+        "x": 20,
+        "y": -1337
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302786,
+    "sample": {
+      "rect": {
+        "bottom": -1193.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1231.5,
+        "width": 350,
+        "x": 20,
+        "y": -1231.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302790,
+    "sample": {
+      "rect": {
+        "bottom": -1193.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1231.5,
+        "width": 350,
+        "x": 20,
+        "y": -1231.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302794,
+    "sample": {
+      "rect": {
+        "bottom": -1153.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1191,
+        "width": 350,
+        "x": 20,
+        "y": -1191
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302797,
+    "sample": {
+      "rect": {
+        "bottom": -1153.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1191,
+        "width": 350,
+        "x": 20,
+        "y": -1191
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302801,
+    "sample": {
+      "rect": {
+        "bottom": -1121.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1159,
+        "width": 350,
+        "x": 20,
+        "y": -1159
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302805,
+    "sample": {
+      "rect": {
+        "bottom": -1089.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1127.5,
+        "width": 350,
+        "x": 20,
+        "y": -1127.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302808,
+    "sample": {
+      "rect": {
+        "bottom": -1089.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1127.5,
+        "width": 350,
+        "x": 20,
+        "y": -1127.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302811,
+    "sample": {
+      "rect": {
+        "bottom": -1062.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1100.5,
+        "width": 350,
+        "x": 20,
+        "y": -1100.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302815,
+    "sample": {
+      "rect": {
+        "bottom": -1062.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1100.5,
+        "width": 350,
+        "x": 20,
+        "y": -1100.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302819,
+    "sample": {
+      "rect": {
+        "bottom": -1031.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1069.5,
+        "width": 350,
+        "x": 20,
+        "y": -1069.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302823,
+    "sample": {
+      "rect": {
+        "bottom": -1031.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1069.5,
+        "width": 350,
+        "x": 20,
+        "y": -1069.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302826,
+    "sample": {
+      "rect": {
+        "bottom": -1000.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1038.5,
+        "width": 350,
+        "x": 20,
+        "y": -1038.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302832,
+    "sample": {
+      "rect": {
+        "bottom": -1000.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1038.5,
+        "width": 350,
+        "x": 20,
+        "y": -1038.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302836,
+    "sample": {
+      "rect": {
+        "bottom": -965.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -1003,
+        "width": 350,
+        "x": 20,
+        "y": -1003
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302840,
+    "sample": {
+      "rect": {
+        "bottom": -937.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -975.5,
+        "width": 350,
+        "x": 20,
+        "y": -975.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302845,
+    "sample": {
+      "rect": {
+        "bottom": -937.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -975.5,
+        "width": 350,
+        "x": 20,
+        "y": -975.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302848,
+    "sample": {
+      "rect": {
+        "bottom": -909.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -947.5,
+        "width": 350,
+        "x": 20,
+        "y": -947.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302853,
+    "sample": {
+      "rect": {
+        "bottom": -887.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -925.5,
+        "width": 350,
+        "x": 20,
+        "y": -925.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302857,
+    "sample": {
+      "rect": {
+        "bottom": -887.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -925.5,
+        "width": 350,
+        "x": 20,
+        "y": -925.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302860,
+    "sample": {
+      "rect": {
+        "bottom": -860.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -898.5,
+        "width": 350,
+        "x": 20,
+        "y": -898.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302876,
+    "sample": {
+      "rect": {
+        "bottom": -807.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -845.5,
+        "width": 350,
+        "x": 20,
+        "y": -845.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302880,
+    "sample": {
+      "rect": {
+        "bottom": -807.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -845.5,
+        "width": 350,
+        "x": 20,
+        "y": -845.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302884,
+    "sample": {
+      "rect": {
+        "bottom": -778.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -816,
+        "width": 350,
+        "x": 20,
+        "y": -816
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302889,
+    "sample": {
+      "rect": {
+        "bottom": -758.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -796.5,
+        "width": 350,
+        "x": 20,
+        "y": -796.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302893,
+    "sample": {
+      "rect": {
+        "bottom": -758.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -796.5,
+        "width": 350,
+        "x": 20,
+        "y": -796.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302897,
+    "sample": {
+      "rect": {
+        "bottom": -729.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -767.5,
+        "width": 350,
+        "x": 20,
+        "y": -767.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302902,
+    "sample": {
+      "rect": {
+        "bottom": -707.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -745.5,
+        "width": 350,
+        "x": 20,
+        "y": -745.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302906,
+    "sample": {
+      "rect": {
+        "bottom": -707.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -745.5,
+        "width": 350,
+        "x": 20,
+        "y": -745.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302910,
+    "sample": {
+      "rect": {
+        "bottom": -689.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -727,
+        "width": 350,
+        "x": 20,
+        "y": -727
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302914,
+    "sample": {
+      "rect": {
+        "bottom": -689.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -727,
+        "width": 350,
+        "x": 20,
+        "y": -727
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302918,
+    "sample": {
+      "rect": {
+        "bottom": -664.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -702.5,
+        "width": 350,
+        "x": 20,
+        "y": -702.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302922,
+    "sample": {
+      "rect": {
+        "bottom": -644.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -682.5,
+        "width": 350,
+        "x": 20,
+        "y": -682.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302926,
+    "sample": {
+      "rect": {
+        "bottom": -644.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -682.5,
+        "width": 350,
+        "x": 20,
+        "y": -682.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302930,
+    "sample": {
+      "rect": {
+        "bottom": -621.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -659.5,
+        "width": 350,
+        "x": 20,
+        "y": -659.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302935,
+    "sample": {
+      "rect": {
+        "bottom": -621.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -659.5,
+        "width": 350,
+        "x": 20,
+        "y": -659.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302939,
+    "sample": {
+      "rect": {
+        "bottom": -598.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -636,
+        "width": 350,
+        "x": 20,
+        "y": -636
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302944,
+    "sample": {
+      "rect": {
+        "bottom": -578.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -616.5,
+        "width": 350,
+        "x": 20,
+        "y": -616.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302948,
+    "sample": {
+      "rect": {
+        "bottom": -578.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -616.5,
+        "width": 350,
+        "x": 20,
+        "y": -616.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302952,
+    "sample": {
+      "rect": {
+        "bottom": -561.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -599.5,
+        "width": 350,
+        "x": 20,
+        "y": -599.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302956,
+    "sample": {
+      "rect": {
+        "bottom": -561.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -599.5,
+        "width": 350,
+        "x": 20,
+        "y": -599.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302974,
+    "sample": {
+      "rect": {
+        "bottom": -483.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -521.5,
+        "width": 350,
+        "x": 20,
+        "y": -521.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302983,
+    "sample": {
+      "rect": {
+        "bottom": -483.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -521.5,
+        "width": 350,
+        "x": 20,
+        "y": -521.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302987,
+    "sample": {
+      "rect": {
+        "bottom": -465.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -503.5,
+        "width": 350,
+        "x": 20,
+        "y": -503.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302992,
+    "sample": {
+      "rect": {
+        "bottom": -451.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -489.5,
+        "width": 350,
+        "x": 20,
+        "y": -489.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492302996,
+    "sample": {
+      "rect": {
+        "bottom": -451.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -489.5,
+        "width": 350,
+        "x": 20,
+        "y": -489.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303000,
+    "sample": {
+      "rect": {
+        "bottom": -430.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -468,
+        "width": 350,
+        "x": 20,
+        "y": -468
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303004,
+    "sample": {
+      "rect": {
+        "bottom": -430.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -468,
+        "width": 350,
+        "x": 20,
+        "y": -468
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303007,
+    "sample": {
+      "rect": {
+        "bottom": -416.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -454.5,
+        "width": 350,
+        "x": 20,
+        "y": -454.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303012,
+    "sample": {
+      "rect": {
+        "bottom": -416.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -454.5,
+        "width": 350,
+        "x": 20,
+        "y": -454.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303015,
+    "sample": {
+      "rect": {
+        "bottom": -399.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -437,
+        "width": 350,
+        "x": 20,
+        "y": -437
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303019,
+    "sample": {
+      "rect": {
+        "bottom": -383.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -421,
+        "width": 350,
+        "x": 20,
+        "y": -421
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303024,
+    "sample": {
+      "rect": {
+        "bottom": -383.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -421,
+        "width": 350,
+        "x": 20,
+        "y": -421
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303028,
+    "sample": {
+      "rect": {
+        "bottom": -367.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -405,
+        "width": 350,
+        "x": 20,
+        "y": -405
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303032,
+    "sample": {
+      "rect": {
+        "bottom": -367.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -405,
+        "width": 350,
+        "x": 20,
+        "y": -405
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303036,
+    "sample": {
+      "rect": {
+        "bottom": -351.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -389.5,
+        "width": 350,
+        "x": 20,
+        "y": -389.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303040,
+    "sample": {
+      "rect": {
+        "bottom": -351.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -389.5,
+        "width": 350,
+        "x": 20,
+        "y": -389.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303043,
+    "sample": {
+      "rect": {
+        "bottom": -335.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -373.5,
+        "width": 350,
+        "x": 20,
+        "y": -373.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303047,
+    "sample": {
+      "rect": {
+        "bottom": -321.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -359.5,
+        "width": 350,
+        "x": 20,
+        "y": -359.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303052,
+    "sample": {
+      "rect": {
+        "bottom": -321.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -359.5,
+        "width": 350,
+        "x": 20,
+        "y": -359.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303055,
+    "sample": {
+      "rect": {
+        "bottom": -309.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -347,
+        "width": 350,
+        "x": 20,
+        "y": -347
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303071,
+    "sample": {
+      "rect": {
+        "bottom": -279.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -317,
+        "width": 350,
+        "x": 20,
+        "y": -317
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303077,
+    "sample": {
+      "rect": {
+        "bottom": -265.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -303.5,
+        "width": 350,
+        "x": 20,
+        "y": -303.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303082,
+    "sample": {
+      "rect": {
+        "bottom": -253.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -291,
+        "width": 350,
+        "x": 20,
+        "y": -291
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303086,
+    "sample": {
+      "rect": {
+        "bottom": -253.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -291,
+        "width": 350,
+        "x": 20,
+        "y": -291
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303089,
+    "sample": {
+      "rect": {
+        "bottom": -240.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -278,
+        "width": 350,
+        "x": 20,
+        "y": -278
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303093,
+    "sample": {
+      "rect": {
+        "bottom": -240.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -278,
+        "width": 350,
+        "x": 20,
+        "y": -278
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303097,
+    "sample": {
+      "rect": {
+        "bottom": -229.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -267.5,
+        "width": 350,
+        "x": 20,
+        "y": -267.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303101,
+    "sample": {
+      "rect": {
+        "bottom": -229.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -267.5,
+        "width": 350,
+        "x": 20,
+        "y": -267.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303104,
+    "sample": {
+      "rect": {
+        "bottom": -216.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -254,
+        "width": 350,
+        "x": 20,
+        "y": -254
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303108,
+    "sample": {
+      "rect": {
+        "bottom": -216.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -254,
+        "width": 350,
+        "x": 20,
+        "y": -254
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303111,
+    "sample": {
+      "rect": {
+        "bottom": -203.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -241.5,
+        "width": 350,
+        "x": 20,
+        "y": -241.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303116,
+    "sample": {
+      "rect": {
+        "bottom": -203.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -241.5,
+        "width": 350,
+        "x": 20,
+        "y": -241.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303119,
+    "sample": {
+      "rect": {
+        "bottom": -191.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -229.5,
+        "width": 350,
+        "x": 20,
+        "y": -229.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303123,
+    "sample": {
+      "rect": {
+        "bottom": -191.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -229.5,
+        "width": 350,
+        "x": 20,
+        "y": -229.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303127,
+    "sample": {
+      "rect": {
+        "bottom": -178.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -216.5,
+        "width": 350,
+        "x": 20,
+        "y": -216.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303131,
+    "sample": {
+      "rect": {
+        "bottom": -178.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -216.5,
+        "width": 350,
+        "x": 20,
+        "y": -216.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303134,
+    "sample": {
+      "rect": {
+        "bottom": -167.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -205.5,
+        "width": 350,
+        "x": 20,
+        "y": -205.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303138,
+    "sample": {
+      "rect": {
+        "bottom": -157.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -195,
+        "width": 350,
+        "x": 20,
+        "y": -195
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303142,
+    "sample": {
+      "rect": {
+        "bottom": -157.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -195,
+        "width": 350,
+        "x": 20,
+        "y": -195
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303145,
+    "sample": {
+      "rect": {
+        "bottom": -145.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -183.5,
+        "width": 350,
+        "x": 20,
+        "y": -183.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303160,
+    "sample": {
+      "rect": {
+        "bottom": -125.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -163.5,
+        "width": 350,
+        "x": 20,
+        "y": -163.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303165,
+    "sample": {
+      "rect": {
+        "bottom": -116.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -154.5,
+        "width": 350,
+        "x": 20,
+        "y": -154.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303169,
+    "sample": {
+      "rect": {
+        "bottom": -116.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -154.5,
+        "width": 350,
+        "x": 20,
+        "y": -154.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303172,
+    "sample": {
+      "rect": {
+        "bottom": -106.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -144.5,
+        "width": 350,
+        "x": 20,
+        "y": -144.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303177,
+    "sample": {
+      "rect": {
+        "bottom": -106.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -144.5,
+        "width": 350,
+        "x": 20,
+        "y": -144.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303180,
+    "sample": {
+      "rect": {
+        "bottom": -96.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -134.5,
+        "width": 350,
+        "x": 20,
+        "y": -134.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303184,
+    "sample": {
+      "rect": {
+        "bottom": -96.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -134.5,
+        "width": 350,
+        "x": 20,
+        "y": -134.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303187,
+    "sample": {
+      "rect": {
+        "bottom": -86.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -124,
+        "width": 350,
+        "x": 20,
+        "y": -124
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303192,
+    "sample": {
+      "rect": {
+        "bottom": -86.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -124,
+        "width": 350,
+        "x": 20,
+        "y": -124
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303196,
+    "sample": {
+      "rect": {
+        "bottom": -76.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -114.5,
+        "width": 350,
+        "x": 20,
+        "y": -114.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303200,
+    "sample": {
+      "rect": {
+        "bottom": -68.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -106.5,
+        "width": 350,
+        "x": 20,
+        "y": -106.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303204,
+    "sample": {
+      "rect": {
+        "bottom": -68.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -106.5,
+        "width": 350,
+        "x": 20,
+        "y": -106.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303207,
+    "sample": {
+      "rect": {
+        "bottom": -68.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -106.5,
+        "width": 350,
+        "x": 20,
+        "y": -106.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303210,
+    "sample": {
+      "rect": {
+        "bottom": -58.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -96,
+        "width": 350,
+        "x": 20,
+        "y": -96
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303214,
+    "sample": {
+      "rect": {
+        "bottom": -50.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -88,
+        "width": 350,
+        "x": 20,
+        "y": -88
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303219,
+    "sample": {
+      "rect": {
+        "bottom": -50.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -88,
+        "width": 350,
+        "x": 20,
+        "y": -88
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303222,
+    "sample": {
+      "rect": {
+        "bottom": -42.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -80,
+        "width": 350,
+        "x": 20,
+        "y": -80
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303227,
+    "sample": {
+      "rect": {
+        "bottom": -42.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -80,
+        "width": 350,
+        "x": 20,
+        "y": -80
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303231,
+    "sample": {
+      "rect": {
+        "bottom": -33.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -71,
+        "width": 350,
+        "x": 20,
+        "y": -71
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303235,
+    "sample": {
+      "rect": {
+        "bottom": -33.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -71,
+        "width": 350,
+        "x": 20,
+        "y": -71
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303252,
+    "sample": {
+      "rect": {
+        "bottom": -10.7421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -48.5,
+        "width": 350,
+        "x": 20,
+        "y": -48.5
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303256,
+    "sample": {
+      "rect": {
+        "bottom": -2.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -40,
+        "width": 350,
+        "x": 20,
+        "y": -40
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303260,
+    "sample": {
+      "rect": {
+        "bottom": -2.2421875,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -40,
+        "width": 350,
+        "x": 20,
+        "y": -40
+      },
+      "state": "queued",
+      "text": "De la idea al producto.",
+      "transform": null,
+      "words": 0
+    }
+  },
+  {
+    "time": 1795492303263,
+    "sample": {
+      "rect": {
+        "bottom": 5.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -32.5,
+        "width": 350,
+        "x": 20,
+        "y": -32.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 39.6457)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303268,
+    "sample": {
+      "rect": {
+        "bottom": 5.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -32.5,
+        "width": 350,
+        "x": 20,
+        "y": -32.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 39.6457)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303272,
+    "sample": {
+      "rect": {
+        "bottom": 12.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -25,
+        "width": 350,
+        "x": 20,
+        "y": -25
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 39.6457)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303277,
+    "sample": {
+      "rect": {
+        "bottom": 18.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -19,
+        "width": 350,
+        "x": 20,
+        "y": -19
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 39.6457)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303282,
+    "sample": {
+      "rect": {
+        "bottom": 18.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -19,
+        "width": 350,
+        "x": 20,
+        "y": -19
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 39.6457)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303286,
+    "sample": {
+      "rect": {
+        "bottom": 26.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -11.5,
+        "width": 350,
+        "x": 20,
+        "y": -11.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 37.8931)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303291,
+    "sample": {
+      "rect": {
+        "bottom": 33.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4.5,
+        "width": 350,
+        "x": 20,
+        "y": -4.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 36.288)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303295,
+    "sample": {
+      "rect": {
+        "bottom": 33.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": -4.5,
+        "width": 350,
+        "x": 20,
+        "y": -4.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 36.288)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303298,
+    "sample": {
+      "rect": {
+        "bottom": 38.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 1,
+        "width": 350,
+        "x": 20,
+        "y": 1
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 34.9549)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303303,
+    "sample": {
+      "rect": {
+        "bottom": 38.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 1,
+        "width": 350,
+        "x": 20,
+        "y": 1
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 34.9549)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303306,
+    "sample": {
+      "rect": {
+        "bottom": 45.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 8,
+        "width": 350,
+        "x": 20,
+        "y": 8
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 33.1077)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303312,
+    "sample": {
+      "rect": {
+        "bottom": 50.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 13,
+        "width": 350,
+        "x": 20,
+        "y": 13
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 31.8983)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303319,
+    "sample": {
+      "rect": {
+        "bottom": 58.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 20.5,
+        "width": 350,
+        "x": 20,
+        "y": 20.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 29.9904)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303324,
+    "sample": {
+      "rect": {
+        "bottom": 58.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 20.5,
+        "width": 350,
+        "x": 20,
+        "y": 20.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 29.9904)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303329,
+    "sample": {
+      "rect": {
+        "bottom": 63.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 26,
+        "width": 350,
+        "x": 20,
+        "y": 26
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 28.5471)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303333,
+    "sample": {
+      "rect": {
+        "bottom": 68.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 30.5,
+        "width": 350,
+        "x": 20,
+        "y": 30.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 27.2982)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303338,
+    "sample": {
+      "rect": {
+        "bottom": 68.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 30.5,
+        "width": 350,
+        "x": 20,
+        "y": 30.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 27.2982)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303356,
+    "sample": {
+      "rect": {
+        "bottom": 84.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 47,
+        "width": 350,
+        "x": 20,
+        "y": 47
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 22.9655)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303360,
+    "sample": {
+      "rect": {
+        "bottom": 84.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 47,
+        "width": 350,
+        "x": 20,
+        "y": 47
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 22.9655)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303364,
+    "sample": {
+      "rect": {
+        "bottom": 90.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 52.5,
+        "width": 350,
+        "x": 20,
+        "y": 52.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 21.4507)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303368,
+    "sample": {
+      "rect": {
+        "bottom": 94.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 56.5,
+        "width": 350,
+        "x": 20,
+        "y": 56.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 20.4185)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303373,
+    "sample": {
+      "rect": {
+        "bottom": 94.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 56.5,
+        "width": 350,
+        "x": 20,
+        "y": 56.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 20.4185)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303376,
+    "sample": {
+      "rect": {
+        "bottom": 100.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 62.5,
+        "width": 350,
+        "x": 20,
+        "y": 62.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 18.9223)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303380,
+    "sample": {
+      "rect": {
+        "bottom": 100.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 62.5,
+        "width": 350,
+        "x": 20,
+        "y": 62.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 18.9223)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303383,
+    "sample": {
+      "rect": {
+        "bottom": 104.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 67,
+        "width": 350,
+        "x": 20,
+        "y": 67
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 17.8216)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303387,
+    "sample": {
+      "rect": {
+        "bottom": 108.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 71,
+        "width": 350,
+        "x": 20,
+        "y": 71
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 16.8684)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303393,
+    "sample": {
+      "rect": {
+        "bottom": 108.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 71,
+        "width": 350,
+        "x": 20,
+        "y": 71
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 16.8684)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303397,
+    "sample": {
+      "rect": {
+        "bottom": 113.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 75.5,
+        "width": 350,
+        "x": 20,
+        "y": 75.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 15.7697)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303401,
+    "sample": {
+      "rect": {
+        "bottom": 113.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 75.5,
+        "width": 350,
+        "x": 20,
+        "y": 75.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 15.7697)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303404,
+    "sample": {
+      "rect": {
+        "bottom": 117.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 80,
+        "width": 350,
+        "x": 20,
+        "y": 80
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 14.6967)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303408,
+    "sample": {
+      "rect": {
+        "bottom": 117.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 80,
+        "width": 350,
+        "x": 20,
+        "y": 80
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 14.6967)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303412,
+    "sample": {
+      "rect": {
+        "bottom": 121.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 84,
+        "width": 350,
+        "x": 20,
+        "y": 84
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 13.7835)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303415,
+    "sample": {
+      "rect": {
+        "bottom": 125.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 87.5,
+        "width": 350,
+        "x": 20,
+        "y": 87.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 13.023)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303420,
+    "sample": {
+      "rect": {
+        "bottom": 125.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 87.5,
+        "width": 350,
+        "x": 20,
+        "y": 87.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 13.023)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303423,
+    "sample": {
+      "rect": {
+        "bottom": 128.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 91,
+        "width": 350,
+        "x": 20,
+        "y": 91
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 12.2477)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303429,
+    "sample": {
+      "rect": {
+        "bottom": 128.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 91,
+        "width": 350,
+        "x": 20,
+        "y": 91
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 12.2477)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303432,
+    "sample": {
+      "rect": {
+        "bottom": 133.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 95.5,
+        "width": 350,
+        "x": 20,
+        "y": 95.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 11.3289)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303453,
+    "sample": {
+      "rect": {
+        "bottom": 143.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 105.5,
+        "width": 350,
+        "x": 20,
+        "y": 105.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 9.43645)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303457,
+    "sample": {
+      "rect": {
+        "bottom": 146.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 108.5,
+        "width": 350,
+        "x": 20,
+        "y": 108.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 8.89844)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303463,
+    "sample": {
+      "rect": {
+        "bottom": 146.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 108.5,
+        "width": 350,
+        "x": 20,
+        "y": 108.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 8.89844)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303467,
+    "sample": {
+      "rect": {
+        "bottom": 149.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 112,
+        "width": 350,
+        "x": 20,
+        "y": 112
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 8.22589)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303471,
+    "sample": {
+      "rect": {
+        "bottom": 152.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 114.5,
+        "width": 350,
+        "x": 20,
+        "y": 114.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.76729)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303475,
+    "sample": {
+      "rect": {
+        "bottom": 152.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 114.5,
+        "width": 350,
+        "x": 20,
+        "y": 114.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.76729)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303479,
+    "sample": {
+      "rect": {
+        "bottom": 154.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 117,
+        "width": 350,
+        "x": 20,
+        "y": 117
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.3554)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303483,
+    "sample": {
+      "rect": {
+        "bottom": 154.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 117,
+        "width": 350,
+        "x": 20,
+        "y": 117
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 7.3554)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303487,
+    "sample": {
+      "rect": {
+        "bottom": 158.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 120.5,
+        "width": 350,
+        "x": 20,
+        "y": 120.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 6.80433)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303491,
+    "sample": {
+      "rect": {
+        "bottom": 160.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 122.5,
+        "width": 350,
+        "x": 20,
+        "y": 122.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 6.46282)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303497,
+    "sample": {
+      "rect": {
+        "bottom": 160.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 122.5,
+        "width": 350,
+        "x": 20,
+        "y": 122.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 6.46282)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303501,
+    "sample": {
+      "rect": {
+        "bottom": 163.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 125.5,
+        "width": 350,
+        "x": 20,
+        "y": 125.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 6.02382)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303506,
+    "sample": {
+      "rect": {
+        "bottom": 165.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 127.5,
+        "width": 350,
+        "x": 20,
+        "y": 127.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 5.71721)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303511,
+    "sample": {
+      "rect": {
+        "bottom": 165.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 127.5,
+        "width": 350,
+        "x": 20,
+        "y": 127.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 5.71721)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303514,
+    "sample": {
+      "rect": {
+        "bottom": 167.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 129.5,
+        "width": 350,
+        "x": 20,
+        "y": 129.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 5.35843)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303518,
+    "sample": {
+      "rect": {
+        "bottom": 167.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 129.5,
+        "width": 350,
+        "x": 20,
+        "y": 129.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 5.35843)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303522,
+    "sample": {
+      "rect": {
+        "bottom": 171.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 134,
+        "width": 350,
+        "x": 20,
+        "y": 134
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 4.70268)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303533,
+    "sample": {
+      "rect": {
+        "bottom": 173.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 135.5,
+        "width": 350,
+        "x": 20,
+        "y": 135.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 4.45105)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303539,
+    "sample": {
+      "rect": {
+        "bottom": 173.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 135.5,
+        "width": 350,
+        "x": 20,
+        "y": 135.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 4.45105)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303543,
+    "sample": {
+      "rect": {
+        "bottom": 175.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 138,
+        "width": 350,
+        "x": 20,
+        "y": 138
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 4.12954)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303564,
+    "sample": {
+      "rect": {
+        "bottom": 180.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 142.5,
+        "width": 350,
+        "x": 20,
+        "y": 142.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 3.45896)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303572,
+    "sample": {
+      "rect": {
+        "bottom": 182.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 145,
+        "width": 350,
+        "x": 20,
+        "y": 145
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 3.01365)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303580,
+    "sample": {
+      "rect": {
+        "bottom": 184.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 146.5,
+        "width": 350,
+        "x": 20,
+        "y": 146.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.8374)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303588,
+    "sample": {
+      "rect": {
+        "bottom": 184.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 146.5,
+        "width": 350,
+        "x": 20,
+        "y": 146.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.8374)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303591,
+    "sample": {
+      "rect": {
+        "bottom": 185.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 147.5,
+        "width": 350,
+        "x": 20,
+        "y": 147.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.66044)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303595,
+    "sample": {
+      "rect": {
+        "bottom": 185.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 147.5,
+        "width": 350,
+        "x": 20,
+        "y": 147.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.66044)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303598,
+    "sample": {
+      "rect": {
+        "bottom": 186.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 148.5,
+        "width": 350,
+        "x": 20,
+        "y": 148.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.48859)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303603,
+    "sample": {
+      "rect": {
+        "bottom": 186.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 148.5,
+        "width": 350,
+        "x": 20,
+        "y": 148.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.48859)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303606,
+    "sample": {
+      "rect": {
+        "bottom": 187.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 149.5,
+        "width": 350,
+        "x": 20,
+        "y": 149.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.32208)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303610,
+    "sample": {
+      "rect": {
+        "bottom": 187.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 150,
+        "width": 350,
+        "x": 20,
+        "y": 150
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.17152)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303614,
+    "sample": {
+      "rect": {
+        "bottom": 187.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 150,
+        "width": 350,
+        "x": 20,
+        "y": 150
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.17152)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303617,
+    "sample": {
+      "rect": {
+        "bottom": 188.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 150.5,
+        "width": 350,
+        "x": 20,
+        "y": 150.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.05913)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303621,
+    "sample": {
+      "rect": {
+        "bottom": 188.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 150.5,
+        "width": 350,
+        "x": 20,
+        "y": 150.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 2.05913)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303624,
+    "sample": {
+      "rect": {
+        "bottom": 189.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 151.5,
+        "width": 350,
+        "x": 20,
+        "y": 151.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.91191)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303628,
+    "sample": {
+      "rect": {
+        "bottom": 189.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 151.5,
+        "width": 350,
+        "x": 20,
+        "y": 151.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.91191)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303631,
+    "sample": {
+      "rect": {
+        "bottom": 189.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 152,
+        "width": 350,
+        "x": 20,
+        "y": 152
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.79661)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303637,
+    "sample": {
+      "rect": {
+        "bottom": 190.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 152.5,
+        "width": 350,
+        "x": 20,
+        "y": 152.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.64849)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303644,
+    "sample": {
+      "rect": {
+        "bottom": 190.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 152.5,
+        "width": 350,
+        "x": 20,
+        "y": 152.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.64849)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303647,
+    "sample": {
+      "rect": {
+        "bottom": 190.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 152.5,
+        "width": 350,
+        "x": 20,
+        "y": 152.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.54325)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303651,
+    "sample": {
+      "rect": {
+        "bottom": 190.2578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 152.5,
+        "width": 350,
+        "x": 20,
+        "y": 152.5
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.54325)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303668,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.25244)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303672,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.25244)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303676,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.14764)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303679,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.07443)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303683,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.07443)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303686,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 1.07443)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303690,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.983469)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303694,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.915146)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303697,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.915146)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303700,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.849383)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303704,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.849383)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303708,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.770229)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303711,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.770229)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303715,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.721982)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303718,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.721982)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303721,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.721982)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303725,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.648315)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303728,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.648315)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303731,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.595483)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303734,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.550847)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303751,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.456112)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303755,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.456112)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303758,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.406214)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303762,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.406214)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303765,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.363955)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303769,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.330408)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303775,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.297942)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303780,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.297942)",
+      "words": 5
+    }
+  },
+  {
+    "time": 1795492303783,
+    "sample": {
+      "rect": {
+        "bottom": 190.7578125,
+        "height": 37.7578125,
+        "left": 20,
+        "right": 370,
+        "top": 153,
+        "width": 350,
+        "x": 20,
+        "y": 153
+      },
+      "state": "running",
+      "text": "De la idea al producto.",
+      "transform": "matrix(1, 0, 0, 1, 0, 0.265759)",
+      "words": 5
+    }
+  }
+]

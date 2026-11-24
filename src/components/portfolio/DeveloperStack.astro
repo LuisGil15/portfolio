@@ -1,0 +1,143 @@
+---
+import T from '../ProposalText.astro';
+const technologies = [
+ {id:'swift',name:'Swift'}, {id:'react',name:'React'},
+ {id:'typescript',name:'TypeScript'}, {id:'nodejs',name:'Node.js'},
+ {id:'nestjs',name:'NestJS'}, {id:'supabase',name:'Supabase'},
+ {id:'firebase',name:'Firebase'}, {id:'astro',name:'Astro'},
+ {id:'java',name:'Java'}, {id:'python',name:'Python'},
+ {id:'vscode',name:'VS Code'}, {id:'docker',name:'Docker'},
+ {id:'podman',name:'Podman'}, {id:'github',name:'GitHub'},
+];
+const groups = [
+ {en:'Native & mobile',es:'Nativo y móvil',items:'SwiftUI, macOS, iPadOS, React Native'},
+ {en:'Front-end',es:'Front-end',items:'Astro, React, TypeScript, JavaScript'},
+ {en:'Back-end',es:'Back-end',items:'Java, Spring Boot, NestJS, Node.js, Python, C#, .NET'},
+ {en:'Databases',es:'Bases de datos',items:'SQL, DB2, SQLite'},
+ {en:'Cloud & messaging',es:'Cloud y mensajería',items:'Cloudflare, Firebase, Supabase, Kafka'},
+ {en:'Operating systems',es:'Sistemas operativos',items:'Linux, macOS, Windows'},
+ {en:'Tools & workflow',es:'Herramientas de trabajo',items:'VS Code, Docker, Podman, GitHub'},
+ {en:'CI/CD & infrastructure',es:'CI/CD e infraestructura',items:'Jenkins, Argo CD, Terraform'},
+ {en:'AI for development',es:'IA para desarrollo',items:'Codex, Copilot, Claude, Ollama, OpenCode'},
+ {en:'APIs & integrations',es:'APIs e integraciones',items:'HTTP, REST APIs'},
+ {en:'Security & authentication',es:'Seguridad y autenticación',items:'TLS / mTLS, 2FA, Keychain',enExtra:', vulnerability remediation',esExtra:', remediación de vulnerabilidades'},
+];
+---
+<section id="stack" class="developer-stack" aria-labelledby="stack-title">
+ <svg class="skills-orbits" viewBox="0 0 240 240" aria-hidden="true">
+  <circle cx="155" cy="85" r="122"/><circle cx="155" cy="85" r="87"/><circle cx="155" cy="85" r="54"/>
+  <g class="orbit-satellite orbit-inner"><circle class="orbit-point" cx="101" cy="85" r="5"/></g>
+  <g class="orbit-satellite orbit-middle"><circle class="orbit-point" cx="198.5" cy="160.34" r="4"/></g>
+  <g class="orbit-satellite orbit-outer"><circle class="orbit-point" cx="49.34" cy="24" r="3"/></g>
+ </svg>
+ <h2 id="stack-title"><T en="Technologies & tools." es="Tecnologías y herramientas."/></h2>
+ <div class="skills-layout">
+  <div class="skills-marquee">
+   <div class="skills-window" id="technology-motion">
+    {[technologies.slice(0,7),technologies.slice(7)].map((row,index) => <div class:list={["skills-track", {"reverse-track":index===1}]}>
+     {[false,true].map(copy => <ul class="technology-marks" aria-hidden={copy ? 'true' : undefined}>{row.map(technology => <li><figure><img class:list={{"light-logo": technology.id === "astro", "monochrome-mark":technology.id === "github"}} src={`/images/technologies/${technology.id}.svg`} width="52" height="52" alt="" loading="lazy" decoding="async"/>{technology.id === "astro" && <img class="dark-logo" src="/images/technologies/astro-dark.svg" width="52" height="52" alt="" loading="lazy" decoding="async"/>}<figcaption>{technology.name}</figcaption></figure></li>)}</ul>)}
+    </div>)}
+   </div>
+   <button class="skills-motion-toggle" aria-controls="technology-motion" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="pause-symbol" d="M9 5v14M15 5v14"/><path class="play-symbol" d="m8 5 11 7-11 7Z"/></svg><T en="Pause logos" es="Pausar logos"/></button>
+  </div>
+  <dl class="skills-categories">{groups.map(group => <div><dt><T en={group.en} es={group.es}/></dt><dd>{group.items}{'enExtra' in group && <T en={group.enExtra} es={group.esExtra}/>}</dd></div>)}</dl>
+ </div>
+ <a class="github-line" href="https://github.com/LuisGil15"><span><strong>GitHub</strong><T en="Explore my public repositories and experiments." es="Explora mis repositorios públicos y experimentos."/></span></a>
+</section>
+<style>
+ .developer-stack { position:relative; isolation:isolate; padding:100px 0; overflow:clip; }
+ .developer-stack h2 { text-align:center; font-size:clamp(32px,3.1vw,48px); line-height:1.18; font-weight:500; margin:0 0 62px; }
+ .skills-orbits { position:absolute; right:-65px; top:18px; width:210px; height:210px; z-index:-1; fill:none; stroke:var(--accent); stroke-width:.7; opacity:.25; pointer-events:none; }
+ .skills-orbits .orbit-point { fill:var(--accent); stroke:none; }
+ .orbit-satellite { transform-origin:155px 85px; animation:orbit-revolve 24s linear infinite; animation-play-state:paused; }
+ .orbit-middle { animation-duration:36s; animation-direction:reverse; }
+ .orbit-outer { animation-duration:48s; }
+ .skills-orbits[data-active=true] .orbit-satellite { animation-play-state:running; }
+ @keyframes orbit-revolve { to { transform:rotate(360deg); } }
+ @media(prefers-reduced-motion:reduce) { .orbit-satellite { animation:none; } }
+ .skills-layout { display:grid; grid-template-columns:minmax(0,1fr); gap:38px; align-items:stretch; margin-bottom:42px; }
+ .skills-marquee { min-width:0; width:100%; container-type:inline-size; }
+ .skills-window { overflow:hidden; display:grid; gap:22px; }
+ .skills-track { display:flex; width:max-content; gap:14px; animation:skills-drift 56s linear infinite; animation-play-state:paused; }
+ .reverse-track { animation-direction:reverse; animation-duration:64s; }
+ .technology-marks { display:flex; gap:14px; padding:0; margin:0; list-style:none; flex-shrink:0; }
+ .technology-marks li { width:max(88px,calc((100cqi - 84px)/7)); flex-shrink:0; min-width:0; }
+ .skills-motion-toggle { display:flex; align-items:center; gap:8px; margin:18px auto 0; padding:8px 12px; background:transparent; border:1px solid var(--line); border-radius:20px; color:var(--muted); font-size:10px; min-height:36px; }
+ .skills-motion-toggle:hover { color:var(--ink); border-color:var(--accent); }
+ .skills-motion-toggle svg { width:14px; height:14px; }
+ .play-symbol { display:none; }
+ .is-paused .pause-symbol { display:none; }.is-paused .play-symbol { display:block; }
+ .skills-marquee[data-active=true]:not(.is-paused) .skills-track { animation-play-state:running; }
+ .skills-marquee.is-paused .skills-track { animation-play-state:paused; }
+ @media(hover:hover) { .skills-marquee[data-active=true] .skills-window:hover .skills-track { animation-play-state:paused; } }
+ @keyframes skills-drift { to { transform:translateX(calc(-50% - 7px)); } }
+ @media(prefers-reduced-motion:reduce) {
+  .skills-track { animation:none; transform:none; width:auto; }
+  .technology-marks { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); width:100%; gap:10px; }
+  .technology-marks li { width:auto; }.technology-marks[aria-hidden=true],.skills-motion-toggle { display:none; }
+ }
+ .technology-marks figure { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:17px; padding:22px 5px 17px; min-height:124px; border:1px solid var(--line); border-radius:14px; }
+ .technology-marks img { width:44px; height:44px; object-fit:contain; }
+ .dark-logo { display:none; }
+ :global([data-theme=dark]) .light-logo { display:none; }
+ :global([data-theme=dark]) .dark-logo { display:block; }
+ :global([data-theme=dark]) .monochrome-mark { filter:invert(1); }
+ .technology-marks figcaption { font-size:10px; color:var(--muted); line-height:1.4; }
+ @media(hover:hover) and (pointer:fine) and (min-width:761px) {
+  .technology-marks figcaption { opacity:0; transform:translateY(4px); transition:opacity 160ms cubic-bezier(.16,1,.3,1),transform 160ms cubic-bezier(.16,1,.3,1); }
+  .technology-marks img { transform:translateY(12px); transition:transform 200ms cubic-bezier(.16,1,.3,1); }
+  .technology-marks figure:hover { border-color:var(--accent); }
+  .technology-marks figure:hover figcaption,.skills-marquee:focus-within figcaption { opacity:1; transform:none; }
+  .technology-marks figure:hover img,.skills-marquee:focus-within .technology-marks img { transform:none; }
+ }
+ .skills-categories { margin:0; padding:30px 0 0; border-top:1px solid var(--line); display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 48px; }
+ .skills-categories>div { position:relative; padding-left:15px; font-size:13px; line-height:1.9; }
+ .skills-categories>div::before { content:''; position:absolute; top:10px; left:0; width:4px; height:4px; border-radius:50%; background:var(--accent); }
+ .skills-categories dt,.skills-categories dd { display:inline; }
+ .skills-categories dt { font-weight:550; color:var(--ink); }
+ .skills-categories dt::after { content:': '; }
+ .skills-categories dd { margin:0; color:var(--muted); }
+ @media(min-width:1500px) { .skills-layout { gap:50px; }.technology-marks figure { min-height:144px; }.technology-marks img { width:52px; height:52px; }.skills-categories>div { font-size:15px; } }
+ @media(min-width:761px) {
+  .skills-window { --edge-fade:clamp(36px,6vw,88px); mask-image:linear-gradient(to right,transparent,#000 var(--edge-fade),#000 calc(100% - var(--edge-fade)),transparent); }
+ }
+ @media(min-width:761px) and (prefers-reduced-motion:reduce) {
+  .skills-window { mask-image:none; }
+ }
+ @media(max-width:1150px) { .skills-layout { grid-template-columns:1fr; gap:34px; }.skills-marquee { max-width:none; }.skills-categories { border-left:0; border-top:1px solid var(--line); padding:30px 0 0; grid-template-columns:repeat(2,minmax(0,1fr)); gap:25px; }.developer-stack h2 { margin-bottom:44px; } }
+ @media(max-width:760px) { .developer-stack { --stack-gutter:20px; padding:65px var(--stack-gutter); margin-inline:calc(-1 * var(--stack-gutter)); }.skills-marquee { width:calc(100% + 2 * var(--stack-gutter)); max-width:none; margin-inline:calc(-1 * var(--stack-gutter)); }.skills-layout { margin-bottom:30px; }.skills-track { animation-duration:42s; }.reverse-track { animation-duration:49s; }.technology-marks li { width:max(88px,calc((100cqi - 42px)/4)); }.skills-orbits { width:150px; height:150px; right:-50px; top:25px; }.technology-marks figure { min-height:105px; padding:17px 4px 14px; gap:12px; border-radius:12px; }.technology-marks img { width:35px; height:35px; }.technology-marks figcaption { font-size:9px; }.skills-categories { grid-template-columns:1fr; gap:20px; }.skills-categories>div { font-size:13px; } }
+ @media(max-width:370px) { .developer-stack { --stack-gutter:16px; }.technology-marks figure { min-height:91px; }.technology-marks img { width:30px; height:30px; }.technology-marks figcaption { font-size:8px; } }
+</style>
+
+<script>
+ const orbits = document.querySelector<SVGSVGElement>('.skills-orbits');
+ if (orbits) {
+   let visible = false;
+   const syncOrbits = () => { orbits.dataset.active = String(visible && !document.hidden && document.documentElement.dataset.boot !== 'loading'); };
+   new IntersectionObserver(entries => {
+     visible = entries[0].isIntersecting;
+     syncOrbits();
+   }).observe(orbits);
+   document.addEventListener('visibilitychange', syncOrbits);
+   document.addEventListener('portfolio-ready',syncOrbits);
+ }
+ const marquee = document.querySelector<HTMLElement>('.skills-marquee');
+ if (marquee) {
+   let visible=false;
+   const syncMarquee=()=>{ marquee.dataset.active=String(visible && !document.hidden && document.documentElement.dataset.boot !== 'loading'); };
+   new IntersectionObserver(entries=>{ visible=entries[0].isIntersecting; syncMarquee(); }).observe(marquee);
+   document.addEventListener('visibilitychange',syncMarquee);
+   document.addEventListener('portfolio-ready',syncMarquee);
+ }
+ const motionToggle = marquee?.querySelector<HTMLButtonElement>('.skills-motion-toggle');
+ motionToggle?.addEventListener('click', () => {
+   const paused = marquee?.classList.toggle('is-paused') ?? false;
+   motionToggle.setAttribute('aria-pressed', String(paused));
+   const label = motionToggle.querySelector<HTMLElement>('[data-en][data-es]');
+   if (label) {
+     label.dataset.en = paused ? 'Resume logos' : 'Pause logos';
+     label.dataset.es = paused ? 'Reanudar logos' : 'Pausar logos';
+     label.textContent = document.documentElement.lang === 'es' ? label.dataset.es : label.dataset.en;
+   }
+ });
+</script>

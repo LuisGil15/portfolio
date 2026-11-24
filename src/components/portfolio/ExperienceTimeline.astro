@@ -1,0 +1,65 @@
+---
+import T from '../ProposalText.astro';
+---
+<section id="experience" class="experience" aria-labelledby="experience-title">
+      <div class="experience-intro">
+        <T as="h2" id="experience-title" en="Engineering put&#10;into practice." es="Ingeniería puesta&#10;en práctica."/>
+        <T as="p" en="My experience connects product development, systems integration and security. I work across interfaces, services and data to turn requirements into software that teams can use, maintain and keep improving." es="Mi experiencia conecta desarrollo de producto, integración de sistemas y seguridad. Trabajo entre interfaces, servicios y datos para convertir necesidades en software que los equipos puedan usar, mantener y seguir evolucionando."/>
+        <a class="experience-contact" href="#contact-form"><T en="Let’s talk about your next challenge" es="Hablemos de tu próximo reto"/></a>
+      </div>
+ <ol class="experience-timeline">
+<li class="timeline-entry"><div class="timeline-period"><T en="2022 — present" es="2022 — actualidad"/></div><article><header class="timeline-heading"><div class="company-logo ibm-logo"><img src="/images/companies/ibm.png" width="80" height="56" alt="" loading="lazy" decoding="async"/></div><div><h3>IBM</h3><T as="h4" en="Backend development & systems integration" es="Desarrollo backend e integración de sistemas"/></div></header>
+          
+          <T as="p" en="I build backend solutions that connect systems, automate processes and support enterprise products. My contribution brings together service and data integration, security and internal tooling, with attention to how the team tests, deploys and maintains the software." es="Desarrollo soluciones backend que conectan sistemas, automatizan procesos y dan soporte a productos empresariales. Mi aportación combina integración de servicios y datos, seguridad y herramientas internas, con atención a cómo el equipo prueba, despliega y mantiene el software."/>
+          <details class="job-responsibilities"><summary><T en="What I work on" es="Mi contribución"/></summary><ul>
+            <li><T en="Develop REST APIs with Java and Spring Boot, and asynchronous processing with Kafka." es="Desarrollo APIs REST con Java y Spring Boot, y procesos asíncronos con Kafka."/></li>
+            <li><T en="Built an API proxy service in JavaScript with Node.js, using mutual TLS (mTLS) authentication." es="Desarrollé un servicio proxy para APIs en JavaScript con Node.js, con autenticación TLS mutua (mTLS)."/></li>
+            <li><T en="Write Python automation scripts and batch jobs to transfer data between database tables." es="Desarrollo scripts de automatización en Python y jobs por lotes para transferir datos entre tablas de bases de datos."/></li>
+            <li><T en="Work with SQL and DB2 to support the data needs of backend services." es="Trabajo con SQL y DB2 para cubrir las necesidades de datos de los servicios backend."/></li>
+            <li><T en="Remediate security vulnerabilities and contribute to testing and deployment workflows." es="Resuelvo vulnerabilidades de seguridad y participo en pruebas y flujos de despliegue."/></li>
+            <li><T en="Build internal tools that simplify teams' day-to-day work." es="Creo herramientas internas para facilitar el trabajo diario de los equipos."/></li>
+          </ul></details>
+          <p class="job-stack">Java · Spring Boot · Kafka · JavaScript · Node.js · mTLS · Python · SQL · DB2</p>
+        </article></li>
+<li class="timeline-entry"><div class="timeline-period"><span>2021 — 2022</span></div><article><header class="timeline-heading"><div class="company-logo resser-logo"><img src="/images/companies/resser.png" width="80" height="56" alt="" loading="lazy" decoding="async"/></div><div><h3>RESSER</h3><T as="h4" en="Mobile product & backend development" es="Desarrollo de producto móvil y backend"/></div></header>
+          
+          <T as="p" en="I built the mobile application from scratch with React Native and developed backend services with C# and .NET. My work connected the mobile interface, application logic and the services behind the product." es="Desarrollé la aplicación móvil desde cero con React Native y servicios backend con C# y .NET. Mi trabajo conectó la interfaz móvil, la lógica de la aplicación y los servicios que dan soporte al producto."/>
+          <details class="job-responsibilities"><summary><T en="What I work on" es="Mi contribución"/></summary><ul>
+            <li><T en="Built the mobile application from scratch with React Native." es="Desarrollé la aplicación móvil desde cero con React Native."/></li>
+            <li><T en="Developed backend services with C# and .NET to support application functionality." es="Desarrollé servicios backend con C# y .NET para dar soporte a las funcionalidades de la aplicación."/></li>
+          </ul></details>
+          <p class="job-stack">React Native · C# · .NET</p>
+        </article></li>
+ </ol>
+
+</section>
+<style>
+ .experience { padding-bottom:100px; }
+ .experience-intro { display:grid; grid-template-columns:1fr 1fr; gap:18px 45px; align-items:start; margin-bottom:50px; }
+ .experience-intro h2 { font-size:clamp(30px,3.1vw,48px); font-weight:500; line-height:1.18; white-space:pre-line; grid-row:span 2; }
+ .experience-intro>p { color:var(--muted); font-size:13px; line-height:1.85; }
+ .experience-contact { display:inline-flex; gap:10px; align-items:center; color:var(--accent); font-size:12px; justify-self:start; }
+ .experience-timeline { list-style:none; margin:0; padding:0; position:relative; }
+ .experience-timeline::before { content:''; position:absolute; top:26px; bottom:26px; left:133px; width:1px; background:var(--line); }
+ .timeline-entry { position:relative; display:grid; grid-template-columns:110px minmax(0,1fr); gap:55px; padding:0 0 45px; }
+ .timeline-entry::before { content:''; position:absolute; top:24px; left:128px; width:11px; height:11px; border-radius:50%; border:2px solid var(--accent); background:var(--page); }
+ .timeline-entry:first-child::before { background:var(--accent); }
+ .timeline-entry:last-child { padding-bottom:0; }
+ .timeline-period { padding-top:20px; color:var(--muted); font-size:10px; line-height:1.8; font-variant-numeric:tabular-nums; }
+ .timeline-entry article { min-width:0; padding-bottom:35px; border-bottom:1px solid var(--line); }
+ .timeline-heading { display:flex; gap:20px; align-items:center; margin-bottom:22px; }
+ .company-logo { display:grid; place-items:center; flex-shrink:0; width:82px; height:64px; padding:8px; border-radius:12px; background:#fff; }
+ .resser-logo { background:#0d0d0d; }
+ .company-logo img { width:66px; height:48px; object-fit:contain; }
+ .timeline-heading h3 { font-size:27px; font-weight:500; }
+ .timeline-heading h4 { font-size:12px; font-weight:500; color:var(--accent); line-height:1.7; margin:8px 0 0; }
+ .timeline-entry article>p { font-size:13px; line-height:1.9; color:var(--muted); }
+ .job-responsibilities { margin:18px 0; }
+ .job-responsibilities summary { cursor:pointer; padding:10px 0; color:var(--accent); font-size:12px; }
+ .job-responsibilities ul { margin:12px 0 0; padding-left:18px; }
+ .job-responsibilities li { font-size:12px; line-height:1.9; color:var(--muted); }
+ .job-responsibilities li+li { margin-top:10px; }
+ .timeline-entry article>.job-stack { font-size:10px; line-height:1.9; color:var(--accent); margin-top:18px; }
+ @media(max-width:1150px) { .experience-intro { grid-template-columns:1fr; gap:20px; }.experience-intro>p { max-width:65ch; }.timeline-entry { grid-template-columns:1fr; gap:12px; padding-left:30px; }.experience-timeline::before { left:5px; top:12px; bottom:36px; }.timeline-entry::before { left:0; top:8px; }.timeline-period { padding-top:0; font-size:11px; } }
+ @media(max-width:760px) { .experience { padding-bottom:65px; }.experience-intro h2 { font-size:32px; }.experience-intro { margin-bottom:35px; }.timeline-heading { gap:15px; }.timeline-heading h3 { font-size:24px; }.timeline-heading h4 { font-size:11px; }.company-logo { width:68px; height:57px; }.company-logo img { width:52px; height:41px; }.timeline-entry { gap:18px; padding-bottom:32px; padding-left:26px; }.timeline-entry article { padding-bottom:26px; } }
+</style>

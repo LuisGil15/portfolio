@@ -33,6 +33,7 @@ npm run dev
 ## Validation and deployment
 
 ```sh
+node scripts/test-portfolio-preloader.mjs
 npm run build
 npm run cloudflare:preview
 npm run deploy

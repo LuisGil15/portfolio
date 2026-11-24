@@ -1,0 +1,57 @@
+[
+  {
+    "boot": "loading",
+    "hidden": false,
+    "overlay": "1",
+    "title": "none",
+    "width": 390
+  },
+  {
+    "boot": "revealing",
+    "hidden": false,
+    "instant": "false",
+    "overlay": "0.747609",
+    "title": "matrix(1, 0, 0, 1, 0, 32.5599)",
+    "width": 390
+  },
+  {
+    "boot": "revealing",
+    "hidden": false,
+    "instant": "false",
+    "overlay": "0.231473",
+    "title": "matrix(1, 0, 0, 1, 0, 11.1124)",
+    "width": 390
+  },
+  {
+    "boot": "revealing",
+    "hidden": false,
+    "instant": "false",
+    "overlay": "0.0604264",
+    "title": "matrix(1, 0, 0, 1, 0, 4.37871)",
+    "width": 390
+  },
+  {
+    "boot": "revealing",
+    "hidden": false,
+    "instant": "false",
+    "overlay": "0.00443855",
+    "title": "matrix(1, 0, 0, 1, 0, 1.66196)",
+    "width": 390
+  },
+  {
+    "boot": "ready",
+    "hidden": true,
+    "instant": "false",
+    "overlay": "1",
+    "title": "matrix(1, 0, 0, 1, 0, 0.484489)",
+    "width": 390
+  },
+  {
+    "boot": "ready",
+    "hidden": true,
+    "instant": "false",
+    "overlay": "1",
+    "title": "matrix(1, 0, 0, 1, 0, 0.103355)",
+    "width": 390
+  }
+]

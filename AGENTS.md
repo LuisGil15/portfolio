@@ -1,3 +1,7 @@
+## Pull requests
+
+Write pull request titles and descriptions in English, including section headings and validation notes. Apply this convention when creating or updating a PR, even when the conversation with the user is in Spanish. Keep user-facing site content in its intended language.
+
 ## Development
 
 When starting the dev server, use background mode:

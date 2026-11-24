@@ -1,0 +1,101 @@
+---
+import T from '../ProposalText.astro';
+---
+<header class="portfolio-hero" id="home">
+  <canvas class="particle-wave" aria-hidden="true"></canvas>
+  <div class="hero-portrait" aria-hidden="true"><div></div></div>
+  <div class="hero-content">
+    <p class="hero-greeting"><span class="code-tag" aria-hidden="true">&lt;span&gt;</span> <T en="Hey! I'm Luis Gil." es="¡Hola! Soy Luis Gil."/> <span class="code-tag" aria-hidden="true">&lt;/span&gt;</span></p>
+    <h1 aria-label="Software Developer Engineer"><span class="hero-title-line" aria-hidden="true"><span>Software</span></span>{' '}<span class="hero-title-line" aria-hidden="true"><em class="hero-specialty"><span class="title-brace">{'{'}</span><span class="typed-specialty">{Array.from('Developer').map(character => <span class="type-char">{character}</span>)}<span class="typing-cursor"></span></span><span class="title-brace">{'}'}</span></em></span>{' '}<span class="hero-title-line" aria-hidden="true"><span>Engineer</span></span></h1>
+    <T as="p" class="hero-description" en="I build digital products from end to end: web platforms, native apps and the systems behind them. Bring me a problem; let’s turn it into software." es="Creo productos digitales de principio a fin: plataformas web, apps nativas y los sistemas que las conectan. Trae un problema; lo convertimos en software."/>
+    <div class="hero-actions"><a class="primary-action" href="#work"><T en="See what I build" es="Conoce lo que construyo"/></a><a class="text-action" href="#experience"><T en="My experience" es="Mi experiencia"/></a></div>
+  </div>
+  <div class="hero-foot"><code>Backend / Web / Native</code><a href="#work"><T en="Scroll to explore" es="Desliza para explorar"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
+</header>
+<script>
+  const canvas = document.querySelector<HTMLCanvasElement>('.particle-wave');
+  if (canvas) {
+    const ctx = canvas.getContext('2d');
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    let width = 0, height = 0, frame = 0;
+    function draw(phase: number) {
+      if (!canvas || !ctx) return;
+      ctx.clearRect(0, 0, width, height);
+      const dark = document.documentElement.dataset.theme === 'dark';
+      for (let row = 0; row < 30; row++) {
+        const depth = row / 29;
+        for (let col = 0; col < 92; col++) {
+          const x = (col / 91 * 1.24 - .12) * width;
+          const wave = Math.sin(col * .065 + depth * 3.8 + phase) * 34 + Math.sin(col * .12 - depth * 2.5) * 17;
+          const y = height * .71 + depth * height * .29 + wave * (1 - depth * .45);
+          const alpha = (.14 + depth * .52) * (Math.sin(col / 91 * Math.PI) * .75 + .25);
+          ctx.fillStyle = dark ? `rgba(125,207,255,${alpha * .65})` : `rgba(20,99,112,${alpha * .75})`;
+          ctx.beginPath(); ctx.arc(x, y, .55 + depth * .95, 0, Math.PI * 2); ctx.fill();
+        }
+      }
+    }
+    function render() {
+      if (!canvas) return;
+      const bounds = canvas.getBoundingClientRect();
+      width = bounds.width; height = bounds.height;
+      const ratio = Math.min(devicePixelRatio || 1, 2);
+      canvas.width = Math.round(width * ratio); canvas.height = Math.round(height * ratio);
+      ctx?.setTransform(ratio, 0, 0, ratio, 0, 0);
+      draw(.8);
+    }
+    let phase = .8, visible = true, lastPaint = 0;
+    function canAnimate() {
+      return visible && !document.hidden && document.documentElement.dataset.boot !== 'loading' && !reducedMotion.matches && document.documentElement.dataset.motion !== 'paused';
+    }
+    function tick(now: number) {
+      frame = 0;
+      if (!canAnimate()) return;
+      if (now - lastPaint >= 32) {
+        phase += Math.min((now - lastPaint) / 1000, .05) * .45;
+        lastPaint = now;
+        draw(phase);
+      }
+      frame = requestAnimationFrame(tick);
+    }
+    function sync() {
+      cancelAnimationFrame(frame); frame = 0;
+      draw(phase);
+      if (canAnimate()) { lastPaint = performance.now(); frame = requestAnimationFrame(tick); }
+    }
+    const resize = new ResizeObserver(() => { render(); draw(phase); }); resize.observe(canvas);
+    new MutationObserver(sync).observe(document.documentElement, {attributes:true, attributeFilter:['data-theme','data-motion']});
+    reducedMotion.addEventListener('change', sync);
+    document.addEventListener('visibilitychange', sync);
+    new IntersectionObserver(entries => { visible = entries[0].isIntersecting; sync(); }, {rootMargin:'60px'}).observe(canvas);
+    sync();
+  }
+</script>
+
+<style>
+ .hero-greeting { display:flex; flex-wrap:wrap; gap:0 .45em; align-items:center; margin:0 0 20px; font-size:clamp(12px,1.1vw,16px); line-height:1.7; color:var(--ink); }
+ .code-tag { color:var(--syntax-tag); }
+ .typed-specialty { position:relative; white-space:pre; padding-right:.12em; }
+ .typing-cursor { position:absolute; left:0; top:.15em; width:2px; height:.85em; background:currentColor; opacity:0; pointer-events:none; }
+ .type-char { display:inline-block; white-space:pre; }
+ .title-brace { color:var(--syntax-punctuation); }
+ .hero-title-line { display:block!important; overflow:clip; padding-bottom:.08em; margin-bottom:-.08em; }
+ .hero-title-line>span,.hero-title-line>em { display:inline-block; }
+ .hero-portrait { display:block; position:absolute; z-index:-2; pointer-events:none; mask-image:linear-gradient(to bottom,#000 0%,#000 62%,#000b 76%,transparent 96%); }
+ .hero-portrait>div { width:100%; height:100%; background:url('/images/profile/luis-gil-cutout.webp') center top / contain no-repeat; opacity:.6; filter:contrast(.9) brightness(.85); mask-image:linear-gradient(to right,transparent 0%,#000 38%); }
+ @media(min-width:761px) {
+  .portfolio-hero { overflow:clip; margin-inline:calc((100% - 100cqw)/2); padding-inline:var(--bleed-gutter); }
+  .hero-foot { left:var(--bleed-gutter); right:var(--bleed-gutter); }
+  .hero-content { position:relative; z-index:1; max-width:66%; }
+  .hero-portrait { width:min(68vw,800px); aspect-ratio:1; top:-30px; right:-100px; }
+ }
+ @media(max-width:760px) {
+  .portfolio-hero { --hero-gutter:20px; margin-inline:calc(-1 * var(--hero-gutter)); padding-inline:var(--hero-gutter); overflow:clip; justify-content:flex-start; padding-top:62px; }
+  .hero-foot { left:var(--hero-gutter); right:var(--hero-gutter); }
+  .hero-content { position:relative; z-index:1; }
+  .hero-portrait { width:460px; height:500px; top:-12px; right:-165px; mask-image:linear-gradient(to bottom,#000 0%,#000 62%,#000b 76%,transparent 92%); }
+  .hero-portrait>div { opacity:.22; filter:none; mask-image:linear-gradient(to right,transparent 10%,#000 65%); }
+  :global([data-theme=dark]) .hero-portrait>div { opacity:.6; filter:contrast(.9) brightness(.85); }
+ }
+ @media(max-width:370px) { .portfolio-hero { --hero-gutter:16px; } }
+ @media(max-width:350px) { .hero-portrait { right:-190px; } }
+</style>

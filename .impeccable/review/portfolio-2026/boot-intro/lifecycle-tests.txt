@@ -1,0 +1,1 @@
+Reduced-motion bypass, deep-link bypass, stalled-load failsafe and keyboard skip passed.

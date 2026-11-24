@@ -18,7 +18,7 @@ MiniTools is implemented at /apps/minitools/ through MiniToolsPage.astro, MiniTo
 ## Constraints
 The user approved both replacement proposals and requested adoption at / and /apps/tavi/, including /es/ and matching Tavi privacy, terms and support pages. The /proposals/portfolio/ and /proposals/tavi/ routes remain legacy previews of the shared adopted components. This is a local implementation; adoption does not imply publication or a Git push.
 
-English is the default language with Spanish available. Both visual identities support light and dark mode. The portfolio defaults to light and Tavi defaults to dark, independent of OS preference. Explicit theme choices persist independently under site-theme:portfolio and site-theme:tavi; the former shared site-theme value is not used. Language preference persists under site-language, with compatibility for the original proposal-language preference. The portfolio replaces its original purple palette with petroleum teal while preserving the approved composition. Tavi retains its blue identity.
+English is the default language with Spanish available. Both visual identities support light and dark mode. The redesigned portfolio defaults to dark, as do Tavi and MiniTools, independent of OS preference. Explicit theme choices persist independently under site-theme:portfolio and site-theme:tavi; the former shared site-theme value is not used. Language preference persists under site-language, with compatibility for the original proposal-language preference. The November 2026 portfolio redesign uses a petroleum foundation, a lavender display accent in dark mode and a teal accent in light mode. Tavi retains its blue identity.
 
 No invented customers, usage statistics, prices, testimonials or release claims. Availability remains pending review per supplied site content. The native-like web demo uses Luis Gil sample data, follows the actual Tavi folder/request/environment/configuration/response structure, and must remain explicitly labeled as a deterministic local simulation that sends no network requests. It is not the native application. Support links are https://buymeacoffee.com/luisgil and https://ko-fi.com/luisgildev.
 
@@ -32,3 +32,103 @@ The portfolio, Tavi and MiniTools landing URLs each publish a dedicated 1200×63
 Use the real names and existing Tavi icon. Preserve the two approved compositions and their distinct typography: Sora for the portfolio and Figtree for Tavi, with system UI typography in the native-like demo. Shared theme, language, support and document components keep the adopted surfaces coherent. The authoritative design documentation remains in design-proposals/DESIGN.md and its .impeccable/design.json sidecar to preserve the original proposal provenance (concept seed 423b91e6); its current scope includes the adopted production routes.
 
 MiniTools extends the existing Figtree and blue product world, with system UI type inside the island and the approved Mosaico icon. Its surface direction and review history remain scoped to .impeccable/surfaces/src-pages-apps-minitools-index-astro.md; the portfolio and Tavi retain their existing authority.
+
+## Portfolio redesign — November 23, 2026
+
+The user selected Braxton's index-image demo for its visual impact and Zelio's index-2 developer demo for its technical content, then requested implementation in a new Git branch. The resulting branch is `feat/portfolio-braxton-zelio`. The pinned direction is Braxton's personal side panel and expansive type with Zelio's developer-oriented project and skill information. This supersedes the previous portfolio composition only; product landing pages retain their own designs. This is an original Astro implementation using repository-owned assets, not downloaded Envato template code.
+
+The portfolio has a dark initial theme, persistent explicit theme choice, EN/ES content, a continuously animated, visibility-aware particle-wave canvas with a reduced-motion path and a persistent global pause control, a native-app/project gallery with existing filters, a dedicated categorized technology section, preserved professional experience and personal biography, and direct email/GitHub/LinkedIn contact. The profile uses the portrait supplied by the user; it replaces the earlier LG monogram. No CV file, contribution feed, private repository links, metrics or testimonials are invented. Current portfolio design authority is `design-proposals/PORTFOLIO-2026.md` and `src/styles/portfolio.css`; older portfolio tokens and the existing design sidecar describe the previous composition. Publishing or pushing has not been requested.
+
+The user confirmed that Luromi Studio is their own studio for freelance work, and Hourmeet is a platform they created and maintain. Both are featured in My work under Web & platforms, with official local logos and links to https://luromistudio.com.mx/ and https://hourmeet.app/. Their public descriptions identify Luromi's websites/custom software offering and Hourmeet's service discovery, business profiles and appointment scheduling. Start dates were not supplied; the project cards use ownership labels rather than invented periods. Do not describe Hourmeet as employment at another company or infer an acquisition, team size or revenue.
+
+The user supplied IMG_0032.PNG for the portfolio. A 640px WebP derivative (~39 KiB) is stored at public/images/profile/luis-gil.webp; the source file is unchanged. The photo appears in the desktop identity panel and above the hero title on mobile.
+
+The profile panel follows the desktop viewport height with a flexible portrait. Six local network icons replace text labels; Facebook, Instagram, Threads and X remain noninteractive placeholders at the user's request until URLs are provided. Existing GitHub and LinkedIn destinations remain. Hero entrances replay on returning to the top; section reveals re-arm when leaving view. Reduced motion and persistent global pause remain respected.
+
+Latest portfolio refinement: the photo stays square, social icons have no circles, and theme/language controls belong in the sticky header. The global pause button is removed at the user's request; reduced motion remains supported. Section entrances use separate reveal/reset zones to prevent boundary jitter while preserving replay after leaving the area.
+
+The personal panel labels the role as Specialty / Especialidad and the user-supplied location as Location / Localidad: Jalisco, Mexico (Jalisco, México in Spanish).
+
+The user approved Software Developer Engineer as their hero title. It replaces the earlier software-with-purpose headline; the name appears between decorative developer tags. Developer reveals character by character on entry with fixed character layout, while the complete title remains accessible.
+
+The user supplied personal Instagram, Threads and X URLs for @luisgildev and requested Facebook removal. Both profile and contact now link GitHub, LinkedIn, Instagram, Threads and X. Tracking query parameters were omitted from the supplied URLs. No social placeholders remain.
+
+The contact section includes a bilingual form with name, email, optional subject and message. The user explicitly chose precomposed email instead of a delivery service: preparing the form generates a local mailto draft for luis.gil.dev15@gmail.com, followed by an explicit open-in-email-app link. Visitors review and send from their email application. No backend, third-party form service, message storage or delivery claim is introduced. Header Hablemos now navigates to this section.
+
+Mobile portfolio navigation uses a compact sticky brand/control row and a disclosure for section/contact links, replacing the earlier always-visible multirow mobile menu. Desktop identity and expanded navigation are preserved.
+
+The user-approved generated neutral portrait with reference-matched green eyes has a transparent cutout derivative for the mobile hero. It replaces the small mobile portrait with a grayscale, partially cropped background portrait on the right of the headline. The original photograph remains in the desktop personal panel.
+
+The user requested darker backgrounds and colors associated with dark editors/terminals. The portfolio dark theme now uses near-black #080b10, blue-gray surfaces/text, terminal green actions and title emphasis, cyan punctuation/focus and violet tags. This supersedes the earlier petroleum/lavender portfolio palette; product landing-page brands remain separate. The mobile portrait and wave are dimmed to keep text dominant.
+
+The approved mobile identity is now the compact <LG /> monogram, with the full bilingual name restored in the hero greeting (¡Hola! Soy Luis Gil. / Hey! I’m Luis Gil.). Mobile navigation uses a right-side modal drawer, closed initially and on reload, replacing the prior dropdown.
+
+Latest user direction: mobile header identity is only the light terminal prompt > _. The portfolio is fixed to dark mode, with theme buttons removed and earlier stored light preferences ignored for this surface. Product-page theme controls remain independent.
+
+## Current portfolio positioning — November 23, 2026
+
+The user explicitly requested stronger professional positioning beyond their IBM employment. Lead with the approved Software Developer Engineer title, independent product creation and end-to-end development across web, native apps and backend. Hourmeet ownership/maintenance and Luromi Studio founding/freelance work provide concrete evidence; IBM and RESSER remain career experience. Hero, metadata, specialty, project descriptions, experience introduction, about introduction and contact invitation are bilingual and reflect this positioning. Keep the personal neurodivergence text unchanged. Do not invent performance outcomes, revenue, customers, availability, team leadership or professional dates.
+
+Current identity uses the same transparent neutral monochrome portrait on mobile and desktop, blended downward into the dark surface. Desktop panel has only a terminal >_ mark, specialty, location and social icons. Mobile sticky header covers the full viewport width. Portfolio is dark-only. These details supersede older identity and theme descriptions above.
+
+### Contact draft simplification — November23,2026
+
+All previous direct-email contact links in the portfolio now navigate to #contact-form. The contact draft asks for name, optional subject and message only; sender email is supplied by the visitor’s chosen email account, so it is neither requested nor included in the body. The localized playful message placeholder is illustrative, not a prefilled message. Action is Create draft / Crear borrador. The explicit draft-result link still opens the email app for review and sending. No messages are sent by the website.
+
+### Academic section and footer — November23,2026
+
+The user clarified that a section for “estudio” means academic studies, not a separate Luromi studio section. Formation is presented after professional experience as Software Development Engineering / Ingeniería en Desarrollo de Software at CETI, with an Education / Formación navigation link. Do not infer graduation status, dates or licenses. Removed the duplicate inline academic note from About and the public English B2 level; the user reserves language level for a CV, and no CV file was modified. Footer closes with copyright and social links, without Discover Tavi. Luromi remains in My work.
+
+### Personal narrative refinement — November23,2026
+
+User authorized revising the neurodivergence reflection so it reads as personal self-knowledge rather than a request for special/different treatment. The bilingual reflection keeps the supplied autism/inattentive ADHD facts and focuses on perception, processing, organization, strengths, limits and personal strategies; it makes no general medical or workplace claims. This supersedes previous instructions to preserve the old reflection verbatim. About explains the approach to product building without repeating the hero’s name/title introduction or listing projects again. Removed its project-contact button. Footer DOM/visual order is now social links followed by Luis Gil copyright.
+
+### Approved self-knowledge reflection — November23,2026
+
+The user approved combining self-knowledge with learning to live in a world not always designed for their way of thinking. The Spanish approved copy begins “Soy autista y tengo TDAH de presentación inatenta. Conocerme ha sido parte de aprender a moverme…” and frames learning as recognizing strengths, limits and personal strategies. Equivalent English copy is implemented. This supersedes the shorter My way of seeing the world reflection.
+
+### Stack tools — November23,2026
+
+User confirmed NestJS and Supabase plus VS Code, Docker, Podman and GitHub for the technology section. Tools stay within the stack section under their own Tools & workflow / Herramientas de trabajo category, rather than a separate top-level section. NestJS is grouped under backend and Supabase under cloud. All six have local Devicon marks in the existing two-row marquee. No additional unconfirmed tools added.
+
+Academic facts subsequently confirmed by the user: CETI · Colomos attendance2018–2021. English course institution and dates remain unspecified.
+
+### Security, delivery and AI tooling — November23,2026
+
+User clarified 2FA (not F2F) and approved separating Security/authentication from HTTP/REST API integration. Security lists TLS/mTLS,2FA,Keychain and existing vulnerability-remediation experience. User chose to omit additional suggested security keywords. User also supplied Jenkins,Argo CD,Terraform and Codex,Copilot,Claude,Ollama,OpenCode. Group delivery tools under CI/CD & infrastructure and assistants/local AI tooling under AI for development. These indicate workflow tools, not AI model-development specialization. User confirmed the exact names OpenCode and Argo CD.
+
+### Operating systems and transferable experience — November23,2026
+
+User confirmed Linux,macOS and Windows as operating systems they have worked with. Listed as Operating systems/Sistemas operativos in the stack. User requested a broader professional narrative: summaries now connect product development, systems integration,automation,security and team tooling, while existing role dates, employer names and technical examples remain. Role subtitles describe scope rather than asserting new formal titles or promotions. No invented metrics or leadership claims.
+
+User clarified RESSER scope: they built the mobile application from scratch with React Native, in addition to C#/.NET backend services. Present end-to-end app creation explicitly, not only feature contributions.
+
+### Terminal intro and publication — November23,2026
+
+User authorized publication; the completed redesign was deployed to the existing Cloudflare portfolio Worker as version b9240173-e77c-4ddc-bd7e-e869e7751cb8. The user then requested a terminal/old-OS boot intro before the site entrances. A brief localized three-line typing sequence appears on dark background, then a420ms dissolve hands off to the hero entrance and resumes page motion. No simulated percentage or invented loading stats. Overlay can be skipped; keyboard/reduced preference and deep links bypass immediately. It fails open after4s, uses native inert during the overlay and releases on pagehide. Existing Home/scroll replay remains. Tests cover early-exit lifecycle; real reduced-motion browser rendering and actual iPhone performance are not claimed.
+
+Terminal intro published and verified at https://luisgil.org/ and https://luisgil.org/es/ on November23,2026; Cloudflare version1bbd015a-e33f-4c3b-a14f-ac8ceda5d0f1. This supersedes prior local-only publication constraints for the completed portfolio release.
+
+### Skip intro preserves entrance — November23,2026
+
+User found that skipping the intro removed all site animations and requested a smoother handoff before republishing. Manual skips now dispatch animated readiness; pointer/Enter/Space share the normal700ms opacity dissolve with a120ms leading beat before site entrance. Escape/Tab remove the overlay immediately while still allowing the hero entrance. Reduced motion, direct fragments, failure fallback and pagehide remain immediate/static. The automatic completed-text hold remains700ms. This supersedes earlier keyboard-skip descriptions that disabled the hero entrance.
+
+## Primary domain — November 23, 2026
+
+The portfolio primary domain is https://luisgil.dev. The existing luisgil.org domain permanently redirects (301) to the same path and query on luisgil.dev. Both apex custom domains remain attached to the portfolio Cloudflare Worker and are declared in wrangler.jsonc. The Worker runs before static assets to redirect the old host, and delegates other hosts to ASSETS. Astro canonical, alternate and Open Graph URLs, contact draft subjects, footer domain and social previews use luisgil.dev. Domain migration was explicitly requested by the owner; no www aliases are configured by this change.
+
+Professional title updated by owner on November24,2026 to Software Developer Engineer in both locales, hero accessible name, specialty and metadata. Hero keeps three lines Software / {Developer} / Engineer, including existing typewriter entry.
+
+Contact positioning updated November24,2026: the main invitation is Hablemos de lo que sigue / Let’s talk about what’s next. Form copy explicitly includes roles and team opportunities before collaborations and projects; the example message uses a team opportunity. Avoid positioning the portfolio as limited to one-off freelance projects.
+
+## Local desktop composition experiment —November24,2026
+
+The owner requested a local-only trial removing the desktop identity panel and integrating the same color cutout portrait into the hero background, as on mobile. Desktop uses a centered main canvas, a terminal home mark in the header and a large right-side portrait with lower fade behind the particle wave. Existing mobile portrait treatment remains. This experiment is explicitly NOT authorized for publication; do not deploy or push until requested. The public site still uses the approved side-panel composition.
+
+## Approved desktop composition release —November24,2026
+
+The owner has now explicitly authorized publication of the completed local trial: no desktop side panel, hero photo and wave to the edges, full-width header background, padded desktop technology rows with lateral fades, and mobile separator that draws on scroll and retracts at top. This supersedes the local-only publication restriction for these approved changes.
+
+## Current portfolio social preview —November24,2026
+
+The portfolio card now reflects the dark terminal palette, color cutout portrait, Luis Gil name, Software Developer Engineer title and luisgil.dev. Root and/es/ use the new1200×630 /images/social/portfolio-2026.png URL with bilingual alt text, existing localized titles/descriptions and Twitter creator @luisgildev. Legacy portfolio.png is refreshed too. Reproduce only this card with npm run social:previews -- portfolio; SVG geometry and text outlines use the repository Sora font and existing portrait, generated deterministically with OpenType.js and Sharp. Tavi/MiniTools previews retain their own artwork.
