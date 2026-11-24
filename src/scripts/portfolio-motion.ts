@@ -87,7 +87,7 @@ function addGroups(selector:string,kind:RevealKind) {
 addGroups('.project','project');
 addGroups('.timeline-entry','timeline');
 addGroups('.work-toolbar h2,#stack-title,.experience-intro h2,.about h2,.personal-reflection h3,.portfolio-contact h2','heading');
-addGroups('.experience-contact,.about .contact-button,.github-line,.portfolio-contact>a,.portfolio-contact>.socials','copy');
+addGroups('.experience-contact,.about .contact-button,.github-line,.portfolio-contact>a','copy');
 addGroups('.contact-form','form');
 addGroups('.skills-window','logos');
 function revealContent(element:Element,delay=0,distance=18) {

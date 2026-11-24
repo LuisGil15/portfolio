@@ -89,9 +89,9 @@ const { showFaq = false } = Astro.props;
         <details><summary><T en="How can I get in touch?" es="¿Cómo puedo contactarte?"/></summary><p><T en="Email me about a role, a product idea or a technical collaboration: " es="Escríbeme sobre una vacante, una idea de producto o una colaboración técnica: "/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a>.</p></details>
       </div>
     </section>}
-    <section id="contact" class="portfolio-contact"><T as="h2" en="Your next product&#10;starts with a conversation." es="Tu próximo producto&#10;empieza con una conversación."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a><SocialLinks/><ContactForm/></section>
+    <section id="contact" class="portfolio-contact"><T as="h2" en="Your next product&#10;starts with a conversation." es="Tu próximo producto&#10;empieza con una conversación."/><a href="mailto:luis.gil.dev15@gmail.com">luis.gil.dev15@gmail.com</a><ContactForm/></section>
     <SupportLinks/>
-    <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
+    <footer><div class="footer-meta"><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></div><SocialLinks/></footer>
   </main>
   <script>
     import '../scripts/portfolio-motion';
