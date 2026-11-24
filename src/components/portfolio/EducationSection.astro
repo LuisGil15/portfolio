@@ -3,18 +3,24 @@ import T from '../ProposalText.astro';
 ---
 <section id="education" class="academic-section" aria-labelledby="education-title">
   <T as="h2" id="education-title" en="Education." es="Formación académica."/>
-  <div class="academic-record">
-    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="m3 11 13-6 13 6-13 6-13-6Zm5 3v9c5 4 11 4 16 0v-9M29 11v12"/></svg>
-    <div><T as="h3" en="Software Development Engineering" es="Ingeniería en Desarrollo de Software"/><p>CETI</p></div>
+  <div class="academic-timeline">
+    <article class="academic-record">
+      <div class="academic-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m3 11 13-6 13 6-13 6-13-6Zm5 3v9c5 4 11 4 16 0v-9M29 11v12"/></svg></div>
+      <div><h3>CETI</h3><T as="p" en="Software Development Engineering" es="Ingeniería en Desarrollo de Software"/></div>
+    </article>
   </div>
 </section>
 <style>
- .academic-section { display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); gap:38px; align-items:start; padding-bottom:100px; }
- h2 { font-size:clamp(30px,3.1vw,48px); line-height:1.18; font-weight:500; letter-spacing:-.03em; }
- .academic-record { display:flex; gap:22px; align-items:flex-start; border-top:1px solid var(--line); padding-top:24px; }
- .academic-record svg { flex-shrink:0; width:38px; height:38px; color:var(--syntax-punctuation); }
- h3 { font-size:clamp(23px,2.2vw,30px); line-height:1.4; font-weight:500; letter-spacing:-.025em; }
- p { color:var(--accent); font-size:15px; line-height:1.8; margin-top:12px; }
- @media(max-width:1150px) { .academic-section { grid-template-columns:1fr; gap:28px; } }
- @media(max-width:760px) { .academic-section { padding-bottom:65px; gap:26px; }h2 { font-size:32px; }.academic-record { gap:18px; }.academic-record svg { width:30px; height:30px; }h3 { font-size:25px; } }
+ .academic-section { padding-bottom:100px; }
+ h2 { font-size:clamp(30px,3.1vw,48px); line-height:1.18; font-weight:500; margin-bottom:50px; }
+ .academic-timeline { position:relative; padding-left:165px; }
+ .academic-timeline::before { content:''; position:absolute; left:133px; top:24px; bottom:0; width:1px; background:var(--line); }
+ .academic-timeline::after { content:''; position:absolute; top:24px; left:128px; width:11px; height:11px; border:2px solid var(--accent); border-radius:50%; background:var(--page); }
+ .academic-record { display:flex; align-items:center; gap:20px; padding-bottom:35px; border-bottom:1px solid var(--line); }
+ .academic-mark { display:grid; place-items:center; flex-shrink:0; width:82px; height:64px; border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--profile-muted); }
+ .academic-mark svg { width:34px; height:34px; }
+ h3 { font-size:27px; line-height:1.35; font-weight:500; }
+ p { color:var(--accent); font-size:14px; line-height:1.7; margin-top:8px; }
+ @media(max-width:1150px) { .academic-timeline { padding-left:30px; }.academic-timeline::before { left:5px; top:24px; }.academic-timeline::after { left:0; } }
+ @media(max-width:760px) { .academic-section { padding-bottom:65px; }h2 { font-size:32px; margin-bottom:35px; }.academic-timeline { padding-left:26px; }.academic-record { gap:15px; padding-bottom:26px; }.academic-mark { width:68px; height:57px; }.academic-mark svg { width:30px; height:30px; }h3 { font-size:24px; }p { font-size:13px; } }
 </style>

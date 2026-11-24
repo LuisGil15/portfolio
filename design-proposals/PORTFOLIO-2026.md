@@ -157,3 +157,7 @@ Project detail sections, job responsibilities and optional FAQ use native detail
 ### Academic formation —2026-11-23
 
 A compact, unboxed academic section follows experience and precedes About. It shows only the existing CETI software-development engineering program; no dates or qualification status supplied. Includes Formation/Education in shared navigation. English level removed from site, footer Tavi link removed. Existing Luromi project card remains; no separate studio section.
+
+### Academic visual integration —2026-11-23
+
+User found the initial education composition disconnected. Replaced the side-by-side degree headline and isolated rule with the established career timeline language: identical marker/rail alignment (desktop133px, mobile5px), inset record, compact icon plate, CETI as institution title and engineering program in green supporting type. Record border, gaps and bottom spacing follow experience. This supersedes the initial academic composition without changing facts or adding dates.

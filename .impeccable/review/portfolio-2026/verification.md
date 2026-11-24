@@ -183,3 +183,7 @@ Changed About/experience/email-display/optionalFAQ contact links to #contact-for
 ### Academic formation and footer —2026-11-23
 
 Build13 routes passed. Formation is reachable from the native mobile drawer, which contains Education/Formación and no My studio link. Mobile390 shows CETI and the supplied engineering program with no horizontal overflow; desktop1440 header fits the extra navigation item. No English B2/Inglés B2 text remains in rendered body; DB2 remains correctly in technical work history. Footer text is copyright only, alongside the5 social links. No CV modified.
+
+### Academic integration —2026-11-23
+
+Build13 routes passed. IAB390 mobile visual review confirms aligned timeline marker, institution plate and supporting degree text; at320px document width equals viewport320. Desktop1440 reviewed with the same timeline inset. Evidence academic-integrated-mobile/desktop.jpg.
