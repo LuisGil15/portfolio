@@ -124,3 +124,7 @@ Generated a transparent cutout from the approved neutral portrait, then optimize
 Build (13 routes) and diff checks passed. Computed canvas #080b10, primary #dce5f3, secondary #9daac0 and title green #9ece6a verified in browser. Flat-color contrast checks: primary 15.53:1, secondary 8.39:1, green 10.78:1, cyan 11.49:1, violet 8.52:1; secondary on project cards 7.55:1 and profile 8.06:1. Control boundary #5a6c85 against input surface #121923 is 3.30:1. These ratios cover flat tokens, not every photographic pixel.
 
 Rendered desktop and 390px mobile dark; light at 320px remains available without overflow. NextUp preview, MiniTools card, profile labels and form action computed colors follow the new palette. Mobile portrait darkened and wave dimmed; title/text remain visually dominant. No captured console warnings/errors. Viewport reset. Captures: editor-palette-mobile.jpg and editor-palette-desktop.jpg.
+
+## Extended torso fade
+
+Rendered 390px and 320px mobile with more shoulder/chest visible and a lower graduated fade. Browser confirms portrait layer -2 behind particle layer -1; no horizontal overflow at either width. Viewport reset. Build and diff checks passed. Capture: mobile-torso-fade.jpg.
