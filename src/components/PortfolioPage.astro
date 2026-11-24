@@ -18,7 +18,8 @@ const { showFaq = false } = Astro.props;
 ---
 <Layout title="Luis Gil — Software Developer Engineer" description="Software Developer Engineer and independent product creator. Web platforms, native apps and backend systems. Creator of Hourmeet and founder of Luromi Studio." titleEs="Luis Gil — Software Developer Engineer" descriptionEs="Software Developer Engineer y creador de productos independientes. Plataformas web, apps nativas y sistemas backend. Creador de Hourmeet y fundador de Luromi Studio." socialImage="/images/social/portfolio-2026.png?v=5" socialImageAlt="Luis Gil — Software Developer Engineer. Backend, web and native apps." socialImageAltEs="Luis Gil — Software Developer Engineer. Backend, web y apps nativas." theme="portfolio" initialTheme="dark" fixedTheme="dark">
   <PortfolioPreloader/>
-  <header class="portfolio-topbar" data-menu-open="false">
+  <main id="content">
+    <header class="portfolio-topbar" data-menu-open="false">
       <span class="header-divider" aria-hidden="true"><span class="header-divider-glint"></span></span>
       <div class="mobile-header">
         <a class="mobile-brand" href="#home" aria-label="Luis Gil, home"><span aria-hidden="true">&gt;_</span></a>
@@ -41,11 +42,7 @@ const { showFaq = false } = Astro.props;
         <div class="drawer-heading"><T as="h2" id="drawer-title" tabindex="-1" autofocus en="Explore" es="Explora"/><button type="button" class="drawer-close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Close menu" es="Cerrar menú"/></button></div>
       </dialog>
       <noscript><style is:inline>@media(max-width:760px){.portfolio-topbar > .portfolio-navigation{display:grid!important}}</style></noscript>
-  </header>
-  <div class="portfolio-header-spacer" aria-hidden="true"></div>
-  <div class="portfolio-paint-boundary">
-  <div class="portfolio-viewport">
-  <main id="content">
+    </header>
     <PortfolioHero/>
     <section id="work" aria-label="Projects">
       <div class="work-toolbar"><T as="h2" en="From an idea to a product." es="De la idea al producto."/><div class="filters" role="group" aria-label="Project filters">{filters.map(f=><button data-filter={f.id} aria-pressed={f.id==='all' ? 'true' : 'false'}><T en={f.en} es={f.es}/></button>)}</div></div>
@@ -91,13 +88,9 @@ const { showFaq = false } = Astro.props;
     <SupportLinks/>
     <footer><SocialLinks/><div class="footer-meta"><span>Luis Gil © 2026</span></div></footer>
   </main>
-  </div>
-  </div>
   <script>
     import '../scripts/portfolio-motion';
     import '../scripts/portfolio-disclosures';
-    import '../scripts/portfolio-viewport-clip';
-    import '../scripts/portfolio-safari-diagnostics';
     const navigationLinks = document.querySelectorAll<HTMLAnchorElement>('.portfolio-navigation a[href^="#"]');
     const navigationSections = [...navigationLinks].map(link => document.querySelector<HTMLElement>(link.hash)).filter((section): section is HTMLElement => Boolean(section));
     function updateActiveNavigation() {
@@ -191,7 +184,7 @@ const { showFaq = false } = Astro.props;
       window.addEventListener('pageshow',closeMenu);
     }
     if (topbar) new ResizeObserver(() => {
-      document.body.style.setProperty('--portfolio-header-height', `${topbar.getBoundingClientRect().bottom}px`);
+      document.body.style.setProperty('--portfolio-header-height', `${topbar.getBoundingClientRect().height}px`);
       updateActiveNavigation();
     }).observe(topbar);
     updateActiveNavigation();

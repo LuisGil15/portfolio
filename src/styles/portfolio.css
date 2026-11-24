@@ -23,10 +23,6 @@ html[data-theme][data-theme=dark] body.portfolio {
 .portfolio svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 .portfolio main { margin-left: 396px; padding: 26px 44px 0 24px; max-width: 1700px; }
 .portfolio-topbar .desktop-terminal { display:none; }
-html[data-page-theme=portfolio] { background-color:#080b10; }
-/* Keep the actual opaque header attached to the viewport, outside containment.
-   Safari samples this surface to extend its color below browser controls. */
-.portfolio-header-spacer { height:var(--portfolio-header-height,72px); }
 .header-divider { display:block; position:absolute; inset:auto 0 0; height:1px; background:var(--line); transform:scaleX(0); transform-origin:center; pointer-events:none; }
 .portfolio-topbar[data-edge-ready] .header-divider { transition:transform 320ms cubic-bezier(.4,0,.6,1); }
 .portfolio-topbar[data-scrolled=true] .header-divider { transform:scaleX(1); }
@@ -51,7 +47,7 @@ html[data-page-theme=portfolio] { background-color:#080b10; }
 .header-settings { display:flex; align-items:center; gap:8px; }
 .portfolio-topbar .header-settings button { display:inline-grid; place-items:center; flex-shrink:0; width:44px; height:44px; padding:10px; border:1px solid var(--line); border-radius:50%; background:transparent; color:var(--ink); font-size:12px; }
 .portfolio-topbar .header-settings button:hover { background:var(--soft); }
-.portfolio-topbar { --header-chrome-extension:0px; position: fixed; top:calc(-1 * var(--header-chrome-extension)); left:0; right:0; z-index:4; background: var(--page); display: flex; flex-wrap:wrap; gap: 8px; align-items: center; padding: calc(12px + env(safe-area-inset-top,0px) + var(--header-chrome-extension)) 0 16px; }
+.portfolio-topbar { position: sticky; top: 0; z-index: 4; background: var(--page); display: flex; flex-wrap:wrap; gap: 8px; align-items: center; padding: 9px 0 16px; }
 .mobile-header { display:none; }
 .mobile-drawer { display:none; }
 html.portfolio-menu-open { overflow:hidden; }
@@ -125,7 +121,7 @@ html[data-motion=paused] { scroll-behavior:auto; }
 /* Compact mobile header; section links live in a disclosure below the bar. */
 @media(max-width:760px) {
  .identity { display:none; }
- .portfolio-topbar { --header-gutter:20px; display:block; margin-inline:0; padding:calc(12px + env(safe-area-inset-top,0px) + var(--header-chrome-extension)) var(--header-gutter) 10px; padding-left:max(var(--header-gutter),env(safe-area-inset-left,0px)); padding-right:max(var(--header-gutter),env(safe-area-inset-right,0px)); border-bottom:0; }
+ .portfolio-topbar { --header-gutter:20px; display:block; margin-inline:calc(-1 * var(--header-gutter)); padding:10px var(--header-gutter); border-bottom:0; }
  .mobile-header { display:flex; align-items:center; justify-content:space-between; gap:8px; }
  .portfolio-topbar .mobile-brand { display:flex; align-items:center; justify-content:flex-start; gap:7px; padding:0; border:0; border-radius:0; font-size:18px; font-weight:600; letter-spacing:-.035em; }
  .mobile-brand svg { width:24px; height:24px; flex-shrink:0; }
@@ -222,10 +218,9 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
 
 /* Local composition experiment: a centered desktop canvas, without the side panel. */
 @media(min-width:761px) {
- .portfolio { --page-gutter:44px; --bleed-gutter:max(var(--page-gutter),calc((100cqw - 1352px)/2)); }
- .portfolio-viewport { container-type:inline-size; }
+ .portfolio { container-type:inline-size; --page-gutter:44px; --bleed-gutter:max(var(--page-gutter),calc((100cqw - 1352px)/2)); }
  .portfolio main { margin-inline:auto; max-width:1440px; padding:26px 44px 0; }
- .portfolio-topbar { padding-left:max(var(--page-gutter),calc((100% - 1352px)/2),env(safe-area-inset-left,0px)); padding-right:max(var(--page-gutter),calc((100% - 1352px)/2),env(safe-area-inset-right,0px)); }
+ .portfolio-topbar { margin-inline:calc((100% - 100cqw)/2); padding-inline:var(--bleed-gutter); }
  .portfolio-navigation { flex-wrap:nowrap; }
  .portfolio-topbar .desktop-terminal { display:inline-flex; align-items:center; padding:0; margin-right:auto; min-width:44px; border:0; border-radius:0; color:var(--ink); font:500 26px/1 ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing:0; }
  .portfolio-topbar .desktop-terminal:hover { color:var(--accent); }
@@ -236,29 +231,4 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
  .portfolio-navigation { gap:3px; }
  .portfolio-topbar a { padding-inline:9px; font-size:11px; }
  .header-actions { gap:8px; }
-}
-
-/* Extend behind browser chrome without relying on the primary input device.
-   Compensating padding keeps navigation and its reserved space unchanged. */
-@supports (padding-top:env(safe-area-inset-top)) {
- .portfolio-topbar { --header-chrome-extension:120px; }
-}
-
-/* Remove paint above the visual viewport; retain normal document scrolling. */
-.portfolio-viewport[data-safari-clip=fallback] { clip-path:inset(var(--portfolio-clip-top,0px) 0 0); }
-
-/* Opposing compositor transforms pin the overflow edge without changing the
-   content's rendered position or replacing the native document scroller. */
-.portfolio-paint-boundary[data-native-clip] { overflow:clip; }
-@supports (animation-timeline:scroll(root block)) {
- .portfolio-viewport[data-safari-clip=native] { overflow:clip; will-change:transform; animation-name:portfolio-pin-clip!important; }
- .portfolio-viewport[data-safari-clip=native]>main { will-change:transform; animation-name:portfolio-counter-scroll!important; }
- /* Structural clipping remains active with Reduce Motion; no added visual motion. */
- .portfolio-viewport[data-safari-clip=native],.portfolio-viewport[data-safari-clip=native]>main {
-  animation-duration:auto!important; animation-timing-function:linear!important;
-  animation-fill-mode:both!important; animation-timeline:scroll(root block)!important;
-  animation-range:0px var(--portfolio-scroll-distance,1px)!important;
- }
- @keyframes portfolio-pin-clip { from { transform:translateY(0); } to { transform:translateY(var(--portfolio-scroll-distance,0px)); } }
- @keyframes portfolio-counter-scroll { from { transform:translateY(0); } to { transform:translateY(calc(-1 * var(--portfolio-scroll-distance,0px))); } }
 }

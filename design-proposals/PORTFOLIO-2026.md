@@ -251,3 +251,7 @@ Revisionc device evidence confirms correct clipping at rest but lag during scrol
 ### Pixel attachment range for drift-free compensation — 2026-11-24
 
 The device confirms coverage but reports growing blank space under the header. Bind both transform endpoints and animation attachment range to the same explicit pixel span; do not mix measured pixel movement with the implicit native percentage range. Use full document height to avoid capping before the actual scroll end. Forced browser measurements retain zero edge/header difference through~6kpx scroll, viewport-height changes and mobile bottom/top. Diagnostic revisione reports edge and drift. Physical-device verification remains pending.
+
+### Owner-requested Safari rollback — 2026-11-24 (current)
+
+The owner reports increased blank space despite a zero diagnostic drift and requests restoration plus debug removal. Restore the pre-Safari composition from bc846b4: sticky header inside main, original body size container, original viewport metadata. Remove auxiliary surfaces/spacers, clipping wrappers, scroll timelines, compensating transforms, Safari scripts and their dedicated unit test. Preserve only the requested desktop/mobile border glint extension. All prior Safari experiments above are historical and superseded; the browser-chrome bleed remains unresolved and is no longer being patched in the live composition.
