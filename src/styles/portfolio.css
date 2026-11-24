@@ -245,4 +245,19 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
 }
 
 /* Remove paint above the visual viewport; retain normal document scrolling. */
-.portfolio-viewport[data-safari-clip] { clip-path:inset(var(--portfolio-clip-top,0px) 0 0); }
+.portfolio-viewport[data-safari-clip=fallback] { clip-path:inset(var(--portfolio-clip-top,0px) 0 0); }
+
+/* Opposing compositor transforms pin the overflow edge without changing the
+   content's rendered position or replacing the native document scroller. */
+.portfolio-paint-boundary[data-native-clip] { overflow:clip; }
+@supports (animation-timeline:scroll(root block)) {
+ .portfolio-viewport[data-safari-clip=native] { overflow:clip; will-change:transform; animation-name:portfolio-pin-clip!important; }
+ .portfolio-viewport[data-safari-clip=native]>main { will-change:transform; animation-name:portfolio-counter-scroll!important; }
+ /* Structural clipping remains active with Reduce Motion; no added visual motion. */
+ .portfolio-viewport[data-safari-clip=native],.portfolio-viewport[data-safari-clip=native]>main {
+  animation-duration:auto!important; animation-timing-function:linear!important;
+  animation-fill-mode:both!important; animation-timeline:scroll(root block)!important;
+ }
+ @keyframes portfolio-pin-clip { from { transform:translateY(0); } to { transform:translateY(var(--portfolio-scroll-distance,0px)); } }
+ @keyframes portfolio-counter-scroll { from { transform:translateY(0); } to { transform:translateY(calc(-1 * var(--portfolio-scroll-distance,0px))); } }
+}

@@ -43,6 +43,7 @@ const { showFaq = false } = Astro.props;
       <noscript><style is:inline>@media(max-width:760px){.portfolio-topbar > .portfolio-navigation{display:grid!important}}</style></noscript>
   </header>
   <div class="portfolio-header-spacer" aria-hidden="true"></div>
+  <div class="portfolio-paint-boundary">
   <div class="portfolio-viewport">
   <main id="content">
     <PortfolioHero/>
@@ -90,6 +91,7 @@ const { showFaq = false } = Astro.props;
     <SupportLinks/>
     <footer><SocialLinks/><div class="footer-meta"><span>Luis Gil © 2026</span></div></footer>
   </main>
+  </div>
   </div>
   <script>
     import '../scripts/portfolio-motion';

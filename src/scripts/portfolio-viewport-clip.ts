@@ -1,27 +1,36 @@
-// Safari can expose the document above the visible viewport under its chrome.
-// Clip that already-offscreen content instead of relying on toolbar tint sampling.
+// Retain native document scrolling. A pinned overflow clip must follow the
+// compositor, not a JS scroll callback, while Safari scrolls asynchronously.
 const viewport = document.querySelector<HTMLElement>('.portfolio-viewport');
+const boundary = document.querySelector<HTMLElement>('.portfolio-paint-boundary');
 const needsClip = CSS.supports('-webkit-touch-callout', 'none') ||
   new URLSearchParams(location.search).get('safari-clip-test') === '1';
-if (viewport && needsClip && CSS.supports('clip-path', 'inset(1px 0 0)')) {
-  let origin = 0;
-  let frame = 0;
-  const paint = () => {
-    frame = 0;
-    viewport.style.setProperty('--portfolio-clip-top', `${Math.max(0, window.scrollY - origin)}px`);
-  };
-  const measure = () => {
-    origin = viewport.getBoundingClientRect().top + window.scrollY;
-    paint();
-  };
-  const queue = () => { if (!frame) frame = requestAnimationFrame(paint); };
-  measure();
-  viewport.dataset.safariClip = '';
-  window.addEventListener('scroll', queue, {passive:true});
-  window.addEventListener('resize', measure);
-  window.addEventListener('pageshow', measure);
-  window.visualViewport?.addEventListener('resize', measure);
-  // Observe the reserved space, after the header observer has updated it.
+if (viewport && boundary && needsClip) {
   const spacer = document.querySelector('.portfolio-header-spacer');
-  if (spacer) new ResizeObserver(measure).observe(spacer);
+  if (CSS.supports('animation-timeline', 'scroll(root block)')) {
+    viewport.dataset.safariClip = 'native';
+    boundary.dataset.nativeClip = '';
+    const measure = () => {
+      const distance = Math.max(0, document.documentElement.scrollHeight - document.documentElement.clientHeight);
+      boundary.style.setProperty('--portfolio-scroll-distance', `${distance}px`);
+    };
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(viewport);
+    if (spacer) observer.observe(spacer);
+    window.addEventListener('resize', measure);
+    window.addEventListener('pageshow', measure);
+    window.visualViewport?.addEventListener('resize', measure);
+  } else if (CSS.supports('clip-path', 'inset(1px 0 0)')) {
+    // Older-engine fallback. The header's visible height provides a guard band.
+    viewport.dataset.safariClip = 'fallback';
+    let frame = 0;
+    const paint = () => {
+      frame = 0;
+      viewport.style.setProperty('--portfolio-clip-top', `${Math.max(0, window.scrollY)}px`);
+    };
+    const queue = () => { if (!frame) frame = requestAnimationFrame(paint); };
+    paint();
+    window.addEventListener('scroll', queue, {passive:true});
+    window.addEventListener('pageshow', paint);
+  }
 }
