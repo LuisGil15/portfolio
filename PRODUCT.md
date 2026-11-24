@@ -49,7 +49,7 @@ Latest portfolio refinement: the photo stays square, social icons have no circle
 
 The personal panel labels the role as Specialty / Especialidad and the user-supplied location as Location / Localidad: Jalisco, Mexico (Jalisco, México in Spanish).
 
-The user approved Senior Full Stack Developer as their hero title. It replaces the earlier software-with-purpose headline; the name appears between decorative developer tags. Full Stack reveals character by character on entry with fixed character layout, while the complete title remains accessible.
+The user approved Software Developer Engineer as their hero title. It replaces the earlier software-with-purpose headline; the name appears between decorative developer tags. Developer reveals character by character on entry with fixed character layout, while the complete title remains accessible.
 
 The user supplied personal Instagram, Threads and X URLs for @luisgildev and requested Facebook removal. Both profile and contact now link GitHub, LinkedIn, Instagram, Threads and X. Tracking query parameters were omitted from the supplied URLs. No social placeholders remain.
 
@@ -67,7 +67,7 @@ Latest user direction: mobile header identity is only the light terminal prompt 
 
 ## Current portfolio positioning — November 23, 2026
 
-The user explicitly requested stronger professional positioning beyond their IBM employment. Lead with the approved Senior Full Stack Developer title, independent product creation and end-to-end development across web, native apps and backend. Hourmeet ownership/maintenance and Luromi Studio founding/freelance work provide concrete evidence; IBM and RESSER remain career experience. Hero, metadata, specialty, project descriptions, experience introduction, about introduction and contact invitation are bilingual and reflect this positioning. Keep the personal neurodivergence text unchanged. Do not invent performance outcomes, revenue, customers, availability, team leadership or professional dates.
+The user explicitly requested stronger professional positioning beyond their IBM employment. Lead with the approved Software Developer Engineer title, independent product creation and end-to-end development across web, native apps and backend. Hourmeet ownership/maintenance and Luromi Studio founding/freelance work provide concrete evidence; IBM and RESSER remain career experience. Hero, metadata, specialty, project descriptions, experience introduction, about introduction and contact invitation are bilingual and reflect this positioning. Keep the personal neurodivergence text unchanged. Do not invent performance outcomes, revenue, customers, availability, team leadership or professional dates.
 
 Current identity uses the same transparent neutral monochrome portrait on mobile and desktop, blended downward into the dark surface. Desktop panel has only a terminal >_ mark, specialty, location and social icons. Mobile sticky header covers the full viewport width. Portfolio is dark-only. These details supersede older identity and theme descriptions above.
 
@@ -116,3 +116,5 @@ User found that skipping the intro removed all site animations and requested a s
 ## Primary domain — November 23, 2026
 
 The portfolio primary domain is https://luisgil.dev. The existing luisgil.org domain permanently redirects (301) to the same path and query on luisgil.dev. Both apex custom domains remain attached to the portfolio Cloudflare Worker and are declared in wrangler.jsonc. The Worker runs before static assets to redirect the old host, and delegates other hosts to ASSETS. Astro canonical, alternate and Open Graph URLs, contact draft subjects, footer domain and social previews use luisgil.dev. Domain migration was explicitly requested by the owner; no www aliases are configured by this change.
+
+Professional title updated by owner on November24,2026 to Software Developer Engineer in both locales, hero accessible name, specialty and metadata. Hero keeps three lines Software / {Developer} / Engineer, including existing typewriter entry.
