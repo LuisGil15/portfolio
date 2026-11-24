@@ -18,7 +18,10 @@ const { showFaq = false } = Astro.props;
   <aside class="identity">
     <a class="identity-mark" href="#home" aria-label="Luis Gil, home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m17 13-11 11 11 11m14-22 11 11-11 11M27 9l-6 30"/></svg><span>Luis Gil<span class="identity-domain">.dev</span></span></a>
     <div class="identity-art"><img class="identity-portrait" src="/images/profile/luis-gil.webp" width="640" height="800" alt="Luis Gil" decoding="async"/></div>
-    <T as="p" class="role" en="Software developer. Independent maker." es="Desarrollador de software. Creador independiente." />
+    <dl class="profile-details">
+      <div><T as="dt" en="Specialty" es="Especialidad"/><T as="dd" en="Software developer. Independent maker." es="Desarrollador de software. Creador independiente."/></div>
+      <div><T as="dt" en="Location" es="Localidad"/><T as="dd" en="Jalisco, Mexico" es="Jalisco, México"/></div>
+    </dl>
     <div class="identity-bottom">
       <SocialLinks variant="profile"/>
 

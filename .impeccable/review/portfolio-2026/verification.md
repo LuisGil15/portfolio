@@ -66,3 +66,7 @@ From Experience, Home returns to the hero. Re-triggering Home shows staggered co
 Build (13 routes) and diff checks passed. Desktop portrait measured 242×242. Global pause control is absent, and theme/language are within the sticky header. Both settings were exercised successfully. Social marks render without borders or circular backgrounds. At 390×844 there is no horizontal overflow; My work lands at 214px below the 166px sticky header. Desktop capture: square-profile-header.jpg. No captured console warnings/errors.
 
 The reveal/reset observers now have separated boundaries (inner reveal and outer 200px reset), avoiding the previous transformed-target re-arm feedback. Scroll and navigation were exercised with heading states settling to opacity 1 / transform none. Hero replay and reduced-motion guards remain. OS reduced-motion emulation and long-duration frame profiling were not performed.
+
+## Profile field labels
+
+Added semantic Specialty/Location fields with the user-supplied Jalisco location and EN/ES values. Desktop rendered with both labels, square photo, unframed social icons and no profile clipping (scrollHeight fits clientHeight). Capture: profile-labels.jpg. Build (13 routes) and diff checks passed.
