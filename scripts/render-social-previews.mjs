@@ -7,7 +7,9 @@ import { fileURLToPath } from 'node:url';
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const sourceDir = join(projectRoot, 'public/images/social');
 const temporaryDir = mkdtempSync(join(tmpdir(), 'portfolio-social-previews-'));
-const cards = ['portfolio', 'tavi', 'minitools'];
+const requestedCards = process.argv.slice(2);
+const cards = requestedCards.length ? requestedCards : ['portfolio', 'tavi', 'minitools'];
+if (cards.some(card => !['portfolio','tavi','minitools'].includes(card))) throw new Error('Unknown social card');
 const mediaTypes = new Map([
   ['.png', 'image/png'],
   ['.jpg', 'image/jpeg'],
@@ -16,6 +18,10 @@ const mediaTypes = new Map([
 
 try {
   for (const card of cards) {
+    if (card === 'portfolio') {
+      await import('./render-portfolio-social.mjs');
+      continue;
+    }
     const sourcePath = join(sourceDir, `${card}.svg`);
     let source = readFileSync(sourcePath, 'utf8');
     source = source.replace(/((?:xlink:)?href)="([^"#]+\.(?:png|jpe?g))"/gi, (_, attribute, reference) => {

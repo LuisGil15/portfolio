@@ -128,3 +128,7 @@ The owner requested a local-only trial removing the desktop identity panel and i
 ## Approved desktop composition release —November24,2026
 
 The owner has now explicitly authorized publication of the completed local trial: no desktop side panel, hero photo and wave to the edges, full-width header background, padded desktop technology rows with lateral fades, and mobile separator that draws on scroll and retracts at top. This supersedes the local-only publication restriction for these approved changes.
+
+## Current portfolio social preview —November24,2026
+
+The portfolio card now reflects the dark terminal palette, color cutout portrait, Luis Gil name, Software Developer Engineer title and luisgil.dev. Root and/es/ use the new1200×630 /images/social/portfolio-2026.png URL with bilingual alt text, existing localized titles/descriptions and Twitter creator @luisgildev. Legacy portfolio.png is refreshed too. Reproduce only this card with npm run social:previews -- portfolio; SVG geometry and text outlines use the repository Sora font and existing portrait, generated deterministically with OpenType.js and Sharp. Tavi/MiniTools previews retain their own artwork.

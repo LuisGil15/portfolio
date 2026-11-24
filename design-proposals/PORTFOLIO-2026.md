@@ -215,3 +215,7 @@ Remove the permanent mobile header border. After16px scroll, a1px center-origin 
 ### Symmetric mobile separator timing —2026-11-24
 
 Owner prefers the closing motion. Both directions now use the closing320ms cubic-bezier(.4,0,.6,1) curve; remove the fast-start entrance override. Glint uses the same320ms curve and peaks at the midpoint so the visible draw carries the flash. State thresholds, reversal and reduced-motion paths unchanged.
+
+### Social preview —2026-11-24
+
+1200×630 card follows the approved background-portrait composition: #080b10, Sora, large name left, three-line Software/{Developer}/Engineer in ink/green/cyan, portrait right with lower fade, faint particle wave and domain below. Text is traced from the supplied font, preserving lettering across rasterizers. Portfolio gets a new PNG filename for crawler refresh; localized Open Graph/Twitter metadata retained.
