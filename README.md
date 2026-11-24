@@ -11,10 +11,11 @@ The product websites now have independent source repositories:
 
 Each repository includes its own Astro project, product assets, build checks,
 CI workflow, and Cloudflare deployment configuration. Future standalone website
-changes belong there. The `/apps/tavi/` and `/apps/minitools/` routes in this
-repository remain the currently hosted copies until a coordinated hosting
-migration updates the portfolio links and redirects. Creating these repositories
-does not change DNS or production routing.
+changes belong there. Tavi is deployed independently at `https://tavi.com.mx/`;
+the Worker redirects `/apps/tavi` and all nested document paths to the new
+origin, preserving query parameters. The legacy domain-level redirect from
+`tavi.com.mx` back to the portfolio must remain disabled to avoid a loop.
+MiniTools remains hosted at `/apps/minitools/` until its own hosting migration.
 
 ## Routes
 
