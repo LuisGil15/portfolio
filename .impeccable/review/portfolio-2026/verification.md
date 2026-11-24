@@ -23,3 +23,7 @@ Local implementation only. No push, merge, deployment, template purchase or down
 - All visible marks loaded; dark/light Astro mark variants checked.
 - Rendered ES/dark at 390px and EN/light at 1440px with no horizontal overflow. Language and theme controls checked; no captured browser warnings/errors.
 - Retained screenshots: skills-desktop.jpg and skills-mobile.jpg.
+
+## Moving technology rows
+
+Confirmed different transform values across observations, opposite directions and running animation states. Pause control sets both rows to paused; resume and moving the pointer outside the gallery restore both to running. At 390px there is no horizontal page overflow. Reduced-motion static grid and hidden duplicates/control were checked in source; preference emulation was not performed. Build and diff checks passed.
