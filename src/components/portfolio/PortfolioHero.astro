@@ -4,6 +4,7 @@ import T from '../ProposalText.astro';
 <header class="portfolio-hero" id="home">
   <canvas class="particle-wave" aria-hidden="true"></canvas>
   <div class="hero-content">
+    <img class="hero-portrait" src="/images/profile/luis-gil.webp" width="640" height="800" alt="Luis Gil" decoding="async"/>
     <h1><T en="I'm Luis Gil." es="Soy Luis Gil."/><br/><T en="I build software" es="Creo software"/><br/><em><T en="with purpose." es="con propósito."/></em></h1>
     <T as="p" class="hero-description" en="Backend at IBM. Native apps of my own. Connecting systems, interfaces and the ideas in between." es="Backend en IBM. Apps nativas propias. Conectando sistemas, interfaces y las ideas que hay entre ellos."/>
     <div class="hero-actions"><a class="primary-action" href="#work"><T en="Explore my work" es="Explora mi trabajo"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a class="text-action" href="https://github.com/LuisGil15">GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
@@ -56,3 +57,8 @@ import T from '../ProposalText.astro';
     }
   }
 </script>
+
+<style>
+ .hero-portrait { display:none; }
+ @media(max-width:760px) { .hero-portrait { display:block; width:100px; height:118px; object-fit:cover; object-position:50% 12%; border-radius:14px; margin-bottom:25px; } }
+</style>

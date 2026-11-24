@@ -8,14 +8,15 @@ import MiniToolsIcon from './MiniToolsIcon.astro';
 import PortfolioHero from './portfolio/PortfolioHero.astro';
 import DeveloperStack from './portfolio/DeveloperStack.astro';
 import ExperienceTimeline from './portfolio/ExperienceTimeline.astro';
+import OwnProjects from './portfolio/OwnProjects.astro';
 import '../styles/portfolio.css';
-const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
+const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'web',en:'Web & platforms',es:'Web y plataformas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
 const { showFaq = false } = Astro.props;
 ---
 <Layout title="Luis Gil — Software, made personal" description="Software development, native applications and experiments by Luis Gil." titleEs="Luis Gil — Software hecho personal" descriptionEs="Desarrollo de software, aplicaciones nativas y experimentos creados por Luis Gil." socialImageAlt="Luis Gil, software developer and independent maker" socialImageAltEs="Luis Gil, desarrollador de software y creador independiente" theme="portfolio" initialTheme="dark">
   <aside class="identity">
     <a class="identity-mark" href="#home" aria-label="Luis Gil, home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m17 13-11 11 11 11m14-22 11 11-11 11M27 9l-6 30"/></svg><span>Luis Gil<span class="identity-domain">.dev</span></span></a>
-    <div class="identity-art" aria-hidden="true"><span>LG<span>.</span></span><div class="identity-apps"><img src="/images/tavi/tavi-mark.png" width="48" height="48" alt=""/><img src="/images/minitools/app-icon-mosaic-dark.png" width="48" height="48" alt=""/></div></div>
+    <div class="identity-art"><img class="identity-portrait" src="/images/profile/luis-gil.webp" width="640" height="800" alt="Luis Gil" decoding="async"/></div>
     <T as="p" class="role" en="Software developer. Independent maker." es="Desarrollador de software. Creador independiente." />
     <nav aria-label="Portfolio">
       <a href="#stack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></svg><T en="Tech stack" es="Tecnologías"/></a>
@@ -35,6 +36,7 @@ const { showFaq = false } = Astro.props;
     <section id="work" aria-label="Projects">
       <div class="work-toolbar"><T as="h2" en="Ideas, turned into software." es="Ideas hechas software."/><div class="filters" role="group" aria-label="Project filters">{filters.map(f=><button data-filter={f.id} aria-pressed={f.id==='all' ? 'true' : 'false'}><T en={f.en} es={f.es}/></button>)}</div></div>
       <div class="projects">
+        <OwnProjects/>
         <article class="project tavi-project" data-category="native">
           <div class="tavi-copy"><img class="app-icon" src="/images/tavi/tavi-mark.png" width="52" height="52" alt=""/><h3>Tavi</h3><T as="p" en="An API client that feels right at home on your Mac." es="Un cliente API que se siente en casa en tu Mac."/><span class="project-stack">SwiftUI · macOS · iPadOS</span><a class="open-project" href="/apps/tavi/"><T en="Meet Tavi" es="Conoce Tavi"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
           <div class="tavi-art"><div class="screenshot-caption"><span>Tavi</span><T en="Your requests, in one place." es="Tus requests, en un solo lugar."/></div><img src="/images/tavi/macos-response.jpg" alt="Tavi running on macOS with a request and JSON response" width="1699" height="935" loading="lazy" decoding="async"/></div>

@@ -1,0 +1,25 @@
+---
+import T from '../ProposalText.astro';
+const projects = [
+ {id:'hourmeet',name:'Hourmeet',url:'https://hourmeet.app/',enStatus:'Own product',esStatus:'Producto propio',enRole:'Creator, developer & maintainer',esRole:'Creación, desarrollo y mantenimiento',enText:'A platform I created and maintain to discover businesses, explore their services and book appointments. Built to help businesses present their services and organize their schedules with their teams.',esText:'Plataforma que creé y mantengo para descubrir espacios, consultar sus servicios y agendar citas. Ayuda a los negocios a presentar sus servicios y organizar su agenda con su equipo.',enAction:'Discover Hourmeet',esAction:'Descubre Hourmeet'},
+ {id:'luromi',name:'Luromi Studio',url:'https://luromistudio.com.mx/',enStatus:'Own studio',esStatus:'Estudio propio',enRole:'Freelance design & development',esRole:'Diseño y desarrollo freelance',enText:'My digital design and development studio. I work independently on websites, custom software and digital experiences for businesses, with direct communication and thoughtful design.',esText:'Mi estudio de diseño y desarrollo digital. Trabajo como freelance creando páginas web, software a la medida y experiencias digitales para negocios, con atención directa y diseño cuidado.',enAction:'Explore the studio',esAction:'Conoce el estudio'},
+];
+---
+{projects.map(project => <article id={`${project.id}-project`} class:list={['project','own-project',`${project.id}-project`]} data-category="web">
+ <div class="own-project-heading"><div class="own-project-logo"><img src={`/images/companies/${project.id}.svg`} width="56" height="56" alt="" loading="lazy" decoding="async"/></div><T class="project-status" en={project.enStatus} es={project.esStatus}/></div>
+ <h3>{project.name}</h3>
+ <T as="p" class="own-project-role" en={project.enRole} es={project.esRole}/>
+ <T as="p" class="own-project-summary" en={project.enText} es={project.esText}/>
+ <a class="open-project" href={project.url} target="_blank" rel="noopener noreferrer"><T en={project.enAction} es={project.esAction}/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+</article>)}
+<style>
+ .own-project { padding:30px; display:flex; flex-direction:column; align-items:flex-start; }
+ .hourmeet-project { background:var(--project-blue); }.luromi-project { background:var(--project-neutral); }
+ .own-project-heading { display:flex; justify-content:space-between; align-items:center; gap:15px; width:100%; margin-bottom:25px; }
+ .own-project-logo { display:grid; place-items:center; width:76px; height:76px; background:#fff; border-radius:14px; padding:10px; }
+ .own-project-logo img { width:56px; height:56px; object-fit:contain; }
+ .own-project-role { font-size:11px; color:var(--accent); margin-top:12px; line-height:1.8; }
+ .own-project-summary { font-size:13px; line-height:1.85; color:var(--muted); margin:16px 0 0; flex:1; }
+ .own-project .open-project { margin-top:24px; }
+ @media(max-width:760px) { .own-project { padding:25px; }.own-project-logo { width:66px; height:66px; }.own-project-logo img { width:46px; height:46px; } }
+</style>

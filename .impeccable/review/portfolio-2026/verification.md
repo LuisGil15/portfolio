@@ -39,3 +39,10 @@ Build and diff checks passed. Both official company logo images loaded. Native r
 ## Luromi Studio and Hourmeet
 
 The user confirmed their freelance studio and creator/maintainer role. Both official SVGs loaded. External links point to the supplied origins and use noopener/noreferrer. ES/dark desktop and EN/light 390px mobile inspected with no horizontal overflow. The mobile capture shows both complete headings, descriptions and links. Start dates were not supplied and are not invented. Captures: initiatives-desktop.jpg and initiatives-mobile.jpg. Build and diff checks passed.
+
+## Portrait and own-project gallery
+
+- Supplied portrait is a local 640px WebP; source untouched. Desktop and 390px mobile inspected, image loaded, no horizontal overflow.
+- Hourmeet and Luromi Studio moved into the gallery; Web & platforms filter shows exactly those two. Mobile gallery has one 350px track at a 390px viewport.
+- Both project cards retain user-confirmed ownership and role, official marks and direct links. Experience retains IBM and RESSER only.
+- Build and diff checks passed. Captures: portrait-mobile.jpg and owned-projects-desktop.jpg.

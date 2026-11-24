@@ -41,3 +41,9 @@ The user requested a timeline with company logos. `ExperienceTimeline.astro` now
 ## Owned studio and product
 
 The user added Luromi Studio and Hourmeet, confirming ownership: Luromi is their freelance studio; Hourmeet is the platform they created and maintain. The generic product-collaboration note is replaced with two specific timeline-style entries, within a separate `#independent` group after dated employment. Ownership labels replace unknown dates. Each has its official local logo, first-person description and direct website link. Titles use h4 beneath the group's h3. Descriptions are bilingual; company marks have explicit image bounds so square SVGs do not expand the logo tile. Public assets and descriptions were read directly from the two user-provided websites.
+
+## Portrait and project placement
+
+The user supplied their portrait and then clarified that Luromi Studio and Hourmeet belong in My work. The desktop panel now uses the supplied photograph instead of the monogram, with object-fit cover and a 50%/12% focus position. Mobile shows the same photo above the hero title because the sidebar becomes a compact header. The image is a local 640px WebP (~39 KiB), generated without creative edits; the original remains untouched.
+
+`OwnProjects.astro` now renders Hourmeet and Luromi as the first pair in the project gallery, preserving explicit ownership, role, descriptions, logos and external links. A Web & platforms filter covers both. They have been removed from the experience section, which contains only dated IBM and RESSER employment. This placement supersedes the earlier independent experience group. Default All work includes seven projects.
