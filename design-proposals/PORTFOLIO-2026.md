@@ -67,3 +67,9 @@ A bilingual global pause/resume control joins the profile controls and persists 
 The hero heading reveals through three line masks with a 140ms stagger, followed by the description and actions. Its entrance re-arms after leaving view and can replay through Home navigation, including when already at the top. Repeated triggers cancel the previous animation on each element. Reduced motion and global pause retain visible content.
 
 SocialLinks shares six local Simple Icons marks between profile and contact: GitHub, LinkedIn, Facebook, Instagram, Threads and X. Only the existing GitHub and LinkedIn destinations are linked. The user explicitly requested icons only for the other four until profile URLs are supplied; those are labelled, noninteractive spans. CC0 attribution is retained alongside assets.
+
+## Square portrait and stable viewport edges
+
+The user requested a square photograph and fewer controls. The desktop portrait retains a 1:1 crop, shrinking uniformly on low viewports; mobile uses a 100px square. The full-height personal panel keeps its social row at the bottom. All social icons are unframed. Theme and language move to the sticky top header, while the global motion button and its persisted pause preference are removed. OS reduced motion and the local skills pause remain. Header height is measured with ResizeObserver to preserve anchor clearance when controls wrap.
+
+Section entrances re-arm only outside an expanded 200px viewport zone. The separate reset boundary prevents an animated element crossing the reveal boundary from repeatedly restarting itself. Hero return-to-top entrances remain supported. This supersedes the earlier global-pause and flexible-height-photo decisions.

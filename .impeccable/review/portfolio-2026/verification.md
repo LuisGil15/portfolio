@@ -60,3 +60,9 @@ Verified global running/paused state, both carousel tracks paused by the global 
 Build (13 routes) and diff checks passed. At 1280×560 and default 1280×720 the profile fits its client height without clipping; its bottom clears the viewport by 26px. At 390×844 the compact header measures 72px and there is no horizontal overflow. Six social marks render; only GitHub/LinkedIn have hrefs.
 
 From Experience, Home returns to the hero. Re-triggering Home shows staggered computed opacity/translation values (first line opacity ~.04 while later lines remain 0), and all lines settle at opacity 1. Explicit word spaces preserve the heading's readable text. Scroll reveal observers re-arm on exit; global pause/reduced motion guards remain in source. No captured browser warnings/errors. Screenshot: hero-profile-refined.jpg. Reduced-motion preference emulation and frame profiling were not performed.
+
+## Square photo, header settings and edge reset
+
+Build (13 routes) and diff checks passed. Desktop portrait measured 242×242. Global pause control is absent, and theme/language are within the sticky header. Both settings were exercised successfully. Social marks render without borders or circular backgrounds. At 390×844 there is no horizontal overflow; My work lands at 214px below the 166px sticky header. Desktop capture: square-profile-header.jpg. No captured console warnings/errors.
+
+The reveal/reset observers now have separated boundaries (inner reveal and outer 200px reset), avoiding the previous transformed-target re-arm feedback. Scroll and navigation were exercised with heading states settling to opacity 1 / transform none. Hero replay and reduced-motion guards remain. OS reduced-motion emulation and long-duration frame profiling were not performed.

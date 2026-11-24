@@ -1,23 +1,11 @@
 const root = document.documentElement;
 const preference = matchMedia('(prefers-reduced-motion: reduce)');
-const toggle = document.querySelector<HTMLButtonElement>('[data-motion-toggle]');
-let paused = false;
-try { paused = localStorage.getItem('site-motion:portfolio') === 'paused'; } catch {}
 const activeAnimations = new Set<Animation>();
 const observed = new Set<Element>();
 const elementAnimations = new WeakMap<Element, Animation>();
-function motionAllowed() { return !paused && !preference.matches; }
+function motionAllowed() { return !preference.matches; }
 function syncMotion() {
   root.dataset.motion = motionAllowed() ? 'running' : 'paused';
-  toggle?.setAttribute('aria-pressed', String(paused || preference.matches));
-  if (toggle) {
-    toggle.disabled = preference.matches;
-    const spanish = root.lang === 'es';
-    const label = preference.matches
-      ? (spanish ? 'Movimiento reducido activado' : 'Reduced motion is enabled')
-      : paused ? (spanish ? 'Reanudar animaciones' : 'Resume animations') : (spanish ? 'Pausar animaciones' : 'Pause animations');
-    toggle.setAttribute('aria-label', label); toggle.title = label;
-  }
   if (!motionAllowed()) activeAnimations.forEach(animation => animation.finish());
 }
 function animate(element: Element, frames: Keyframe[], duration: number, delay = 0) {
@@ -29,11 +17,6 @@ function animate(element: Element, frames: Keyframe[], duration: number, delay =
   animation.finished.then(() => activeAnimations.delete(animation), () => activeAnimations.delete(animation));
 }
 syncMotion();
-toggle?.addEventListener('click', () => {
-  paused = !paused;
-  try { localStorage.setItem('site-motion:portfolio', paused ? 'paused' : 'running'); } catch {}
-  syncMotion();
-});
 preference.addEventListener('change', syncMotion);
 document.addEventListener('proposal-language', syncMotion);
 // Entrance re-arms after the hero leaves view, including visits that start at a deep link.
@@ -68,7 +51,7 @@ document.querySelectorAll('a[href="#home"]').forEach(link => link.addEventListen
 }));
 const reveal = new IntersectionObserver(entries => {
   for (const entry of entries) {
-    if (!entry.isIntersecting) { observed.delete(entry.target); continue; }
+    if (!entry.isIntersecting) continue;
     if (observed.has(entry.target)) continue;
     if (!entry.target.getBoundingClientRect().height) continue;
     observed.add(entry.target);
@@ -80,4 +63,11 @@ const reveal = new IntersectionObserver(entries => {
     ], timeline ? 650 : project ? 750 : 550);
   }
 }, { threshold:.08, rootMargin:'0px 0px -25px 0px' });
-document.querySelectorAll('.project, .timeline-entry, .work-toolbar h2, #stack-title, .experience-intro, .about h2, .portfolio-contact h2').forEach(element => reveal.observe(element));
+// Re-arm only after clearing an outer zone, so transformed edges cannot
+// oscillate between hidden/visible and restart an in-flight entrance.
+const resetReveal = new IntersectionObserver(entries => {
+  for (const entry of entries) {
+    if (!entry.isIntersecting) observed.delete(entry.target);
+  }
+}, {rootMargin:'200px'});
+document.querySelectorAll('.project, .timeline-entry, .work-toolbar h2, #stack-title, .experience-intro, .about h2, .portfolio-contact h2').forEach(element => { resetReveal.observe(element); reveal.observe(element); });

@@ -44,3 +44,5 @@ The user confirmed that Luromi Studio is their own studio for freelance work, an
 The user supplied IMG_0032.PNG for the portfolio. A 640px WebP derivative (~39 KiB) is stored at public/images/profile/luis-gil.webp; the source file is unchanged. The photo appears in the desktop identity panel and above the hero title on mobile.
 
 The profile panel follows the desktop viewport height with a flexible portrait. Six local network icons replace text labels; Facebook, Instagram, Threads and X remain noninteractive placeholders at the user's request until URLs are provided. Existing GitHub and LinkedIn destinations remain. Hero entrances replay on returning to the top; section reveals re-arm when leaving view. Reduced motion and persistent global pause remain respected.
+
+Latest portfolio refinement: the photo stays square, social icons have no circles, and theme/language controls belong in the sticky header. The global pause button is removed at the user's request; reduced motion remains supported. Section entrances use separate reveal/reset zones to prevent boundary jitter while preserving replay after leaving the area.

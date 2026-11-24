@@ -14,14 +14,13 @@ const networks = [
 </div>
 <style>
  .socials { display:flex; flex-wrap:wrap; gap:8px; }
- .social-icon { display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border:1px solid var(--line); border-radius:50%; color:var(--ink); }
+ .social-icon { display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border:0; border-radius:0; color:var(--ink); }
  .social-icon img { display:block; width:18px; height:18px; object-fit:contain; }
  :global([data-theme=dark]) .social-icon img { filter:invert(1); }
  .profile-socials { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:6px; }
- .profile-socials .social-icon { width:100%; height:36px; border-color:var(--profile-line); }
+ .profile-socials .social-icon { width:100%; height:36px; }
  .profile-socials .social-icon img { filter:invert(1); }
- .socials a:hover { border-color:var(--accent); background:var(--soft); }
- .profile-socials a:hover { border-color:var(--profile-muted); background:#23454a; }
+ .socials a:hover { opacity:.7; }
  .social-placeholder { opacity:.65; }
  @media(max-width:760px) { .profile-socials { display:none; } }
 </style>
