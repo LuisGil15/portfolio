@@ -111,3 +111,9 @@ The disclosure has aria-expanded/controls, closes after selecting a section, on 
 ## Mobile portrait backdrop
 
 At the user’s request, the latest approved AI-edited portrait replaces the small mobile hero photograph. A generated true-alpha cutout is optimized to an 800px WebP (~54 KiB). Mobile renders it as a decorative grayscale background, enlarged and offset beyond the right edge, with lateral and lower fades to protect the text. Dark/light opacities are .55/.22; a narrower-width offset preserves the title at 320px. The hero content starts closer to the header after removing the old portrait block. No desktop portrait replacement was requested; the original remains there.
+
+## Dark editor palette refinement
+
+User-directed contrast change: near-black canvas (#080b10), editor surfaces (#121923), cool off-white primary text (#dce5f3) and muted blue-gray copy (#9daac0). Terminal green (#9ece6a) owns Full Stack and primary actions; cyan (#7dcfff) marks braces and focus; violet (#bb9af7) marks the span tags. Profile, project backgrounds, checked filters, contact action, NextUp preview and selection/focus treatments follow these roles. Control boundaries use #5a6c85. Brand marks and actual app/e-paper imagery retain their own colors. The light theme remains available.
+
+The mobile grayscale portrait uses .7 brightness with .6 opacity in dark mode, and the particle wave is dimmer/cyan. These are subordinate to the heading rather than the brightest part of the viewport. This supersedes the previous petroleum, sage and lavender dark-theme roles.

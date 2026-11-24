@@ -58,3 +58,5 @@ The contact section includes a bilingual form with name, email, optional subject
 Mobile portfolio navigation uses a compact sticky brand/control row and a disclosure for section/contact links, replacing the earlier always-visible multirow mobile menu. Desktop identity and expanded navigation are preserved.
 
 The user-approved generated neutral portrait with reference-matched green eyes has a transparent cutout derivative for the mobile hero. It replaces the small mobile portrait with a grayscale, partially cropped background portrait on the right of the headline. The original photograph remains in the desktop personal panel.
+
+The user requested darker backgrounds and colors associated with dark editors/terminals. The portfolio dark theme now uses near-black #080b10, blue-gray surfaces/text, terminal green actions and title emphasis, cyan punctuation/focus and violet tags. This supersedes the earlier petroleum/lavender portfolio palette; product landing-page brands remain separate. The mobile portrait and wave are dimmed to keep text dominant.
