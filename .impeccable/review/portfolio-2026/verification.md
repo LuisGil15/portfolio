@@ -263,3 +263,7 @@ Published sourcee0dcda9 asCloudflare7188da31-ec17-4fe9-81e2-8eb9fefcf788. Produc
 ### Equal separator timing published —2026-11-24
 
 Source1f1a99e deployed asCloudflare9f5cf80c-dbfb-46b4-a40f-c545b3e9ba57. Both directions320ms cubic-bezier(.4,0,.6,1), midpoint glint. Local IAB390 captures include both directions, stable endpoints and gradual opening (0.08 at~69ms,0.35 at~133ms). Fresh motion reviewer passed narrow refinement, reduced-motion source-only unchanged. Build13routes passed. Public/es/ verified computed320ms same curve before and after scroll, progressive scale0→.29→.91→1; evidence header-equal-timing/live.json and live-mid-draw.jpg. Viewport reset. No Git push performed.
+
+### Social preview refresh —2026-11-24
+
+Sourceabf8163 published asCloudflare221b423d-bbd8-4b92-a614-03bf4e5edcbe. New /images/social/portfolio-2026.png is1200×630 PNG354455bytes, SHA256e95f798c1d82c6a9af85f08bd5a002d2c4cad082170da5efca76622d4aa417ee. Local build13routes passed; root and/es/ metadata point OG/Twitter at new URL, localized alt retained and Twitter creator @luisgildev. Public image200 image/png and matching hash verified; browser public image inspected, screenshot social-preview-2026/published.jpg. Actual platform crawler caches and platform-specific rendering not tested. Deterministic renderer uses actual Sora outlines plus existing portrait; initial font-substitution issue corrected. Legacy image refreshed. No Git push performed.
