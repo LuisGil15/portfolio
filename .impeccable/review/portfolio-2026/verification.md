@@ -237,3 +237,7 @@ Published commit6f5d323 asCloudflare5f6e2ff6-8dac-43a9-bc90-3e7044709589. luisgi
 ### Professional title —2026-11-24
 
 Updated title to Software Developer Engineer as requested, retaining three-line hero and typewriter behavior. Build13routes passed. Local IAB1280desktop and390mobile render checked; mobile no horizontal overflow. Public/es/ document title, h1 accessible name and specialty verified after publishing50ec455 asCloudflare261382a1-b878-423e-b06e-f81548e34819. Evidence software-developer-engineer/.
+
+### Contact opportunities —2026-11-24
+
+Contact headline, form invitation and example message now include team roles and collaborations alongside projects. Both locales updated. Build13routes passed; desktop1280 and mobile390 captures checked in contact-opportunities/, no mobile horizontal overflow. Published79205bb asCloudflare4be034b5-65b6-4277-954b-9f42756ad882; public/es/#contact verified with new text and screenshot. Mail draft behavior unchanged.
