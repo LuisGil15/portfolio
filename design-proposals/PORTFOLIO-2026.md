@@ -81,3 +81,7 @@ The personal panel is now 336px wide on desktop (276px at intermediate widths), 
 The skills orbital motif now has three satellites rotating around the existing rings at 24s, 36s (reverse) and 48s. Only transforms animate; the ring strokes stay fixed. Animation pauses when the SVG is offscreen or the document is hidden, resumes at the same phase, and is disabled under reduced motion. This replaces the earlier static-orbit choice at the user’s request.
 
 Profile labels now include 16px code and map-pin outline SVGs, matching the existing stroke system. Icons are decorative and remain separate from translated text.
+
+## Senior developer hero
+
+User-approved hero: decorative developer tags surround the bilingual name greeting; the three-line heading reads Senior {Full Stack} Developer in both languages. Full Stack characters reveal at 85ms intervals after the entrance begins. Characters retain their widths, the heading has a stable accessible name, and no live-region announcements are used. The existing return-to-top trigger replays the typing; reduced motion leaves the full title visible. This supersedes the software-with-purpose headline.

@@ -31,6 +31,10 @@ function playHeroEntrance() {
       {opacity:1,transform:'translateY(0)',filter:'blur(0px)'},
     ], 1100, index*140);
   });
+  // Each character keeps its layout width while visibility steps forward.
+  hero.querySelectorAll('.type-char').forEach((character,index) => {
+    animate(character,[{opacity:0},{opacity:1}],1,700+index*85);
+  });
   const description = hero.querySelector('.hero-description');
   if (description) animate(description,[{opacity:0,transform:'translateY(22px)'},{opacity:1,transform:'translateY(0)'}],800,420);
   hero.querySelectorAll('.hero-actions a').forEach((action,index) => {

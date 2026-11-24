@@ -48,3 +48,5 @@ The profile panel follows the desktop viewport height with a flexible portrait. 
 Latest portfolio refinement: the photo stays square, social icons have no circles, and theme/language controls belong in the sticky header. The global pause button is removed at the user's request; reduced motion remains supported. Section entrances use separate reveal/reset zones to prevent boundary jitter while preserving replay after leaving the area.
 
 The personal panel labels the role as Specialty / Especialidad and the user-supplied location as Location / Localidad: Jalisco, Mexico (Jalisco, México in Spanish).
+
+The user approved Senior Full Stack Developer as their hero title. It replaces the earlier software-with-purpose headline; the name appears between decorative developer tags. Full Stack reveals character by character on entry with fixed character layout, while the complete title remains accessible.

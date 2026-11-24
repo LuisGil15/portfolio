@@ -82,3 +82,7 @@ Three satellite transforms changed across browser observations with all animatio
 ## Profile field icons
 
 Code and location-pin icons rendered alongside their labels; both use aria-hidden and the panel fits its height. Build and diff checks passed. Capture: profile-field-icons.jpg.
+
+## Senior title and typing
+
+Build (13 routes) and diff checks passed. Home replay showed ten character opacities at 0 then at 1, with identical 276.55px text width in both observations. The accessibility tree exposes Senior Full Stack Developer as the level-one heading. At 320px the title fits its 288px content width without horizontal overflow; full specialty width is 181.45px. Reduced-motion path inspected in shared animation guard; preference emulation was not performed. Capture: senior-hero.jpg.
