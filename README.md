@@ -2,6 +2,20 @@
 
 Personal portfolio and landing pages for independent apps by Luis Gil.
 
+## Standalone product websites
+
+The product websites now have independent source repositories:
+
+- [Tavi website](https://github.com/LuisGil15/tavi-website)
+- [MiniTools website](https://github.com/LuisGil15/minitools-website)
+
+Each repository includes its own Astro project, product assets, build checks,
+CI workflow, and Cloudflare deployment configuration. Future standalone website
+changes belong there. The `/apps/tavi/` and `/apps/minitools/` routes in this
+repository remain the currently hosted copies until a coordinated hosting
+migration updates the portfolio links and redirects. Creating these repositories
+does not change DNS or production routing.
+
 ## Routes
 
 - `/` — portfolio home
