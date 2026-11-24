@@ -182,3 +182,7 @@ html[data-motion=running] .portfolio [data-reveal-state=queued] { opacity:0; }
 @media(prefers-reduced-motion:reduce) { .portfolio [data-reveal-state] { opacity:1!important; clip-path:none!important; } }
 
 @media(max-width:370px) { .portfolio-topbar { --header-gutter:16px; } }
+
+/* Masks belong to display words; paragraphs retain their natural reading layout. */
+.motion-word { display:inline-block; overflow:clip; vertical-align:bottom; }
+.motion-word>span { display:inline-block; }

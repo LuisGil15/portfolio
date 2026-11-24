@@ -159,3 +159,11 @@ At 390px opening the menu focuses drawer-title; Close has outline-style:none. Pr
 - Logo pause control tested; offscreen tracks computed paused. Filters tested by pointer and Enter.
 - Fresh motion reviewer approved inspected source and valid RESSER captures; project-valid captures were added afterward and independently inspected through sampled computed styles.
 - Reduced motion reviewed in source only: browser exposes no media preference emulation. Actual iPhone Safari performance and reduced-motion device behavior remain unverified.
+
+### Positioning and differentiated text motion — 2026-11-23
+
+- Build passed all 13 routes, whitespace check clean.
+- IAB mobile390/320 and desktop1440 reviewed. No horizontal overflow at320/390.
+- EN language switch replaces heading word wrappers with the correct full translated text, with no stale words. Work heading replay captures show 5 whole-word masks and preserved heading height. Full visible text remains accessible; no per-letter body wrapping.
+- Hero/contact/work screenshots and timed replay samples in positioning/. Tavi samples confirm settled static wrapper/paragraph transforms; they do not capture an active Tavi entrance. No console errors captured.
+- Source path finishes motion for keyboard focus and reduced preference. No runtime reduced-motion emulation or actual iPhone performance measurement available.

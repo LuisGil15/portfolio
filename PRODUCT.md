@@ -64,3 +64,9 @@ The user requested darker backgrounds and colors associated with dark editors/te
 The approved mobile identity is now the compact <LG /> monogram, with the full bilingual name restored in the hero greeting (¡Hola! Soy Luis Gil. / Hey! I’m Luis Gil.). Mobile navigation uses a right-side modal drawer, closed initially and on reload, replacing the prior dropdown.
 
 Latest user direction: mobile header identity is only the light terminal prompt > _. The portfolio is fixed to dark mode, with theme buttons removed and earlier stored light preferences ignored for this surface. Product-page theme controls remain independent.
+
+## Current portfolio positioning — November 23, 2026
+
+The user explicitly requested stronger professional positioning beyond their IBM employment. Lead with the approved Senior Full Stack Developer title, independent product creation and end-to-end development across web, native apps and backend. Hourmeet ownership/maintenance and Luromi Studio founding/freelance work provide concrete evidence; IBM and RESSER remain career experience. Hero, metadata, specialty, project descriptions, experience introduction, about introduction and contact invitation are bilingual and reflect this positioning. Keep the personal neurodivergence text unchanged. Do not invent performance outcomes, revenue, customers, availability, team leadership or professional dates.
+
+Current identity uses the same transparent neutral monochrome portrait on mobile and desktop, blended downward into the dark surface. Desktop panel has only a terminal >_ mark, specialty, location and social icons. Mobile sticky header covers the full viewport width. Portfolio is dark-only. These details supersede older identity and theme descriptions above.

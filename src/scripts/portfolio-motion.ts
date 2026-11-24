@@ -79,7 +79,6 @@ document.querySelectorAll('a[href="#home"]').forEach(link => link.addEventListen
 }));
 // Observe fixed layout boxes. Only opacity animates on a group; movement stays
 // inside it, so scrolling cannot look like a card or timeline layout correction.
-const compactMotion = matchMedia('(max-width:760px)');
 type RevealKind = 'project'|'timeline'|'heading'|'copy'|'form'|'logos';
 const revealGroups = new Map<HTMLElement,RevealKind>();
 function addGroups(selector:string,kind:RevealKind) {
@@ -88,7 +87,7 @@ function addGroups(selector:string,kind:RevealKind) {
 addGroups('.project','project');
 addGroups('.timeline-entry','timeline');
 addGroups('.work-toolbar h2,#stack-title,.experience-intro h2,.about h2,.personal-reflection h3,.portfolio-contact h2','heading');
-addGroups('.skills-categories>div,.experience-intro>p,.experience-contact,.about>div>p,.personal-reflection>p,.about .contact-button,.github-line,.portfolio-contact>a,.portfolio-contact>.socials,.support-maker','copy');
+addGroups('.experience-contact,.about .contact-button,.github-line,.portfolio-contact>a,.portfolio-contact>.socials','copy');
 addGroups('.contact-form','form');
 addGroups('.skills-window','logos');
 function revealContent(element:Element,delay=0,distance=18) {
@@ -99,6 +98,37 @@ function finishGroup(element:HTMLElement) {
   element.querySelectorAll('*').forEach(child => elementAnimations.get(child)?.finish());
   element.dataset.revealState='visible';
 }
+// Split only display headings, keeping spaces and complete accessible text.
+// Rebuild from the current translated content after a language switch.
+function headingWords(element:HTMLElement) {
+  if (!element.querySelector('.motion-word')) {
+    const fragment=document.createDocumentFragment();
+    for (const token of (element.textContent ?? '').split(/(\s+)/)) {
+      if (!token.trim()) { fragment.append(document.createTextNode(token)); continue; }
+      const mask=document.createElement('span'); mask.className='motion-word';
+      const word=document.createElement('span'); word.textContent=token;
+      mask.append(word); fragment.append(mask);
+    }
+    element.replaceChildren(fragment);
+  }
+  return element.querySelectorAll('.motion-word>span');
+}
+function playHeading(element:HTMLElement) {
+  if (element.closest('.work-toolbar,.portfolio-contact')) {
+    headingWords(element).forEach((word,index)=>animate(word,[
+      {opacity:0,transform:'translateY(105%)'},
+      {opacity:1,transform:'translateY(0)'},
+    ],640,Math.min(index*55,220),'cubic-bezier(.22,.8,.25,1)'));
+    return animate(element,[{opacity:1},{opacity:1}],860);
+  }
+  if (element.closest('.experience-intro')) return animate(element,[
+    {clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0% 0 0)'},
+  ],700,0,'cubic-bezier(.22,.8,.25,1)');
+  if (element.id==='stack-title') return animate(element,[
+    {opacity:0,transform:'translateX(24px)'},{opacity:1,transform:'translateX(0)'},
+  ],620);
+  return animate(element,[{opacity:0},{opacity:1}],380);
+}
 function playGroup(element:HTMLElement,kind:RevealKind) {
   observed.add(element);
   element.dataset.revealState='visible';
@@ -107,13 +137,21 @@ function playGroup(element:HTMLElement,kind:RevealKind) {
   const fade = kind==='logos'
     ? animate(element,[{opacity:0,clipPath:'inset(0 46% 0 46%)'},{opacity:1,clipPath:'inset(0 0% 0 0%)'}],760,0,'cubic-bezier(.22,.8,.25,1)')
     : kind==='heading'
-    ? animate(element,[{opacity:0,clipPath:'inset(0 0 100% 0)'},{opacity:1,clipPath:'inset(0 0 0% 0)'}],640,0,'cubic-bezier(.22,.8,.25,1)')
+    ? playHeading(element)
     : animate(element,[{opacity:0},{opacity:1}],kind==='project' ? 640 : 560,0,'cubic-bezier(.22,.8,.25,1)');
   if (kind==='project') {
     [...element.children].filter(child => !child.hasAttribute('hidden')).forEach((child,index) => {
       if (child.matches('.tavi-art,.minitools-art,.task-preview,.project-heading,.own-project-heading')) {
         animate(child,[{opacity:0,clipPath:'inset(0 100% 0 0)'},{opacity:1,clipPath:'inset(0 0% 0 0)'}],700,Math.min(index*70,140));
-      } else revealContent(child,Math.min(index*65,195),compactMotion.matches ? 22 : 28);
+      } else if (child.matches('h3')) {
+        animate(child,[{opacity:0,transform:'translateX(-18px)'},{opacity:1,transform:'translateX(0)'}],560,80);
+      } else if (child.matches('.tavi-copy,.minitools-copy')) {
+        [...child.children].forEach(part=>{
+          if (part.matches('h3')) animate(part,[{opacity:0,transform:'translateX(-18px)'},{opacity:1,transform:'translateX(0)'}],560,80);
+          else animate(part,[{opacity:0},{opacity:1}],420,100);
+        });
+      }
+      else animate(child,[{opacity:0},{opacity:1}],420,Math.min(index*40,140));
     });
   } else if (kind==='timeline') {
     const date=element.querySelector('.timeline-period');
