@@ -5,7 +5,7 @@ import T from '../ProposalText.astro';
   <T as="h2" id="education-title" en="Education." es="Formación académica."/>
   <div class="academic-timeline">
     <article class="academic-record">
-      <div class="academic-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m3 11 13-6 13 6-13 6-13-6Zm5 3v9c5 4 11 4 16 0v-9M29 11v12"/></svg></div>
+      <div class="academic-mark"><img src="/images/companies/ceti.jpg" width="48" height="48" alt="" loading="lazy" decoding="async"/></div>
       <div><h3>CETI</h3><T as="p" en="Software Development Engineering" es="Ingeniería en Desarrollo de Software"/></div>
     </article>
   </div>
@@ -17,10 +17,10 @@ import T from '../ProposalText.astro';
  .academic-timeline::before { content:''; position:absolute; left:133px; top:24px; bottom:0; width:1px; background:var(--line); }
  .academic-timeline::after { content:''; position:absolute; top:24px; left:128px; width:11px; height:11px; border:2px solid var(--accent); border-radius:50%; background:var(--page); }
  .academic-record { display:flex; align-items:center; gap:20px; padding-bottom:35px; border-bottom:1px solid var(--line); }
- .academic-mark { display:grid; place-items:center; flex-shrink:0; width:82px; height:64px; border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--profile-muted); }
- .academic-mark svg { width:34px; height:34px; }
+ .academic-mark { display:grid; place-items:center; flex-shrink:0; width:82px; height:64px; border:1px solid var(--line); border-radius:12px; background:#fff; }
+ .academic-mark img { width:48px; height:48px; object-fit:contain; }
  h3 { font-size:27px; line-height:1.35; font-weight:500; }
  p { color:var(--accent); font-size:14px; line-height:1.7; margin-top:8px; }
  @media(max-width:1150px) { .academic-timeline { padding-left:30px; }.academic-timeline::before { left:5px; top:24px; }.academic-timeline::after { left:0; } }
- @media(max-width:760px) { .academic-section { padding-bottom:65px; }h2 { font-size:32px; margin-bottom:35px; }.academic-timeline { padding-left:26px; }.academic-record { gap:15px; padding-bottom:26px; }.academic-mark { width:68px; height:57px; }.academic-mark svg { width:30px; height:30px; }h3 { font-size:24px; }p { font-size:13px; } }
+ @media(max-width:760px) { .academic-section { padding-bottom:65px; }h2 { font-size:32px; margin-bottom:35px; }.academic-timeline { padding-left:26px; }.academic-record { gap:15px; padding-bottom:26px; }.academic-mark { width:68px; height:57px; }.academic-mark img { width:41px; height:41px; }h3 { font-size:24px; }p { font-size:13px; } }
 </style>

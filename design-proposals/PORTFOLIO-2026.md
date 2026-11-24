@@ -161,3 +161,5 @@ A compact, unboxed academic section follows experience and precedes About. It sh
 ### Academic visual integration —2026-11-23
 
 User found the initial education composition disconnected. Replaced the side-by-side degree headline and isolated rule with the established career timeline language: identical marker/rail alignment (desktop133px, mobile5px), inset record, compact icon plate, CETI as institution title and engineering program in green supporting type. Record border, gaps and bottom spacing follow experience. This supersedes the initial academic composition without changing facts or adding dates.
+
+CETI academic mark now uses the user-supplied square blue/orange institutional symbol (first attachment), stored unchanged at public/images/companies/ceti.jpg, on a white plate matching employer logos. The second attachment is the full wordmark and was not used at icon size.
