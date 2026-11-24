@@ -114,7 +114,7 @@ html[data-motion=paused] { scroll-behavior:auto; }
 /* Compact mobile header; section links live in a disclosure below the bar. */
 @media(max-width:760px) {
  .identity { display:none; }
- .portfolio-topbar { display:block; padding:10px 0; border-bottom:1px solid var(--line); }
+ .portfolio-topbar { --header-gutter:20px; display:block; margin-inline:calc(-1 * var(--header-gutter)); padding:10px var(--header-gutter); border-bottom:1px solid var(--line); }
  .mobile-header { display:flex; align-items:center; justify-content:space-between; gap:8px; }
  .portfolio-topbar .mobile-brand { display:flex; align-items:center; justify-content:flex-start; gap:7px; padding:0; border:0; border-radius:0; font-size:18px; font-weight:600; letter-spacing:-.035em; }
  .mobile-brand svg { width:24px; height:24px; flex-shrink:0; }
@@ -178,3 +178,5 @@ html[data-theme=dark] .portfolio .contact-form button:hover { background:var(--b
 /* Only JS-prepared offscreen groups are hidden; reduced motion stays visible. */
 html[data-motion=running] .portfolio [data-reveal-state=queued] { opacity:0; }
 @media(prefers-reduced-motion:reduce) { .portfolio [data-reveal-state] { opacity:1!important; clip-path:none!important; } }
+
+@media(max-width:370px) { .portfolio-topbar { --header-gutter:16px; } }
