@@ -163,3 +163,7 @@ A compact, unboxed academic section follows experience and precedes About. It sh
 User found the initial education composition disconnected. Replaced the side-by-side degree headline and isolated rule with the established career timeline language: identical marker/rail alignment (desktop133px, mobile5px), inset record, compact icon plate, CETI as institution title and engineering program in green supporting type. Record border, gaps and bottom spacing follow experience. This supersedes the initial academic composition without changing facts or adding dates.
 
 CETI academic mark now uses the user-supplied square blue/orange institutional symbol (first attachment), stored unchanged at public/images/companies/ceti.jpg, on a white plate matching employer logos. The second attachment is the full wordmark and was not used at icon size.
+
+### About and closing refinement —2026-11-23
+
+About now discusses product understanding and connecting backend/data/interfaces, avoiding repeated name/title introduction. User-approved scope includes a personal neurodivergence copy refinement: the new heading My way of seeing the world / Una forma propia de mirar el mundo leads a self-knowledge reflection without requests or generalized traits. No project CTA remains in About; contact remains in its dedicated section. Footer social links precede copyright in DOM and mobile visual order.

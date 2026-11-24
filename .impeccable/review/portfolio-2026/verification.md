@@ -187,3 +187,7 @@ Build13 routes passed. Formation is reachable from the native mobile drawer, whi
 ### Academic integration —2026-11-23
 
 Build13 routes passed. IAB390 mobile visual review confirms aligned timeline marker, institution plate and supporting degree text; at320px document width equals viewport320. Desktop1440 reviewed with the same timeline inset. Evidence academic-integrated-mobile/desktop.jpg.
+
+### About narrative and footer order —2026-11-23
+
+Build13 routes passed, diff whitespace clean. IAB390 mobile: full About/reflection fits without horizontal overflow; repeated Soy Luis introduction absent, About link count0. EN/ES reflection switch verified. Footer DOM order socials then footer-meta matches intended mobile reading order. Screenshots about-refined-mobile.jpg and footer-socials-first-mobile.jpg.

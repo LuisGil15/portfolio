@@ -78,3 +78,7 @@ All previous direct-email contact links in the portfolio now navigate to #contac
 ### Academic section and footer — November23,2026
 
 The user clarified that a section for “estudio” means academic studies, not a separate Luromi studio section. Formation is presented after professional experience as Software Development Engineering / Ingeniería en Desarrollo de Software at CETI, with an Education / Formación navigation link. Do not infer graduation status, dates or licenses. Removed the duplicate inline academic note from About and the public English B2 level; the user reserves language level for a CV, and no CV file was modified. Footer closes with copyright and social links, without Discover Tavi. Luromi remains in My work.
+
+### Personal narrative refinement — November23,2026
+
+User authorized revising the neurodivergence reflection so it reads as personal self-knowledge rather than a request for special/different treatment. The bilingual reflection keeps the supplied autism/inattentive ADHD facts and focuses on perception, processing, organization, strengths, limits and personal strategies; it makes no general medical or workplace claims. This supersedes previous instructions to preserve the old reflection verbatim. About explains the approach to product building without repeating the hero’s name/title introduction or listing projects again. Removed its project-contact button. Footer DOM/visual order is now social links followed by Luis Gil copyright.
