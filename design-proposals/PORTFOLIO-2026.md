@@ -235,3 +235,7 @@ The user reports the 12px fixed sampler did not prevent portrait bleed into iPad
 ### Luromi Safari backing parity — 2026-11-24
 
 Both earlier approaches failed on the user's iPad. Compared the published Luromi CSS and adopted its exact geometry: on coarse pointers extend the fixed header120px above the viewport, adding120px of top padding to keep controls in place. Reserve the header's visible bottom rather than its extended box height. Fine-pointer desktop retains zero extension. Touch geometry and menu verified with a temporary forced-extension route removed before build; native iPad result remains to be confirmed.
+
+### Input-independent Safari backing and opt-in diagnostics — 2026-11-24
+
+Remove the coarse-primary-pointer gate from the120px safe-area-supported backing; a tablet must not lose the backing when its primary input is fine. An explicit safari-debug=1 query opens a local-only diagnostic panel for device confirmation; ordinary visitors see no panel. This is an unconfirmed correction for the reported physical iPad issue, with fine-pointer geometry verified and native results pending.

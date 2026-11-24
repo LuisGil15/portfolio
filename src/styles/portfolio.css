@@ -238,8 +238,8 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
  .header-actions { gap:8px; }
 }
 
-/* Same backing extension used by Luromi: paint behind iPad Safari's translucent
-   chrome, while compensating inside the header so navigation does not move. */
+/* Extend behind browser chrome without relying on the primary input device.
+   Compensating padding keeps navigation and its reserved space unchanged. */
 @supports (padding-top:env(safe-area-inset-top)) {
- @media(pointer:coarse) { .portfolio-topbar { --header-chrome-extension:120px; } }
+ .portfolio-topbar { --header-chrome-extension:120px; }
 }
