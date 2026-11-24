@@ -123,3 +123,5 @@ The user requested more torso and explicitly allowed the portrait beneath the pa
 The mobile hero now bleeds to both viewport edges. Negative inline margins offset the main content gutter while matching internal padding preserves text/button alignment. The portrait clipping boundary and particle canvas therefore span the screen; footer labels retain their gutters. At 370px and below the bleed matches the existing 16px page gutter rather than 20px.
 
 The particle canvas now fades through four alpha stops over its lower 24%, reaching full transparency at the bottom. Only the canvas is masked; photo layering, text, scroll cue, animation lifecycle and edge-to-edge width remain intact.
+
+To avoid repeating the header identity, the hero greeting now reads Hey! / ¡Hola! between the existing span tags. It retains the same staggered animation; Senior Full Stack Developer remains the main heading.
