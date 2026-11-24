@@ -8,10 +8,10 @@ function syncMotion() {
   root.dataset.motion = motionAllowed() ? 'running' : 'paused';
   if (!motionAllowed()) activeAnimations.forEach(animation => animation.finish());
 }
-function animate(element: Element, frames: Keyframe[], duration: number, delay = 0) {
+function animate(element: Element, frames: Keyframe[], duration: number, delay = 0, easing = 'cubic-bezier(.16,1,.3,1)') {
   if (!motionAllowed() || !('animate' in element)) return;
   elementAnimations.get(element)?.cancel();
-  const animation = element.animate(frames, { duration, delay, fill:'backwards', easing:'cubic-bezier(.16,1,.3,1)' });
+  const animation = element.animate(frames, { duration, delay, fill:'backwards', easing });
   elementAnimations.set(element, animation);
   activeAnimations.add(animation);
   animation.finished.then(() => activeAnimations.delete(animation), () => activeAnimations.delete(animation));
@@ -25,6 +25,9 @@ let heroArmed = true, heroVisible = false;
 function playHeroEntrance() {
   if (!hero || !motionAllowed()) return;
   heroArmed = false;
+  hero.querySelectorAll('.hero-greeting > span').forEach((part,index) => {
+    animate(part,[{opacity:0,transform:'translateY(8px)'},{opacity:1,transform:'translateY(0)'}],450,index*120);
+  });
   hero.querySelectorAll('.hero-title-line > span, .hero-title-line > em').forEach((line,index) => {
     animate(line, [
       {opacity:0,transform:'translateY(105%)',filter:'blur(6px)'},
@@ -35,6 +38,23 @@ function playHeroEntrance() {
   hero.querySelectorAll('.type-char').forEach((character,index) => {
     animate(character,[{opacity:0},{opacity:1}],1,700+index*85);
   });
+  const typed = hero.querySelector<HTMLElement>('.typed-specialty');
+  const cursor = typed?.querySelector('.typing-cursor');
+  if (typed && cursor) {
+    const characters = [...typed.querySelectorAll<HTMLElement>('.type-char')];
+    const origin = typed.getBoundingClientRect().left;
+    const typingDuration = characters.length*85;
+    const total = typingDuration+600;
+    const position = (index:number) => index ? characters[index-1].getBoundingClientRect().right-origin : 0;
+    const frames:Keyframe[] = [{offset:0,transform:'translateX(0)',opacity:0,easing:'steps(1,end)'}];
+    characters.forEach((_,index) => frames.push({
+      offset:(index*85+1)/total, transform:`translateX(${position(index+1)}px)`,
+      opacity:index%4===3 ? 0 : 1, easing:'steps(1,end)',
+    }));
+    const end = `translateX(${position(characters.length)}px)`;
+    [150,300,450,600].forEach((time,index) => frames.push({offset:(typingDuration+time)/total,transform:end,opacity:index%2 ? 0 : 1,easing:'steps(1,end)'}));
+    animate(cursor,frames,total,700,'linear');
+  }
   const description = hero.querySelector('.hero-description');
   if (description) animate(description,[{opacity:0,transform:'translateY(22px)'},{opacity:1,transform:'translateY(0)'}],800,420);
   hero.querySelectorAll('.hero-actions a').forEach((action,index) => {

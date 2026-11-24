@@ -86,3 +86,7 @@ Code and location-pin icons rendered alongside their labels; both use aria-hidde
 ## Senior title and typing
 
 Build (13 routes) and diff checks passed. Home replay showed ten character opacities at 0 then at 1, with identical 276.55px text width in both observations. The accessibility tree exposes Senior Full Stack Developer as the level-one heading. At 320px the title fits its 288px content width without horizontal overflow; full specialty width is 181.45px. Reduced-motion path inspected in shared animation guard; preference emulation was not performed. Capture: senior-hero.jpg.
+
+## Span greeting, briefcase and typing cursor
+
+Home replay showed greeting opacities ~.09/0/0 followed by 1/1/1, confirming staggered entry. Literal span tags and briefcase icon rendered correctly. Cursor frames use measured character edges and step timing; it is hidden before/after its finite sequence, with no added layout width. No horizontal overflow or captured console errors/warnings. Cursor sequencing and reduced-motion guard inspected in source; frame-by-frame recording was not performed. Capture: span-cursor-hero.jpg. Build and diff checks passed.
