@@ -227,3 +227,5 @@ Lifecycle test and build13 routes passed. Actual IAB1280 capture measured733ms f
 ### Skip intro and smoother handoff —2026-11-23
 
 Lifecycle suite and build13 routes passed. IAB390 native pointer skip capture in boot-smooth-skip/skip.json: text stops at >boo, instant:false, overlay opacity falls while hero title transform changes, then hidden/inertfalse. Normal path capture retains completed-text hold and new fade. Fresh motion reviewer approved source and mobile evidence with no material fixes. No reduced-media browser emulation or physical iPhone performance claim.
+
+Published smoother handoff from410ccb5 asCloudflare9d2681d5-824d-4c67-992d-917a7a4aaf09. Public https://luisgil.org/es/ native pointer skip at390px confirms loading→revealing→ready, opacity1→0.0044 while hero transform32.56→0.10, instant:false, overlayhidden; no console errors. Desktop1440 Escape capture also retains animated title entrance. Evidence boot-smooth-skip/live.json, live.jpg and desktop-keyboard.json. Temporary viewport reset.
