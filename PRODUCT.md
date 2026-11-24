@@ -86,3 +86,9 @@ User authorized revising the neurodivergence reflection so it reads as personal 
 ### Approved self-knowledge reflection — November23,2026
 
 The user approved combining self-knowledge with learning to live in a world not always designed for their way of thinking. The Spanish approved copy begins “Soy autista y tengo TDAH de presentación inatenta. Conocerme ha sido parte de aprender a moverme…” and frames learning as recognizing strengths, limits and personal strategies. Equivalent English copy is implemented. This supersedes the shorter My way of seeing the world reflection.
+
+### Stack tools — November23,2026
+
+User confirmed NestJS and Supabase plus VS Code, Docker, Podman and GitHub for the technology section. Tools stay within the stack section under their own Tools & workflow / Herramientas de trabajo category, rather than a separate top-level section. NestJS is grouped under backend and Supabase under cloud. All six have local Devicon marks in the existing two-row marquee. No additional unconfirmed tools added.
+
+Academic facts subsequently confirmed by the user: CETI · Colomos attendance2018–2021. English course institution and dates remain unspecified.

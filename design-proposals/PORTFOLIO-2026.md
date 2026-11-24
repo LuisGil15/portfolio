@@ -171,3 +171,7 @@ About now discusses product understanding and connecting backend/data/interfaces
 ### Academic entrance and approved reflection —2026-11-23
 
 Academic heading uses the existing career-heading horizontal reveal; .academic-timeline is registered with the shared timeline motion. Its CETI mark crops into view before the institution/program inner group settles; outer geometry remains fixed. The shared reduced-motion, immediate-focus completion and280px replay boundary apply. Reflection text matches the user-approved self-knowledge/world-not-designed-for-me combination in Spanish and English.
+
+### Technologies and tools —2026-11-23
+
+Stack headline is Technologies & tools / Tecnologías y herramientas. Added NestJS, Supabase and a tools/workflow category listing VS Code, Docker, Podman and GitHub. Two logo tracks contain7 marks each and use42s/49s periods to retain the former travel speed; offscreen, hover, local pause and reduced-motion behavior retained. The original Deviconv2.17.0 catalog/license covers the new local marks. GitHub mark uses CSS inversion on the dark surface.
