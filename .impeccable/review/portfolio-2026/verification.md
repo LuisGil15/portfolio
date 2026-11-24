@@ -273,3 +273,5 @@ Social portrait opacity82%→68% published2026-11-24 from0607340 asCloudflare943
 Social wave strengthened and published2026-11-24 from9b39fab asCloudflare777aabc7-0c00-46a3-a0a5-272fff5b2282. Taller30×130 point field, stronger opacity and lower fades; wave behind portrait, photo remains68%. PNG visually reviewed and build13routes passed. Public root/es metadata?v=3 and exact public/local PNG bytes verified. No Git push performed.
 
 Social layout tightened2026-11-24: text+64px and portrait−130px toward center, opacity68% retained. Individual glyph paths fix shifted-coordinate raster artifacts. Visually inspected PNG, build13routes passed. Source68974f6 published asCloudflare42c188ce-383c-4737-a402-b9208e45e703; public/es/ image?v=4 metadata and exact PNG bytes verified. No Git push performed.
+
+Preferred social spacing restored2026-11-24 from4991161 asCloudflarec2d2e3a5-0a71-4422-b44c-3543502676ce. Text64px/portrait580px restored, wave and68% opacity retained. Visual inspection/build13routes passed; public/es/ metadata?v=5 and exact PNG bytes verified. No Git push performed.
