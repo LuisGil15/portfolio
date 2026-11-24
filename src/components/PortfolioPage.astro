@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/ProposalLayout.astro';
 import T from './ProposalText.astro';
-import ThemeToggle from './ThemeToggle.astro';
 import SupportLinks from './SupportLinks.astro';
 import MiniToolsMark from './MiniToolsMark.astro';
 import MiniToolsIcon from './MiniToolsIcon.astro';
@@ -15,7 +14,7 @@ import '../styles/portfolio.css';
 const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'web',en:'Web & platforms',es:'Web y plataformas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
 const { showFaq = false } = Astro.props;
 ---
-<Layout title="Luis Gil — Software, made personal" description="Software development, native applications and experiments by Luis Gil." titleEs="Luis Gil — Software hecho personal" descriptionEs="Desarrollo de software, aplicaciones nativas y experimentos creados por Luis Gil." socialImageAlt="Luis Gil, software developer and independent maker" socialImageAltEs="Luis Gil, desarrollador de software y creador independiente" theme="portfolio" initialTheme="dark">
+<Layout title="Luis Gil — Software, made personal" description="Software development, native applications and experiments by Luis Gil." titleEs="Luis Gil — Software hecho personal" descriptionEs="Desarrollo de software, aplicaciones nativas y experimentos creados por Luis Gil." socialImageAlt="Luis Gil, software developer and independent maker" socialImageAltEs="Luis Gil, desarrollador de software y creador independiente" theme="portfolio" initialTheme="dark" fixedTheme="dark">
   <aside class="identity">
     <a class="identity-mark" href="#home" aria-label="Luis Gil, home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m17 13-11 11 11 11m14-22 11 11-11 11M27 9l-6 30"/></svg><span>Luis Gil<span class="identity-domain">.dev</span></span></a>
     <div class="identity-art"><img class="identity-portrait" src="/images/profile/luis-gil.webp" width="640" height="800" alt="Luis Gil" decoding="async"/></div>
@@ -31,8 +30,8 @@ const { showFaq = false } = Astro.props;
   <main id="content">
     <header class="portfolio-topbar" data-menu-open="false">
       <div class="mobile-header">
-        <a class="mobile-brand" href="#home" aria-label="Luis Gil, home"><span class="brand-bracket" aria-hidden="true">&lt;</span><span>LG</span><span class="brand-bracket" aria-hidden="true">/&gt;</span></a>
-        <div class="header-settings mobile-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/><button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation-drawer" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="menu-bars" d="M4 7h16M4 12h16M4 17h16"/><path class="menu-close" d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Menu" es="Menú"/></button></div>
+        <a class="mobile-brand" href="#home" aria-label="Luis Gil, home"><span aria-hidden="true">&gt; _</span></a>
+        <div class="header-settings mobile-settings"><button data-language aria-label="Cambiar a español">ES</button><button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation-drawer" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="menu-bars" d="M4 7h16M4 12h16M4 17h16"/><path class="menu-close" d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Menu" es="Menú"/></button></div>
       </div>
       <nav class="portfolio-navigation" id="portfolio-navigation" aria-label="Main navigation">
       <a href="#home" aria-current="location"><T en="Home" es="Inicio"/></a>
@@ -41,7 +40,7 @@ const { showFaq = false } = Astro.props;
       <a href="#experience"><T en="Experience" es="Experiencia"/></a>
       <a href="#about"><T en="About me" es="Sobre mí"/></a>
       <div class="header-actions">
-        <div class="header-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/></div>
+        <div class="header-settings"><button data-language aria-label="Cambiar a español">ES</button></div>
         <a class="top-contact" href="#contact"><T en="Let's talk" es="Hablemos"/></a>
       </div>
       </nav>

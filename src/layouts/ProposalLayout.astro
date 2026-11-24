@@ -1,6 +1,7 @@
 ---
 interface Props {
   initialTheme?: 'light' | 'dark';
+  fixedTheme?: 'light' | 'dark';
   title: string;
   description: string;
   theme: 'portfolio' | 'tavi' | 'minitools' | 'index';
@@ -10,12 +11,12 @@ interface Props {
   socialImageAlt?: string;
   socialImageAltEs?: string;
 }
-const { title, description, theme, titleEs, descriptionEs, socialImage, socialImageAlt, socialImageAltEs, initialTheme } = Astro.props;
+const { title, description, theme, titleEs, descriptionEs, socialImage, socialImageAlt, socialImageAltEs, initialTheme, fixedTheme } = Astro.props;
 const spanish = Astro.url.pathname.startsWith("/es/");
 const preview = Astro.url.pathname.startsWith("/proposals");
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const themeScope = theme === 'minitools' ? 'minitools' : theme === 'tavi' ? 'tavi' : 'portfolio';
-const defaultTheme = initialTheme ?? (themeScope === 'portfolio' ? 'light' : 'dark');
+const defaultTheme = fixedTheme ?? initialTheme ?? (themeScope === 'portfolio' ? 'light' : 'dark');
 const pageTitle = spanish && titleEs ? titleEs : title;
 const pageDescription = spanish && descriptionEs ? descriptionEs : description;
 const socialCard = socialImage ?? `/images/social/${theme === 'index' ? 'portfolio' : theme}.png`;
@@ -30,7 +31,7 @@ const defaultSocialCardAlt = socialImageAlt ?? (
 const socialCardAlt = spanish && socialImageAltEs ? socialImageAltEs : defaultSocialCardAlt;
 ---
 <!doctype html>
-<html lang={spanish ? "es" : "en"} data-theme={defaultTheme} data-theme-scope={themeScope}>
+<html lang={spanish ? "es" : "en"} data-theme={defaultTheme} data-theme-scope={themeScope} data-fixed-theme={fixedTheme}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -38,8 +39,12 @@ const socialCardAlt = spanish && socialImageAltEs ? socialImageAltEs : defaultSo
     {preview && <meta name="robots" content="noindex, nofollow" />}
     <script is:inline>
       try {
-        const mode = localStorage.getItem("site-theme:" + document.documentElement.dataset.themeScope);
-        if (mode === "dark" || mode === "light") document.documentElement.dataset.theme = mode;
+        const fixed = document.documentElement.dataset.fixedTheme;
+        if (fixed) document.documentElement.dataset.theme = fixed;
+        else {
+          const mode = localStorage.getItem("site-theme:" + document.documentElement.dataset.themeScope);
+          if (mode === "dark" || mode === "light") document.documentElement.dataset.theme = mode;
+        }
       } catch { /* Keep the server-rendered default when storage is unavailable. */ }
     </script>
     <link rel="icon" href={theme === 'minitools' ? '/images/minitools/app-icon-mosaic-dark.png' : theme === 'tavi' ? '/images/tavi/tavi-mark.png' : '/favicon.svg'} data-mini-favicon={theme === 'minitools' ? '' : undefined} />
@@ -81,6 +86,7 @@ const socialCardAlt = spanish && socialImageAltEs ? socialImageAltEs : defaultSo
         });
       }
       document.querySelectorAll('[data-theme-toggle]').forEach(button => button.addEventListener('click', () => {
+        if (document.documentElement.dataset.fixedTheme) return;
         const mode = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
         document.documentElement.dataset.theme = mode;
         try { localStorage.setItem(themeStorageKey, mode); } catch {}

@@ -62,3 +62,5 @@ The user-approved generated neutral portrait with reference-matched green eyes h
 The user requested darker backgrounds and colors associated with dark editors/terminals. The portfolio dark theme now uses near-black #080b10, blue-gray surfaces/text, terminal green actions and title emphasis, cyan punctuation/focus and violet tags. This supersedes the earlier petroleum/lavender portfolio palette; product landing-page brands remain separate. The mobile portrait and wave are dimmed to keep text dominant.
 
 The approved mobile identity is now the compact <LG /> monogram, with the full bilingual name restored in the hero greeting (¡Hola! Soy Luis Gil. / Hey! I’m Luis Gil.). Mobile navigation uses a right-side modal drawer, closed initially and on reload, replacing the prior dropdown.
+
+Latest user direction: mobile header identity is only the light terminal prompt > _. The portfolio is fixed to dark mode, with theme buttons removed and earlier stored light preferences ignored for this surface. Product-page theme controls remain independent.

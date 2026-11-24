@@ -142,3 +142,7 @@ Rendered the mobile hero at 390px: the lower particle rows now dissolve into the
 Build (13 routes) and diff checks passed. At 390px initial dialog.open=false and aria-expanded=false; same after reload. Brand and greeting expose <LG/> and ¡Hola! Soy Luis Gil. Open drawer focuses Close menu, and accessibility tree contains only modal navigation. Escape restores trigger focus; backdrop tap closes; Experience selection closes, clears scroll lock and focuses the section.
 
 At 320px drawer spans x=40–320, y=0–740 with no page overflow. Resizing to 1280px closes it, clears scroll lock and returns navigation to the header with display:flex. No captured browser warnings/errors. Reduced-motion guard inspected; preference emulation was not performed. Captures: lg-header-closed.jpg and mobile-drawer-open.jpg.
+
+## Terminal header and fixed dark mode
+
+Build and diff checks passed. Browser confirms brand text > _, light color rgb(220,229,243), data-theme=dark, data-fixed-theme=dark and zero theme buttons. Executed the actual generated initialization script with a mocked stored light preference: it remained dark. Parsed Tavi output retains its independent theme control and has no fixed-theme attribute. Mobile capture: terminal-header-dark.jpg. Viewport reset.
