@@ -255,3 +255,7 @@ Desktop stack padding/fade checked locally at1280: moving window x44–1236, lat
 ### Local mobile separator motion —2026-11-24
 
 Build13routes passed. IAB390×844 native scroll captures show topborder0 and scale0, enter scale0→1 with finite glint, steady line at scroll169, return-to-top scale1→0 over320ms. Rapid reversal retains intermediate scale before returning1. Evidence mobile-header-line/ includes entry/exit frames and telemetry; fresh motion reviewer disposition ship with no material fixes. Reduced-motion behavior source reviewed, not rendered; no physical iPhone/frame-rate claim. Temporary viewport reset. Explicitly local only; no deployment, commit or push.
+
+### Approved layout published —2026-11-24
+
+Published sourcee0dcda9 asCloudflare7188da31-ec17-4fe9-81e2-8eb9fefcf788. Production / and /es/ return200 with background portrait and no identity aside. Previous.org/es/?source=check remains301 to.dev preserving query. Desktop screenshot layout-release/desktop.jpg. Native IAB390 scroll confirms mobile separator0→1 then1→0 on return, with no console errors; telemetry layout-release/mobile-line.json. Build13routes and existing preloader lifecycle suite passed. Viewport reset. No Git push performed for this release.
