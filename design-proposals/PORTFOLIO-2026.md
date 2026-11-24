@@ -125,3 +125,9 @@ The mobile hero now bleeds to both viewport edges. Negative inline margins offse
 The particle canvas now fades through four alpha stops over its lower 24%, reaching full transparency at the bottom. Only the canvas is masked; photo layering, text, scroll cue, animation lifecycle and edge-to-edge width remain intact.
 
 To avoid repeating the header identity, the hero greeting now reads Hey! / ¡Hola! between the existing span tags. It retains the same staggered animation; Senior Full Stack Developer remains the main heading.
+
+## LG identity and lateral navigation
+
+The user clarified approval of the full proposal: mobile header uses <LG /> while the greeting reads ¡Hola! Soy Luis Gil. (Hey! I'm Luis Gil.). The main title and other hero layers remain.
+
+A native dialog now hosts the same navigation on mobile, sliding in from the right over a dim backdrop. It is closed by default and on pageshow. Native modality manages background inertness, focus containment and Escape; explicit close, backdrop click and destination selection also close it. HTML scroll locking is cleared on close. Entry is a finite 280ms transform animation, cancelled on close and skipped under reduced motion. On desktop resize the dialog closes and navigation returns to the header. A no-script fallback exposes section links. This supersedes the earlier disclosure dropdown.

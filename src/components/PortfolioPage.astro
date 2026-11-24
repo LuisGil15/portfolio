@@ -29,10 +29,10 @@ const { showFaq = false } = Astro.props;
     </div>
   </aside>
   <main id="content">
-    <header class="portfolio-topbar">
+    <header class="portfolio-topbar" data-menu-open="false">
       <div class="mobile-header">
-        <a class="mobile-brand" href="#home" aria-label="Luis Gil, home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m17 13-11 11 11 11m14-22 11 11-11 11M27 9l-6 30"/></svg><span>Luis Gil<span class="mobile-domain">.dev</span></span></a>
-        <div class="header-settings mobile-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/><button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="portfolio-navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="menu-bars" d="M4 7h16M4 12h16M4 17h16"/><path class="menu-close" d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Menu" es="Menú"/></button></div>
+        <a class="mobile-brand" href="#home" aria-label="Luis Gil, home"><span class="brand-bracket" aria-hidden="true">&lt;</span><span>LG</span><span class="brand-bracket" aria-hidden="true">/&gt;</span></a>
+        <div class="header-settings mobile-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/><button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation-drawer" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="menu-bars" d="M4 7h16M4 12h16M4 17h16"/><path class="menu-close" d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Menu" es="Menú"/></button></div>
       </div>
       <nav class="portfolio-navigation" id="portfolio-navigation" aria-label="Main navigation">
       <a href="#home" aria-current="location"><T en="Home" es="Inicio"/></a>
@@ -45,6 +45,10 @@ const { showFaq = false } = Astro.props;
         <a class="top-contact" href="#contact"><T en="Let's talk" es="Hablemos"/></a>
       </div>
       </nav>
+      <dialog class="mobile-drawer" id="mobile-navigation-drawer" aria-labelledby="drawer-title">
+        <div class="drawer-heading"><T as="h2" id="drawer-title" en="Explore" es="Explora"/><button type="button" class="drawer-close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Close menu" es="Cerrar menú"/></button></div>
+      </dialog>
+      <noscript><style is:inline>@media(max-width:760px){.portfolio-topbar > .portfolio-navigation{display:grid!important}}</style></noscript>
     </header>
     <PortfolioHero/>
     <section id="work" aria-label="Projects">
@@ -115,17 +119,39 @@ const { showFaq = false } = Astro.props;
     const topbar = document.querySelector<HTMLElement>('.portfolio-topbar');
     const menuButton = topbar?.querySelector<HTMLButtonElement>('.mobile-menu-toggle');
     const mobileBreakpoint = matchMedia('(max-width:760px)');
-    if (topbar && menuButton) {
+    const drawer = topbar?.querySelector<HTMLDialogElement>('.mobile-drawer');
+    const navigation = topbar?.querySelector<HTMLElement>('.portfolio-navigation');
+    if (topbar && menuButton && drawer && navigation) {
+      let drawerEntrance:Animation|undefined;
+      const closeMenu = () => { if (drawer.open) drawer.close(); };
+      const placeNavigation = () => {
+        closeMenu();
+        if (mobileBreakpoint.matches) drawer.append(navigation);
+        else drawer.before(navigation);
+      };
+      placeNavigation();
       topbar.dataset.menuReady='true';
-      function closeMenu(restoreFocus=false) {
-        topbar!.dataset.menuOpen='false';
-        menuButton!.setAttribute('aria-expanded','false');
-        if (restoreFocus) menuButton!.focus();
-      }
+      drawer.addEventListener('close',() => {
+        drawerEntrance?.cancel();
+        topbar.dataset.menuOpen='false';
+        menuButton.setAttribute('aria-expanded','false');
+        document.documentElement.classList.remove('portfolio-menu-open');
+      });
       menuButton.addEventListener('click',() => {
-        const open = menuButton.getAttribute('aria-expanded')!=='true';
-        topbar.dataset.menuOpen=String(open);
-        menuButton.setAttribute('aria-expanded',String(open));
+        if (!mobileBreakpoint.matches || drawer.open) return;
+        drawer.showModal();
+        topbar.dataset.menuOpen='true';
+        menuButton.setAttribute('aria-expanded','true');
+        document.documentElement.classList.add('portfolio-menu-open');
+        if (!matchMedia('(prefers-reduced-motion:reduce)').matches) {
+          drawerEntrance?.cancel();
+          drawerEntrance=drawer.animate([{transform:'translateX(100%)'},{transform:'translateX(0)'}],{duration:280,easing:'cubic-bezier(.16,1,.3,1)'});
+        }
+      });
+      drawer.querySelector('.drawer-close')?.addEventListener('click',closeMenu);
+      drawer.addEventListener('click',event => {
+        const bounds=drawer.getBoundingClientRect();
+        if (event.target===drawer && (event.clientX<bounds.left || event.clientX>bounds.right || event.clientY<bounds.top || event.clientY>bounds.bottom)) closeMenu();
       });
       topbar.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach(link => link.addEventListener('click',() => {
         if (!mobileBreakpoint.matches) return;
@@ -134,13 +160,8 @@ const { showFaq = false } = Astro.props;
         target?.setAttribute('tabindex','-1');
         target?.focus({preventScroll:true});
       }));
-      document.addEventListener('keydown',event => {
-        if (event.key==='Escape' && topbar.dataset.menuOpen==='true') closeMenu(true);
-      });
-      document.addEventListener('click',event => {
-        if (event.target instanceof Node && !topbar.contains(event.target)) closeMenu();
-      });
-      mobileBreakpoint.addEventListener('change',() => closeMenu());
+      mobileBreakpoint.addEventListener('change',placeNavigation);
+      window.addEventListener('pageshow',closeMenu);
     }
     if (topbar) new ResizeObserver(() => {
       document.body.style.setProperty('--portfolio-header-height', `${topbar.getBoundingClientRect().height}px`);
