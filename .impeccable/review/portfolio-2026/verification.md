@@ -259,3 +259,7 @@ Build13routes passed. IAB390×844 native scroll captures show topborder0 and sca
 ### Approved layout published —2026-11-24
 
 Published sourcee0dcda9 asCloudflare7188da31-ec17-4fe9-81e2-8eb9fefcf788. Production / and /es/ return200 with background portrait and no identity aside. Previous.org/es/?source=check remains301 to.dev preserving query. Desktop screenshot layout-release/desktop.jpg. Native IAB390 scroll confirms mobile separator0→1 then1→0 on return, with no console errors; telemetry layout-release/mobile-line.json. Build13routes and existing preloader lifecycle suite passed. Viewport reset. No Git push performed for this release.
+
+### Equal separator timing published —2026-11-24
+
+Source1f1a99e deployed asCloudflare9f5cf80c-dbfb-46b4-a40f-c545b3e9ba57. Both directions320ms cubic-bezier(.4,0,.6,1), midpoint glint. Local IAB390 captures include both directions, stable endpoints and gradual opening (0.08 at~69ms,0.35 at~133ms). Fresh motion reviewer passed narrow refinement, reduced-motion source-only unchanged. Build13routes passed. Public/es/ verified computed320ms same curve before and after scroll, progressive scale0→.29→.91→1; evidence header-equal-timing/live.json and live-mid-draw.jpg. Viewport reset. No Git push performed.
