@@ -46,3 +46,7 @@ The user confirmed their freelance studio and creator/maintainer role. Both offi
 - Hourmeet and Luromi Studio moved into the gallery; Web & platforms filter shows exactly those two. Mobile gallery has one 350px track at a 390px viewport.
 - Both project cards retain user-confirmed ownership and role, official marks and direct links. Experience retains IBM and RESSER only.
 - Build and diff checks passed. Captures: portrait-mobile.jpg and owned-projects-desktop.jpg.
+
+## Single navigation
+
+Removed sidebar section menu and repeated email CTA. Confirmed one main navigation and no profile nav. At 320px all six links are visible, 44px high, with no page overflow. About me anchor lands at 132px below the 117px sticky navigation and receives the only active state. Final desktop and mobile captures retained as single-nav-desktop.jpg and single-nav-mobile.jpg. Build/diff checks passed.

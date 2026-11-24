@@ -47,3 +47,9 @@ The user added Luromi Studio and Hourmeet, confirming ownership: Luromi is their
 The user supplied their portrait and then clarified that Luromi Studio and Hourmeet belong in My work. The desktop panel now uses the supplied photograph instead of the monogram, with object-fit cover and a 50%/12% focus position. Mobile shows the same photo above the hero title because the sidebar becomes a compact header. The image is a local 640px WebP (~39 KiB), generated without creative edits; the original remains untouched.
 
 `OwnProjects.astro` now renders Hourmeet and Luromi as the first pair in the project gallery, preserving explicit ownership, role, descriptions, logos and external links. A Web & platforms filter covers both. They have been removed from the experience section, which contains only dated IBM and RESSER employment. This placement supersedes the earlier independent experience group. Default All work includes seven projects.
+
+## Single navigation
+
+The user requested removal of duplicated navigation. The personal panel now contains identity, portrait, role, GitHub/LinkedIn and the retained theme/language controls. The duplicate section menu and sidebar email CTA are removed. The card fits its content within the viewport rather than stretching to the bottom of the window.
+
+The sticky top navigation owns Home → My work → Tech stack → Experience → About me, plus the email action. At tablet widths it wraps; at 760px and below the six actions form two rows of three, with 44px minimum target height. Section highlighting now follows the actual section positions and sticky-header/scroll-padding offset using a frame-throttled passive scroll listener. Hero and section anchor spacing clears the mobile header.

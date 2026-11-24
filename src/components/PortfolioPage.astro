@@ -18,20 +18,20 @@ const { showFaq = false } = Astro.props;
     <a class="identity-mark" href="#home" aria-label="Luis Gil, home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m17 13-11 11 11 11m14-22 11 11-11 11M27 9l-6 30"/></svg><span>Luis Gil<span class="identity-domain">.dev</span></span></a>
     <div class="identity-art"><img class="identity-portrait" src="/images/profile/luis-gil.webp" width="640" height="800" alt="Luis Gil" decoding="async"/></div>
     <T as="p" class="role" en="Software developer. Independent maker." es="Desarrollador de software. Creador independiente." />
-    <nav aria-label="Portfolio">
-      <a href="#work" class="nav-work"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg><T en="My work" es="Mi trabajo"/></a>
-      <a href="#stack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></svg><T en="Tech stack" es="Tecnologías"/></a>
-      <a href="#experience"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M3 12h18M10 12v3h4v-3"/></svg><T en="Experience" es="Experiencia"/></a>
-      <a href="#about"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg><T en="About me" es="Sobre mí"/></a>
-    </nav>
     <div class="identity-bottom">
-      <a class="email-link" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       <div class="socials"><a href="https://github.com/LuisGil15">GitHub</a><a href="https://www.linkedin.com/in/luis-francisco-gil-perez-721348182/">LinkedIn</a></div>
       <div class="side-meta"><ThemeToggle/><button data-language aria-label="Cambiar a español">ES</button></div>
     </div>
   </aside>
   <main id="content">
-    <nav class="portfolio-topbar" aria-label="Main navigation"><a href="#home" class="top-home" aria-current="location"><T en="Home" es="Inicio"/></a><a href="#work"><T en="Projects" es="Proyectos"/></a><a href="#experience"><T en="Experience" es="Experiencia"/></a><a class="top-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></nav>
+    <nav class="portfolio-topbar" aria-label="Main navigation">
+      <a href="#home" aria-current="location"><T en="Home" es="Inicio"/></a>
+      <a href="#work"><T en="My work" es="Mi trabajo"/></a>
+      <a href="#stack"><T en="Tech stack" es="Tecnologías"/></a>
+      <a href="#experience"><T en="Experience" es="Experiencia"/></a>
+      <a href="#about"><T en="About me" es="Sobre mí"/></a>
+      <a class="top-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+    </nav>
     <PortfolioHero/>
     <section id="work" aria-label="Projects">
       <div class="work-toolbar"><T as="h2" en="Ideas, turned into software." es="Ideas hechas software."/><div class="filters" role="group" aria-label="Project filters">{filters.map(f=><button data-filter={f.id} aria-pressed={f.id==='all' ? 'true' : 'false'}><T en={f.en} es={f.es}/></button>)}</div></div>
@@ -77,16 +77,27 @@ const { showFaq = false } = Astro.props;
     <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
   </main>
   <script>
-    const navigationLinks = document.querySelectorAll<HTMLAnchorElement>('.identity nav a, .portfolio-topbar a[href^="#"]');
-    const sectionObserver = new IntersectionObserver(entries => {
-      const current = entries.find(entry => entry.isIntersecting);
-      if (!current) return;
+    const navigationLinks = document.querySelectorAll<HTMLAnchorElement>('.portfolio-topbar a[href^="#"]');
+    const navigationSections = [...navigationLinks].map(link => document.querySelector<HTMLElement>(link.hash)).filter((section): section is HTMLElement => Boolean(section));
+    function updateActiveNavigation() {
+      const scrollPadding = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
+      const threshold = (document.querySelector('.portfolio-topbar')?.getBoundingClientRect().bottom ?? 0) + 40 + scrollPadding;
+      let active = navigationSections[0];
+      for (const section of navigationSections) {
+        if (section.getBoundingClientRect().top <= threshold) active = section;
+      }
       navigationLinks.forEach(link => {
-        if (link.hash === '#' + current.target.id) link.setAttribute('aria-current', 'location');
+        if (active && link.hash === '#' + active.id) link.setAttribute('aria-current', 'location');
         else link.removeAttribute('aria-current');
       });
-    }, { rootMargin: '-15% 0px -60% 0px' });
-    document.querySelectorAll('#home, #work, #stack, #experience, #about, #contact').forEach(section => sectionObserver.observe(section));
+    }
+    let navigationFrame = 0;
+    window.addEventListener('scroll', () => {
+      if (navigationFrame) return;
+      navigationFrame = requestAnimationFrame(() => { updateActiveNavigation(); navigationFrame = 0; });
+    }, { passive: true });
+    window.addEventListener('resize', updateActiveNavigation);
+    updateActiveNavigation();
     document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.addEventListener('click', () => {
       const filter = button.dataset.filter;
       document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed', String(b===button)));
