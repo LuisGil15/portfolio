@@ -199,3 +199,7 @@ Build13 routes and whitespace check passed. Actual IAB390 capture in education-m
 ### Stack tools —2026-11-23
 
 Build13 routes passed; diff whitespace check passed. IAB390 shows new NestJS/Supabase and VSCode/Docker/Podman/GitHub logos; categories include requested tools and additions. Pause control toggles to Resume; tracks retain42s/49s periods. At320px document width320, no horizontal page overflow. SVGs fetched successfully from existing pinned Devicon catalog. Desktop1440 reviewed. No console errors captured. Horizontal offscreen copies retain native lazy loading; initial image-complete inspection is not a missing-asset test for them.
+
+### Security,CI/CD and AI tool groups —2026-11-23
+
+Build13 routes passed. Security/authentication now separate from API integration, includes user-confirmed2FA and existing mTLS/Keychain/vulnerability-remediation experience. No suggested unconfirmed security topics added. CI/CD contains Jenkins,Argo CD,Terraform; AI workflow contains Codex,Copilot,Claude,Ollama,OpenCode (last names confirmed by user). IAB390 category view has10 groups and document width390; desktop1440 reviewed. Both languages retain the same tool names.

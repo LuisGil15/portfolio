@@ -92,3 +92,7 @@ The user approved combining self-knowledge with learning to live in a world not 
 User confirmed NestJS and Supabase plus VS Code, Docker, Podman and GitHub for the technology section. Tools stay within the stack section under their own Tools & workflow / Herramientas de trabajo category, rather than a separate top-level section. NestJS is grouped under backend and Supabase under cloud. All six have local Devicon marks in the existing two-row marquee. No additional unconfirmed tools added.
 
 Academic facts subsequently confirmed by the user: CETI · Colomos attendance2018–2021. English course institution and dates remain unspecified.
+
+### Security, delivery and AI tooling — November23,2026
+
+User clarified 2FA (not F2F) and approved separating Security/authentication from HTTP/REST API integration. Security lists TLS/mTLS,2FA,Keychain and existing vulnerability-remediation experience. User chose to omit additional suggested security keywords. User also supplied Jenkins,Argo CD,Terraform and Codex,Copilot,Claude,Ollama,OpenCode. Group delivery tools under CI/CD & infrastructure and assistants/local AI tooling under AI for development. These indicate workflow tools, not AI model-development specialization. User confirmed the exact names OpenCode and Argo CD.

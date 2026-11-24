@@ -16,7 +16,10 @@ const groups = [
  {en:'Databases',es:'Bases de datos',items:'SQL, DB2, SQLite'},
  {en:'Cloud & messaging',es:'Cloud y mensajería',items:'Cloudflare, Firebase, Supabase, Kafka'},
  {en:'Tools & workflow',es:'Herramientas de trabajo',items:'VS Code, Docker, Podman, GitHub'},
- {en:'APIs & security',es:'APIs y seguridad',items:'REST APIs, mTLS, Keychain'},
+ {en:'CI/CD & infrastructure',es:'CI/CD e infraestructura',items:'Jenkins, Argo CD, Terraform'},
+ {en:'AI for development',es:'IA para desarrollo',items:'Codex, Copilot, Claude, Ollama, OpenCode'},
+ {en:'APIs & integrations',es:'APIs e integraciones',items:'HTTP, REST APIs'},
+ {en:'Security & authentication',es:'Seguridad y autenticación',items:'TLS / mTLS, 2FA, Keychain',enExtra:', vulnerability remediation',esExtra:', remediación de vulnerabilidades'},
 ];
 ---
 <section id="stack" class="developer-stack" aria-labelledby="stack-title">
@@ -36,7 +39,7 @@ const groups = [
    </div>
    <button class="skills-motion-toggle" aria-controls="technology-motion" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="pause-symbol" d="M9 5v14M15 5v14"/><path class="play-symbol" d="m8 5 11 7-11 7Z"/></svg><T en="Pause logos" es="Pausar logos"/></button>
   </div>
-  <dl class="skills-categories">{groups.map(group => <div><dt><T en={group.en} es={group.es}/></dt><dd>{group.items}</dd></div>)}</dl>
+  <dl class="skills-categories">{groups.map(group => <div><dt><T en={group.en} es={group.es}/></dt><dd>{group.items}{'enExtra' in group && <T en={group.enExtra} es={group.esExtra}/>}</dd></div>)}</dl>
  </div>
  <a class="github-line" href="https://github.com/LuisGil15"><span><strong>GitHub</strong><T en="Explore my public repositories and experiments." es="Explora mis repositorios públicos y experimentos."/></span></a>
 </section>

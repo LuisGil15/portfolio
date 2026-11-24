@@ -175,3 +175,7 @@ Academic heading uses the existing career-heading horizontal reveal; .academic-t
 ### Technologies and tools —2026-11-23
 
 Stack headline is Technologies & tools / Tecnologías y herramientas. Added NestJS, Supabase and a tools/workflow category listing VS Code, Docker, Podman and GitHub. Two logo tracks contain7 marks each and use42s/49s periods to retain the former travel speed; offscreen, hover, local pause and reduced-motion behavior retained. The original Deviconv2.17.0 catalog/license covers the new local marks. GitHub mark uses CSS inversion on the dark surface.
+
+### Additional stack groups —2026-11-23
+
+Security/authentication is separate from API integration;2FA uses the user-corrected term and existing vulnerability remediation is localized. CI/CD & infrastructure contains Jenkins,Argo CD,Terraform. AI for development contains Codex,Copilot,Claude,Ollama,OpenCode. No new speculative application-security keywords or employer-specific public copy added.
