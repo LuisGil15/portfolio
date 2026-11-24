@@ -16,7 +16,7 @@ import T from '../ProposalText.astro';
   if (!screen) return;
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
   let finished = false, announced = false, transitioning = false, fade, handoffTimer;
-  const surfaces = () => document.querySelectorAll('.identity, #content, .skip');
+  const surfaces = () => document.querySelectorAll('.identity, .portfolio-topbar, #content, .skip');
   const announce = (instant) => {
     if (announced) return;
     announced = true;

@@ -227,3 +227,7 @@ Social card wave strengthened at owner request on November24,2026:30×130 cyan p
 Social composition tightened on November24,2026: text left edge64→128px and portrait origin580→450px, reducing the central gap while retaining outer breathing room,68% portrait opacity and the stronger wave. Individual glyph outlines preserve clean rasterization at shifted coordinates. Image revision?v=4.
 
 Owner rejected the centered social composition on November24,2026. Restore previous text origin64px and portrait580px, retaining68% photo opacity and the stronger point wave. Individual glyph export retained for clean rendering. Image revision?v=5.
+
+### iPad Safari header follow-up — 2026-11-24
+
+The user reports the 12px fixed sampler did not prevent portrait bleed into iPad Safari chrome. Replace it with the complete opaque header fixed directly under body, outside size containment. A measured spacer reserves its height; include the relocated header in preloader inert surfaces. Preserve separator timing and page composition. Responsive geometry and menu checked at1194/834/390px; actual iPad Safari chrome requires device confirmation.
