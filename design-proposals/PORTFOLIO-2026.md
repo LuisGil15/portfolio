@@ -223,3 +223,5 @@ Owner prefers the closing motion. Both directions now use the closing320ms cubic
 Social portrait opacity reduced82%→68% at owner request on November24,2026, for softer integration with the dark background. Shared image URL revision ?v=2 distinguishes the new artwork for crawlers.
 
 Social card wave strengthened at owner request on November24,2026:30×130 cyan points, a taller lower wave and soft upper/lower masks, layered behind the portrait to keep the face clear. Portrait opacity stays68%. Image URL revision?v=3.
+
+Social composition tightened on November24,2026: text left edge64→128px and portrait origin580→450px, reducing the central gap while retaining outer breathing room,68% portrait opacity and the stronger wave. Individual glyph outlines preserve clean rasterization at shifted coordinates. Image revision?v=4.

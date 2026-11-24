@@ -12,18 +12,21 @@ function text(content, size, left, top, color=colors.ink, stroke=0) {
   const bounds=font.getPath(content,0,0,size).getBoundingBox();
   const path=font.getPath(content,left-bounds.x1,top-bounds.y1,size);
   if (path.getBoundingBox().x2>1200 || path.getBoundingBox().y2>630) throw new Error('Social card text overflows');
-  layers.push(`<path d="${path.toPathData(2)}" fill="${color}" stroke="${color}" stroke-width="${stroke}"/>`);
+  font.forEachGlyph(content,left-bounds.x1,top-bounds.y1,size,{},(glyph,x,y,fontSize) => {
+    layers.push(`<path d="${glyph.getPath(x,y,fontSize).toPathData(3)}" fill="${color}" stroke="${color}" stroke-width="${stroke}"/>`);
+  });
   return font.getAdvanceWidth(content,size);
 }
-text('>_',30,64,38);
-text('Luis Gil.',70,64,125,colors.ink,1);
-text('Software',56,64,238);
-const braceWidth=text('{',56,64,307,colors.cyan);
-const developerWidth=text('Developer',56,64+braceWidth,307,colors.green);
-text('}',56,64+braceWidth+developerWidth,307,colors.cyan);
-text('Engineer',56,64,376);
-text('Backend / Web / Native',22,67,469,colors.muted);
-text('luisgil.dev',24,64,555);
+const textLeft=128;
+text('>_',30,textLeft,38);
+text('Luis Gil.',70,textLeft,125,colors.ink,1);
+text('Software',56,textLeft,238);
+const braceWidth=text('{',56,textLeft,307,colors.cyan);
+const developerWidth=text('Developer',56,textLeft+braceWidth,307,colors.green);
+text('}',56,textLeft+braceWidth+developerWidth,307,colors.cyan);
+text('Engineer',56,textLeft,376);
+text('Backend / Web / Native',22,textLeft+3,469,colors.muted);
+text('luisgil.dev',24,textLeft,555);
 const portrait = await sharp(`${root}public/images/profile/luis-gil-cutout.webp`).png().toBuffer();
 const dots=[];
 for(let row=0;row<30;row++) for(let col=0;col<130;col++) {
@@ -44,7 +47,7 @@ const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" vie
 </defs>
 <rect width="1200" height="630" fill="${colors.ground}"/>
 <g fill="${colors.cyan}" mask="url(#wave)">${dots.join('')}</g>
-<g transform="translate(580 22)" opacity=".68" mask="url(#bottom)"><g mask="url(#left)"><image width="740" height="740" href="data:image/png;base64,${portrait.toString('base64')}"/></g></g>
+<g transform="translate(450 22)" opacity=".68" mask="url(#bottom)"><g mask="url(#left)"><image width="740" height="740" href="data:image/png;base64,${portrait.toString('base64')}"/></g></g>
 ${layers.join('\n')}
 </svg>`;
 await writeFile(`${root}public/images/social/portfolio.svg`,svg);
