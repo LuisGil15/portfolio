@@ -30,7 +30,7 @@ html[data-theme][data-theme=dark] body.portfolio {
 .identity-mark svg { width: 38px; height: 38px; color:var(--profile-muted); }
 .identity-domain { color:var(--profile-muted); font-size: 18px; }
 .identity-art { position: relative; isolation: isolate; min-height:0; flex:none; width:min(100%,max(0px,calc(100dvh - 400px))); aspect-ratio:1; height:auto; align-self:center; margin:clamp(12px,2.4dvh,25px) 0 clamp(12px,1.8dvh,20px); border-radius: 16px; overflow: hidden; display: flex; align-items: center; justify-content: center; background:transparent; }
-.identity-art .identity-portrait { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; object-position:center top; filter:grayscale(1) contrast(.9) brightness(.85); opacity:.88; mask-image:linear-gradient(to bottom,#000 0%,#000 60%,#000b 76%,transparent 100%); }
+.identity-art .identity-portrait { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; object-position:center top; filter:contrast(.95) brightness(.9); opacity:.75; mask-image:linear-gradient(to bottom,#000 0%,#000 60%,#000b 76%,transparent 100%); }
 .profile-details { margin:0; color:var(--profile-ink); font-size:15px; line-height:1.7; }
 .profile-details div+div { margin-top:18px; }
 .profile-details dt { display:flex; align-items:center; gap:8px; color:var(--profile-muted); font-size:12px; line-height:1.5; margin-bottom:6px; }
