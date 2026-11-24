@@ -114,3 +114,7 @@ Only local synthetic data was used. No email client was opened, no message sent,
 Build (13 routes) and diff checks passed. At 390×844 and 320×740 the bar measures 65px with no page overflow. Menu opens with six destinations; selecting Experience closes the panel, focuses the section and lands at 113px beneath the 65px bar. Escape closes it and restores menu-button focus. Language and theme controls work in the mobile row. At 1280px desktop navigation remains flex and the mobile row is hidden. No captured console warnings/errors. Viewport reset after review. Capture: mobile-header-compact.jpg.
 
 Checked using the running LAN development server on port 4322. Actual iPhone Safari was not operated; the supplied iPhone screenshot informed the correction.
+
+## Mobile portrait background
+
+Generated a transparent cutout from the approved neutral portrait, then optimized to an 800×800 WebP (54,930 bytes). Alpha range 0–255 confirms actual transparency. Mobile ES/dark at 390px and light at 320px inspected; no horizontal overflow. Computed grayscale(1), theme-specific opacity and zero old hero-portrait elements confirmed. The portrait is clipped at the right, fading behind readable text; decorative content is aria-hidden. Capture: mobile-portrait-background.jpg. Build and diff checks passed.

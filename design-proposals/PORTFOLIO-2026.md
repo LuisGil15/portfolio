@@ -107,3 +107,7 @@ At the user’s direction the form composes an email locally rather than submitt
 The mobile header now uses one 65px sticky row: compact brand, language, theme and a menu disclosure. The previous stacked identity card and always-visible multirow navigation are hidden on mobile. One shared section navigation opens as a two-column panel beneath the bar, including contact; desktop retains the expanded navigation and personal panel. Only controls are duplicated across hidden responsive wrappers, with shared theme/language state.
 
 The disclosure has aria-expanded/controls, closes after selecting a section, on outside click, Escape or breakpoint change. Escape restores button focus; section selection focuses the destination without preventing native anchor scrolling. Navigation remains visible when JS enhancement is unavailable. Header height measurement uses the closed bar, so anchor clearance stays stable while the overlay opens.
+
+## Mobile portrait backdrop
+
+At the user’s request, the latest approved AI-edited portrait replaces the small mobile hero photograph. A generated true-alpha cutout is optimized to an 800px WebP (~54 KiB). Mobile renders it as a decorative grayscale background, enlarged and offset beyond the right edge, with lateral and lower fades to protect the text. Dark/light opacities are .55/.22; a narrower-width offset preserves the title at 320px. The hero content starts closer to the header after removing the old portrait block. No desktop portrait replacement was requested; the original remains there.
