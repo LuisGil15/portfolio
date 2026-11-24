@@ -54,3 +54,5 @@ The user approved Senior Full Stack Developer as their hero title. It replaces t
 The user supplied personal Instagram, Threads and X URLs for @luisgildev and requested Facebook removal. Both profile and contact now link GitHub, LinkedIn, Instagram, Threads and X. Tracking query parameters were omitted from the supplied URLs. No social placeholders remain.
 
 The contact section includes a bilingual form with name, email, optional subject and message. The user explicitly chose precomposed email instead of a delivery service: preparing the form generates a local mailto draft for luis.gil.dev15@gmail.com, followed by an explicit open-in-email-app link. Visitors review and send from their email application. No backend, third-party form service, message storage or delivery claim is introduced. Header Hablemos now navigates to this section.
+
+Mobile portfolio navigation uses a compact sticky brand/control row and a disclosure for section/contact links, replacing the earlier always-visible multirow mobile menu. Desktop identity and expanded navigation are preserved.

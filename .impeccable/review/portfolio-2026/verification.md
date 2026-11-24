@@ -108,3 +108,9 @@ Build and diff checks passed. Parsed generated Spanish HTML: five networks appea
 Build (13 routes) and diff checks passed. Desktop ES/dark and 390px EN/light rendered with no horizontal overflow; mobile fields form a single 350px track. Native required validation blocked an empty form, and invalid email blocked draft generation. A valid submission generated the expected mailto recipient, subject and multiline body. Changing the message hid the stale draft. Language changes reset generated drafts while preserving field text. Pure-function checks passed for Unicode, ampersands, paragraph breaks, default subject and subject-header newline stripping.
 
 Only local synthetic data was used. No email client was opened, no message sent, and no external service configured. Mail-client-specific URI-length limits and actual delivery were not tested. Captures: contact-draft-ready.jpg and contact-form-desktop.jpg.
+
+## Compact mobile header
+
+Build (13 routes) and diff checks passed. At 390×844 and 320×740 the bar measures 65px with no page overflow. Menu opens with six destinations; selecting Experience closes the panel, focuses the section and lands at 113px beneath the 65px bar. Escape closes it and restores menu-button focus. Language and theme controls work in the mobile row. At 1280px desktop navigation remains flex and the mobile row is hidden. No captured console warnings/errors. Viewport reset after review. Capture: mobile-header-compact.jpg.
+
+Checked using the running LAN development server on port 4322. Actual iPhone Safari was not operated; the supplied iPhone screenshot informed the correction.

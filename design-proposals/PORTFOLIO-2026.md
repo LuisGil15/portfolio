@@ -101,3 +101,9 @@ Social destinations updated from user-supplied URLs: Instagram /luisgildev/, Thr
 The contact section retains direct email and social links, followed by an unboxed form aligned with the page grid. Name/email share a row on desktop; subject and message span the width. Mobile uses one column. Inputs have persistent labels, 16px text, autocomplete, required/length constraints and visible focus. The textarea remains vertically resizable.
 
 At the user’s direction the form composes an email locally rather than submitting to a service. Prepare email creates an encoded mailto draft with the selected subject and a body containing the name, email and message. A polite status and explicit link let the visitor open, review and send it from their mail client. Editing any field or changing language invalidates the old draft. Nothing is sent or stored by the website; direct email remains available. Header contact now targets #contact.
+
+## Compact mobile navigation
+
+The mobile header now uses one 65px sticky row: compact brand, language, theme and a menu disclosure. The previous stacked identity card and always-visible multirow navigation are hidden on mobile. One shared section navigation opens as a two-column panel beneath the bar, including contact; desktop retains the expanded navigation and personal panel. Only controls are duplicated across hidden responsive wrappers, with shared theme/language state.
+
+The disclosure has aria-expanded/controls, closes after selecting a section, on outside click, Escape or breakpoint change. Escape restores button focus; section selection focuses the destination without preventing native anchor scrolling. Navigation remains visible when JS enhancement is unavailable. Header height measurement uses the closed bar, so anchor clearance stays stable while the overlay opens.

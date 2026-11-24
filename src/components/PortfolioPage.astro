@@ -29,7 +29,12 @@ const { showFaq = false } = Astro.props;
     </div>
   </aside>
   <main id="content">
-    <nav class="portfolio-topbar" aria-label="Main navigation">
+    <header class="portfolio-topbar">
+      <div class="mobile-header">
+        <a class="mobile-brand" href="#home" aria-label="Luis Gil, home"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m17 13-11 11 11 11m14-22 11 11-11 11M27 9l-6 30"/></svg><span>Luis Gil<span class="mobile-domain">.dev</span></span></a>
+        <div class="header-settings mobile-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/><button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="portfolio-navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="menu-bars" d="M4 7h16M4 12h16M4 17h16"/><path class="menu-close" d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Menu" es="Menú"/></button></div>
+      </div>
+      <nav class="portfolio-navigation" id="portfolio-navigation" aria-label="Main navigation">
       <a href="#home" aria-current="location"><T en="Home" es="Inicio"/></a>
       <a href="#work"><T en="My work" es="Mi trabajo"/></a>
       <a href="#stack"><T en="Tech stack" es="Tecnologías"/></a>
@@ -39,7 +44,8 @@ const { showFaq = false } = Astro.props;
         <div class="header-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/></div>
         <a class="top-contact" href="#contact"><T en="Let's talk" es="Hablemos"/></a>
       </div>
-    </nav>
+      </nav>
+    </header>
     <PortfolioHero/>
     <section id="work" aria-label="Projects">
       <div class="work-toolbar"><T as="h2" en="Ideas, turned into software." es="Ideas hechas software."/><div class="filters" role="group" aria-label="Project filters">{filters.map(f=><button data-filter={f.id} aria-pressed={f.id==='all' ? 'true' : 'false'}><T en={f.en} es={f.es}/></button>)}</div></div>
@@ -86,7 +92,7 @@ const { showFaq = false } = Astro.props;
   </main>
   <script>
     import '../scripts/portfolio-motion';
-    const navigationLinks = document.querySelectorAll<HTMLAnchorElement>('.portfolio-topbar a[href^="#"]');
+    const navigationLinks = document.querySelectorAll<HTMLAnchorElement>('.portfolio-navigation a[href^="#"]');
     const navigationSections = [...navigationLinks].map(link => document.querySelector<HTMLElement>(link.hash)).filter((section): section is HTMLElement => Boolean(section));
     function updateActiveNavigation() {
       const scrollPadding = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
@@ -107,6 +113,35 @@ const { showFaq = false } = Astro.props;
     }, { passive: true });
     window.addEventListener('resize', updateActiveNavigation);
     const topbar = document.querySelector<HTMLElement>('.portfolio-topbar');
+    const menuButton = topbar?.querySelector<HTMLButtonElement>('.mobile-menu-toggle');
+    const mobileBreakpoint = matchMedia('(max-width:760px)');
+    if (topbar && menuButton) {
+      topbar.dataset.menuReady='true';
+      function closeMenu(restoreFocus=false) {
+        topbar!.dataset.menuOpen='false';
+        menuButton!.setAttribute('aria-expanded','false');
+        if (restoreFocus) menuButton!.focus();
+      }
+      menuButton.addEventListener('click',() => {
+        const open = menuButton.getAttribute('aria-expanded')!=='true';
+        topbar.dataset.menuOpen=String(open);
+        menuButton.setAttribute('aria-expanded',String(open));
+      });
+      topbar.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach(link => link.addEventListener('click',() => {
+        if (!mobileBreakpoint.matches) return;
+        closeMenu();
+        const target=document.querySelector<HTMLElement>(link.hash);
+        target?.setAttribute('tabindex','-1');
+        target?.focus({preventScroll:true});
+      }));
+      document.addEventListener('keydown',event => {
+        if (event.key==='Escape' && topbar.dataset.menuOpen==='true') closeMenu(true);
+      });
+      document.addEventListener('click',event => {
+        if (event.target instanceof Node && !topbar.contains(event.target)) closeMenu();
+      });
+      mobileBreakpoint.addEventListener('change',() => closeMenu());
+    }
     if (topbar) new ResizeObserver(() => {
       document.body.style.setProperty('--portfolio-header-height', `${topbar.getBoundingClientRect().height}px`);
       updateActiveNavigation();
