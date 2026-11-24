@@ -1,0 +1,2165 @@
+{
+  "measuredHoldMs": 733,
+  "samples": [
+    {
+      "time": 1795497363342,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363413,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363443,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363469,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363480,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363495,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363510,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363525,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363537,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363553,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363565,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363573,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363582,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363598,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363607,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363615,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363624,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363633,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363641,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363649,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363658,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363666,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363675,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363683,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363691,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363699,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363708,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363716,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363724,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363732,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363739,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363759,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363767,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363776,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363783,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363794,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363801,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363810,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363819,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363827,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363836,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363845,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363859,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363869,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363878,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363887,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363896,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363905,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363914,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363922,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363932,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363941,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363950,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363960,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363974,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363983,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497363995,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364004,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364015,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364024,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364033,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364054,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364065,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364075,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364083,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364093,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364101,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364111,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364119,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364130,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364138,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364147,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364156,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364165,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364174,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364182,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364192,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364201,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364209,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364218,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364227,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364235,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364244,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364252,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364260,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364269,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364277,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364285,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364293,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364300,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364309,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364325,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364333,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364341,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364348,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364355,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364364,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364372,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364380,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364387,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364395,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364403,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364413,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    },
+    {
+      "time": 1795497364420,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "L",
+      "title": "none"
+    },
+    {
+      "time": 1795497364435,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Li",
+      "title": "none"
+    },
+    {
+      "time": 1795497364447,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Li",
+      "title": "none"
+    },
+    {
+      "time": 1795497364455,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Li",
+      "title": "none"
+    },
+    {
+      "time": 1795497364464,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Lis",
+      "title": "none"
+    },
+    {
+      "time": 1795497364473,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Lis",
+      "title": "none"
+    },
+    {
+      "time": 1795497364482,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "List",
+      "title": "none"
+    },
+    {
+      "time": 1795497364491,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "List",
+      "title": "none"
+    },
+    {
+      "time": 1795497364499,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo",
+      "title": "none"
+    },
+    {
+      "time": 1795497364507,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo",
+      "title": "none"
+    },
+    {
+      "time": 1795497364515,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo ",
+      "title": "none"
+    },
+    {
+      "time": 1795497364524,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo ",
+      "title": "none"
+    },
+    {
+      "time": 1795497364533,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo p",
+      "title": "none"
+    },
+    {
+      "time": 1795497364542,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo p",
+      "title": "none"
+    },
+    {
+      "time": 1795497364551,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo pa",
+      "title": "none"
+    },
+    {
+      "time": 1795497364560,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo pa",
+      "title": "none"
+    },
+    {
+      "time": 1795497364568,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo par",
+      "title": "none"
+    },
+    {
+      "time": 1795497364578,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo par",
+      "title": "none"
+    },
+    {
+      "time": 1795497364596,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para",
+      "title": "none"
+    },
+    {
+      "time": 1795497364605,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para ",
+      "title": "none"
+    },
+    {
+      "time": 1795497364613,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para ",
+      "title": "none"
+    },
+    {
+      "time": 1795497364621,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para ",
+      "title": "none"
+    },
+    {
+      "time": 1795497364631,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para c",
+      "title": "none"
+    },
+    {
+      "time": 1795497364639,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para c",
+      "title": "none"
+    },
+    {
+      "time": 1795497364661,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para con",
+      "title": "none"
+    },
+    {
+      "time": 1795497364672,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para con",
+      "title": "none"
+    },
+    {
+      "time": 1795497364682,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para cons",
+      "title": "none"
+    },
+    {
+      "time": 1795497364691,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para cons",
+      "title": "none"
+    },
+    {
+      "time": 1795497364700,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para const",
+      "title": "none"
+    },
+    {
+      "time": 1795497364708,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para const",
+      "title": "none"
+    },
+    {
+      "time": 1795497364721,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para constr",
+      "title": "none"
+    },
+    {
+      "time": 1795497364730,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para constr",
+      "title": "none"
+    },
+    {
+      "time": 1795497364740,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para constru",
+      "title": "none"
+    },
+    {
+      "time": 1795497364749,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para constru",
+      "title": "none"
+    },
+    {
+      "time": 1795497364757,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construi",
+      "title": "none"
+    },
+    {
+      "time": 1795497364767,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construi",
+      "title": "none"
+    },
+    {
+      "time": 1795497364775,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir",
+      "title": "none"
+    },
+    {
+      "time": 1795497364783,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir",
+      "title": "none"
+    },
+    {
+      "time": 1795497364792,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364801,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364809,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364817,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364824,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364832,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364840,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364847,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364855,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364863,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364881,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364888,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364896,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364904,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364912,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364919,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364927,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364935,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364943,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364951,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364959,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364967,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364976,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364984,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364991,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497364999,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365006,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365014,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365020,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365028,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365035,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365044,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365051,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365058,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365066,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365073,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365083,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365090,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365098,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365107,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365130,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365141,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365149,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365157,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365165,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365173,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365181,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365189,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365196,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365203,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365211,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365220,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365228,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365236,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365244,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365251,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365258,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365267,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365275,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365283,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365290,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365298,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365305,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365313,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365321,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365331,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365339,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365346,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365362,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365369,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365384,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365391,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365399,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365407,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365415,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365422,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365430,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365438,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365445,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365454,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365462,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365469,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365478,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365485,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365494,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365502,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365509,
+      "boot": "loading",
+      "hidden": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    },
+    {
+      "time": 1795497365525,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.876071",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 66.5284)"
+    },
+    {
+      "time": 1795497365536,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.819871",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 64.0242)"
+    },
+    {
+      "time": 1795497365552,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.700573",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 58.8168)"
+    },
+    {
+      "time": 1795497365564,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.530969",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 51.3656)"
+    },
+    {
+      "time": 1795497365581,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.486843",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 49.3378)"
+    },
+    {
+      "time": 1795497365591,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.400599",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 45.1384)"
+    },
+    {
+      "time": 1795497365603,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.332335",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 41.4719)"
+    },
+    {
+      "time": 1795497365614,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.295053",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 39.2831)"
+    },
+    {
+      "time": 1795497365624,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.244988",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 36.0624)"
+    },
+    {
+      "time": 1795497365635,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.225264",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 34.6839)"
+    },
+    {
+      "time": 1795497365646,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.184697",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 31.6032)"
+    },
+    {
+      "time": 1795497365656,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.168163",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 30.2351)"
+    },
+    {
+      "time": 1795497365669,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.137796",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 27.5135)"
+    },
+    {
+      "time": 1795497365710,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0766765",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 20.9034)"
+    },
+    {
+      "time": 1795497365723,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0643865",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 19.31)"
+    },
+    {
+      "time": 1795497365735,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0525266",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 17.6479)"
+    },
+    {
+      "time": 1795497365746,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0473299",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 16.8729)"
+    },
+    {
+      "time": 1795497365756,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0383202",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 15.4457)"
+    },
+    {
+      "time": 1795497365767,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0334407",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 14.6194)"
+    },
+    {
+      "time": 1795497365781,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0273634",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 13.524)"
+    },
+    {
+      "time": 1795497365796,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0214593",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 12.3692)"
+    },
+    {
+      "time": 1795497365811,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0143513",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 10.8067)"
+    },
+    {
+      "time": 1795497365825,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.0105576",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 9.85328)"
+    },
+    {
+      "time": 1795497365838,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.00782011",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 9.08116)"
+    },
+    {
+      "time": 1795497365849,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.00640252",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 8.64018)"
+    },
+    {
+      "time": 1795497365860,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.00428471",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 7.90056)"
+    },
+    {
+      "time": 1795497365873,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.00347201",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 7.57844)"
+    },
+    {
+      "time": 1795497365886,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.00207836",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 6.94048)"
+    },
+    {
+      "time": 1795497365898,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.00104079",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 6.32958)"
+    },
+    {
+      "time": 1795497365913,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "0.000414826",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 5.8075)"
+    },
+    {
+      "time": 1795497365925,
+      "boot": "revealing",
+      "hidden": false,
+      "opacity": "7.36999e-05",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 5.31227)"
+    },
+    {
+      "time": 1795497365937,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 4.62895)"
+    },
+    {
+      "time": 1795497365956,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 4.42571)"
+    },
+    {
+      "time": 1795497365967,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 4.03544)"
+    },
+    {
+      "time": 1795497365978,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 3.6373)"
+    },
+    {
+      "time": 1795497365991,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 3.50004)"
+    },
+    {
+      "time": 1795497366001,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 3.17152)"
+    },
+    {
+      "time": 1795497366010,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 3.0126)"
+    },
+    {
+      "time": 1795497366021,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.75375)"
+    },
+    {
+      "time": 1795497366032,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.63181)"
+    },
+    {
+      "time": 1795497366044,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.39013)"
+    },
+    {
+      "time": 1795497366055,
+      "boot": "ready",
+      "hidden": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.15242)"
+    }
+  ]
+}

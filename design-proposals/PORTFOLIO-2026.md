@@ -187,3 +187,7 @@ User proposed full-width logo rows above two text columns for desktop. Implement
 ### Terminal boot intro —2026-11-23
 
 The user requested a dark centered retro computer/OS entry. A fixed28ch mono block types three localized lines (> boot portfolio, Loading ideas and code..., Ready to build.). Total intro is about2s, including420ms opacity dissolve. At dissolve start, portfolio-ready releases the animation gate and begins the hero; canvas and stack loops respect the same gate. No layout movement is introduced in the overlay. Escape/Tab/Enter/Space and native Skip intro bypass immediately; reduced motion and deep links omit the intro. Static visible content remains the no-JS default, and a4s failsafe releases stalled loading.
+
+### Boot reading pause —2026-11-23
+
+At user request, hold the fully written terminal for700ms before the420ms dissolve (previously160ms). Page motion remains gated throughout this pause. Approximate total intro2.6s; original4s fail-open limit, skip and reduced-motion bypass remain.

@@ -217,3 +217,7 @@ Build13 routes and lifecycle test passed. Real IAB390Spanish and1440English capt
 Cloudflare Worker portfolio deployed as1bbd015a-e33f-4c3b-a14f-ac8ceda5d0f1 from cb351a0 (previous baseline b9240173-e77c-4ddc-bd7e-e869e7751cb8). Verified https://luisgil.org/es/ serves new PortfolioPage.Dk3ZWfW1.css and terminal markup. Production390 capture in boot-intro/live.json shows loading→revealing→ready, title entrance begins duringfade, native inert clears, no console errors. Public https://luisgil.org/ is English and Escape skips itsintro; contact action is Continue by email. Temporary viewport override reset. No Git push performed.
 
 Hero secondary action published2026-11-23 from69a0d68 asCloudflare version6a291450-dfc8-4c46-95d0-7697dd3e4b0f. Public https://luisgil.org/es/ HTML verifies Mi experiencia points to #experience. English equivalent My experience in shared component; existing GitHub social/repository links remain.
+
+### Boot reading pause —2026-11-23
+
+Lifecycle test and build13 routes passed. Actual IAB1280 capture measured733ms from fully written final line to revealing. While held, overlayopacity1 and titletransformnone; final state ready/hidden and hero entrance running. Evidence boot-hold/sequence.json and reading-pause.jpg. Only runtime timing changed160→700ms; skip/reduced-motion/failsafe behavior unchanged.
