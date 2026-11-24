@@ -27,7 +27,8 @@ html[data-theme][data-theme=dark] body.portfolio {
 .identity-art .identity-portrait { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 12%; }
 .profile-details { margin:0; color:var(--profile-ink); font-size:15px; line-height:1.7; }
 .profile-details div+div { margin-top:18px; }
-.profile-details dt { color:var(--profile-muted); font-size:12px; line-height:1.5; margin-bottom:6px; }
+.profile-details dt { display:flex; align-items:center; gap:8px; color:var(--profile-muted); font-size:12px; line-height:1.5; margin-bottom:6px; }
+.profile-details dt svg { width:16px; height:16px; flex-shrink:0; }
 .profile-details dd { margin:0; font-weight:500; }
 .identity-mark,.identity .profile-details,.identity-bottom { flex-shrink:0; }
 .identity-bottom { margin-top:auto; padding-top:16px; }

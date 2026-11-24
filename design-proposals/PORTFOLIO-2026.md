@@ -79,3 +79,5 @@ The profile role and location use a semantic definition list: Specialty / Especi
 The personal panel is now 336px wide on desktop (276px at intermediate widths), with corresponding main-content offsets. Its square photo grows to 282px, identity text to 28px, profile values to 15px and labels to 12px. The portrait scales down uniformly on low-height viewports so the larger text and social row remain inside the panel.
 
 The skills orbital motif now has three satellites rotating around the existing rings at 24s, 36s (reverse) and 48s. Only transforms animate; the ring strokes stay fixed. Animation pauses when the SVG is offscreen or the document is hidden, resumes at the same phase, and is disabled under reduced motion. This replaces the earlier static-orbit choice at the user’s request.
+
+Profile labels now include 16px code and map-pin outline SVGs, matching the existing stroke system. Icons are decorative and remain separate from translated text.

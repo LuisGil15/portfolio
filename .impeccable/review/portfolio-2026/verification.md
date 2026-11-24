@@ -78,3 +78,7 @@ Desktop panel now measures 336px (previously 296px), photo 282px square (previou
 ## Animated skills orbits
 
 Three satellite transforms changed across browser observations with all animation states running; returning Home set data-active=false and all three states to paused. Existing rings, clipped composition and section layout retained. Reduced-motion animation:none is present; preference emulation was not performed. Build and diff checks passed. Capture: animated-orbits.jpg.
+
+## Profile field icons
+
+Code and location-pin icons rendered alongside their labels; both use aria-hidden and the panel fits its height. Build and diff checks passed. Capture: profile-field-icons.jpg.
