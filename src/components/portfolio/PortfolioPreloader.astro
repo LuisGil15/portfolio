@@ -15,7 +15,7 @@ import T from '../ProposalText.astro';
   const screen = document.getElementById('portfolio-boot');
   if (!screen) return;
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
-  let finished = false, announced = false, fade;
+  let finished = false, announced = false, transitioning = false, fade, handoffTimer;
   const surfaces = () => document.querySelectorAll('.identity, #content, .skip');
   const announce = (instant) => {
     if (announced) return;
@@ -27,6 +27,7 @@ import T from '../ProposalText.astro';
     if (finished) return;
     finished = true;
     clearTimeout(failsafe);
+    clearTimeout(handoffTimer);
     fade?.cancel();
     screen.hidden = true;
     root.dataset.boot = 'ready';
@@ -34,10 +35,27 @@ import T from '../ProposalText.astro';
     document.removeEventListener('keydown', skipOnKey, true);
     announce(instant);
   };
+  const reveal = () => {
+    if (finished || transitioning) return;
+    if (preference.matches) { cleanup(); return; }
+    transitioning = true;
+    if (!screen.animate) { cleanup(false); return; }
+    // A quiet first beat lets the terminal start dissolving before the hero enters.
+    fade = screen.animate([{opacity:1},{opacity:0}], {
+      duration:700, easing:'cubic-bezier(.4,0,.2,1)', fill:'forwards',
+    });
+    handoffTimer = setTimeout(() => {
+      if (finished) return;
+      root.dataset.boot = 'revealing';
+      announce(false);
+    },120);
+    fade.finished.then(() => cleanup(false), () => {});
+  };
   const skipOnKey = (event) => {
     if (['Tab','Escape','Enter',' '].includes(event.key)) {
       if (event.key !== 'Tab') event.preventDefault();
-      cleanup();
+      if (event.key === 'Tab' || event.key === 'Escape') cleanup(preference.matches);
+      else reveal();
     }
   };
   // A stalled document or module load must never leave a blocking overlay behind.
@@ -49,7 +67,7 @@ import T from '../ProposalText.astro';
   }
   root.dataset.boot = 'loading';
   screen.hidden = false;
-  screen.addEventListener('click', () => cleanup());
+  screen.addEventListener('click', reveal);
   document.addEventListener('keydown', skipOnKey, true);
   preference.addEventListener('change', () => { if (preference.matches) cleanup(); });
   window.addEventListener('pagehide', () => cleanup());
@@ -64,27 +82,21 @@ import T from '../ProposalText.astro';
     try {
       const rows = [...screen.querySelectorAll('.boot-terminal p')];
       for (let index=0; index<lines.length; index++) {
-        if (finished) return;
+        if (finished || transitioning) return;
         rows.forEach(row => row.removeAttribute('data-typing'));
         const row = rows[index];
         row.dataset.typing = '';
         const output = row.querySelector('span');
         for (const character of lines[index]) {
-          if (finished) return;
+          if (finished || transitioning) return;
           output.textContent += character;
           await wait(18);
         }
         if (index<lines.length-1) await wait(150);
       }
       await wait(700);
-      if (finished) return;
-      // Begin the site's entrance as the terminal dissolves, not behind it.
-      root.dataset.boot = 'revealing';
-      announce(false);
-      if (!screen.animate) { cleanup(false); return; }
-      fade = screen.animate([{opacity:1},{opacity:0}], {duration:420,easing:'cubic-bezier(.22,.8,.25,1)',fill:'forwards'});
-      await fade.finished;
-      cleanup(false);
+      if (finished || transitioning) return;
+      reveal();
     } catch { cleanup(); }
   };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',start,{once:true});

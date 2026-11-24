@@ -1,0 +1,1 @@
+Skip handoff, repeated/interrupted fade, reduced motion, deep links and failsafe passed.

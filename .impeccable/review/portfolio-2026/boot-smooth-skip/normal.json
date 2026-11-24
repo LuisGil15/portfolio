@@ -1,0 +1,3482 @@
+[
+  {
+    "frame": 0,
+    "time": 1795497742417,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 5,
+    "time": 1795497742494,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 10,
+    "time": 1795497742515,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 15,
+    "time": 1795497742536,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 20,
+    "time": 1795497742549,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 25,
+    "time": 1795497742561,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 30,
+    "time": 1795497742577,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 35,
+    "time": 1795497742592,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 40,
+    "time": 1795497742605,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 45,
+    "time": 1795497742619,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 50,
+    "time": 1795497742632,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 55,
+    "time": 1795497742643,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 60,
+    "time": 1795497742653,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 65,
+    "time": 1795497742664,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 70,
+    "time": 1795497742682,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 75,
+    "time": 1795497742694,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 80,
+    "time": 1795497742705,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 85,
+    "time": 1795497742715,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 90,
+    "time": 1795497742724,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 95,
+    "time": 1795497742733,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 100,
+    "time": 1795497742741,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 105,
+    "time": 1795497742769,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 110,
+    "time": 1795497742781,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 115,
+    "time": 1795497742791,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 120,
+    "time": 1795497742801,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 125,
+    "time": 1795497742810,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 130,
+    "time": 1795497742820,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 135,
+    "time": 1795497742833,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 140,
+    "time": 1795497742847,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 145,
+    "time": 1795497742856,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 150,
+    "time": 1795497742866,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 155,
+    "time": 1795497742876,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 160,
+    "time": 1795497742886,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 165,
+    "time": 1795497742896,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 170,
+    "time": 1795497742905,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 175,
+    "time": 1795497742915,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 180,
+    "time": 1795497742931,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 185,
+    "time": 1795497742942,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 190,
+    "time": 1795497742951,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 195,
+    "time": 1795497742964,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 200,
+    "time": 1795497742974,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 205,
+    "time": 1795497742993,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 210,
+    "time": 1795497743005,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 215,
+    "time": 1795497743014,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 220,
+    "time": 1795497743026,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 225,
+    "time": 1795497743045,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 230,
+    "time": 1795497743056,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 235,
+    "time": 1795497743071,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 240,
+    "time": 1795497743084,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 245,
+    "time": 1795497743094,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 250,
+    "time": 1795497743103,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 255,
+    "time": 1795497743113,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 260,
+    "time": 1795497743123,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 265,
+    "time": 1795497743134,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 270,
+    "time": 1795497743144,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 275,
+    "time": 1795497743154,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 280,
+    "time": 1795497743164,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 285,
+    "time": 1795497743174,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 290,
+    "time": 1795497743183,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 295,
+    "time": 1795497743195,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 300,
+    "time": 1795497743205,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 305,
+    "time": 1795497743221,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 310,
+    "time": 1795497743232,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 315,
+    "time": 1795497743241,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 320,
+    "time": 1795497743251,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 325,
+    "time": 1795497743261,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 330,
+    "time": 1795497743272,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 335,
+    "time": 1795497743281,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 340,
+    "time": 1795497743291,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 345,
+    "time": 1795497743301,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 350,
+    "time": 1795497743312,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 355,
+    "time": 1795497743331,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 360,
+    "time": 1795497743341,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 365,
+    "time": 1795497743351,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 370,
+    "time": 1795497743360,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 375,
+    "time": 1795497743370,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 380,
+    "time": 1795497743378,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 385,
+    "time": 1795497743387,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 390,
+    "time": 1795497743395,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 395,
+    "time": 1795497743404,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 400,
+    "time": 1795497743414,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 405,
+    "time": 1795497743427,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 410,
+    "time": 1795497743435,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 415,
+    "time": 1795497743445,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 420,
+    "time": 1795497743456,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 425,
+    "time": 1795497743467,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 430,
+    "time": 1795497743477,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 435,
+    "time": 1795497743486,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 440,
+    "time": 1795497743495,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 445,
+    "time": 1795497743504,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "L",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 450,
+    "time": 1795497743513,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "L",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 455,
+    "time": 1795497743521,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Li",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 460,
+    "time": 1795497743531,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Li",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 465,
+    "time": 1795497743541,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Lis",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 470,
+    "time": 1795497743550,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Lis",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 475,
+    "time": 1795497743560,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "List",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 480,
+    "time": 1795497743569,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "List",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 485,
+    "time": 1795497743581,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 490,
+    "time": 1795497743591,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo ",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 495,
+    "time": 1795497743601,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo ",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 500,
+    "time": 1795497743611,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo p",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 505,
+    "time": 1795497743634,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo pa",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 510,
+    "time": 1795497743644,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo pa",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 515,
+    "time": 1795497743653,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo par",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 520,
+    "time": 1795497743663,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo par",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 525,
+    "time": 1795497743672,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 530,
+    "time": 1795497743681,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 535,
+    "time": 1795497743690,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para ",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 540,
+    "time": 1795497743699,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para ",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 545,
+    "time": 1795497743711,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para c",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 550,
+    "time": 1795497743720,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para co",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 555,
+    "time": 1795497743730,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para co",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 560,
+    "time": 1795497743740,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para con",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 565,
+    "time": 1795497743749,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para con",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 570,
+    "time": 1795497743758,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para cons",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 575,
+    "time": 1795497743767,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para cons",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 580,
+    "time": 1795497743776,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para cons",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 585,
+    "time": 1795497743785,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para const",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 590,
+    "time": 1795497743795,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para const",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 595,
+    "time": 1795497743804,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para constr",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 600,
+    "time": 1795497743813,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para constr",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 605,
+    "time": 1795497743831,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para constru",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 610,
+    "time": 1795497743840,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construi",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 615,
+    "time": 1795497743851,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construi",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 620,
+    "time": 1795497743860,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 625,
+    "time": 1795497743869,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 630,
+    "time": 1795497743879,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 635,
+    "time": 1795497743888,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 640,
+    "time": 1795497743897,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 645,
+    "time": 1795497743905,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 650,
+    "time": 1795497743913,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 655,
+    "time": 1795497743921,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 660,
+    "time": 1795497743930,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 665,
+    "time": 1795497743940,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 670,
+    "time": 1795497743952,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 675,
+    "time": 1795497743961,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 680,
+    "time": 1795497743970,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 685,
+    "time": 1795497743979,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 690,
+    "time": 1795497743987,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 695,
+    "time": 1795497743996,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 700,
+    "time": 1795497744004,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 705,
+    "time": 1795497744023,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 710,
+    "time": 1795497744032,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 715,
+    "time": 1795497744041,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 720,
+    "time": 1795497744049,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 725,
+    "time": 1795497744058,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 730,
+    "time": 1795497744068,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 735,
+    "time": 1795497744077,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 740,
+    "time": 1795497744086,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 745,
+    "time": 1795497744096,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 750,
+    "time": 1795497744105,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 755,
+    "time": 1795497744115,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 760,
+    "time": 1795497744124,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 765,
+    "time": 1795497744133,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 770,
+    "time": 1795497744142,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 775,
+    "time": 1795497744150,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 780,
+    "time": 1795497744158,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 785,
+    "time": 1795497744167,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 790,
+    "time": 1795497744177,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 795,
+    "time": 1795497744185,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 800,
+    "time": 1795497744195,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 805,
+    "time": 1795497744211,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 810,
+    "time": 1795497744220,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 815,
+    "time": 1795497744228,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 820,
+    "time": 1795497744238,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 825,
+    "time": 1795497744246,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 830,
+    "time": 1795497744254,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 835,
+    "time": 1795497744263,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 840,
+    "time": 1795497744271,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 845,
+    "time": 1795497744279,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 850,
+    "time": 1795497744288,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 855,
+    "time": 1795497744296,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 860,
+    "time": 1795497744304,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 865,
+    "time": 1795497744313,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 870,
+    "time": 1795497744322,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 875,
+    "time": 1795497744330,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 880,
+    "time": 1795497744339,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 885,
+    "time": 1795497744348,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 890,
+    "time": 1795497744356,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 895,
+    "time": 1795497744365,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 900,
+    "time": 1795497744373,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 905,
+    "time": 1795497744391,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 910,
+    "time": 1795497744401,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 915,
+    "time": 1795497744410,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 920,
+    "time": 1795497744418,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 925,
+    "time": 1795497744426,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 930,
+    "time": 1795497744434,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 935,
+    "time": 1795497744443,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 940,
+    "time": 1795497744452,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 945,
+    "time": 1795497744462,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 950,
+    "time": 1795497744470,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 955,
+    "time": 1795497744479,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 960,
+    "time": 1795497744487,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 965,
+    "time": 1795497744496,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 970,
+    "time": 1795497744506,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 975,
+    "time": 1795497744514,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 980,
+    "time": 1795497744522,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 985,
+    "time": 1795497744531,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 990,
+    "time": 1795497744539,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 995,
+    "time": 1795497744548,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1000,
+    "time": 1795497744556,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1005,
+    "time": 1795497744575,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1010,
+    "time": 1795497744584,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1015,
+    "time": 1795497744593,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1020,
+    "time": 1795497744603,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.999757",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1025,
+    "time": 1795497744612,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.999757",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1030,
+    "time": 1795497744624,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.997342",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1035,
+    "time": 1795497744635,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.993918",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1040,
+    "time": 1795497744645,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.986249",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1045,
+    "time": 1795497744655,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.978902",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1050,
+    "time": 1795497744665,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.978902",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1055,
+    "time": 1795497744675,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.968144",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1060,
+    "time": 1795497744685,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.949924",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1065,
+    "time": 1795497744696,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.945098",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1070,
+    "time": 1795497744706,
+    "sample": {
+      "boot": "loading",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.919817",
+      "text": "Listo para construir.",
+      "title": "none"
+    }
+  },
+  {
+    "frame": 1075,
+    "time": 1795497744724,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.88188",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 43.4268)"
+    }
+  },
+  {
+    "frame": 1080,
+    "time": 1795497744735,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.867541",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 41.891)"
+    }
+  },
+  {
+    "frame": 1085,
+    "time": 1795497744746,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.831864",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 38.6245)"
+    }
+  },
+  {
+    "frame": 1090,
+    "time": 1795497744762,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.789366",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 35.454)"
+    }
+  },
+  {
+    "frame": 1095,
+    "time": 1795497744773,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.738947",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 32.3436)"
+    }
+  },
+  {
+    "frame": 1100,
+    "time": 1795497744784,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.714129",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 30.9904)"
+    }
+  },
+  {
+    "frame": 1105,
+    "time": 1795497744807,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.610124",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 26.0867)"
+    }
+  },
+  {
+    "frame": 1110,
+    "time": 1795497744820,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.558417",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 23.9241)"
+    }
+  },
+  {
+    "frame": 1115,
+    "time": 1795497744834,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.506877",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 21.861)"
+    }
+  },
+  {
+    "frame": 1120,
+    "time": 1795497744846,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.480332",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 20.8206)"
+    }
+  },
+  {
+    "frame": 1125,
+    "time": 1795497744859,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.431625",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 18.9336)"
+    }
+  },
+  {
+    "frame": 1130,
+    "time": 1795497744871,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.392311",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 17.4207)"
+    }
+  },
+  {
+    "frame": 1135,
+    "time": 1795497744883,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.352904",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 15.906)"
+    }
+  },
+  {
+    "frame": 1140,
+    "time": 1795497744896,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.314868",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 14.4413)"
+    }
+  },
+  {
+    "frame": 1145,
+    "time": 1795497744908,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.300618",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 13.8913)"
+    }
+  },
+  {
+    "frame": 1150,
+    "time": 1795497744920,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.270633",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 12.7315)"
+    }
+  },
+  {
+    "frame": 1155,
+    "time": 1795497744935,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.242542",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 11.6413)"
+    }
+  },
+  {
+    "frame": 1160,
+    "time": 1795497744950,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.217184",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 10.6539)"
+    }
+  },
+  {
+    "frame": 1165,
+    "time": 1795497744962,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.193467",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 9.72758)"
+    }
+  },
+  {
+    "frame": 1170,
+    "time": 1795497744973,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.172217",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 8.89493)"
+    }
+  },
+  {
+    "frame": 1175,
+    "time": 1795497744985,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.162324",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 8.50625)"
+    }
+  },
+  {
+    "frame": 1180,
+    "time": 1795497744997,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.143383",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 7.76001)"
+    }
+  },
+  {
+    "frame": 1185,
+    "time": 1795497745008,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.126083",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 7.07532)"
+    }
+  },
+  {
+    "frame": 1190,
+    "time": 1795497745020,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.119843",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 6.82743)"
+    }
+  },
+  {
+    "frame": 1195,
+    "time": 1795497745031,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.105443",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 6.25292)"
+    }
+  },
+  {
+    "frame": 1200,
+    "time": 1795497745045,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0923415",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 5.72639)"
+    }
+  },
+  {
+    "frame": 1205,
+    "time": 1795497745070,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0692657",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 4.78516)"
+    }
+  },
+  {
+    "frame": 1210,
+    "time": 1795497745090,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0540665",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 4.14926)"
+    }
+  },
+  {
+    "frame": 1215,
+    "time": 1795497745117,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0427745",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 3.66273)"
+    }
+  },
+  {
+    "frame": 1220,
+    "time": 1795497745130,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0350734",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 3.32014)"
+    }
+  },
+  {
+    "frame": 1225,
+    "time": 1795497745145,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0293968",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 3.05942)"
+    }
+  },
+  {
+    "frame": 1230,
+    "time": 1795497745158,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0237435",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.78998)"
+    }
+  },
+  {
+    "frame": 1235,
+    "time": 1795497745171,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0186595",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.5357)"
+    }
+  },
+  {
+    "frame": 1240,
+    "time": 1795497745185,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0145838",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.31976)"
+    }
+  },
+  {
+    "frame": 1245,
+    "time": 1795497745199,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.0109248",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 2.11192)"
+    }
+  },
+  {
+    "frame": 1250,
+    "time": 1795497745214,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.00782634",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 1.91956)"
+    }
+  },
+  {
+    "frame": 1255,
+    "time": 1795497745227,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.00531786",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 1.74531)"
+    }
+  },
+  {
+    "frame": 1260,
+    "time": 1795497745242,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.00248894",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 1.5078)"
+    }
+  },
+  {
+    "frame": 1265,
+    "time": 1795497745255,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.00172633",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 1.42768)"
+    }
+  },
+  {
+    "frame": 1270,
+    "time": 1795497745267,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.000746406",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 1.29791)"
+    }
+  },
+  {
+    "frame": 1275,
+    "time": 1795497745280,
+    "sample": {
+      "boot": "revealing",
+      "hidden": false,
+      "inert": true,
+      "opacity": "0.000152945",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 1.17065)"
+    }
+  },
+  {
+    "frame": 1280,
+    "time": 1795497745292,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 1.05729)"
+    }
+  },
+  {
+    "frame": 1285,
+    "time": 1795497745309,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.95621)"
+    }
+  },
+  {
+    "frame": 1290,
+    "time": 1795497745322,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.859368)"
+    }
+  },
+  {
+    "frame": 1295,
+    "time": 1795497745334,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.770808)"
+    }
+  },
+  {
+    "frame": 1300,
+    "time": 1795497745348,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.691561)"
+    }
+  },
+  {
+    "frame": 1305,
+    "time": 1795497745376,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.550164)"
+    }
+  },
+  {
+    "frame": 1310,
+    "time": 1795497745389,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.490471)"
+    }
+  },
+  {
+    "frame": 1315,
+    "time": 1795497745401,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.461437)"
+    }
+  },
+  {
+    "frame": 1320,
+    "time": 1795497745414,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.408556)"
+    }
+  },
+  {
+    "frame": 1325,
+    "time": 1795497745427,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.360915)"
+    }
+  },
+  {
+    "frame": 1330,
+    "time": 1795497745438,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.315673)"
+    }
+  },
+  {
+    "frame": 1335,
+    "time": 1795497745451,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.278452)"
+    }
+  },
+  {
+    "frame": 1340,
+    "time": 1795497745463,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.242787)"
+    }
+  },
+  {
+    "frame": 1345,
+    "time": 1795497745477,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.226103)"
+    }
+  },
+  {
+    "frame": 1350,
+    "time": 1795497745491,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.196609)"
+    }
+  },
+  {
+    "frame": 1355,
+    "time": 1795497745502,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.169405)"
+    }
+  },
+  {
+    "frame": 1360,
+    "time": 1795497745513,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.156925)"
+    }
+  },
+  {
+    "frame": 1365,
+    "time": 1795497745526,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.134362)"
+    }
+  },
+  {
+    "frame": 1370,
+    "time": 1795497745537,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.113371)"
+    }
+  },
+  {
+    "frame": 1375,
+    "time": 1795497745548,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0958801)"
+    }
+  },
+  {
+    "frame": 1380,
+    "time": 1795497745561,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0882085)"
+    }
+  },
+  {
+    "frame": 1385,
+    "time": 1795497745572,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0724633)"
+    }
+  },
+  {
+    "frame": 1390,
+    "time": 1795497745585,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0606628)"
+    }
+  },
+  {
+    "frame": 1395,
+    "time": 1795497745596,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0550411)"
+    }
+  },
+  {
+    "frame": 1400,
+    "time": 1795497745608,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0439213)"
+    }
+  },
+  {
+    "frame": 1405,
+    "time": 1795497745641,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0251798)"
+    }
+  },
+  {
+    "frame": 1410,
+    "time": 1795497745654,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0191068)"
+    }
+  },
+  {
+    "frame": 1415,
+    "time": 1795497745668,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0145489)"
+    }
+  },
+  {
+    "frame": 1420,
+    "time": 1795497745680,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0125859)"
+    }
+  },
+  {
+    "frame": 1425,
+    "time": 1795497745691,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.00914076)"
+    }
+  },
+  {
+    "frame": 1430,
+    "time": 1795497745702,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.0063814)"
+    }
+  },
+  {
+    "frame": 1435,
+    "time": 1795497745714,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.00527815)"
+    }
+  },
+  {
+    "frame": 1440,
+    "time": 1795497745726,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.00341256)"
+    }
+  },
+  {
+    "frame": 1445,
+    "time": 1795497745737,
+    "sample": {
+      "boot": "ready",
+      "hidden": true,
+      "inert": false,
+      "opacity": "1",
+      "text": "Listo para construir.",
+      "title": "matrix(1, 0, 0, 1, 0, 0.00206051)"
+    }
+  }
+]

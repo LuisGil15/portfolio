@@ -223,3 +223,7 @@ Hero secondary action published2026-11-23 from69a0d68 asCloudflare version6a2914
 Lifecycle test and build13 routes passed. Actual IAB1280 capture measured733ms from fully written final line to revealing. While held, overlayopacity1 and titletransformnone; final state ready/hidden and hero entrance running. Evidence boot-hold/sequence.json and reading-pause.jpg. Only runtime timing changed160→700ms; skip/reduced-motion/failsafe behavior unchanged.
 
 700ms boot hold published from8c0287c asCloudflare4225cc7e-4671-439d-92ee-d6e9e37021fa; public /es/ HTML confirms wait(700) and excludes old wait(160). Fresh motion review passed narrow timing change.
+
+### Skip intro and smoother handoff —2026-11-23
+
+Lifecycle suite and build13 routes passed. IAB390 native pointer skip capture in boot-smooth-skip/skip.json: text stops at >boo, instant:false, overlay opacity falls while hero title transform changes, then hidden/inertfalse. Normal path capture retains completed-text hold and new fade. Fresh motion reviewer approved source and mobile evidence with no material fixes. No reduced-media browser emulation or physical iPhone performance claim.

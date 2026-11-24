@@ -191,3 +191,7 @@ The user requested a dark centered retro computer/OS entry. A fixed28ch mono blo
 ### Boot reading pause —2026-11-23
 
 At user request, hold the fully written terminal for700ms before the420ms dissolve (previously160ms). Page motion remains gated throughout this pause. Approximate total intro2.6s; original4s fail-open limit, skip and reduced-motion bypass remain.
+
+### Smooth shared intro handoff —2026-11-23
+
+Replaced the420ms terminal exit with a700ms opacity transition using cubic-bezier(.4,0,.2,1). The site entrance begins120ms into the dissolve, preserving visual continuity. Button skip and automatic completion use one idempotent reveal path; skipped typing stops immediately and repeated clicks do not restart it. Escape/Tab dismiss the layer immediately but preserve the site entrance. Reduced motion and safety bypass retain static access. Lifecycle regression tests exercise handoff ordering, repeated skip, interruption and preference changes.
