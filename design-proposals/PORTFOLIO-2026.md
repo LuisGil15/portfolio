@@ -225,3 +225,5 @@ Social portrait opacity reduced82%→68% at owner request on November24,2026, fo
 Social card wave strengthened at owner request on November24,2026:30×130 cyan points, a taller lower wave and soft upper/lower masks, layered behind the portrait to keep the face clear. Portrait opacity stays68%. Image URL revision?v=3.
 
 Social composition tightened on November24,2026: text left edge64→128px and portrait origin580→450px, reducing the central gap while retaining outer breathing room,68% portrait opacity and the stronger wave. Individual glyph outlines preserve clean rasterization at shifted coordinates. Image revision?v=4.
+
+Owner rejected the centered social composition on November24,2026. Restore previous text origin64px and portrait580px, retaining68% photo opacity and the stronger point wave. Individual glyph export retained for clean rendering. Image revision?v=5.
