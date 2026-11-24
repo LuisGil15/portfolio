@@ -146,3 +146,7 @@ At 320px drawer spans x=40–320, y=0–740 with no page overflow. Resizing to 1
 ## Terminal header and fixed dark mode
 
 Build and diff checks passed. Browser confirms brand text > _, light color rgb(220,229,243), data-theme=dark, data-fixed-theme=dark and zero theme buttons. Executed the actual generated initialization script with a mocked stored light preference: it remained dark. Parsed Tavi output retains its independent theme control and has no fixed-theme attribute. Mobile capture: terminal-header-dark.jpg. Viewport reset.
+
+## Drawer initial focus
+
+At 390px opening the menu focuses drawer-title; Close has outline-style:none. Pressing Tab moves to Close and gives it outline-style:solid. Escape still closes. Build and diff checks passed; viewport reset. Capture: drawer-initial-focus.jpg.

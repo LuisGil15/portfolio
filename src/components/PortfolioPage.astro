@@ -45,7 +45,7 @@ const { showFaq = false } = Astro.props;
       </div>
       </nav>
       <dialog class="mobile-drawer" id="mobile-navigation-drawer" aria-labelledby="drawer-title">
-        <div class="drawer-heading"><T as="h2" id="drawer-title" en="Explore" es="Explora"/><button type="button" class="drawer-close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Close menu" es="Cerrar menú"/></button></div>
+        <div class="drawer-heading"><T as="h2" id="drawer-title" tabindex="-1" autofocus en="Explore" es="Explora"/><button type="button" class="drawer-close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg><T class="menu-label" en="Close menu" es="Cerrar menú"/></button></div>
       </dialog>
       <noscript><style is:inline>@media(max-width:760px){.portfolio-topbar > .portfolio-navigation{display:grid!important}}</style></noscript>
     </header>
@@ -139,6 +139,7 @@ const { showFaq = false } = Astro.props;
       menuButton.addEventListener('click',() => {
         if (!mobileBreakpoint.matches || drawer.open) return;
         drawer.showModal();
+        drawer.querySelector<HTMLElement>('#drawer-title')?.focus({preventScroll:true});
         topbar.dataset.menuOpen='true';
         menuButton.setAttribute('aria-expanded','true');
         document.documentElement.classList.add('portfolio-menu-open');
