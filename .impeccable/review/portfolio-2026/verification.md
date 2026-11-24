@@ -94,3 +94,7 @@ Home replay showed greeting opacities ~.09/0/0 followed by 1/1/1, confirming sta
 ## Fewer arrows
 
 Removed repeated arrow SVGs from calls to action and retained exactly one directional scroll arrow. Browser confirms zero SVGs in the cleaned action selectors. Explore my work navigation still lands below the header, all four project URLs/labels remain, and desktop has no horizontal overflow. Hero and project sections rendered with recognizable button/link treatments. Build and diff checks passed. Capture: fewer-arrows.jpg.
+
+## Unified header controls
+
+Both utility buttons measured 44×44px with 50% radius and transparent backgrounds. Language/theme/contact DOM order matches visual order. Exercised both theme and language and restored ES/dark. Desktop and 390px mobile rendered without horizontal overflow; viewport reset afterward. Build and diff checks passed. Capture: header-controls-unified.jpg.

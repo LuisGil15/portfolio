@@ -34,8 +34,10 @@ const { showFaq = false } = Astro.props;
       <a href="#stack"><T en="Tech stack" es="Tecnologías"/></a>
       <a href="#experience"><T en="Experience" es="Experiencia"/></a>
       <a href="#about"><T en="About me" es="Sobre mí"/></a>
-      <a class="top-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/></a>
-      <div class="header-settings"><ThemeToggle/><button data-language aria-label="Cambiar a español">ES</button></div>
+      <div class="header-actions">
+        <div class="header-settings"><button data-language aria-label="Cambiar a español">ES</button><ThemeToggle/></div>
+        <a class="top-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk" es="Hablemos"/></a>
+      </div>
     </nav>
     <PortfolioHero/>
     <section id="work" aria-label="Projects">

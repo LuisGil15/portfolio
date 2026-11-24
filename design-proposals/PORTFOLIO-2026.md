@@ -91,3 +91,5 @@ The greeting now uses decorative span tags. Its opening tag, bilingual name and 
 ## Quieter link treatment
 
 Removed repeated decorative arrows from header contact, hero actions, project links, experience contact, GitHub row and email. Only the downward scroll cue remains. Project and primary links retain button surfaces; text GitHub links use underlines. Arrow-specific hover motion was removed. Destinations and accessible labels are unchanged.
+
+Header utilities are grouped in the fixed DOM/visual order language → theme → contact. Language and theme share identical 44px circular outlined targets with transparent backgrounds; the contact pill follows at the right. The group stays together when the header wraps. Mobile places the two utility controls at left and contact at right on a dedicated row. Styles are scoped to portfolio so other ThemeToggle consumers remain unchanged.
