@@ -47,7 +47,7 @@ html[data-theme][data-theme=dark] body.portfolio {
 .portfolio-topbar a[aria-current] { border-color: var(--line); }.portfolio-topbar a:hover { color: var(--accent); border-color: var(--line); }
 .portfolio-topbar .top-contact { margin-left: 0; display: flex; align-items: center; gap: 15px; background: var(--ink); color: var(--page); }
 .portfolio-hero { scroll-margin-top:calc(var(--portfolio-header-height,70px) + 16px); position: relative; isolation: isolate; min-height: min(740px, calc(100svh - 100px)); display: flex; flex-direction: column; justify-content: center; padding: 60px 0 100px; }
-.particle-wave { position: absolute; z-index: -1; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.particle-wave { position: absolute; z-index: -1; inset: 0; width: 100%; height: 100%; pointer-events: none; mask-image:linear-gradient(to bottom,#000 0%,#000 76%,#000c 84%,#0005 94%,transparent 100%); }
 .hero-content { max-width: 920px; }
 .portfolio-hero h1 { font-size: clamp(45px, 4.8vw, 78px); line-height: 1.12; font-weight: 500; letter-spacing: -.04em; }
 .portfolio-hero h1 em { color: var(--display-accent); font-style: normal; }

@@ -132,3 +132,7 @@ Rendered 390px and 320px mobile with more shoulder/chest visible and a lower gra
 ## Edge-to-edge mobile hero
 
 At 390px both hero and particle canvas measure from x=0 to x=390; text retains x=20. At 320px both span x=0 to x=320 with text at x=16. No horizontal page overflow. Portrait remains below the wave and now clips at the screen edge. Build and diff checks passed; viewport reset. Capture: mobile-hero-edge-to-edge.jpg.
+
+## Softer particle ending
+
+Rendered the mobile hero at 390px: the lower particle rows now dissolve into the page instead of ending at a sharp horizontal boundary. Computed mask confirms full alpha through 76%, .8 at 84%, .333 at 94% and zero at 100%. Viewport reset; build and diff checks passed. Capture: particle-wave-soft-ending.jpg.
