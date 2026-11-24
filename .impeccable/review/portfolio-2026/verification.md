@@ -233,3 +233,7 @@ Published smoother handoff from410ccb5 asCloudflare9d2681d5-824d-4c67-992d-917a7
 ### Primary domain migration —2026-11-23
 
 Published commit6f5d323 asCloudflare5f6e2ff6-8dac-43a9-bc90-3e7044709589. luisgil.dev attached with no DNS conflicts; luisgil.org remains attached and redirects301 before asset lookup. Lifecycle redirect test passed; Astro build13routes passed. Production HTTP checks confirm /, /es/, /apps/tavi/?source=portfolio&lang=es and /images/social/portfolio.png retain paths and queries with301, then200 on.dev. Missing.dev path remains404. Canonical and OG image use.dev. Browser navigation from https://luisgil.org/es/ lands on https://luisgil.dev/es/, no console errors; evidence domain-migration/live-dev.jpg. Only apex domains configured; no www changes. Existing workers.dev default disabled by Wrangler when explicit custom routes declared. No Git push performed.
+
+### Professional title —2026-11-24
+
+Updated title to Software Developer Engineer as requested, retaining three-line hero and typewriter behavior. Build13routes passed. Local IAB1280desktop and390mobile render checked; mobile no horizontal overflow. Public/es/ document title, h1 accessible name and specialty verified after publishing50ec455 asCloudflare261382a1-b878-423e-b06e-f81548e34819. Evidence software-developer-engineer/.
