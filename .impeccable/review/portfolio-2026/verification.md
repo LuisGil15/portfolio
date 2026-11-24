@@ -74,3 +74,7 @@ Added semantic Specialty/Location fields with the user-supplied Jalisco location
 ## Wider personal panel
 
 Desktop panel now measures 336px (previously 296px), photo 282px square (previously 242px), field text 15px (previously 13px), labels 12px and identity 28px. Rendered at 1280×720 without horizontal overflow, and at 1280×560 with profile scrollHeight fitting clientHeight after uniform portrait shrink. Header and content remain clear of the panel. Build and diff checks passed. Capture: wider-profile.jpg.
+
+## Animated skills orbits
+
+Three satellite transforms changed across browser observations with all animation states running; returning Home set data-active=false and all three states to paused. Existing rings, clipped composition and section layout retained. Reduced-motion animation:none is present; preference emulation was not performed. Build and diff checks passed. Capture: animated-orbits.jpg.

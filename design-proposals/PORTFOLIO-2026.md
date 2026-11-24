@@ -77,3 +77,5 @@ Section entrances re-arm only outside an expanded 200px viewport zone. The separ
 The profile role and location use a semantic definition list: Specialty / Especialidad and Location / Localidad, with Jalisco, Mexico supplied by the user. Labels use the muted profile color and smaller type; values retain stronger weight. The square portrait scales uniformly to allow both fields on short desktop viewports.
 
 The personal panel is now 336px wide on desktop (276px at intermediate widths), with corresponding main-content offsets. Its square photo grows to 282px, identity text to 28px, profile values to 15px and labels to 12px. The portrait scales down uniformly on low-height viewports so the larger text and social row remain inside the panel.
+
+The skills orbital motif now has three satellites rotating around the existing rings at 24s, 36s (reverse) and 48s. Only transforms animate; the ring strokes stay fixed. Animation pauses when the SVG is offscreen or the document is hidden, resumes at the same phase, and is disabled under reduced motion. This replaces the earlier static-orbit choice at the user’s request.
