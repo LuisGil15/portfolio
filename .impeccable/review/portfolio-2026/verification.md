@@ -27,3 +27,7 @@ Local implementation only. No push, merge, deployment, template purchase or down
 ## Moving technology rows
 
 Confirmed different transform values across observations, opposite directions and running animation states. Pause control sets both rows to paused; resume and moving the pointer outside the gallery restore both to running. At 390px there is no horizontal page overflow. Reduced-motion static grid and hidden duplicates/control were checked in source; preference emulation was not performed. Build and diff checks passed.
+
+## Hover labels
+
+Verified desktop caption opacity 0 at rest and 1 on the hovered TypeScript tile; other tiles keep their names hidden. At 390px captions remain visible (opacity 1), with no horizontal overflow. Build and diff checks passed. Screenshot: skills-hover.jpg.
