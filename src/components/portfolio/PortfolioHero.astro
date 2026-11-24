@@ -3,7 +3,7 @@ import T from '../ProposalText.astro';
 ---
 <header class="portfolio-hero" id="home">
   <canvas class="particle-wave" aria-hidden="true"></canvas>
-  <div class="hero-mobile-portrait" aria-hidden="true"><div></div></div>
+  <div class="hero-portrait" aria-hidden="true"><div></div></div>
   <div class="hero-content">
     <p class="hero-greeting"><span class="code-tag" aria-hidden="true">&lt;span&gt;</span> <T en="Hey! I'm Luis Gil." es="¡Hola! Soy Luis Gil."/> <span class="code-tag" aria-hidden="true">&lt;/span&gt;</span></p>
     <h1 aria-label="Software Developer Engineer"><span class="hero-title-line" aria-hidden="true"><span>Software</span></span>{' '}<span class="hero-title-line" aria-hidden="true"><em class="hero-specialty"><span class="title-brace">{'{'}</span><span class="typed-specialty">{Array.from('Developer').map(character => <span class="type-char">{character}</span>)}<span class="typing-cursor"></span></span><span class="title-brace">{'}'}</span></em></span>{' '}<span class="hero-title-line" aria-hidden="true"><span>Engineer</span></span></h1>
@@ -80,15 +80,22 @@ import T from '../ProposalText.astro';
  .title-brace { color:var(--syntax-punctuation); }
  .hero-title-line { display:block!important; overflow:clip; padding-bottom:.08em; margin-bottom:-.08em; }
  .hero-title-line>span,.hero-title-line>em { display:inline-block; }
- .hero-mobile-portrait { display:none; }
+ .hero-portrait { display:block; position:absolute; z-index:-2; pointer-events:none; mask-image:linear-gradient(to bottom,#000 0%,#000 62%,#000b 76%,transparent 96%); }
+ .hero-portrait>div { width:100%; height:100%; background:url('/images/profile/luis-gil-cutout.webp') center top / contain no-repeat; opacity:.6; filter:contrast(.9) brightness(.85); mask-image:linear-gradient(to right,transparent 0%,#000 38%); }
+ @media(min-width:761px) {
+  .portfolio-hero { overflow:clip; margin-inline:calc((100% - 100cqw)/2); padding-inline:var(--bleed-gutter); }
+  .hero-foot { left:var(--bleed-gutter); right:var(--bleed-gutter); }
+  .hero-content { position:relative; z-index:1; max-width:66%; }
+  .hero-portrait { width:min(68vw,800px); aspect-ratio:1; top:-30px; right:-100px; }
+ }
  @media(max-width:760px) {
   .portfolio-hero { --hero-gutter:20px; margin-inline:calc(-1 * var(--hero-gutter)); padding-inline:var(--hero-gutter); overflow:clip; justify-content:flex-start; padding-top:62px; }
   .hero-foot { left:var(--hero-gutter); right:var(--hero-gutter); }
   .hero-content { position:relative; z-index:1; }
-  .hero-mobile-portrait { display:block; position:absolute; z-index:-2; width:460px; height:500px; top:-12px; right:-165px; pointer-events:none; mask-image:linear-gradient(to bottom,#000 0%,#000 62%,#000b 76%,transparent 92%); }
-  .hero-mobile-portrait>div { width:100%; height:100%; background:url('/images/profile/luis-gil-cutout.webp') center top / contain no-repeat; filter:none; opacity:.22; mask-image:linear-gradient(to right,transparent 10%,#000 65%); }
-  :global([data-theme=dark]) .hero-mobile-portrait>div { opacity:.6; filter:contrast(.9) brightness(.85); }
+  .hero-portrait { width:460px; height:500px; top:-12px; right:-165px; mask-image:linear-gradient(to bottom,#000 0%,#000 62%,#000b 76%,transparent 92%); }
+  .hero-portrait>div { opacity:.22; filter:none; mask-image:linear-gradient(to right,transparent 10%,#000 65%); }
+  :global([data-theme=dark]) .hero-portrait>div { opacity:.6; filter:contrast(.9) brightness(.85); }
  }
  @media(max-width:370px) { .portfolio-hero { --hero-gutter:16px; } }
- @media(max-width:350px) { .hero-mobile-portrait { right:-190px; } }
+ @media(max-width:350px) { .hero-portrait { right:-190px; } }
 </style>

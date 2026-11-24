@@ -120,3 +120,11 @@ The portfolio primary domain is https://luisgil.dev. The existing luisgil.org do
 Professional title updated by owner on November24,2026 to Software Developer Engineer in both locales, hero accessible name, specialty and metadata. Hero keeps three lines Software / {Developer} / Engineer, including existing typewriter entry.
 
 Contact positioning updated November24,2026: the main invitation is Hablemos de lo que sigue / Let’s talk about what’s next. Form copy explicitly includes roles and team opportunities before collaborations and projects; the example message uses a team opportunity. Avoid positioning the portfolio as limited to one-off freelance projects.
+
+## Local desktop composition experiment —November24,2026
+
+The owner requested a local-only trial removing the desktop identity panel and integrating the same color cutout portrait into the hero background, as on mobile. Desktop uses a centered main canvas, a terminal home mark in the header and a large right-side portrait with lower fade behind the particle wave. Existing mobile portrait treatment remains. This experiment is explicitly NOT authorized for publication; do not deploy or push until requested. The public site still uses the approved side-panel composition.
+
+## Approved desktop composition release —November24,2026
+
+The owner has now explicitly authorized publication of the completed local trial: no desktop side panel, hero photo and wave to the edges, full-width header background, padded desktop technology rows with lateral fades, and mobile separator that draws on scroll and retracts at top. This supersedes the local-only publication restriction for these approved changes.

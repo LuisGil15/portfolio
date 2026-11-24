@@ -195,3 +195,19 @@ At user request, hold the fully written terminal for700ms before the420ms dissol
 ### Smooth shared intro handoff —2026-11-23
 
 Replaced the420ms terminal exit with a700ms opacity transition using cubic-bezier(.4,0,.2,1). The site entrance begins120ms into the dissolve, preserving visual continuity. Button skip and automatic completion use one idempotent reveal path; skipped typing stops immediately and repeated clicks do not restart it. Escape/Tab dismiss the layer immediately but preserve the site entrance. Reduced motion and safety bypass retain static access. Lifecycle regression tests exercise handoff ordering, repeated skip, interruption and preference changes.
+
+### Local desktop background portrait experiment —2026-11-24
+
+Local-only: remove identity aside, center content within1440px, move terminal home mark into desktop nav. Share the mobile portrait asset on desktop at min(68vw,800px), right cropped and bottom masked; square aspect ratio keeps fading tied to image size at narrow desktop widths. Mobile dimensions and opacity retained. No animation logic changes. Publication and push explicitly withheld.
+
+### Local desktop edge-to-edge visuals —2026-11-24
+
+Extend the local no-sidebar trial with the mobile full-bleed treatment: hero portrait and wave, stack logo tracks, and sticky header background reach the viewport edges. Text and controls remain aligned to the centered1352px content measure, with44px desktop/28px narrow-desktop gutters. Body inline-size query units measure available width without including scrollbar space; mobile rules retained. Still local only; no deployment or push.
+
+### Local desktop stack margin and fade refinement —2026-11-24
+
+At owner request, technologies returns to the centered content padding on desktop. Only the moving logo window receives a36–88px transparent-to-opaque mask on each side; pause control, title and categories remain unmasked. Reduced-motion static grid has no mask. Mobile remains edge-to-edge. This supersedes the prior full-bleed stack experiment; hero and header remain full width. Local only.
+
+### Local mobile header separator —2026-11-24
+
+Remove the permanent mobile header border. After16px scroll, a1px center-origin line draws outward over540ms and remains steady; at2px or less it retracts inward over320ms. A finite cyan/ink glint fades during each state change, softer on exit. CSS transitions reverse from the current scale; glint animations cancel before retargeting. Scroll work shares the existing requestAnimationFrame nav update. Desktop unchanged. Reduced-motion uses an instant state line without glint. Still local only.

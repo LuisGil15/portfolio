@@ -98,6 +98,12 @@ const groups = [
  .skills-categories dt::after { content:': '; }
  .skills-categories dd { margin:0; color:var(--muted); }
  @media(min-width:1500px) { .skills-layout { gap:50px; }.technology-marks figure { min-height:144px; }.technology-marks img { width:52px; height:52px; }.skills-categories>div { font-size:15px; } }
+ @media(min-width:761px) {
+  .skills-window { --edge-fade:clamp(36px,6vw,88px); mask-image:linear-gradient(to right,transparent,#000 var(--edge-fade),#000 calc(100% - var(--edge-fade)),transparent); }
+ }
+ @media(min-width:761px) and (prefers-reduced-motion:reduce) {
+  .skills-window { mask-image:none; }
+ }
  @media(max-width:1150px) { .skills-layout { grid-template-columns:1fr; gap:34px; }.skills-marquee { max-width:none; }.skills-categories { border-left:0; border-top:1px solid var(--line); padding:30px 0 0; grid-template-columns:repeat(2,minmax(0,1fr)); gap:25px; }.developer-stack h2 { margin-bottom:44px; } }
  @media(max-width:760px) { .developer-stack { --stack-gutter:20px; padding:65px var(--stack-gutter); margin-inline:calc(-1 * var(--stack-gutter)); }.skills-marquee { width:calc(100% + 2 * var(--stack-gutter)); max-width:none; margin-inline:calc(-1 * var(--stack-gutter)); }.skills-layout { margin-bottom:30px; }.skills-track { animation-duration:42s; }.reverse-track { animation-duration:49s; }.technology-marks li { width:max(88px,calc((100cqi - 42px)/4)); }.skills-orbits { width:150px; height:150px; right:-50px; top:25px; }.technology-marks figure { min-height:105px; padding:17px 4px 14px; gap:12px; border-radius:12px; }.technology-marks img { width:35px; height:35px; }.technology-marks figcaption { font-size:9px; }.skills-categories { grid-template-columns:1fr; gap:20px; }.skills-categories>div { font-size:13px; } }
  @media(max-width:370px) { .developer-stack { --stack-gutter:16px; }.technology-marks figure { min-height:91px; }.technology-marks img { width:30px; height:30px; }.technology-marks figcaption { font-size:8px; } }

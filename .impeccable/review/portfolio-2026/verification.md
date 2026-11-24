@@ -241,3 +241,17 @@ Updated title to Software Developer Engineer as requested, retaining three-line 
 ### Contact opportunities —2026-11-24
 
 Contact headline, form invitation and example message now include team roles and collaborations alongside projects. Both locales updated. Build13routes passed; desktop1280 and mobile390 captures checked in contact-opportunities/, no mobile horizontal overflow. Published79205bb asCloudflare4be034b5-65b6-4277-954b-9f42756ad882; public/es/#contact verified with new text and screenshot. Mail draft behavior unchanged.
+
+### Local no-sidebar trial —2026-11-24
+
+Explicitly local only, no deployment or push. Desktop identity aside removed; centered main layout and right hero background portrait with size-relative fade. IAB1280,1440,820 and390 checked, no horizontal overflow, mobile portrait500px and desktop mark hidden on mobile. Narrow desktop fade corrected to image aspect ratio. Existing nav and content retained; footer socials remain. Build13routes passed. Both localhost4322 and4321 serve the trial; screenshots no-sidebar-local/.
+
+### Local full-bleed desktop —2026-11-24
+
+Hero, header background, stack and marquee verified at x0 to viewport width at1280,1920,820 and390. Text remains on centered gutters; no horizontal overflow. Initial boot overlay verified at viewport size despite body inline-size containment. Build13routes passed. Screenshots desktop-full-bleed-local/. Viewport reset. No publish, commit or push.
+
+Desktop stack padding/fade checked locally at1280: moving window x44–1236, lateral mask76.8px, no horizontal overflow; screenshot stack-padded-fade-local/desktop.jpg. Build13routes passed. No deployment or push.
+
+### Local mobile separator motion —2026-11-24
+
+Build13routes passed. IAB390×844 native scroll captures show topborder0 and scale0, enter scale0→1 with finite glint, steady line at scroll169, return-to-top scale1→0 over320ms. Rapid reversal retains intermediate scale before returning1. Evidence mobile-header-line/ includes entry/exit frames and telemetry; fresh motion reviewer disposition ship with no material fixes. Reduced-motion behavior source reviewed, not rendered; no physical iPhone/frame-rate claim. Temporary viewport reset. Explicitly local only; no deployment, commit or push.
