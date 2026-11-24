@@ -35,3 +35,7 @@ Verified desktop caption opacity 0 at rest and 1 on the hovered TypeScript tile;
 ## Experience timeline
 
 Build and diff checks passed. Both official company logo images loaded. Native responsibility disclosures opened with pointer and closed with Enter; all eight existing responsibility bullets remain present. Rendered ES/dark desktop and EN/light 390px mobile without page overflow. Captures: experience-desktop.jpg, experience-mobile.jpg. No dates, employer identities or job claims were added.
+
+## Luromi Studio and Hourmeet
+
+The user confirmed their freelance studio and creator/maintainer role. Both official SVGs loaded. External links point to the supplied origins and use noopener/noreferrer. ES/dark desktop and EN/light 390px mobile inspected with no horizontal overflow. The mobile capture shows both complete headings, descriptions and links. Start dates were not supplied and are not invented. Captures: initiatives-desktop.jpg and initiatives-mobile.jpg. Build and diff checks passed.

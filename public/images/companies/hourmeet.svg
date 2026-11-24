@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Hourmeet icono claro</title>
+  <rect width="256" height="256" rx="52" fill="#FFFFFF"/>
+<g transform="translate(52 61) scale(.52)"><path fill="#101317" d="M153 0 C68 0 0 57 0 128 S68 256 153 256 L153 229 C83 230 28 185 28 128 S83 26 153 27 Z"/>
+<path fill="#101317" d="M92 81 Q88 81 88 85 L88 169 Q88 175 93 171 L118 148 L144 171 Q149 175 149 169 L149 85 Q149 81 145 81 Z"/>
+<rect x="164" y="42" width="128" height="34" rx="17" fill="#0758F5"/>
+<rect x="164" y="87" width="76" height="34" rx="17" fill="#0758F5"/>
+<rect x="164" y="132" width="128" height="34" rx="17" fill="#0758F5"/>
+<rect x="164" y="177" width="95" height="34" rx="17" fill="#0758F5"/></g>
+</svg>

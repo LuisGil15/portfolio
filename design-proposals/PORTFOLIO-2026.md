@@ -37,3 +37,7 @@ On desktop fine-pointer devices, technology names reveal only on tile hover, acc
 ## Experience timeline
 
 The user requested a timeline with company logos. `ExperienceTimeline.astro` now presents IBM (2022–present) and RESSER (2021–2022) as a reverse-chronological ordered list, with a slim connecting rail and dated nodes. Locally stored logos come from the companies' official sites; their marks retain readable fixed backgrounds across themes. Role, summary and technology stack remain visible. All eight existing responsibility bullets are preserved inside native details disclosures. The undated product collaboration remains a separate note so the timeline does not invent a period or company. At 1150px the periods move above the content on a single rail; mobile retains both logos and keyboard-operable disclosures. Both languages and themes remain supported.
+
+## Owned studio and product
+
+The user added Luromi Studio and Hourmeet, confirming ownership: Luromi is their freelance studio; Hourmeet is the platform they created and maintain. The generic product-collaboration note is replaced with two specific timeline-style entries, within a separate `#independent` group after dated employment. Ownership labels replace unknown dates. Each has its official local logo, first-person description and direct website link. Titles use h4 beneath the group's h3. Descriptions are bilingual; company marks have explicit image bounds so square SVGs do not expand the logo tile. Public assets and descriptions were read directly from the two user-provided websites.
