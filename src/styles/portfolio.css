@@ -243,3 +243,6 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
 @supports (padding-top:env(safe-area-inset-top)) {
  .portfolio-topbar { --header-chrome-extension:120px; }
 }
+
+/* Remove paint above the visual viewport; retain normal document scrolling. */
+.portfolio-viewport[data-safari-clip] { clip-path:inset(var(--portfolio-clip-top,0px) 0 0); }

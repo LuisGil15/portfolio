@@ -94,6 +94,7 @@ const { showFaq = false } = Astro.props;
   <script>
     import '../scripts/portfolio-motion';
     import '../scripts/portfolio-disclosures';
+    import '../scripts/portfolio-viewport-clip';
     import '../scripts/portfolio-safari-diagnostics';
     const navigationLinks = document.querySelectorAll<HTMLAnchorElement>('.portfolio-navigation a[href^="#"]');
     const navigationSections = [...navigationLinks].map(link => document.querySelector<HTMLElement>(link.hash)).filter((section): section is HTMLElement => Boolean(section));

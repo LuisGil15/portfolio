@@ -239,3 +239,7 @@ Both earlier approaches failed on the user's iPad. Compared the published Luromi
 ### Input-independent Safari backing and opt-in diagnostics — 2026-11-24
 
 Remove the coarse-primary-pointer gate from the120px safe-area-supported backing; a tablet must not lose the backing when its primary input is fine. An explicit safari-debug=1 query opens a local-only diagnostic panel for device confirmation; ordinary visitors see no panel. This is an unconfirmed correction for the reported physical iPad issue, with fine-pointer geometry verified and native results pending.
+
+### Clip offscreen document paint for iPad Safari — 2026-11-24
+
+Actual device evidence at scroll379 shows all header rules active but continued chrome bleed; input gating was not the cause. Add a rectangular clip to the content wrapper in iOS WebKit, removing paint above the viewport without replacing native document scroll. Header/preloader/drawer remain outside. Scroll updates use one rAF, origin is remeasured from reserved header space. Opt-in debug revisionc reports the clip. Layout/anchor/mobile checks passed with forced activation in the test engine; physical Safari confirmation and performance remain unverified.
