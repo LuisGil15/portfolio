@@ -6,11 +6,7 @@ Personal portfolio and landing pages for independent apps by Luis Gil.
 
 - `/` — portfolio home
 - `/apps/` — application index
-- `/apps/tavi/` — Tavi landing page
-- `/apps/tavi/privacy/` — Tavi privacy policy
-- `/apps/tavi/terms/` — Tavi terms of use
-- `/apps/tavi/support/` — Tavi support
-- `/apps/tavi/changelog/` — Tavi release notes
+- `/apps/tavi` and `/apps/tavi/…` — permanent redirects to [tavi.com.mx](https://tavi.com.mx/). Links on both portfolio domains preserve the document path and query string.
 
 ## Adding an app
 
@@ -34,6 +30,7 @@ npm run dev
 
 ```sh
 node scripts/test-portfolio-preloader.mjs
+node scripts/test-domain-redirect.mjs
 npm run build
 npm run cloudflare:preview
 npm run deploy

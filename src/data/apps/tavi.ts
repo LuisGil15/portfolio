@@ -1,6 +1,6 @@
 import type { AppDefinition } from "./types";
 
-const basePath = "/apps/tavi";
+const basePath = "https://tavi.com.mx";
 
 export const tavi = {
   slug: "tavi",
