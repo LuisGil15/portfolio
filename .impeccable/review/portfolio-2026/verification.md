@@ -70,3 +70,7 @@ The reveal/reset observers now have separated boundaries (inner reveal and outer
 ## Profile field labels
 
 Added semantic Specialty/Location fields with the user-supplied Jalisco location and EN/ES values. Desktop rendered with both labels, square photo, unframed social icons and no profile clipping (scrollHeight fits clientHeight). Capture: profile-labels.jpg. Build (13 routes) and diff checks passed.
+
+## Wider personal panel
+
+Desktop panel now measures 336px (previously 296px), photo 282px square (previously 242px), field text 15px (previously 13px), labels 12px and identity 28px. Rendered at 1280×720 without horizontal overflow, and at 1280×560 with profile scrollHeight fitting clientHeight after uniform portrait shrink. Header and content remain clear of the panel. Build and diff checks passed. Capture: wider-profile.jpg.
