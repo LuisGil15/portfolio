@@ -221,3 +221,5 @@ Hero secondary action published2026-11-23 from69a0d68 asCloudflare version6a2914
 ### Boot reading pause —2026-11-23
 
 Lifecycle test and build13 routes passed. Actual IAB1280 capture measured733ms from fully written final line to revealing. While held, overlayopacity1 and titletransformnone; final state ready/hidden and hero entrance running. Evidence boot-hold/sequence.json and reading-pause.jpg. Only runtime timing changed160→700ms; skip/reduced-motion/failsafe behavior unchanged.
+
+700ms boot hold published from8c0287c asCloudflare4225cc7e-4671-439d-92ee-d6e9e37021fa; public /es/ HTML confirms wait(700) and excludes old wait(160). Fresh motion review passed narrow timing change.
