@@ -15,6 +15,7 @@ const groups = [
  {en:'Back-end',es:'Back-end',items:'Java, Spring Boot, NestJS, Node.js, Python, C#, .NET'},
  {en:'Databases',es:'Bases de datos',items:'SQL, DB2, SQLite'},
  {en:'Cloud & messaging',es:'Cloud y mensajería',items:'Cloudflare, Firebase, Supabase, Kafka'},
+ {en:'Operating systems',es:'Sistemas operativos',items:'Linux, macOS, Windows'},
  {en:'Tools & workflow',es:'Herramientas de trabajo',items:'VS Code, Docker, Podman, GitHub'},
  {en:'CI/CD & infrastructure',es:'CI/CD e infraestructura',items:'Jenkins, Argo CD, Terraform'},
  {en:'AI for development',es:'IA para desarrollo',items:'Codex, Copilot, Claude, Ollama, OpenCode'},
@@ -54,13 +55,13 @@ const groups = [
  .skills-orbits[data-active=true] .orbit-satellite { animation-play-state:running; }
  @keyframes orbit-revolve { to { transform:rotate(360deg); } }
  @media(prefers-reduced-motion:reduce) { .orbit-satellite { animation:none; } }
- .skills-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); gap:38px; align-items:center; margin-bottom:42px; }
- .skills-marquee { min-width:0; container-type:inline-size; }
+ .skills-layout { display:grid; grid-template-columns:minmax(0,1fr); gap:38px; align-items:stretch; margin-bottom:42px; }
+ .skills-marquee { min-width:0; width:100%; container-type:inline-size; }
  .skills-window { overflow:hidden; display:grid; gap:22px; }
- .skills-track { display:flex; width:max-content; gap:14px; animation:skills-drift 42s linear infinite; animation-play-state:paused; }
- .reverse-track { animation-direction:reverse; animation-duration:49s; }
+ .skills-track { display:flex; width:max-content; gap:14px; animation:skills-drift 56s linear infinite; animation-play-state:paused; }
+ .reverse-track { animation-direction:reverse; animation-duration:64s; }
  .technology-marks { display:flex; gap:14px; padding:0; margin:0; list-style:none; flex-shrink:0; }
- .technology-marks li { width:max(88px,calc((100cqi - 42px)/4)); flex-shrink:0; min-width:0; }
+ .technology-marks li { width:max(88px,calc((100cqi - 84px)/7)); flex-shrink:0; min-width:0; }
  .skills-motion-toggle { display:flex; align-items:center; gap:8px; margin:18px auto 0; padding:8px 12px; background:transparent; border:1px solid var(--line); border-radius:20px; color:var(--muted); font-size:10px; min-height:36px; }
  .skills-motion-toggle:hover { color:var(--ink); border-color:var(--accent); }
  .skills-motion-toggle svg { width:14px; height:14px; }
@@ -89,16 +90,16 @@ const groups = [
   .technology-marks figure:hover figcaption,.skills-marquee:focus-within figcaption { opacity:1; transform:none; }
   .technology-marks figure:hover img,.skills-marquee:focus-within .technology-marks img { transform:none; }
  }
- .skills-categories { margin:0; padding:4px 0 4px 34px; border-left:1px solid var(--line); display:grid; gap:24px; }
+ .skills-categories { margin:0; padding:30px 0 0; border-top:1px solid var(--line); display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 48px; }
  .skills-categories>div { position:relative; padding-left:15px; font-size:13px; line-height:1.9; }
  .skills-categories>div::before { content:''; position:absolute; top:10px; left:0; width:4px; height:4px; border-radius:50%; background:var(--accent); }
  .skills-categories dt,.skills-categories dd { display:inline; }
  .skills-categories dt { font-weight:550; color:var(--ink); }
  .skills-categories dt::after { content:': '; }
  .skills-categories dd { margin:0; color:var(--muted); }
- @media(min-width:1500px) { .skills-layout { gap:50px; }.technology-marks figure { min-height:144px; }.technology-marks img { width:52px; height:52px; }.skills-categories { padding-left:40px; }.skills-categories>div { font-size:15px; } }
- @media(max-width:1150px) { .skills-layout { grid-template-columns:1fr; gap:34px; }.skills-marquee { max-width:500px; width:100%; margin:0 auto; }.skills-categories { border-left:0; border-top:1px solid var(--line); padding:30px 0 0; grid-template-columns:repeat(2,minmax(0,1fr)); gap:25px; }.developer-stack h2 { margin-bottom:44px; } }
- @media(max-width:760px) { .developer-stack { --stack-gutter:20px; padding:65px var(--stack-gutter); margin-inline:calc(-1 * var(--stack-gutter)); }.skills-marquee { width:calc(100% + 2 * var(--stack-gutter)); max-width:none; margin-inline:calc(-1 * var(--stack-gutter)); }.skills-layout { margin-bottom:30px; }.skills-orbits { width:150px; height:150px; right:-50px; top:25px; }.technology-marks figure { min-height:105px; padding:17px 4px 14px; gap:12px; border-radius:12px; }.technology-marks img { width:35px; height:35px; }.technology-marks figcaption { font-size:9px; }.skills-categories { grid-template-columns:1fr; gap:20px; }.skills-categories>div { font-size:13px; } }
+ @media(min-width:1500px) { .skills-layout { gap:50px; }.technology-marks figure { min-height:144px; }.technology-marks img { width:52px; height:52px; }.skills-categories>div { font-size:15px; } }
+ @media(max-width:1150px) { .skills-layout { grid-template-columns:1fr; gap:34px; }.skills-marquee { max-width:none; }.skills-categories { border-left:0; border-top:1px solid var(--line); padding:30px 0 0; grid-template-columns:repeat(2,minmax(0,1fr)); gap:25px; }.developer-stack h2 { margin-bottom:44px; } }
+ @media(max-width:760px) { .developer-stack { --stack-gutter:20px; padding:65px var(--stack-gutter); margin-inline:calc(-1 * var(--stack-gutter)); }.skills-marquee { width:calc(100% + 2 * var(--stack-gutter)); max-width:none; margin-inline:calc(-1 * var(--stack-gutter)); }.skills-layout { margin-bottom:30px; }.skills-track { animation-duration:42s; }.reverse-track { animation-duration:49s; }.technology-marks li { width:max(88px,calc((100cqi - 42px)/4)); }.skills-orbits { width:150px; height:150px; right:-50px; top:25px; }.technology-marks figure { min-height:105px; padding:17px 4px 14px; gap:12px; border-radius:12px; }.technology-marks img { width:35px; height:35px; }.technology-marks figcaption { font-size:9px; }.skills-categories { grid-template-columns:1fr; gap:20px; }.skills-categories>div { font-size:13px; } }
  @media(max-width:370px) { .developer-stack { --stack-gutter:16px; }.technology-marks figure { min-height:91px; }.technology-marks img { width:30px; height:30px; }.technology-marks figcaption { font-size:8px; } }
 </style>
 

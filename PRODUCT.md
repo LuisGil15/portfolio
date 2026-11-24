@@ -96,3 +96,7 @@ Academic facts subsequently confirmed by the user: CETI · Colomos attendance201
 ### Security, delivery and AI tooling — November23,2026
 
 User clarified 2FA (not F2F) and approved separating Security/authentication from HTTP/REST API integration. Security lists TLS/mTLS,2FA,Keychain and existing vulnerability-remediation experience. User chose to omit additional suggested security keywords. User also supplied Jenkins,Argo CD,Terraform and Codex,Copilot,Claude,Ollama,OpenCode. Group delivery tools under CI/CD & infrastructure and assistants/local AI tooling under AI for development. These indicate workflow tools, not AI model-development specialization. User confirmed the exact names OpenCode and Argo CD.
+
+### Operating systems and transferable experience — November23,2026
+
+User confirmed Linux,macOS and Windows as operating systems they have worked with. Listed as Operating systems/Sistemas operativos in the stack. User requested a broader professional narrative: summaries now connect product development, systems integration,automation,security and team tooling, while existing role dates, employer names and technical examples remain. Role subtitles describe scope rather than asserting new formal titles or promotions. No invented metrics or leadership claims.

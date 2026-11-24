@@ -179,3 +179,7 @@ Stack headline is Technologies & tools / Tecnologías y herramientas. Added Nest
 ### Additional stack groups —2026-11-23
 
 Security/authentication is separate from API integration;2FA uses the user-corrected term and existing vulnerability remediation is localized. CI/CD & infrastructure contains Jenkins,Argo CD,Terraform. AI for development contains Codex,Copilot,Claude,Ollama,OpenCode. No new speculative application-security keywords or employer-specific public copy added.
+
+### Full-width stack composition —2026-11-23
+
+User proposed full-width logo rows above two text columns for desktop. Implemented a single-column section scaffold: two seven-mark tracks spanning the content width, followed by the categorized definition list in two equal columns. Mobile keeps one text column and edge-to-edge four-card scale. Logical logo repeats stay at least the viewport width to avoid gaps; desktop travel periods56/64s and mobile42/49s retain a restrained pace. Added Linux,macOS,Windows category. Experience summaries now foreground transferable product/system capabilities; detailed technology evidence stays in native disclosures.

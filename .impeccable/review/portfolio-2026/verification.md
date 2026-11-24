@@ -203,3 +203,7 @@ Build13 routes passed; diff whitespace check passed. IAB390 shows new NestJS/Sup
 ### Security,CI/CD and AI tool groups —2026-11-23
 
 Build13 routes passed. Security/authentication now separate from API integration, includes user-confirmed2FA and existing mTLS/Keychain/vulnerability-remediation experience. No suggested unconfirmed security topics added. CI/CD contains Jenkins,Argo CD,Terraform; AI workflow contains Codex,Copilot,Claude,Ollama,OpenCode (last names confirmed by user). IAB390 category view has10 groups and document width390; desktop1440 reviewed. Both languages retain the same tool names.
+
+### Wide stack and broader experience —2026-11-23
+
+Build13 routes and diff whitespace check passed. IAB1440: logo window976px, repeat975.95px, categories below (logo bottom601.75, categories top693.75), two464px text columns. No horizontal page overflow. At320: logo window320, category single column288, page width320. Added operating systems Linux,macOS,Windows. Mobile390 reviewed broader experience copy; keyboard expands IBM details and retains mTLS example. English intro verified through language switch. No console errors. Evidence stack-wide-desktop/mobile and experience-broader-mobile.jpg.
