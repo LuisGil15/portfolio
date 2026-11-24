@@ -175,3 +175,7 @@ Build13 routes passed. At390px, filter buttons share one top coordinate, scrolla
 ### Disclosure animation — 2026-11-23
 
 IAB390×844 native click capture: Umbral details outer height34→90.39, content0→56.39; close returns outer box to34 after220ms. Native closing child still reports intrinsic size once hidden: native open state and outer region confirm actual collapse. Rapid open/close/open ends expanded; Enter closes immediately with overflow cleared. IBM responsibility list opens at natural height; resize during collapse settles closed, desktop Enter reopens instantly. No console errors. Fresh motion reviewer approved source and valid native capture evidence. Reduced-motion runtime emulation and actual iPhone performance remain unverified; reduced-motion guards reviewed in source. Evidence in disclosures/.
+
+### Simplified contact —2026-11-23
+
+Changed About/experience/email-display/optionalFAQ contact links to #contact-form, a focusable native fragment target with sticky-header scroll clearance. Removed email field and email body row; name and optional subject share a desktop row. Tested draft helper with Unicode, ampersand, multiline message, stripped subject newline and default subject. CUA mobile: About CTA reaches form, synthetic name/message generates correct mailto draft with no sender email; editing clears stale draft; English/Spanish placeholder changes correctly. Final email-app link was inspected only, not opened. No message sent.
