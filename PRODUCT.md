@@ -50,3 +50,5 @@ Latest portfolio refinement: the photo stays square, social icons have no circle
 The personal panel labels the role as Specialty / Especialidad and the user-supplied location as Location / Localidad: Jalisco, Mexico (Jalisco, México in Spanish).
 
 The user approved Senior Full Stack Developer as their hero title. It replaces the earlier software-with-purpose headline; the name appears between decorative developer tags. Full Stack reveals character by character on entry with fixed character layout, while the complete title remains accessible.
+
+The user supplied personal Instagram, Threads and X URLs for @luisgildev and requested Facebook removal. Both profile and contact now link GitHub, LinkedIn, Instagram, Threads and X. Tracking query parameters were omitted from the supplied URLs. No social placeholders remain.

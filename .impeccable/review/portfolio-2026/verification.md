@@ -98,3 +98,7 @@ Removed repeated arrow SVGs from calls to action and retained exactly one direct
 ## Unified header controls
 
 Both utility buttons measured 44×44px with 50% radius and transparent backgrounds. Language/theme/contact DOM order matches visual order. Exercised both theme and language and restored ES/dark. Desktop and 390px mobile rendered without horizontal overflow; viewport reset afterward. Build and diff checks passed. Capture: header-controls-unified.jpg.
+
+## Personal social URLs
+
+Build and diff checks passed. Parsed generated Spanish HTML: five networks appear as links in each of the two placements; all supplied Instagram/Threads/X destinations match their cleaned paths, with target=_blank and noopener/noreferrer. Facebook is absent from both lists. No external profile availability check was performed.
