@@ -31,10 +31,11 @@ const defaultSocialCardAlt = socialImageAlt ?? (
 const socialCardAlt = spanish && socialImageAltEs ? socialImageAltEs : defaultSocialCardAlt;
 ---
 <!doctype html>
-<html lang={spanish ? "es" : "en"} data-theme={defaultTheme} data-theme-scope={themeScope} data-fixed-theme={fixedTheme}>
+<html lang={spanish ? "es" : "en"} data-theme={defaultTheme} data-theme-scope={themeScope} data-page-theme={theme} data-fixed-theme={fixedTheme}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content={theme === 'portfolio' ? 'width=device-width, initial-scale=1, viewport-fit=cover' : 'width=device-width, initial-scale=1'} />
+    {theme === 'portfolio' && <meta name="theme-color" content="#080b10" />}
     <meta name="description" content={pageDescription} />
     {preview && <meta name="robots" content="noindex, nofollow" />}
     <script is:inline>

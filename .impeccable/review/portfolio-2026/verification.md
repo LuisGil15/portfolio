@@ -275,3 +275,11 @@ Social wave strengthened and published2026-11-24 from9b39fab asCloudflare777aabc
 Social layout tightened2026-11-24: text+64px and portrait−130px toward center, opacity68% retained. Individual glyph paths fix shifted-coordinate raster artifacts. Visually inspected PNG, build13routes passed. Source68974f6 published asCloudflare42c188ce-383c-4737-a402-b9208e45e703; public/es/ image?v=4 metadata and exact PNG bytes verified. No Git push performed.
 
 Preferred social spacing restored2026-11-24 from4991161 asCloudflarec2d2e3a5-0a71-4422-b44c-3543502676ce. Text64px/portrait580px restored, wave and68% opacity retained. Visual inspection/build13routes passed; public/es/ metadata?v=5 and exact PNG bytes verified. No Git push performed.
+
+## Header desktop y superficie de Safari — 2026-11-24
+
+El separador y su destello comparten ahora la misma implementación en móvil y escritorio: 320 ms de apertura/cierre, escala desde el centro e histéresis de scroll existente. La preferencia de movimiento reducido elimina la transición y el destello en ambos tamaños.
+
+Safari dispone de una superficie opaca fija pegada al borde superior, fuera del contenedor de consultas de tamaño. El portfolio usa `viewport-fit=cover`, insets seguros y fondo raíz oscuro; las otras páginas mantienen su viewport anterior. Referencias primarias: https://bugs.webkit.org/show_bug.cgi?id=301756#c2 y https://webkit.org/blog/7929/designing-websites-for-iphone-x/ .
+
+Comprobaciones: build de las 13 rutas, pruebas del preloader y redirección, y diff sin errores. CUA a 1280 px registra apertura de escala 0 a 1 y regreso de 1 a 0, con destello intermedio y reposo sin opacidad; muestras en `header-desktop-safari/desktop-opening.json` y `desktop-closing.json`. A 390 px, header pegado a y=0 y cero overflow horizontal. Safari real de macOS comprobado al desplazar la página: la zona superior permanece oscura y opaca. Evidencia `safari-page.jpg` recortada para excluir las pestañas ajenas. No se verificó el modo de movimiento reducido en ejecución ni el dispositivo físico de la foto del usuario; no se atribuyen medidas de rendimiento a esas condiciones.

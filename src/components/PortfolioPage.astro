@@ -18,6 +18,8 @@ const { showFaq = false } = Astro.props;
 ---
 <Layout title="Luis Gil — Software Developer Engineer" description="Software Developer Engineer and independent product creator. Web platforms, native apps and backend systems. Creator of Hourmeet and founder of Luromi Studio." titleEs="Luis Gil — Software Developer Engineer" descriptionEs="Software Developer Engineer y creador de productos independientes. Plataformas web, apps nativas y sistemas backend. Creador de Hourmeet y fundador de Luromi Studio." socialImage="/images/social/portfolio-2026.png?v=5" socialImageAlt="Luis Gil — Software Developer Engineer. Backend, web and native apps." socialImageAltEs="Luis Gil — Software Developer Engineer. Backend, web y apps nativas." theme="portfolio" initialTheme="dark" fixedTheme="dark">
   <PortfolioPreloader/>
+  <div class="viewport-header-surface" aria-hidden="true"></div>
+  <div class="portfolio-viewport">
   <main id="content">
     <header class="portfolio-topbar" data-menu-open="false">
       <span class="header-divider" aria-hidden="true"><span class="header-divider-glint"></span></span>
@@ -88,6 +90,7 @@ const { showFaq = false } = Astro.props;
     <SupportLinks/>
     <footer><SocialLinks/><div class="footer-meta"><span>Luis Gil © 2026</span></div></footer>
   </main>
+  </div>
   <script>
     import '../scripts/portfolio-motion';
     import '../scripts/portfolio-disclosures';
@@ -130,7 +133,7 @@ const { showFaq = false } = Astro.props;
       if (!headerGlint) return;
       const opacity = getComputedStyle(headerGlint).opacity;
       headerGlintAnimation?.cancel();
-      if (!mobileBreakpoint.matches || headerReducedMotion.matches) return;
+      if (headerReducedMotion.matches) return;
       headerGlintAnimation = headerGlint.animate([
         {opacity}, {opacity:next ? .8 : .35,offset:.5}, {opacity:0},
       ], {duration:320,easing:'cubic-bezier(.4,0,.6,1)'});

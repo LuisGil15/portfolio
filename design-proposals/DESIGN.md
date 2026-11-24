@@ -357,3 +357,7 @@ Social sharing extends each approved visual world into a dedicated 1200×630 com
 - Don't restore the superseded purple portfolio identity.
 - Don't imply that the local request simulation is a live API or the native application.
 - Don't invent customers, usage statistics, prices, testimonials, or release claims.
+
+### Portfolio: borde del header y Safari
+
+El borde inferior responde al scroll en todos los tamaños: se dibuja del centro a los extremos y se retrae al volver al inicio, con 320 ms en ambos sentidos y un destello finito. El estado usa umbrales distintos de entrada/salida para evitar oscilaciones cerca del top. Con movimiento reducido, el borde cambia directamente sin destello. Una superficie superior fija y opaca, situada fuera del contenedor de tamaño del contenido, permite que Safari prolongue el fondo oscuro bajo su interfaz; el header conserva espacio para los insets seguros. Referencias y límites de verificación en `.impeccable/review/portfolio-2026/verification.md`.
