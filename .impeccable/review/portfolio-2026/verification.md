@@ -171,3 +171,7 @@ At 390px opening the menu focuses drawer-title; Close has outline-style:none. Pr
 ### Gallery filters, card actions and Luromi logo — 2026-11-23
 
 Build13 routes passed. At390px, filter buttons share one top coordinate, scrollable width486/client390 and document width390. Keyboard Enter on offscreen Experiments scrolls row to96 and shows2 projects; Web filter shows Hourmeet/Luromi only. Visual capture confirms filled/bordered card action and official white/blue Luromi symbol. Public source asset: https://luromistudio.com.mx/favicon.svg.
+
+### Disclosure animation — 2026-11-23
+
+IAB390×844 native click capture: Umbral details outer height34→90.39, content0→56.39; close returns outer box to34 after220ms. Native closing child still reports intrinsic size once hidden: native open state and outer region confirm actual collapse. Rapid open/close/open ends expanded; Enter closes immediately with overflow cleared. IBM responsibility list opens at natural height; resize during collapse settles closed, desktop Enter reopens instantly. No console errors. Fresh motion reviewer approved source and valid native capture evidence. Reduced-motion runtime emulation and actual iPhone performance remain unverified; reduced-motion guards reviewed in source. Evidence in disclosures/.

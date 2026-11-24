@@ -201,3 +201,11 @@ html[data-theme=dark] .portfolio .project .open-project:hover { background:var(-
  .filters button { flex:0 0 auto; white-space:nowrap; min-height:44px; scroll-snap-align:start; }
 }
 @media(max-width:370px) { .filters { --filter-gutter:16px; } }
+
+/* Native disclosures: one measured region, independent of section entrances. */
+.disclosure-content { display:flow-root; }
+.motion-disclosure>summary { list-style:none; }
+.motion-disclosure>summary::-webkit-details-marker { display:none; }
+.motion-disclosure>summary::before { content:''; display:inline-block; width:7px; height:7px; margin-right:10px; border-right:1.5px solid currentColor; border-bottom:1.5px solid currentColor; transform:rotate(-45deg); vertical-align:.1em; }
+.motion-disclosure[data-expanded=true]>summary::before { transform:rotate(45deg); }
+@media(prefers-reduced-motion:no-preference) { .motion-disclosure:not([data-instant])>summary::before { transition:transform 220ms cubic-bezier(.22,.8,.25,1); } }
