@@ -1,13 +1,54 @@
 ---
 import T from '../ProposalText.astro';
+const technologies = [
+ {id:'swift',name:'Swift'}, {id:'react',name:'React'},
+ {id:'typescript',name:'TypeScript'}, {id:'nodejs',name:'Node.js'},
+ {id:'java',name:'Java'}, {id:'python',name:'Python'},
+ {id:'firebase',name:'Firebase'}, {id:'astro',name:'Astro'},
+];
 const groups = [
- {en:'Native & mobile',es:'Nativo y móvil',code:'app',items:['SwiftUI','macOS','iPadOS','React Native'], enText:'Interfaces that belong on the devices we use.',esText:'Interfaces que se sienten en casa en cada dispositivo.'},
- {en:'Backend & data',es:'Backend y datos',code:'api',items:['Java','Spring Boot','Kafka','Python','SQL','DB2','C# / .NET'],enText:'Services, asynchronous processes and the data behind them.',esText:'Servicios, procesos asíncronos y los datos que los sostienen.'},
- {en:'Web & cloud',es:'Web y cloud',code:'web',items:['TypeScript','JavaScript','Node.js','Astro','Cloudflare','Firebase'],enText:'From the browser interface to the infrastructure behind it.',esText:'De la interfaz en el navegador a la infraestructura que hay detrás.'},
+ {en:'Native & mobile',es:'Nativo y móvil',items:'SwiftUI, macOS, iPadOS, React Native'},
+ {en:'Front-end',es:'Front-end',items:'Astro, React, TypeScript, JavaScript'},
+ {en:'Back-end',es:'Back-end',items:'Java, Spring Boot, Node.js, Python, C#, .NET'},
+ {en:'Databases',es:'Bases de datos',items:'SQL, DB2, SQLite'},
+ {en:'Cloud & messaging',es:'Cloud y mensajería',items:'Cloudflare, Firebase, Kafka'},
+ {en:'APIs & security',es:'APIs y seguridad',items:'REST APIs, mTLS, Keychain'},
 ];
 ---
 <section id="stack" class="developer-stack" aria-labelledby="stack-title">
- <div class="section-heading"><T as="h2" id="stack-title" en="Different layers.&#10;One connected vision." es="Distintas capas.&#10;Una visión conectada."/><T as="p" en="The tools change. The curiosity stays." es="Las herramientas cambian. La curiosidad permanece."/></div>
- <div class="stack-list">{groups.map(group => <article><code aria-hidden="true">{`{ ${group.code} }`}</code><div><T as="h3" en={group.en} es={group.es}/><T as="p" en={group.enText} es={group.esText}/><ul aria-label={group.en}>{group.items.map(item=><li>{item}</li>)}</ul></div></article>)}</div>
+ <svg class="skills-orbits" viewBox="0 0 240 240" aria-hidden="true"><circle cx="155" cy="85" r="122"/><circle cx="155" cy="85" r="87"/><circle cx="155" cy="85" r="54"/><circle class="orbit-point" cx="101" cy="85" r="5"/><circle class="orbit-point" cx="198" cy="160" r="5"/></svg>
+ <h2 id="stack-title"><T en="My skills" es="Mis habilidades"/></h2>
+ <div class="skills-layout">
+  <ul class="technology-marks" aria-label="Technologies">
+   {technologies.map(technology => <li><figure><img class:list={{"light-logo": technology.id === "astro"}} src={`/images/technologies/${technology.id}.svg`} width="52" height="52" alt="" loading="lazy" decoding="async"/>{technology.id === "astro" && <img class="dark-logo" src="/images/technologies/astro-dark.svg" width="52" height="52" alt="" loading="lazy" decoding="async"/>}<figcaption>{technology.name}</figcaption></figure></li>)}
+  </ul>
+  <dl class="skills-categories">{groups.map(group => <div><dt><T en={group.en} es={group.es}/></dt><dd>{group.items}</dd></div>)}</dl>
+ </div>
  <a class="github-line" href="https://github.com/LuisGil15"><span><strong>GitHub</strong><T en="Explore my public repositories and experiments." es="Explora mis repositorios públicos y experimentos."/></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
 </section>
+<style>
+ .developer-stack { position:relative; isolation:isolate; padding:100px 0; overflow:clip; }
+ .developer-stack h2 { text-align:center; font-size:clamp(32px,3.1vw,48px); line-height:1.18; font-weight:500; margin:0 0 62px; }
+ .skills-orbits { position:absolute; right:-65px; top:18px; width:210px; height:210px; z-index:-1; fill:none; stroke:var(--accent); stroke-width:.7; opacity:.25; pointer-events:none; }
+ .skills-orbits .orbit-point { fill:var(--accent); stroke:none; }
+ .skills-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); gap:38px; align-items:center; margin-bottom:42px; }
+ .technology-marks { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:22px 14px; padding:0; margin:0; list-style:none; }
+ .technology-marks li { min-width:0; }
+ .technology-marks figure { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:17px; padding:22px 5px 17px; min-height:124px; border:1px solid var(--line); border-radius:14px; }
+ .technology-marks img { width:44px; height:44px; object-fit:contain; }
+ .dark-logo { display:none; }
+ :global([data-theme=dark]) .light-logo { display:none; }
+ :global([data-theme=dark]) .dark-logo { display:block; }
+ .technology-marks figcaption { font-size:10px; color:var(--muted); line-height:1.4; }
+ .skills-categories { margin:0; padding:4px 0 4px 34px; border-left:1px solid var(--line); display:grid; gap:24px; }
+ .skills-categories>div { position:relative; padding-left:15px; font-size:13px; line-height:1.9; }
+ .skills-categories>div::before { content:''; position:absolute; top:10px; left:0; width:4px; height:4px; border-radius:50%; background:var(--accent); }
+ .skills-categories dt,.skills-categories dd { display:inline; }
+ .skills-categories dt { font-weight:550; color:var(--ink); }
+ .skills-categories dt::after { content:': '; }
+ .skills-categories dd { margin:0; color:var(--muted); }
+ @media(min-width:1500px) { .skills-layout { gap:50px; }.technology-marks { gap:24px 18px; }.technology-marks figure { min-height:144px; }.technology-marks img { width:52px; height:52px; }.skills-categories { padding-left:40px; }.skills-categories>div { font-size:15px; } }
+ @media(max-width:1150px) { .skills-layout { grid-template-columns:1fr; gap:34px; }.technology-marks { max-width:500px; width:100%; margin:0 auto; }.skills-categories { border-left:0; border-top:1px solid var(--line); padding:30px 0 0; grid-template-columns:repeat(2,minmax(0,1fr)); gap:25px; }.developer-stack h2 { margin-bottom:44px; } }
+ @media(max-width:760px) { .developer-stack { padding:65px 0; }.skills-layout { margin-bottom:30px; }.skills-orbits { width:150px; height:150px; right:-50px; top:25px; }.technology-marks { gap:12px; }.technology-marks figure { min-height:105px; padding:17px 4px 14px; gap:12px; border-radius:12px; }.technology-marks img { width:35px; height:35px; }.technology-marks figcaption { font-size:9px; }.skills-categories { grid-template-columns:1fr; gap:20px; }.skills-categories>div { font-size:13px; } }
+ @media(max-width:370px) { .technology-marks { gap:8px; }.technology-marks figure { min-height:91px; }.technology-marks img { width:30px; height:30px; }.technology-marks figcaption { font-size:8px; } }
+</style>

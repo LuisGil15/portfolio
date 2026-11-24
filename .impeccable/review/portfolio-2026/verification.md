@@ -16,3 +16,10 @@ Branch: `feat/portfolio-braxton-zelio`.
 The social image was rendered from its retained SVG with the already-installed Sharp dependency after macOS sips could not decode the SVG in this environment. No new package dependency was introduced.
 
 Local implementation only. No push, merge, deployment, template purchase or download.
+
+## Skills section follow-up
+
+- Updated the existing stack section to follow the user's image reference, with eight local SVG marks and six real technology groups.
+- All visible marks loaded; dark/light Astro mark variants checked.
+- Rendered ES/dark at 390px and EN/light at 1440px with no horizontal overflow. Language and theme controls checked; no captured browser warnings/errors.
+- Retained screenshots: skills-desktop.jpg and skills-mobile.jpg.

@@ -25,3 +25,7 @@ Theme defaults to dark only when there is no saved portfolio preference. The opt
 ## Verification
 
 Build and rendered interaction checks are recorded in the implementation handoff. Local changes do not imply publication, a push or a merge. The older `DESIGN.md` frontmatter and `.impeccable/design.json` portfolio tokens are historical; this document and the stylesheet own the replacement portfolio world. Tavi and MiniTools retain their existing authority.
+
+## Skills section — reference-led update
+
+The user supplied Zelio's skills section as a new reference. The existing `#stack` section now has a centered bilingual heading, eight locally hosted Devicon technology marks on the left and six semantic definition-list categories on the right. The 1px vertical divider becomes a horizontal divider at narrower widths. A static orbital motif echoes the reference without continuous motion. At 760px the categories form a single column while the marks retain four compact columns. Brand marks have visible captions and decorative empty image alt text. Astro has a light mark variant for dark surfaces. The supplied example's technologies are not treated as personal experience; categories use the repository's existing factual stack.
