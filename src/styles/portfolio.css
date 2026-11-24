@@ -121,7 +121,7 @@ html[data-motion=paused] { scroll-behavior:auto; }
  .portfolio-topbar { --header-gutter:20px; display:block; margin-inline:calc(-1 * var(--header-gutter)); padding:10px var(--header-gutter); border-bottom:0; }
  .header-divider { display:block; position:absolute; inset:auto 0 0; height:1px; background:var(--line); transform:scaleX(0); transform-origin:center; pointer-events:none; }
  .portfolio-topbar[data-edge-ready] .header-divider { transition:transform 320ms cubic-bezier(.4,0,.6,1); }
- .portfolio-topbar[data-scrolled=true] .header-divider { transform:scaleX(1); transition-duration:540ms; transition-timing-function:cubic-bezier(.22,1,.36,1); }
+ .portfolio-topbar[data-scrolled=true] .header-divider { transform:scaleX(1); }
  .header-divider-glint { position:absolute; inset:0; opacity:0; background:linear-gradient(to right,transparent,var(--syntax-punctuation) 30%,var(--ink) 50%,var(--syntax-punctuation) 70%,transparent); }
  .mobile-header { display:flex; align-items:center; justify-content:space-between; gap:8px; }
  .portfolio-topbar .mobile-brand { display:flex; align-items:center; justify-content:flex-start; gap:7px; padding:0; border:0; border-radius:0; font-size:18px; font-weight:600; letter-spacing:-.035em; }

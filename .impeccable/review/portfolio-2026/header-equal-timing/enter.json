@@ -1,0 +1,119 @@
+[
+  {
+    "t": 1795528196443,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(0, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196512,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0.129079",
+    "scale": "matrix(0.0806745, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196576,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0.566764",
+    "scale": "matrix(0.354227, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196647,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0.479144",
+    "scale": "matrix(0.700535, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196720,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0.0610793",
+    "scale": "matrix(0.961825, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196769,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196839,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196884,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528196931,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528197000,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528197048,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528197094,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  },
+  {
+    "t": 1795528197141,
+    "duration": "0.32s",
+    "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+    "glint": "0",
+    "scale": "matrix(1, 0, 0, 1, 0, 0)",
+    "state": "true",
+    "y": 169
+  }
+]

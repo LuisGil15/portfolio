@@ -211,3 +211,7 @@ At owner request, technologies returns to the centered content padding on deskto
 ### Local mobile header separator —2026-11-24
 
 Remove the permanent mobile header border. After16px scroll, a1px center-origin line draws outward over540ms and remains steady; at2px or less it retracts inward over320ms. A finite cyan/ink glint fades during each state change, softer on exit. CSS transitions reverse from the current scale; glint animations cancel before retargeting. Scroll work shares the existing requestAnimationFrame nav update. Desktop unchanged. Reduced-motion uses an instant state line without glint. Still local only.
+
+### Symmetric mobile separator timing —2026-11-24
+
+Owner prefers the closing motion. Both directions now use the closing320ms cubic-bezier(.4,0,.6,1) curve; remove the fast-start entrance override. Glint uses the same320ms curve and peaks at the midpoint so the visible draw carries the flash. State thresholds, reversal and reduced-motion paths unchanged.

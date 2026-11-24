@@ -132,8 +132,8 @@ const { showFaq = false } = Astro.props;
       headerGlintAnimation?.cancel();
       if (!mobileBreakpoint.matches || headerReducedMotion.matches) return;
       headerGlintAnimation = headerGlint.animate([
-        {opacity}, {opacity:next ? .8 : .35,offset:.2}, {opacity:0},
-      ], {duration:next ? 540 : 320,easing:'cubic-bezier(.22,1,.36,1)'});
+        {opacity}, {opacity:next ? .8 : .35,offset:.5}, {opacity:0},
+      ], {duration:320,easing:'cubic-bezier(.4,0,.6,1)'});
     }
     const stopHeaderGlint = () => headerGlintAnimation?.cancel();
     headerReducedMotion.addEventListener('change',stopHeaderGlint);
