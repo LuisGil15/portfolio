@@ -1,10 +1,17 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "portfolio",
+  "main": "src/worker.mjs",
   "compatibility_date": "2026-10-06",
   "assets": {
     "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
     "not_found_handling": "404-page"
   },
-  "previews": {}
+  "previews": {},
+  "routes": [
+    { "pattern": "luisgil.dev", "custom_domain": true, "zone_id": "a324beb43908587991b352ebb1ebb36b" },
+    { "pattern": "luisgil.org", "custom_domain": true, "zone_id": "f644f60d80e36f61ccbc313a264b710c" }
+  ]
 }

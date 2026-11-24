@@ -112,3 +112,7 @@ Terminal intro published and verified at https://luisgil.org/ and https://luisgi
 ### Skip intro preserves entrance — November23,2026
 
 User found that skipping the intro removed all site animations and requested a smoother handoff before republishing. Manual skips now dispatch animated readiness; pointer/Enter/Space share the normal700ms opacity dissolve with a120ms leading beat before site entrance. Escape/Tab remove the overlay immediately while still allowing the hero entrance. Reduced motion, direct fragments, failure fallback and pagehide remain immediate/static. The automatic completed-text hold remains700ms. This supersedes earlier keyboard-skip descriptions that disabled the hero entrance.
+
+## Primary domain — November 23, 2026
+
+The portfolio primary domain is https://luisgil.dev. The existing luisgil.org domain permanently redirects (301) to the same path and query on luisgil.dev. Both apex custom domains remain attached to the portfolio Cloudflare Worker and are declared in wrangler.jsonc. The Worker runs before static assets to redirect the old host, and delegates other hosts to ASSETS. Astro canonical, alternate and Open Graph URLs, contact draft subjects, footer domain and social previews use luisgil.dev. Domain migration was explicitly requested by the owner; no www aliases are configured by this change.
