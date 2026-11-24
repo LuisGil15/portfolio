@@ -7,6 +7,7 @@ import MiniToolsMark from './MiniToolsMark.astro';
 import MiniToolsIcon from './MiniToolsIcon.astro';
 import PortfolioHero from './portfolio/PortfolioHero.astro';
 import DeveloperStack from './portfolio/DeveloperStack.astro';
+import ExperienceTimeline from './portfolio/ExperienceTimeline.astro';
 import '../styles/portfolio.css';
 const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
 const { showFaq = false } = Astro.props;
@@ -58,44 +59,7 @@ const { showFaq = false } = Astro.props;
       <p class="filter-announcement" aria-live="polite"></p>
     </section>
     <DeveloperStack/>
-    <section id="experience" class="experience" aria-labelledby="experience-title">
-      <div class="experience-intro">
-        <T as="h2" id="experience-title" en="Experience,&#10;beyond the screen." es="Experiencia,&#10;más allá de la pantalla."/>
-        <T as="p" en="My work spans enterprise backend systems, mobile applications and web interfaces. I connect what users see with the services and data behind it." es="Mi trabajo abarca sistemas backend empresariales, aplicaciones móviles e interfaces web. Conecto lo que ve el usuario con los servicios y datos que hay detrás."/>
-        <a class="experience-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk about your team" es="Hablemos de tu equipo"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      </div>
-      <div class="jobs">
-        <article>
-          <div class="job-heading"><h3>IBM</h3><T en="2022 — present" es="2022 — actualidad"/></div>
-          <T as="h4" en="Backend development" es="Desarrollo backend"/>
-          <T as="p" en="Backend services and asynchronous processes in an enterprise environment, with work spanning APIs, data, vulnerability remediation and internal tools for teams." es="Servicios backend y procesos asíncronos en un entorno empresarial, con trabajo en APIs, datos, resolución de vulnerabilidades y herramientas internas para los equipos."/>
-          <ul>
-            <li><T en="Develop REST APIs with Java and Spring Boot, and asynchronous processing with Kafka." es="Desarrollo APIs REST con Java y Spring Boot, y procesos asíncronos con Kafka."/></li>
-            <li><T en="Built an API proxy service in JavaScript with Node.js, using mutual TLS (mTLS) authentication." es="Desarrollé un servicio proxy para APIs en JavaScript con Node.js, con autenticación TLS mutua (mTLS)."/></li>
-            <li><T en="Write Python automation scripts and batch jobs to transfer data between database tables." es="Desarrollo scripts de automatización en Python y jobs por lotes para transferir datos entre tablas de bases de datos."/></li>
-            <li><T en="Work with SQL and DB2 to support the data needs of backend services." es="Trabajo con SQL y DB2 para cubrir las necesidades de datos de los servicios backend."/></li>
-            <li><T en="Remediate security vulnerabilities and contribute to testing and deployment workflows." es="Resuelvo vulnerabilidades de seguridad y participo en pruebas y flujos de despliegue."/></li>
-            <li><T en="Build internal tools that simplify teams' day-to-day work." es="Creo herramientas internas para facilitar el trabajo diario de los equipos."/></li>
-          </ul>
-          <p class="job-stack">Java · Spring Boot · Kafka · JavaScript · Node.js · mTLS · Python · SQL · DB2</p>
-        </article>
-        <article>
-          <div class="job-heading"><h3>RESSER</h3><span>2021 — 2022</span></div>
-          <T as="h4" en="Mobile & backend development" es="Desarrollo móvil y backend"/>
-          <T as="p" en="Development across the mobile application and backend, working on both sides of the product experience." es="Desarrollo en la aplicación móvil y el backend, trabajando en ambos lados de la experiencia del producto."/>
-          <ul>
-            <li><T en="Build mobile application features with React Native." es="Desarrollo funcionalidades para aplicaciones móviles con React Native."/></li>
-            <li><T en="Develop backend services with C# and .NET to support application functionality." es="Desarrollo servicios backend con C# y .NET para dar soporte a las funcionalidades de la aplicación."/></li>
-          </ul>
-          <p class="job-stack">React Native · C# · .NET</p>
-        </article>
-        <article>
-          <div class="job-heading"><T as="h3" en="Product collaboration" es="Colaboración de producto"/></div>
-          <T as="h4" en="Mobile, web & backend development" es="Desarrollo móvil, web y backend"/>
-          <T as="p" en="Alongside my professional experience, I contribute to a digital product across mobile, web and backend development. This work gives me a broader view of how the different parts of an application come together." es="Además de mi experiencia profesional, colaboro en un producto digital con desarrollo móvil, web y backend. Este trabajo me permite abordar cómo se conectan las distintas partes de una aplicación."/>
-        </article>
-      </div>
-    </section>
+    <ExperienceTimeline/>
     <section id="about" class="about"><div><T as="h2" en="Curiosity is the common thread." es="La curiosidad es el hilo conductor."/><T as="p" en="I'm Luis, a software developer led by curiosity. I enjoy understanding how things connect, exploring unfamiliar ideas and turning what I learn into experiences that feel useful, thoughtful and human. Sometimes that becomes a product; other times, an experiment that opens the next question." es="Soy Luis, desarrollador de software guiado por la curiosidad. Disfruto entender cómo se conectan las cosas, explorar ideas nuevas y convertir lo que aprendo en experiencias útiles, cuidadas y humanas. A veces eso se convierte en un producto; otras, en un experimento que abre la siguiente pregunta."/><div class="personal-reflection"><T as="h3" en="Learning to live in a world that wasn't designed for me." es="Aprender a vivir en un mundo que no fue diseñado para mí."/><T as="p" en="I'm autistic and have inattentive ADHD. Being neurodivergent means learning to navigate a world rarely designed for how I perceive, process and organize life. Sometimes it means spending more energy reaching places that seem simple to others. It is neither a tragedy nor a superpower: it is a real part of me, with challenges that deserve understanding and a perspective that shapes how I live and what I build." es="Soy autista y tengo TDAH de presentación inatenta. Ser neurodivergente significa aprender a moverme por un mundo que rara vez fue pensado para la forma en que percibo, proceso y organizo la vida. A veces implica invertir más energía en llegar a lugares que para otras personas parecen sencillos. No es una tragedia ni un superpoder: es una parte real de mí, con dificultades que merecen comprensión y una perspectiva que influye en cómo vivo y en lo que construyo."/></div><T as="p" class="education" en="Software Development Engineering, CETI · English B2" es="Ingeniería en Desarrollo de Software, CETI · Inglés B2"/><a href="mailto:luis.gil.dev15@gmail.com" class="contact-button"><T en="Start a conversation" es="Iniciar una conversación"/></a></div></section>
     {showFaq && <section class="portfolio-faq" aria-labelledby="portfolio-faq-title">
       <T as="h2" id="portfolio-faq-title" en="A few useful questions." es="Algunas preguntas útiles." />

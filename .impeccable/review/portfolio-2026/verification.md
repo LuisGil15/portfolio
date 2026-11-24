@@ -31,3 +31,7 @@ Confirmed different transform values across observations, opposite directions an
 ## Hover labels
 
 Verified desktop caption opacity 0 at rest and 1 on the hovered TypeScript tile; other tiles keep their names hidden. At 390px captions remain visible (opacity 1), with no horizontal overflow. Build and diff checks passed. Screenshot: skills-hover.jpg.
+
+## Experience timeline
+
+Build and diff checks passed. Both official company logo images loaded. Native responsibility disclosures opened with pointer and closed with Enter; all eight existing responsibility bullets remain present. Rendered ES/dark desktop and EN/light 390px mobile without page overflow. Captures: experience-desktop.jpg, experience-mobile.jpg. No dates, employer identities or job claims were added.

@@ -1,0 +1,73 @@
+---
+import T from '../ProposalText.astro';
+---
+<section id="experience" class="experience" aria-labelledby="experience-title">
+      <div class="experience-intro">
+        <T as="h2" id="experience-title" en="Experience,&#10;beyond the screen." es="Experiencia,&#10;más allá de la pantalla."/>
+        <T as="p" en="My work spans enterprise backend systems, mobile applications and web interfaces. I connect what users see with the services and data behind it." es="Mi trabajo abarca sistemas backend empresariales, aplicaciones móviles e interfaces web. Conecto lo que ve el usuario con los servicios y datos que hay detrás."/>
+        <a class="experience-contact" href="mailto:luis.gil.dev15@gmail.com"><T en="Let's talk about your team" es="Hablemos de tu equipo"/><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+ <ol class="experience-timeline">
+<li class="timeline-entry"><div class="timeline-period"><T en="2022 — present" es="2022 — actualidad"/></div><article><header class="timeline-heading"><div class="company-logo ibm-logo"><img src="/images/companies/ibm.png" width="80" height="56" alt="" loading="lazy" decoding="async"/></div><div><h3>IBM</h3><T as="h4" en="Backend development" es="Desarrollo backend"/></div></header>
+          
+          <T as="p" en="Backend services and asynchronous processes in an enterprise environment, with work spanning APIs, data, vulnerability remediation and internal tools for teams." es="Servicios backend y procesos asíncronos en un entorno empresarial, con trabajo en APIs, datos, resolución de vulnerabilidades y herramientas internas para los equipos."/>
+          <details class="job-responsibilities"><summary><T en="Responsibilities" es="Responsabilidades"/></summary><ul>
+            <li><T en="Develop REST APIs with Java and Spring Boot, and asynchronous processing with Kafka." es="Desarrollo APIs REST con Java y Spring Boot, y procesos asíncronos con Kafka."/></li>
+            <li><T en="Built an API proxy service in JavaScript with Node.js, using mutual TLS (mTLS) authentication." es="Desarrollé un servicio proxy para APIs en JavaScript con Node.js, con autenticación TLS mutua (mTLS)."/></li>
+            <li><T en="Write Python automation scripts and batch jobs to transfer data between database tables." es="Desarrollo scripts de automatización en Python y jobs por lotes para transferir datos entre tablas de bases de datos."/></li>
+            <li><T en="Work with SQL and DB2 to support the data needs of backend services." es="Trabajo con SQL y DB2 para cubrir las necesidades de datos de los servicios backend."/></li>
+            <li><T en="Remediate security vulnerabilities and contribute to testing and deployment workflows." es="Resuelvo vulnerabilidades de seguridad y participo en pruebas y flujos de despliegue."/></li>
+            <li><T en="Build internal tools that simplify teams' day-to-day work." es="Creo herramientas internas para facilitar el trabajo diario de los equipos."/></li>
+          </ul></details>
+          <p class="job-stack">Java · Spring Boot · Kafka · JavaScript · Node.js · mTLS · Python · SQL · DB2</p>
+        </article></li>
+<li class="timeline-entry"><div class="timeline-period"><span>2021 — 2022</span></div><article><header class="timeline-heading"><div class="company-logo resser-logo"><img src="/images/companies/resser.png" width="80" height="56" alt="" loading="lazy" decoding="async"/></div><div><h3>RESSER</h3><T as="h4" en="Mobile & backend development" es="Desarrollo móvil y backend"/></div></header>
+          
+          <T as="p" en="Development across the mobile application and backend, working on both sides of the product experience." es="Desarrollo en la aplicación móvil y el backend, trabajando en ambos lados de la experiencia del producto."/>
+          <details class="job-responsibilities"><summary><T en="Responsibilities" es="Responsabilidades"/></summary><ul>
+            <li><T en="Build mobile application features with React Native." es="Desarrollo funcionalidades para aplicaciones móviles con React Native."/></li>
+            <li><T en="Develop backend services with C# and .NET to support application functionality." es="Desarrollo servicios backend con C# y .NET para dar soporte a las funcionalidades de la aplicación."/></li>
+          </ul></details>
+          <p class="job-stack">React Native · C# · .NET</p>
+        </article></li>
+ </ol>
+ <article class="product-collaboration">
+          <div class="collaboration-heading"><T as="h3" en="Product collaboration" es="Colaboración de producto"/></div>
+          <T as="h4" en="Mobile, web & backend development" es="Desarrollo móvil, web y backend"/>
+          <T as="p" en="Alongside my professional experience, I contribute to a digital product across mobile, web and backend development. This work gives me a broader view of how the different parts of an application come together." es="Además de mi experiencia profesional, colaboro en un producto digital con desarrollo móvil, web y backend. Este trabajo me permite abordar cómo se conectan las distintas partes de una aplicación."/>
+        </article>
+</section>
+<style>
+ .experience { padding-bottom:100px; }
+ .experience-intro { display:grid; grid-template-columns:1fr 1fr; gap:18px 45px; align-items:start; margin-bottom:50px; }
+ .experience-intro h2 { font-size:clamp(30px,3.1vw,48px); font-weight:500; line-height:1.18; white-space:pre-line; grid-row:span 2; }
+ .experience-intro>p { color:var(--muted); font-size:13px; line-height:1.85; }
+ .experience-contact { display:inline-flex; gap:10px; align-items:center; color:var(--accent); font-size:12px; justify-self:start; }
+ .experience-timeline { list-style:none; margin:0; padding:0; position:relative; }
+ .experience-timeline::before { content:''; position:absolute; top:26px; bottom:26px; left:133px; width:1px; background:var(--line); }
+ .timeline-entry { position:relative; display:grid; grid-template-columns:110px minmax(0,1fr); gap:55px; padding:0 0 45px; }
+ .timeline-entry::before { content:''; position:absolute; top:24px; left:128px; width:11px; height:11px; border-radius:50%; border:2px solid var(--accent); background:var(--page); }
+ .timeline-entry:first-child::before { background:var(--accent); }
+ .timeline-entry:last-child { padding-bottom:0; }
+ .timeline-period { padding-top:20px; color:var(--muted); font-size:10px; line-height:1.8; font-variant-numeric:tabular-nums; }
+ .timeline-entry article { min-width:0; padding-bottom:35px; border-bottom:1px solid var(--line); }
+ .timeline-heading { display:flex; gap:20px; align-items:center; margin-bottom:22px; }
+ .company-logo { display:grid; place-items:center; flex-shrink:0; width:82px; height:64px; padding:8px; border-radius:12px; background:#fff; }
+ .resser-logo { background:#0d0d0d; }
+ .company-logo img { width:100%; height:100%; object-fit:contain; }
+ .timeline-heading h3 { font-size:27px; font-weight:500; }
+ .timeline-heading h4 { font-size:12px; font-weight:500; color:var(--accent); line-height:1.7; margin:8px 0 0; }
+ .timeline-entry article>p { font-size:13px; line-height:1.9; color:var(--muted); }
+ .job-responsibilities { margin:18px 0; }
+ .job-responsibilities summary { cursor:pointer; padding:10px 0; color:var(--accent); font-size:12px; }
+ .job-responsibilities ul { margin:12px 0 0; padding-left:18px; }
+ .job-responsibilities li { font-size:12px; line-height:1.9; color:var(--muted); }
+ .job-responsibilities li+li { margin-top:10px; }
+ .timeline-entry article>.job-stack { font-size:10px; line-height:1.9; color:var(--accent); margin-top:18px; }
+ .product-collaboration { margin:32px 0 0 165px; padding:25px; background:var(--soft); border-radius:14px; }
+ .product-collaboration h3 { font-size:20px; font-weight:500; line-height:1.3; }
+ .product-collaboration h4 { font-size:12px; color:var(--accent); font-weight:500; margin:12px 0; }
+ .product-collaboration p { font-size:12px; color:var(--muted); line-height:1.9; }
+ @media(max-width:1150px) { .experience-intro { grid-template-columns:1fr; gap:20px; }.experience-intro>p { max-width:65ch; }.timeline-entry { grid-template-columns:1fr; gap:12px; padding-left:30px; }.experience-timeline::before { left:5px; top:12px; bottom:36px; }.timeline-entry::before { left:0; top:8px; }.timeline-period { padding-top:0; font-size:11px; }.product-collaboration { margin-left:30px; } }
+ @media(max-width:760px) { .experience { padding-bottom:65px; }.experience-intro h2 { font-size:32px; }.experience-intro { margin-bottom:35px; }.timeline-heading { gap:15px; }.timeline-heading h3 { font-size:24px; }.timeline-heading h4 { font-size:11px; }.company-logo { width:68px; height:57px; }.timeline-entry { gap:18px; padding-bottom:32px; padding-left:26px; }.timeline-entry article { padding-bottom:26px; }.product-collaboration { margin-left:26px; padding:21px; } }
+</style>
