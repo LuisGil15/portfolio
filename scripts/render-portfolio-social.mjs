@@ -43,7 +43,7 @@ const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" vie
  <mask id="wave"><rect y="440" width="1200" height="190" fill="url(#wave-fade)"/></mask>
 </defs>
 <rect width="1200" height="630" fill="${colors.ground}"/>
-<g transform="translate(580 22)" opacity=".82" mask="url(#bottom)"><g mask="url(#left)"><image width="740" height="740" href="data:image/png;base64,${portrait.toString('base64')}"/></g></g>
+<g transform="translate(580 22)" opacity=".68" mask="url(#bottom)"><g mask="url(#left)"><image width="740" height="740" href="data:image/png;base64,${portrait.toString('base64')}"/></g></g>
 <g fill="${colors.cyan}" mask="url(#wave)">${dots.join('')}</g>
 ${layers.join('\n')}
 </svg>`;
