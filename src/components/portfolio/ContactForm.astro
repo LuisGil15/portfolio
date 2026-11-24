@@ -9,7 +9,7 @@ import T from '../ProposalText.astro';
     <div class="contact-field"><label for="contact-subject"><T en="Subject (optional)" es="Asunto (opcional)"/></label><input id="contact-subject" name="subject" maxlength="150"/></div>
     <div class="contact-field full-width"><label for="contact-message"><T en="Message" es="Mensaje"/> <span aria-hidden="true">*</span></label><textarea id="contact-message" name="message" rows="6" required maxlength="5000" data-placeholder-es="¡Hey! Vi tu trabajo y me encantaría trabajar contigo. Tengo una idea..." data-placeholder-en="Hey! I saw your work and would love to work with you. I have an idea..." placeholder={Astro.url.pathname.startsWith('/es/') ? '¡Hey! Vi tu trabajo y me encantaría trabajar contigo. Tengo una idea...' : 'Hey! I saw your work and would love to work with you. I have an idea...'}></textarea></div>
   </div>
-  <div class="form-bottom"><T as="p" class="form-note" en="Prepare a draft, then open it in your email app to review and send it." es="Prepara un borrador y ábrelo en tu app de correo para revisarlo y enviarlo."/><button type="submit"><T en="Create draft" es="Crear borrador"/></button></div>
+  <div class="form-bottom"><T as="p" class="form-note" en="Prepare a draft, then open it in your email app to review and send it." es="Prepara un borrador y ábrelo en tu app de correo para revisarlo y enviarlo."/><button type="submit"><T en="Continue by email" es="Continuar por correo"/></button></div>
   <div class="draft-result" hidden>
     <p class="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
     <a class="open-draft"><T en="Open draft in my email app" es="Abrir borrador en mi app de correo"/></a>
