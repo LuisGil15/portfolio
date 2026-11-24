@@ -50,3 +50,7 @@ The user confirmed their freelance studio and creator/maintainer role. Both offi
 ## Single navigation
 
 Removed sidebar section menu and repeated email CTA. Confirmed one main navigation and no profile nav. At 320px all six links are visible, 44px high, with no page overflow. About me anchor lands at 132px below the 117px sticky navigation and receives the only active state. Final desktop and mobile captures retained as single-nav-desktop.jpg and single-nav-mobile.jpg. Build/diff checks passed.
+
+## Motion expansion
+
+Verified global running/paused state, both carousel tracks paused by the global control, persistence after reload and resume. Motion control labels switch correctly between EN/ES. Desktop and 320px mobile inspected; no page overflow, compact mobile profile header measures 119px and hides the desktop portrait as intended. No captured console warnings/errors. Reduced-motion and visibility lifecycle paths were inspected in source; OS preference emulation and performance profiling were not performed. Build and diff checks passed. Capture: motion-desktop.jpg.

@@ -21,13 +21,13 @@ import T from '../ProposalText.astro';
       if (!canvas || !ctx) return;
       ctx.clearRect(0, 0, width, height);
       const dark = document.documentElement.dataset.theme === 'dark';
-      for (let row = 0; row < 42; row++) {
-        const depth = row / 41;
-        for (let col = 0; col < 110; col++) {
-          const x = (col / 109 * 1.24 - .12) * width;
+      for (let row = 0; row < 30; row++) {
+        const depth = row / 29;
+        for (let col = 0; col < 92; col++) {
+          const x = (col / 91 * 1.24 - .12) * width;
           const wave = Math.sin(col * .065 + depth * 3.8 + phase) * 34 + Math.sin(col * .12 - depth * 2.5) * 17;
           const y = height * .71 + depth * height * .29 + wave * (1 - depth * .45);
-          const alpha = (.14 + depth * .52) * (Math.sin(col / 109 * Math.PI) * .75 + .25);
+          const alpha = (.14 + depth * .52) * (Math.sin(col / 91 * Math.PI) * .75 + .25);
           ctx.fillStyle = dark ? `rgba(175,220,214,${alpha})` : `rgba(20,99,112,${alpha * .75})`;
           ctx.beginPath(); ctx.arc(x, y, .55 + depth * .95, 0, Math.PI * 2); ctx.fill();
         }
@@ -42,19 +42,31 @@ import T from '../ProposalText.astro';
       ctx?.setTransform(ratio, 0, 0, ratio, 0, 0);
       draw(.8);
     }
-    const resize = new ResizeObserver(render); resize.observe(canvas);
-    new MutationObserver(render).observe(document.documentElement, {attributes:true, attributeFilter:['data-theme']});
-    reducedMotion.addEventListener('change', () => { cancelAnimationFrame(frame); render(); });
-    // One settling wave on arrival; no continuous background loop.
-    if (!reducedMotion.matches) {
-      const start = performance.now();
-      const settle = (now: number) => {
-        const progress = Math.min((now - start) / 1200, 1);
-        draw(.8 - .8 * Math.pow(1 - progress, 3));
-        if (progress < 1) frame = requestAnimationFrame(settle);
-      };
-      frame = requestAnimationFrame(settle);
+    let phase = .8, visible = true, lastPaint = 0;
+    function canAnimate() {
+      return visible && !document.hidden && !reducedMotion.matches && document.documentElement.dataset.motion !== 'paused';
     }
+    function tick(now: number) {
+      frame = 0;
+      if (!canAnimate()) return;
+      if (now - lastPaint >= 32) {
+        phase += Math.min((now - lastPaint) / 1000, .05) * .45;
+        lastPaint = now;
+        draw(phase);
+      }
+      frame = requestAnimationFrame(tick);
+    }
+    function sync() {
+      cancelAnimationFrame(frame); frame = 0;
+      draw(phase);
+      if (canAnimate()) { lastPaint = performance.now(); frame = requestAnimationFrame(tick); }
+    }
+    const resize = new ResizeObserver(() => { render(); draw(phase); }); resize.observe(canvas);
+    new MutationObserver(sync).observe(document.documentElement, {attributes:true, attributeFilter:['data-theme','data-motion']});
+    reducedMotion.addEventListener('change', sync);
+    document.addEventListener('visibilitychange', sync);
+    new IntersectionObserver(entries => { visible = entries[0].isIntersecting; sync(); }, {rootMargin:'60px'}).observe(canvas);
+    sync();
   }
 </script>
 

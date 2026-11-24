@@ -20,7 +20,7 @@ const { showFaq = false } = Astro.props;
     <T as="p" class="role" en="Software developer. Independent maker." es="Desarrollador de software. Creador independiente." />
     <div class="identity-bottom">
       <div class="socials"><a href="https://github.com/LuisGil15">GitHub</a><a href="https://www.linkedin.com/in/luis-francisco-gil-perez-721348182/">LinkedIn</a></div>
-      <div class="side-meta"><ThemeToggle/><button data-language aria-label="Cambiar a español">ES</button></div>
+      <div class="side-meta"><button class="motion-toggle" data-motion-toggle aria-label="Pause animations" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="motion-pause" d="M9 5v14M15 5v14"/><path class="motion-play" d="m8 5 11 7-11 7Z"/></svg></button><ThemeToggle/><button data-language aria-label="Cambiar a español">ES</button></div>
     </div>
   </aside>
   <main id="content">
@@ -77,6 +77,7 @@ const { showFaq = false } = Astro.props;
     <footer><span>Luis Gil © 2026</span><a href="/apps/tavi/"><T en="Discover Tavi" es="Descubre Tavi"/></a></footer>
   </main>
   <script>
+    import '../scripts/portfolio-motion';
     const navigationLinks = document.querySelectorAll<HTMLAnchorElement>('.portfolio-topbar a[href^="#"]');
     const navigationSections = [...navigationLinks].map(link => document.querySelector<HTMLElement>(link.hash)).filter((section): section is HTMLElement => Boolean(section));
     function updateActiveNavigation() {

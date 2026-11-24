@@ -53,3 +53,11 @@ The user supplied their portrait and then clarified that Luromi Studio and Hourm
 The user requested removal of duplicated navigation. The personal panel now contains identity, portrait, role, GitHub/LinkedIn and the retained theme/language controls. The duplicate section menu and sidebar email CTA are removed. The card fits its content within the viewport rather than stretching to the bottom of the window.
 
 The sticky top navigation owns Home → My work → Tech stack → Experience → About me, plus the email action. At tablet widths it wraps; at 760px and below the six actions form two rows of three, with 44px minimum target height. Section highlighting now follows the actual section positions and sticky-header/scroll-padding offset using a frame-throttled passive scroll listener. Hero and section anchor spacing clears the mobile header.
+
+## Motion expansion
+
+The user requested a more animated portfolio. This supersedes the earlier finite-wave choice: the wave now flows while the hero is visible and the document is active, capped to approximately 30 draw calls per second, with 30×92 particles and capped pixel ratio. It stops offscreen, in inactive tabs, under reduced motion or when globally paused.
+
+Hero title lines and the portrait have a short staggered entrance. Projects enter vertically once, timeline entries enter horizontally once, and section headings use a smaller entrance. Web Animations API and IntersectionObserver enhance already-visible content; no hidden CSS default or library is required. Fine-pointer hovers lift project cards and subtly shift app artwork/marks; keyboard navigation stays direct. The existing logo carousel remains.
+
+A bilingual global pause/resume control joins the profile controls and persists under `site-motion:portfolio`. Global pause stops carousel motion and the wave, finishes finite entrance animations, disables hover transitions and smooth scrolling. Reduced motion overrides the running preference and disables the pause toggle because the page is already still. The original local carousel pause remains independent. All animation uses transform, opacity or a brief hero blur; no layout dimension interpolation or scroll hijacking. Mobile header selectors were repaired during the review to retain the intended compact profile header.
