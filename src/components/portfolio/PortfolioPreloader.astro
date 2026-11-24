@@ -1,0 +1,109 @@
+---
+import T from '../ProposalText.astro';
+---
+<div class="boot-screen" id="portfolio-boot" hidden>
+  <div class="boot-terminal" aria-hidden="true">
+    <p><span></span></p>
+    <p><span></span></p>
+    <p><span></span></p>
+  </div>
+  <button type="button" class="boot-skip"><T en="Skip intro" es="Saltar intro"/></button>
+</div>
+<script is:inline>
+(() => {
+  const root = document.documentElement;
+  const screen = document.getElementById('portfolio-boot');
+  if (!screen) return;
+  const preference = matchMedia('(prefers-reduced-motion: reduce)');
+  let finished = false, announced = false, fade;
+  const surfaces = () => document.querySelectorAll('.identity, #content, .skip');
+  const announce = (instant) => {
+    if (announced) return;
+    announced = true;
+    root.dataset.bootInstant = String(instant);
+    document.dispatchEvent(new CustomEvent('portfolio-ready', {detail:{instant}}));
+  };
+  const cleanup = (instant = true) => {
+    if (finished) return;
+    finished = true;
+    clearTimeout(failsafe);
+    fade?.cancel();
+    screen.hidden = true;
+    root.dataset.boot = 'ready';
+    surfaces().forEach(element => { element.inert = false; });
+    document.removeEventListener('keydown', skipOnKey, true);
+    announce(instant);
+  };
+  const skipOnKey = (event) => {
+    if (['Tab','Escape','Enter',' '].includes(event.key)) {
+      if (event.key !== 'Tab') event.preventDefault();
+      cleanup();
+    }
+  };
+  // A stalled document or module load must never leave a blocking overlay behind.
+  const failsafe = setTimeout(() => cleanup(), 4000);
+  root.dataset.boot = 'ready';
+  if (preference.matches || (location.hash && location.hash !== '#home')) {
+    cleanup();
+    return;
+  }
+  root.dataset.boot = 'loading';
+  screen.hidden = false;
+  screen.addEventListener('click', () => cleanup());
+  document.addEventListener('keydown', skipOnKey, true);
+  preference.addEventListener('change', () => { if (preference.matches) cleanup(); });
+  window.addEventListener('pagehide', () => cleanup());
+  const wait = (time) => new Promise(resolve => setTimeout(resolve,time));
+  const start = async () => {
+    if (finished) return;
+    surfaces().forEach(element => { element.inert = true; });
+    const spanish = document.documentElement.lang === 'es';
+    const lines = spanish
+      ? ['> boot portfolio','Cargando ideas y código...','Listo para construir.']
+      : ['> boot portfolio','Loading ideas and code...','Ready to build.'];
+    try {
+      const rows = [...screen.querySelectorAll('.boot-terminal p')];
+      for (let index=0; index<lines.length; index++) {
+        if (finished) return;
+        rows.forEach(row => row.removeAttribute('data-typing'));
+        const row = rows[index];
+        row.dataset.typing = '';
+        const output = row.querySelector('span');
+        for (const character of lines[index]) {
+          if (finished) return;
+          output.textContent += character;
+          await wait(18);
+        }
+        if (index<lines.length-1) await wait(150);
+      }
+      await wait(160);
+      if (finished) return;
+      // Begin the site's entrance as the terminal dissolves, not behind it.
+      root.dataset.boot = 'revealing';
+      announce(false);
+      if (!screen.animate) { cleanup(false); return; }
+      fade = screen.animate([{opacity:1},{opacity:0}], {duration:420,easing:'cubic-bezier(.22,.8,.25,1)',fill:'forwards'});
+      await fade.finished;
+      cleanup(false);
+    } catch { cleanup(); }
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',start,{once:true});
+  else start();
+})();
+</script>
+<style>
+ :global(html[data-boot]) { scrollbar-gutter:stable; }
+ :global(html[data-boot=loading]),:global(html[data-boot=revealing]) { overflow:hidden; }
+ :global(html[data-boot=loading] .hero-content) { opacity:0; }
+ .boot-screen { position:fixed; inset:0; z-index:100; display:grid; place-items:center; padding:32px 24px; background:#080b10; color:#dce5f3; }
+ .boot-screen[hidden] { display:none; }
+ .boot-terminal { width:min(100%,28ch); font:500 clamp(16px,2vw,18px)/1.85 ui-monospace,SFMono-Regular,Consolas,monospace; }
+ .boot-terminal p { min-height:1.85em; margin:0; white-space:pre; }
+ .boot-terminal p:nth-child(2) { color:#9daac0; }
+ .boot-terminal p:last-child { color:#9ece6a; }
+ .boot-terminal [data-typing]::after { content:'_'; color:#dce5f3; animation:boot-caret 700ms steps(1,end) infinite; }
+ .boot-skip { position:absolute; right:24px; bottom:calc(24px + env(safe-area-inset-bottom)); min-height:44px; padding:8px 12px; background:transparent; border:0; color:#9daac0; font:inherit; font-size:12px; text-decoration:underline; text-underline-offset:5px; cursor:pointer; }
+ .boot-skip:hover { color:#dce5f3; }
+ @keyframes boot-caret { 50% { opacity:0; } }
+ @media(prefers-reduced-motion:reduce) { .boot-terminal [data-typing]::after { animation:none; } }
+</style>

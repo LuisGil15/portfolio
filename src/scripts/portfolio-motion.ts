@@ -3,10 +3,11 @@ const preference = matchMedia('(prefers-reduced-motion: reduce)');
 const activeAnimations = new Set<Animation>();
 const observed = new Set<Element>();
 const elementAnimations = new WeakMap<Element, Animation>();
-function motionAllowed() { return !preference.matches; }
+function bootPending() { return root.dataset.boot==='loading'; }
+function motionAllowed() { return !preference.matches && !bootPending(); }
 function syncMotion() {
   root.dataset.motion = motionAllowed() ? 'running' : 'paused';
-  if (!motionAllowed()) {
+  if (preference.matches) {
     activeAnimations.forEach(animation => animation.finish());
     document.querySelectorAll<HTMLElement>('[data-reveal-state]').forEach(element => { element.dataset.revealState='visible'; });
   }
@@ -25,7 +26,7 @@ preference.addEventListener('change', syncMotion);
 document.addEventListener('proposal-language', syncMotion);
 // Entrance re-arms after the hero leaves view, including visits that start at a deep link.
 const hero = document.querySelector<HTMLElement>('.hero-content');
-let heroArmed = true, heroVisible = false;
+let heroArmed = root.dataset.bootInstant!=='true', heroVisible = false;
 function playHeroEntrance() {
   if (!hero || !motionAllowed()) return;
   heroArmed = false;
@@ -130,6 +131,7 @@ function playHeading(element:HTMLElement) {
   return animate(element,[{opacity:0},{opacity:1}],380);
 }
 function playGroup(element:HTMLElement,kind:RevealKind) {
+  if (bootPending()) return;
   observed.add(element);
   element.dataset.revealState='visible';
   if (!motionAllowed() || element.contains(document.activeElement)) return;
@@ -185,15 +187,15 @@ const resetReveal = new IntersectionObserver(entries => {
     if (entry.isIntersecting || target.contains(document.activeElement)) continue;
     finishGroup(target);
     observed.delete(target);
-    target.dataset.revealState=motionAllowed() ? 'queued' : 'visible';
+    target.dataset.revealState=motionAllowed() || bootPending() ? 'queued' : 'visible';
   }
 }, {rootMargin:'280px'});
 revealGroups.forEach((_,element) => {
   const bounds=element.getBoundingClientRect();
-  if (bounds.top<innerHeight && bounds.bottom>0) {
+  if (!bootPending() && bounds.top<innerHeight && bounds.bottom>0) {
     observed.add(element);
     element.dataset.revealState='visible';
-  } else element.dataset.revealState=motionAllowed() ? 'queued' : 'visible';
+  } else element.dataset.revealState=motionAllowed() || bootPending() ? 'queued' : 'visible';
   resetReveal.observe(element);
   reveal.observe(element);
 });
@@ -217,5 +219,19 @@ document.addEventListener('portfolio-filter',event => {
     }
     observed.add(project);
     if (!keyboard) animate(project,[{opacity:.45},{opacity:1}],200);
+  });
+});
+
+// The terminal owns the first entrance; hash navigation still uses normal replay.
+document.addEventListener('portfolio-ready',event => {
+  syncMotion();
+  const instant=(event as CustomEvent<{instant:boolean}>).detail.instant;
+  if (instant) heroArmed=false;
+  else if (heroArmed && heroVisible) playHeroEntrance();
+  revealGroups.forEach((kind,element) => {
+    const bounds=element.getBoundingClientRect();
+    if (bounds.top>=innerHeight || bounds.bottom<=0 || observed.has(element)) return;
+    if (instant) { finishGroup(element); observed.add(element); }
+    else playGroup(element,kind);
   });
 });

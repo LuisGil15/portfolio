@@ -207,3 +207,7 @@ Build13 routes passed. Security/authentication now separate from API integration
 ### Wide stack and broader experience —2026-11-23
 
 Build13 routes and diff whitespace check passed. IAB1440: logo window976px, repeat975.95px, categories below (logo bottom601.75, categories top693.75), two464px text columns. No horizontal page overflow. At320: logo window320, category single column288, page width320. Added operating systems Linux,macOS,Windows. Mobile390 reviewed broader experience copy; keyboard expands IBM details and retains mTLS example. English intro verified through language switch. No console errors. Evidence stack-wide-desktop/mobile and experience-broader-mobile.jpg.
+
+### Terminal boot intro —2026-11-23
+
+Build13 routes and lifecycle test passed. Real IAB390Spanish and1440English captures in boot-intro/ show loading: contentopacity0,titletransformnone,motionpaused; revealing: overlayopacityfalls whileherotitlemoves; ready: overlayhidden,inertfalse,herostillfinishing. Mobile clears around2.07s, desktop1.93s in supplied captures. Escape immediately bypassed; deep link #contact-form bypassed. Source lifecycle test executes reduced-motion bypass, stalled-document failsafe and keyboard skip. Browser media emulation unavailable; reduced-motion rendering and iPhone performance unverified. Fresh motion reviewer approved inspected scope with no blocking fixes. Captured frames and JSON are measurements of this browser run, not performance guarantees.

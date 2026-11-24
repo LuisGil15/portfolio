@@ -45,7 +45,7 @@ import T from '../ProposalText.astro';
     }
     let phase = .8, visible = true, lastPaint = 0;
     function canAnimate() {
-      return visible && !document.hidden && !reducedMotion.matches && document.documentElement.dataset.motion !== 'paused';
+      return visible && !document.hidden && document.documentElement.dataset.boot !== 'loading' && !reducedMotion.matches && document.documentElement.dataset.motion !== 'paused';
     }
     function tick(now: number) {
       frame = 0;

@@ -107,19 +107,21 @@ const groups = [
  const orbits = document.querySelector<SVGSVGElement>('.skills-orbits');
  if (orbits) {
    let visible = false;
-   const syncOrbits = () => { orbits.dataset.active = String(visible && !document.hidden); };
+   const syncOrbits = () => { orbits.dataset.active = String(visible && !document.hidden && document.documentElement.dataset.boot !== 'loading'); };
    new IntersectionObserver(entries => {
      visible = entries[0].isIntersecting;
      syncOrbits();
    }).observe(orbits);
    document.addEventListener('visibilitychange', syncOrbits);
+   document.addEventListener('portfolio-ready',syncOrbits);
  }
  const marquee = document.querySelector<HTMLElement>('.skills-marquee');
  if (marquee) {
    let visible=false;
-   const syncMarquee=()=>{ marquee.dataset.active=String(visible && !document.hidden); };
+   const syncMarquee=()=>{ marquee.dataset.active=String(visible && !document.hidden && document.documentElement.dataset.boot !== 'loading'); };
    new IntersectionObserver(entries=>{ visible=entries[0].isIntersecting; syncMarquee(); }).observe(marquee);
    document.addEventListener('visibilitychange',syncMarquee);
+   document.addEventListener('portfolio-ready',syncMarquee);
  }
  const motionToggle = marquee?.querySelector<HTMLButtonElement>('.skills-motion-toggle');
  motionToggle?.addEventListener('click', () => {

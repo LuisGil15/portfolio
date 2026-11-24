@@ -1,0 +1,2802 @@
+[
+  {
+    "frame": 0,
+    "time": 1795496791918,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 5,
+    "time": 1795496791985,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> bo",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 10,
+    "time": 1795496792009,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 15,
+    "time": 1795496792031,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 20,
+    "time": 1795496792047,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot p",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 25,
+    "time": 1795496792063,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot po",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 30,
+    "time": 1795496792094,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot por",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 35,
+    "time": 1795496792104,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot port",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 40,
+    "time": 1795496792115,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot port",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 45,
+    "time": 1795496792126,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portf",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 50,
+    "time": 1795496792136,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portf",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 55,
+    "time": 1795496792155,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfol",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 60,
+    "time": 1795496792170,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfol",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 65,
+    "time": 1795496792180,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfoli",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 70,
+    "time": 1795496792190,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfoli",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 75,
+    "time": 1795496792201,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 80,
+    "time": 1795496792216,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 85,
+    "time": 1795496792226,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 90,
+    "time": 1795496792235,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 95,
+    "time": 1795496792244,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 100,
+    "time": 1795496792252,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 105,
+    "time": 1795496792271,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 110,
+    "time": 1795496792281,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 115,
+    "time": 1795496792291,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 120,
+    "time": 1795496792301,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 125,
+    "time": 1795496792311,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 130,
+    "time": 1795496792325,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 135,
+    "time": 1795496792334,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 140,
+    "time": 1795496792343,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 145,
+    "time": 1795496792352,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 150,
+    "time": 1795496792361,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolio",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 155,
+    "time": 1795496792382,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCa",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 160,
+    "time": 1795496792392,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCa",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 165,
+    "time": 1795496792401,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCar",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 170,
+    "time": 1795496792412,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCar",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 175,
+    "time": 1795496792421,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCarg",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 180,
+    "time": 1795496792439,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCarga",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 185,
+    "time": 1795496792452,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCarga",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 190,
+    "time": 1795496792463,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargan",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 195,
+    "time": 1795496792473,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargan",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 200,
+    "time": 1795496792482,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargand",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 205,
+    "time": 1795496792501,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 210,
+    "time": 1795496792511,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 215,
+    "time": 1795496792520,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 220,
+    "time": 1795496792530,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 225,
+    "time": 1795496792540,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando i",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 230,
+    "time": 1795496792556,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando id",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 235,
+    "time": 1795496792572,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ide",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 240,
+    "time": 1795496792582,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ide",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 245,
+    "time": 1795496792594,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando idea",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 250,
+    "time": 1795496792605,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando idea",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 255,
+    "time": 1795496792620,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 260,
+    "time": 1795496792631,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 265,
+    "time": 1795496792640,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 270,
+    "time": 1795496792649,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 275,
+    "time": 1795496792659,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 280,
+    "time": 1795496792673,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 285,
+    "time": 1795496792683,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 290,
+    "time": 1795496792693,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 295,
+    "time": 1795496792702,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 300,
+    "time": 1795496792712,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 305,
+    "time": 1795496792730,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3d",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 310,
+    "time": 1795496792740,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3di",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 315,
+    "time": 1795496792749,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3di",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 320,
+    "time": 1795496792759,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3dig",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 325,
+    "time": 1795496792770,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3dig",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 330,
+    "time": 1795496792787,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 335,
+    "time": 1795496792798,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 340,
+    "time": 1795496792808,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 345,
+    "time": 1795496792819,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo..",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 350,
+    "time": 1795496792829,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo..",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 355,
+    "time": 1795496792845,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 360,
+    "time": 1795496792855,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 365,
+    "time": 1795496792866,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 370,
+    "time": 1795496792877,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 375,
+    "time": 1795496792886,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 380,
+    "time": 1795496792903,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 385,
+    "time": 1795496792912,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 390,
+    "time": 1795496792921,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 395,
+    "time": 1795496792929,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 400,
+    "time": 1795496792937,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 405,
+    "time": 1795496792952,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 410,
+    "time": 1795496792960,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 415,
+    "time": 1795496792969,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 420,
+    "time": 1795496792978,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 425,
+    "time": 1795496792989,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 430,
+    "time": 1795496793010,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...L",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 435,
+    "time": 1795496793020,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Li",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 440,
+    "time": 1795496793031,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Li",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 445,
+    "time": 1795496793040,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Lis",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 450,
+    "time": 1795496793049,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Lis",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 455,
+    "time": 1795496793072,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...List",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 460,
+    "time": 1795496793081,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 465,
+    "time": 1795496793090,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 470,
+    "time": 1795496793099,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 475,
+    "time": 1795496793109,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 480,
+    "time": 1795496793124,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo p",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 485,
+    "time": 1795496793135,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo pa",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 490,
+    "time": 1795496793144,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo pa",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 495,
+    "time": 1795496793153,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo par",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 500,
+    "time": 1795496793162,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo par",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 505,
+    "time": 1795496793177,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 510,
+    "time": 1795496793186,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 515,
+    "time": 1795496793195,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para ",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 520,
+    "time": 1795496793206,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para c",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 525,
+    "time": 1795496793215,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para c",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 530,
+    "time": 1795496793238,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para co",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 535,
+    "time": 1795496793248,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para con",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 540,
+    "time": 1795496793258,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para con",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 545,
+    "time": 1795496793271,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para cons",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 550,
+    "time": 1795496793282,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para const",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 555,
+    "time": 1795496793296,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para const",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 560,
+    "time": 1795496793305,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para constr",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 565,
+    "time": 1795496793316,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para constr",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 570,
+    "time": 1795496793326,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para constru",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 575,
+    "time": 1795496793335,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para constru",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 580,
+    "time": 1795496793350,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construi",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 585,
+    "time": 1795496793360,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 590,
+    "time": 1795496793370,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 595,
+    "time": 1795496793378,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 600,
+    "time": 1795496793390,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 605,
+    "time": 1795496793405,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 610,
+    "time": 1795496793415,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 615,
+    "time": 1795496793424,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 620,
+    "time": 1795496793433,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 625,
+    "time": 1795496793442,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 630,
+    "time": 1795496793457,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 635,
+    "time": 1795496793467,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 640,
+    "time": 1795496793476,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 645,
+    "time": 1795496793485,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 650,
+    "time": 1795496793494,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 655,
+    "time": 1795496793509,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 660,
+    "time": 1795496793518,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 665,
+    "time": 1795496793526,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 670,
+    "time": 1795496793537,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 675,
+    "time": 1795496793545,
+    "sample": {
+      "boot": "loading",
+      "contentOpacity": "0",
+      "hidden": false,
+      "inert": true,
+      "motion": "paused",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "none"
+    }
+  },
+  {
+    "frame": 680,
+    "time": 1795496793564,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.948837",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 43.5885)"
+    }
+  },
+  {
+    "frame": 685,
+    "time": 1795496793577,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.888888",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 41.8776)"
+    }
+  },
+  {
+    "frame": 690,
+    "time": 1795496793588,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.765777",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 38.4728)"
+    }
+  },
+  {
+    "frame": 695,
+    "time": 1795496793599,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.64912",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 35.3116)"
+    }
+  },
+  {
+    "frame": 700,
+    "time": 1795496793613,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.547337",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 32.5151)"
+    }
+  },
+  {
+    "frame": 705,
+    "time": 1795496793638,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.408442",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 28.4174)"
+    }
+  },
+  {
+    "frame": 710,
+    "time": 1795496793649,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.332698",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 25.8934)"
+    }
+  },
+  {
+    "frame": 715,
+    "time": 1795496793660,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.304284",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 24.862)"
+    }
+  },
+  {
+    "frame": 720,
+    "time": 1795496793674,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.251526",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 22.7806)"
+    }
+  },
+  {
+    "frame": 725,
+    "time": 1795496793685,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.206853",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 20.7996)"
+    }
+  },
+  {
+    "frame": 730,
+    "time": 1795496793705,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.152894",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 18.0371)"
+    }
+  },
+  {
+    "frame": 735,
+    "time": 1795496793718,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.128271",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 16.5967)"
+    }
+  },
+  {
+    "frame": 740,
+    "time": 1795496793730,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.105828",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 15.155)"
+    }
+  },
+  {
+    "frame": 745,
+    "time": 1795496793743,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.09648",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 14.5111)"
+    }
+  },
+  {
+    "frame": 750,
+    "time": 1795496793757,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.0787265",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 13.2038)"
+    }
+  },
+  {
+    "frame": 755,
+    "time": 1795496793784,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.0533672",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 11.0896)"
+    }
+  },
+  {
+    "frame": 760,
+    "time": 1795496793800,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.0433387",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 10.1438)"
+    }
+  },
+  {
+    "frame": 765,
+    "time": 1795496793815,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.0309765",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 8.85215)"
+    }
+  },
+  {
+    "frame": 770,
+    "time": 1795496793826,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.0275838",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 8.46537)"
+    }
+  },
+  {
+    "frame": 775,
+    "time": 1795496793838,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.0219156",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 7.77709)"
+    }
+  },
+  {
+    "frame": 780,
+    "time": 1795496793861,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.0144026",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 6.75154)"
+    }
+  },
+  {
+    "frame": 785,
+    "time": 1795496793876,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.00909578",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 5.89854)"
+    }
+  },
+  {
+    "frame": 790,
+    "time": 1795496793892,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.00648411",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 5.40834)"
+    }
+  },
+  {
+    "frame": 795,
+    "time": 1795496793904,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.00551983",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 5.20832)"
+    }
+  },
+  {
+    "frame": 800,
+    "time": 1795496793918,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.00279763",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 4.54722)"
+    }
+  },
+  {
+    "frame": 805,
+    "time": 1795496793950,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.000748312",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.81392)"
+    }
+  },
+  {
+    "frame": 810,
+    "time": 1795496793963,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "0.00022375",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.48059)"
+    }
+  },
+  {
+    "frame": 815,
+    "time": 1795496793974,
+    "sample": {
+      "boot": "revealing",
+      "contentOpacity": "1",
+      "hidden": false,
+      "inert": true,
+      "motion": "running",
+      "screenOpacity": "1.20009e-05",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 3.18512)"
+    }
+  },
+  {
+    "frame": 820,
+    "time": 1795496793992,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.91118)"
+    }
+  },
+  {
+    "frame": 825,
+    "time": 1795496794006,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.65205)"
+    }
+  },
+  {
+    "frame": 830,
+    "time": 1795496794039,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.10255)"
+    }
+  },
+  {
+    "frame": 835,
+    "time": 1795496794050,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 2.00608)"
+    }
+  },
+  {
+    "frame": 840,
+    "time": 1795496794063,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.81984)"
+    }
+  },
+  {
+    "frame": 845,
+    "time": 1795496794076,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.65709)"
+    }
+  },
+  {
+    "frame": 850,
+    "time": 1795496794091,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.50084)"
+    }
+  },
+  {
+    "frame": 855,
+    "time": 1795496794122,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.15908)"
+    }
+  },
+  {
+    "frame": 860,
+    "time": 1795496794135,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 1.05058)"
+    }
+  },
+  {
+    "frame": 865,
+    "time": 1795496794148,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.940737)"
+    }
+  },
+  {
+    "frame": 870,
+    "time": 1795496794162,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.856363)"
+    }
+  },
+  {
+    "frame": 875,
+    "time": 1795496794174,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.811851)"
+    }
+  },
+  {
+    "frame": 880,
+    "time": 1795496794204,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.615799)"
+    }
+  },
+  {
+    "frame": 885,
+    "time": 1795496794217,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.546705)"
+    }
+  },
+  {
+    "frame": 890,
+    "time": 1795496794231,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.485236)"
+    }
+  },
+  {
+    "frame": 895,
+    "time": 1795496794243,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.456055)"
+    }
+  },
+  {
+    "frame": 900,
+    "time": 1795496794256,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.406188)"
+    }
+  },
+  {
+    "frame": 905,
+    "time": 1795496794287,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.29561)"
+    }
+  },
+  {
+    "frame": 910,
+    "time": 1795496794303,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.258738)"
+    }
+  },
+  {
+    "frame": 915,
+    "time": 1795496794314,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.225065)"
+    }
+  },
+  {
+    "frame": 920,
+    "time": 1795496794327,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.206543)"
+    }
+  },
+  {
+    "frame": 925,
+    "time": 1795496794338,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.179429)"
+    }
+  },
+  {
+    "frame": 930,
+    "time": 1795496794357,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.14441)"
+    }
+  },
+  {
+    "frame": 935,
+    "time": 1795496794370,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.123093)"
+    }
+  },
+  {
+    "frame": 940,
+    "time": 1795496794382,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.111275)"
+    }
+  },
+  {
+    "frame": 945,
+    "time": 1795496794394,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0947407)"
+    }
+  },
+  {
+    "frame": 950,
+    "time": 1795496794406,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0788465)"
+    }
+  },
+  {
+    "frame": 955,
+    "time": 1795496794428,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.060189)"
+    }
+  },
+  {
+    "frame": 960,
+    "time": 1795496794442,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.049324)"
+    }
+  },
+  {
+    "frame": 965,
+    "time": 1795496794453,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0388914)"
+    }
+  },
+  {
+    "frame": 970,
+    "time": 1795496794473,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0313559)"
+    }
+  },
+  {
+    "frame": 975,
+    "time": 1795496794491,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0217869)"
+    }
+  },
+  {
+    "frame": 980,
+    "time": 1795496794517,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0123771)"
+    }
+  },
+  {
+    "frame": 985,
+    "time": 1795496794529,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.0105062)"
+    }
+  },
+  {
+    "frame": 990,
+    "time": 1795496794541,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00729682)"
+    }
+  },
+  {
+    "frame": 995,
+    "time": 1795496794552,
+    "sample": {
+      "boot": "ready",
+      "contentOpacity": "1",
+      "hidden": true,
+      "inert": false,
+      "motion": "running",
+      "screenOpacity": "1",
+      "text": "> boot portfolioCargando ideas y c\u00f3digo...Listo para construir.",
+      "titleTransform": "matrix(1, 0, 0, 1, 0, 0.00514955)"
+    }
+  }
+]

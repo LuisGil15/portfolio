@@ -183,3 +183,7 @@ Security/authentication is separate from API integration;2FA uses the user-corre
 ### Full-width stack composition —2026-11-23
 
 User proposed full-width logo rows above two text columns for desktop. Implemented a single-column section scaffold: two seven-mark tracks spanning the content width, followed by the categorized definition list in two equal columns. Mobile keeps one text column and edge-to-edge four-card scale. Logical logo repeats stay at least the viewport width to avoid gaps; desktop travel periods56/64s and mobile42/49s retain a restrained pace. Added Linux,macOS,Windows category. Experience summaries now foreground transferable product/system capabilities; detailed technology evidence stays in native disclosures.
+
+### Terminal boot intro —2026-11-23
+
+The user requested a dark centered retro computer/OS entry. A fixed28ch mono block types three localized lines (> boot portfolio, Loading ideas and code..., Ready to build.). Total intro is about2s, including420ms opacity dissolve. At dissolve start, portfolio-ready releases the animation gate and begins the hero; canvas and stack loops respect the same gate. No layout movement is introduced in the overlay. Escape/Tab/Enter/Space and native Skip intro bypass immediately; reduced motion and deep links omit the intro. Static visible content remains the no-JS default, and a4s failsafe releases stalled loading.

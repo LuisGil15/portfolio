@@ -11,11 +11,13 @@ import OwnProjects from './portfolio/OwnProjects.astro';
 import SocialLinks from './portfolio/SocialLinks.astro';
 import ContactForm from './portfolio/ContactForm.astro';
 import EducationSection from './portfolio/EducationSection.astro';
+import PortfolioPreloader from './portfolio/PortfolioPreloader.astro';
 import '../styles/portfolio.css';
 const filters = [{id:'all',en:'All work',es:'Todo'}, {id:'native',en:'Native apps',es:'Apps nativas'}, {id:'web',en:'Web & platforms',es:'Web y plataformas'}, {id:'experiments',en:'Experiments',es:'Experimentos'}];
 const { showFaq = false } = Astro.props;
 ---
 <Layout title="Luis Gil — Senior Full Stack Developer" description="Senior Full Stack Developer and independent product creator. Web platforms, native apps and backend systems. Creator of Hourmeet and founder of Luromi Studio." titleEs="Luis Gil — Senior Full Stack Developer" descriptionEs="Senior Full Stack Developer y creador de productos independientes. Plataformas web, apps nativas y sistemas backend. Creador de Hourmeet y fundador de Luromi Studio." socialImageAlt="Luis Gil, software developer and independent maker" socialImageAltEs="Luis Gil, desarrollador de software y creador independiente" theme="portfolio" initialTheme="dark" fixedTheme="dark">
+  <PortfolioPreloader/>
   <aside class="identity">
     <a class="identity-terminal" href="#home" aria-label="Luis Gil, home">&gt;_</a>
     <div class="identity-art"><img class="identity-portrait" src="/images/profile/luis-gil-cutout.webp" width="800" height="800" alt="Luis Gil" decoding="async"/></div>
